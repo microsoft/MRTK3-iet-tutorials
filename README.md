@@ -14,38 +14,39 @@ keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, development, MRTK3, tutori
 
 ![MRTK3 in-editor tutorials banner that showcases the Bounds Control, Buttons, Hand Menu, and Object Manipulator features in four corners of the image, starting from top left to top right.](Assets/Images/banner.png)
 
-The MRTK3 in-editor tutorials guide you through each step of the way to build your first MRTK3 application in a beautiful Aqaurium. 
+The MRTK3 in-editor tutorials guide you through each step of the way to build your first MRTK3 application in a beautiful aquarium. 
 
 ## Getting Started with the MRTK3 in-editor tutorials
 
-* Install Unity 2021.3.4f1
-* Clone this repository to your computer
-* Open the freshly cloned repository with Unity 2021.3.4f1
-* Select an MRTK3 tutorial to start in the tutorial menu.
+1. Install Unity 2021.3.4f1
+1. Clone this repository to your computer
+1. Open the cloned project "MRTK3-iet-tutorials" with Unity 2021.3.4f1
+1. You should see a **Tutorials** window on the right side of your screen that contains a list of seven tutorials. If not, on the menu bar, select **Tutorial** > **Show Tutorials**.
+* In the **Tutorials** window, select the tutorial you want to proceed with.
 
 ## Tutorials
 
 ### How to use MRTK3 Input Simulation
 
-![Two Simulated Hands manipulating the Two Handed Manipulation Earth GameObject](Assets/Images/input-simulation.jpg)
+![Two Simulated Hands manipulating the Two Handed Manipulation Earth GameObject.](Assets/Images/input-simulation.jpg)
 
 Learn how to simulate input directly into the editor.
 
 ### Object Manipulator
 
-![One hand manipulating the Two Handed Manipulation Earth GameObject](Assets/Images/object-manipulator.png)
+![One hand manipulating the Two-Handed Manipulation Earth GameObject.](Assets/Images/object-manipulator.png)
 
 Move and manipulate objects with one or two hands with a wide variety of input modalities.
 
 ### Bounds Control
 
-![Two examples of a single hand interacting with a cofee cup's Bounds Controls](Assets/Images/bounds-control.png)
+![Two examples of a single hand interacting with a coffee cup's Bounds Controls.](Assets/Images/bounds-control.png)
 
 Intent feedback and precision manipulation affordances.
 
 ### Button
 
-![A single hand pressing an MRTK3 button](Assets/Images/button.png)
+![A single hand pressing an MRTK3 button.](Assets/Images/button.png)
 
 A volumetric button optimized for a wide range of input modalities.
 
@@ -53,13 +54,13 @@ A volumetric button optimized for a wide range of input modalities.
 
 ![A view of the Canvas UI example scene. There are several Canvas UI elements neatly aligned by hand and with MRTK3.](Assets/Images/volumetric-ui.png)
 
-Enables you to seamlessly create beautiful UI holograms with the ability to automatically lay out UI controls and quickly iterate your designs, until your UI is just right.
+Enables you to seamlessly create beautiful UI holograms. You can automatically lay out UI controls and quickly iterate your designs until your UI is just right.
 
 ### Dialog
 
 ![A picture of the Dialog example UI.](Assets/Images/dialog.png)
 
-Prompt for various user action.
+Create a prompt for various user actions.
 
 ### Theming
 
