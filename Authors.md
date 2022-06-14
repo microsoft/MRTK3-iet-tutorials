@@ -14,3 +14,4 @@ The MRTK3 in-editor tutorials is a collaborative project containing that gets be
 - Alex Gough
 - Ramiro Torres
 - Yoon Park (cre8tivepark)
+- Brandon Palmer (palmerdesigns)
