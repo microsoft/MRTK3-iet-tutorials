@@ -39,14 +39,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: "The theming framework is designed to make it easy to create
           visual elements that can be updated dynamically at runtime. Themes are
-          a data source that provides a set of various assets and styles needed to
-          achieve a specific visual aesthetic. It is possible to theme any hierarchy
-          of GameObjects whether they are static or dynamically data bound to other
-          data sources. In this tutorial, you configure buttons to change the themes
-          of the UX components within the aquarium.\n \n<b>Learning Objectives</b>:\n\n\u2022
-          Create a theme profile\n\u2022 Create a stylesheet\n\u2022 Configure the
-          <b>Data Source Theme Provider</b> script\n\u2022 Configure the <b>Theme
-          Selector</b> script\n\nLet\u2019s get started!\n"
+          a data source that provides assets and styles needed to achieve a specific
+          look. It's possible to theme any hierarchy of GameObjects, whether they're
+          static or dynamically data bound to other data sources. In this tutorial,
+          you'll configure buttons to change the themes of the UX components within
+          the aquarium.\n \n<b>Learning Objectives</b>:\n\n\u2022 Create a theme
+          profile\n\u2022 Create a stylesheet\n\u2022 Configure the <b>Data Source
+          Theme Provider</b> script\n\u2022 Configure the <b>Theme Selector</b> script\n\nLet\u2019s
+          get started!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

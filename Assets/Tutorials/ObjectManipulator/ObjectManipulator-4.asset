@@ -95,9 +95,10 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: Now that <b>Move</b> is the only manipulation for the <b>Coral</b>
-          GameObject, you can only move the GameObject to a new location in the scene.
-          Using input simulation, try manipulating the GameObject in Play Mode.
+        m_Untranslated: Now that <b>Move</b> is the only available manipulation for
+          the <b>Coral</b> GameObject, you can only move the GameObject to a new
+          location in the scene. Using input simulation, try manipulating the GameObject
+          in Play Mode.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

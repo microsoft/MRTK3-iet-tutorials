@@ -174,8 +174,8 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode and use
-          input simulation to move and rotate the coral. \n\n<b>2.</b> Once complete,
-          press <b>Play</b> to exit Play Mode."
+          input simulation to move and rotate the coral. \n\n<b>2.</b> After you
+          finish, press <b>Play</b> to exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

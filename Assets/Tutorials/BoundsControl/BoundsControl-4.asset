@@ -180,10 +180,9 @@ MonoBehaviour:
         m_Untranslated: Handles provide a visual cue that an object can be scaled,
           rotated, or moved. Although optional, they're a great addition to GameObjects
           in a scene to help users identify objects that can be manipulated. By default,
-          handles are not active for the <b>Bounds Control</b> component. You must
-          enable the handles to always make them active. Let's add the <b>Bounds
-          Control</b> script to the <b>Rock</b> GameObject and configured to make
-          the bounds visible.
+          handles aren't active for the <b>Bounds Control</b> component; to make
+          them active, you must enable them.  Let's add the <b>Bounds Control</b>
+          script to the <b>Rock</b> GameObject and make the bounds visible.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -202,14 +201,15 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "<b>1.</b> In the Hierarchy, select the <b>Rock</b> GameObject.
-          \n\n<b>2.</b> In the <b>Inspector</b>, add the <b>BoundsControl</b> script
-          as a component.\n\n<b>2.</b>Within the <b>Bounds</b> properties, select
-          the circle for <b>Bounds Visuals Prefab</b>.\n\n<b>3.</b> Search for <b>BoundingBoxWithHandles</b>
-          and assign the prefab.\n\n<b>2.</b>Within the <b>Manipulation</b> properties,
-          check the box next to <b>Handles Active</b>.\n\n<b>Note</b>: In the <b>Select
-          GameObject</b> window, ensure that you're in the <b>Assets</b> tab and
-          untoggle the hidden packages by clicking the slashed eye icon on the right."
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>Rock</b>
+          GameObject. \n\n<b>2.</b> In the <b>Inspector</b>, add the <b>BoundsControl</b>
+          script as a component.\n\n<b>2.</b>Within the <b>Bounds</b> properties,
+          select the circle for <b>Bounds Visuals Prefab</b>.\n\n<b>3.</b> Search
+          for <b>BoundingBoxWithHandles</b> and assign the prefab. <b>Note</b>: In
+          the <b>Select GameObject</b> window, ensure that you're in the <b>Assets</b>
+          tab and untoggle the hidden packages by clicking the slashed eye icon on
+          the right.\n\n<b>2.</b>Within the <b>Manipulation</b> properties, check
+          the box next to <b>Handles Active</b>.\n\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

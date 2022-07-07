@@ -61,16 +61,16 @@ MonoBehaviour:
       Text:
         m_Untranslated: "A theme profile is used to assign materials to the various
           UX prefabs available within the Mixed Reality Toolkit. The profile itself
-          is categorized by UX building block category (ex: button, slider, dialog,
-          etc.). You can create and add your own materials to the corresponding properties
-          to truly create UI that\u2019s best suited to your aesthetic needs. Although
-          we provide a field for every MRTK UX prefab, you\u2019re only required
-          to assign materials to those included in your scene.\n\nYou can create
-          a new profile within the <b>Project</b> panel. To do so, click the <b>+</b>
-          icon and select <b>Create > MRTK > UX > Theme Profile</b>.\n\nFor this
-          tutorial, we\u2019ll be using sample themes already included in this project.
-          You can view these themes in the <b>Project</b> panel by navigating to
-          <b>Assets > Themes</b>."
+          is categorized according to UX building block category (example: button,
+          slider, dialog, etc.). You can create and add your own materials to the
+          corresponding properties to create a UI that\u2019s best suited to your
+          aesthetic needs. Although we provide a field for every MRTK UX prefab,
+          you\u2019re only required to assign materials to those included in your
+          scene.\n\nYou can create a new profile within the <b>Project</b> panel.
+          To do so, click the <b>+</b> icon and select <b>MRTK > UX > Theme Profile</b>.\n\nFor
+          this tutorial, we\u2019ll be using sample themes that are already included
+          in this project. You can view these themes in the <b>Project</b> panel
+          by navigating to <b>Assets > Themes</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

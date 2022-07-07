@@ -135,7 +135,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: Press the <b>Play</b> button to exit Play mode.
+        m_Untranslated: To exit Play mode, select the Play button.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

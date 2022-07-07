@@ -35,16 +35,16 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Volumertic UI with Canvas
+        m_Untranslated: Volumetric UI with Canvas
       Text:
         m_Untranslated: "Volumetric UI with Canvas enables dynamic proportional adjustments
-          to a canvas. All sizing and layout is achieved through <b>RectTransform</b>
+          to a Canvas. All sizing and layout is achieved through <b>RectTransform</b>
           size and offset metrics. Controls can be automatically laid out with proper
           margin, padding, responsive flex, plus more. In this tutorial, you'll explore
-          volumetric UI with canvas as you create a canvas that contains buttons
-          used for adding various sea animals into the aquarium.\n\n\n<b>Learning
-          Objectives</b>:\n\n\u2022 Create a canvas for buttons\n\u2022 Configure
-          buttons in a button bar\n\n\nLet's get started!"
+          volumetric UI with Canvas as you create a Canvas that contains buttons
+          used for adding various sea animals to the aquarium.\n\n\n<b>Learning Objectives</b>:\n\n\u2022
+          Create a Canvas for buttons\n\u2022 Configure buttons in a button bar\n\n\nLet's
+          get started!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

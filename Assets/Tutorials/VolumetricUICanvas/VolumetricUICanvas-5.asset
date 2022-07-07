@@ -138,7 +138,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode.
+        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode.
 
 
 
@@ -149,7 +149,7 @@ MonoBehaviour:
 
 
           <b>3.</b>
-          Once complete, press <b>Play</b> to exit Play Mode.'
+          Once complete, press Play to exit Play Mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

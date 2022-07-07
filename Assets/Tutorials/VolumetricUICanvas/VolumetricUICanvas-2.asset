@@ -92,14 +92,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add a Button Bar
       Text:
-        m_Untranslated: 'Given that we have multiple objects that can be added and
-          arranged in the aquarium, we''ll want to ensure each object is represented
-          for selection. From an aesthetic prospective, the buttons should be nicely
-          organized but also flexible enough to account for additional items which
-          may be added to the aquarium''s inventory of objects. A horizontal button
-          layout, such as a button bar, would work well for our scenario. For the
-          button bar, we''ll use the <b>CanvasButtonBar</b> prefab which will enable
-          us to create an adjustable bar of buttons. '
+        m_Untranslated: 'We have multiple objects that can be added and arranged
+          in the aquarium, so we''ll want to ensure that each object is represented
+          for selection. The buttons should be nicely organized visually but also
+          be flexible enough to account for additional items that might be added
+          to the aquarium. A horizontal button layout, such as a button bar, works
+          nicely for our scenario. For the button bar, we''ll use the <b>CanvasButtonBar</b>
+          prefab which will enable us to create an adjustable bar of buttons. '
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -119,19 +118,19 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Project</b> panel, navigate to <b>Packages
-          > MRTK UX Components > ButtonGroup </b> and drag the <b>CanvasButtonBar</b>
-          prefab as a child of the <b>Buttons</b> GameObject.\n\n\n<b>2.</b> In the
-          <b>Hierarchy</b>, select the <b>CanvasButtonBar</b> and rename <b>ObjectsButtonBar</b>.\n\n\n<b>3.</b>
-          In the Inspector, within the <b>Rect Transform</b> component, change the
-          <b>Position</b> to <b>0,  0, 0</b>.\n\n\n<b>4.</b> In the <b>Hierarchy</b>,
-          expand the <b>ObjectsButtonBar</b> GameObject to view all button children.
-          Rename each button in the following order:\n\n\n\u2022 Coral\n\u2022 Rock\n\u2022
-          Seahorse\n\u2022 Turtle\n\n\n<b>5.</b> There are a total of 5 Aquarium
-          Objects that need to be added to the bar. You can add another button prefab
-          by navigating to <b>Packages > MRTK UX Components > Buttons > Canvas</b>
-          and drag the <b>Action Button</b> prefab as a child of the <b>ObjectsButtonBar</b>
-          GameObject.\n\n<b>6.</b> In the <b>Hierarchy</b>, select the <b>Action
-          Button</b> and rename <b>Dolphin</b>.\n"
+          > MRTK UX Components > ButtonGroup </b>, and then drag the <b>CanvasButtonBar</b>
+          prefab to place it as a child of the <b>Buttons</b> GameObject.\n\n\n<b>2.</b>
+          In the <b>Hierarchy</b>, select the <b>CanvasButtonBar</b> and then rename
+          it  <b>ObjectsButtonBar</b>.\n\n\n<b>3.</b> In the Inspector, within the
+          <b>Rect Transform</b> component, change the <b>Position</b> to <b>0,  0,
+          0</b>.\n\n\n<b>4.</b> In the <b>Hierarchy</b>, expand the <b>ObjectsButtonBar</b>
+          GameObject to view all button children. Rename each button in the following
+          order:\n\n\n\u2022 Coral\n\u2022 Rock\n\u2022 Seahorse\n\u2022 Turtle\n\n\n<b>5.</b>
+          There are a total of 5 Aquarium Objects that need to be added to the bar.
+          You can add another button prefab by navigating to <b>Packages > MRTK UX
+          Components > Buttons > Canvas</b> and drag the <b>Action Button</b> prefab
+          as a child of the <b>ObjectsButtonBar</b> GameObject.\n\n<b>6.</b> In the
+          <b>Hierarchy</b>, select the <b>Action Button</b> and rename <b>Dolphin</b>.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

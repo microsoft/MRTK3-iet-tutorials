@@ -85,7 +85,7 @@ MonoBehaviour:
           once a button is clicked. The event requires a GameObject receiving the
           event as well as a function to execute. You could trigger a variety of
           actions such as making a GameObject active, playing a sound, changing a
-          scene, spawning objects, plus more! \n\nThe <b>Spanwer</b> GameObject contains
+          scene, spawning objects, plus more! \n\nThe <b>Spawner</b> GameObject contains
           a <b>SeaObjectSpawner</b> script that spawns either a coral, rock, sea
           turtle, seahorse, or dolphin into the scene.  Let's add an <b>On Clicked</b>
           event that'll execute the function to spawn a sea turtle into the aquarium."
@@ -120,12 +120,13 @@ MonoBehaviour:
 
 
           <b>4.</b>
-          In the new event, drag the <b>Spawner</b> into field for the GameObject
-          receiving the event.
+          In the new event, drag the <b>Spawner</b> from the <b>Hierarchy(/b> and
+          drop it on the field for the GameObject receiving the event.
 
 
-          <b>5.</b> In the new event, select the
-          <b>function</b> drop-down and select <b>SeaObjectSpawner > SpawnSeaTurtle</b>.'
+          <b>5.</b>
+          In the new event, select the <b>function</b> drop-down (it currently displays
+          "No Function") and then select <b>SeaObjectSpawner > SpawnSeaTurtle</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

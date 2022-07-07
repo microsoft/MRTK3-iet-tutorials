@@ -140,9 +140,9 @@ MonoBehaviour:
         m_Untranslated: Limit Manipulation to Move
       Text:
         m_Untranslated: The <b>ObjectManipulator</b> script can be configured to
-          limit manipulations to either move, rotate, scale, or a combination of
-          the manipulations. Let's limit the <b>Coral</b> GameObject manipulation
-          to only move.
+          limit manipulations to move, rotate, scale, or a combination of these.
+          Let's limit the <b>Coral</b> GameObject manipulation so it can be moved
+          but not scaled or rotated.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -166,11 +166,12 @@ MonoBehaviour:
 
 
           <b>2.</b> Select the <b>Allowed Manipulations</b>
-          drop-down and select <b>None</b> to deselect all options.
+          drop-down and then select <b>None</b> to deselect all options.
 
 
           <b>3.</b>
-          Select the <b>Allowed Manipulations</b> drop-down and select <b>Move</b>.'
+          Select the <b>Allowed Manipulations</b> drop-down again and then select
+          <b>Move</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

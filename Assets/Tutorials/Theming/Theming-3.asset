@@ -61,15 +61,16 @@ MonoBehaviour:
       Text:
         m_Untranslated: "A stylesheet is used to assign the appropriate font styles
           for text within your scene. Since MRTK leverages Text Mesh Pro, a Text
-          Mesh Pro stylesheet is required for font styles.\n\n<i>Note</i>: It is
-          not currently possible to use Stylesheets to style the TextMeshPro <b>Normal</b>
-          style. Any other style that is included in TextMeshPro\u2019s <b>Default
-          Style Sheet</b> can be used. The example we provide uses <b>Body</b> to
-          work around this limitation.\n\nYou can create a new stylesheet within
-          the <b>Project</b> panel. To do so, click the <b>+</b> icon and select
-          <b>Create > TextMeshPro > Stylesheet</b>.\n\nFor this tutorial, you\u2019ll
-          be using a stylesheet already included in this project. You can view the
-          stylesheet in the <b>Project</b> panel by navigating to <b>Assets > Stylesheets</b>."
+          Mesh Pro stylesheet is required for font styles.\n\nYou can create a new
+          stylesheet within the <b>Project</b> panel. To do so, click the <b>+</b>
+          icon and select <b>TextMeshPro > Stylesheet</b>.\n\nFor this tutorial,
+          you\u2019ll be using a stylesheet that's already included in this project.
+          You can view the stylesheet in the <b>Project</b> panel by navigating to
+          <b>Assets > Stylesheets</b>.\n\n<i>Note</i>: It's not currently possible
+          to use Stylesheets to style the TextMeshPro <b>Normal</b> style. Any other
+          style that's included in TextMeshPro\u2019s <b>Default Style Sheet</b>
+          can be used. The example we provide uses <b>Body</b> to work around this
+          limitation."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

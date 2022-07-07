@@ -82,7 +82,7 @@ MonoBehaviour:
         m_Untranslated: Change the Button Text
       Text:
         m_Untranslated: The button prefab includes a <b>TextMeshPro</b> GameObject
-          which displays the button's text. You can change the text and modify it's
+          which displays the button's text. You can change the text and modify its
           font properties within the <b>TextMeshPro</b> GameObject. Let's change
           the text to display <b>Sea Turtle</b>.
       m_Tutorial: {fileID: 0}

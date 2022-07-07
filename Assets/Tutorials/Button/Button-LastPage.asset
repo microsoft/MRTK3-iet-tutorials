@@ -39,9 +39,9 @@ MonoBehaviour:
       Text:
         m_Untranslated: In this tutorial, you learned how to configure a button prefab
           to trigger an action. You can further modify the button prefab child GameObjects
-          and it's attached <b>Pressable Button</b> script to customize the look
-          and behavior of the button. On Clicked events can also be added for actions
-          to occurs when a user clicks the button.
+          and their attached <b>Pressable Button</b> scripts to customize the look
+          and behavior of the buttons. "On Clicked" events can also be configured
+          so that actions occur when a user clicks the button.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

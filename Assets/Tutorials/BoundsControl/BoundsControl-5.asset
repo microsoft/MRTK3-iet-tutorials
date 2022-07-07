@@ -134,8 +134,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode. Notice
-          that the handles are visible for the <b>Rock</b> but not the <b>Coral</b>.
+        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode. Notice that the
+          handles are visible for the <b>Rock</b> but not the <b>Coral</b>. (The
+          handles are small, so you may have to look closely.)
 
 
           <b>2.</b>
@@ -144,8 +145,8 @@ MonoBehaviour:
           are visible.
 
 
-          <b>3.</b> Once complete, press <b>Play</b> to
-          exit Play Mode.'
+          <b>3.</b> Once complete, press Play to exit Play
+          Mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -97,15 +97,15 @@ MonoBehaviour:
       Text:
         m_Untranslated: 'With MRTK''s input simulation, you can test various types
           of interactions in the Unity editor using keyboard and mouse combinations
-          to control simulated inputs. Whenver you''re instructed to enter Play mode
-          and test a scene, you''ll use the input simulation controls found within
-          this tutorial.
+          to control simulated inputs. Whenever you''re instructed to enter Play
+          mode and test a scene, you''ll use the input simulation controls found
+          within this tutorial.
 
 
-          Before you begin, enter Play mode to start the
-          scene. Once the scene starts, you''re ready to try out the input combinations
-          as described in the following overview pages. Feel free to interact with
-          the animals and coral within the scene.'
+          Before you begin, enter Play mode to
+          start the scene. Once the scene starts, you''re ready to try out the input
+          combinations as described in the following overview pages. Feel free to
+          interact with the animals and coral within the scene.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -124,8 +124,8 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: Select the <b>Play</b> button to enter Play mode. If at anytime
-          you need to exit Play mode, select the <b>Play</b> button once more.
+        m_Untranslated: To enter Play mode, select the Play button. When you're ready
+          to exit Play mode, select the Play button again.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

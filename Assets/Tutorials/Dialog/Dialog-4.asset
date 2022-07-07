@@ -116,13 +116,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-          Using input simulation, click each button to spawn an aquarium object.
-          You can move and place objects around in the scene as well.\n\n<b>3.</b>
-          Once you\u2019ve placed objects in the scene, press the <b>Reset</b> button.\n\n<b>4.</b>
+        m_Untranslated: "<b>1.</b> Select Play to enter Play Mode.\n\n<b>2.</b> Using
+          input simulation, click each button to spawn an aquarium object. You can
+          move and place objects around in the scene as well.\n\n<b>3.</b> Once you\u2019ve
+          placed objects in the scene, press the <b>Reset</b> button.\n\n<b>4.</b>
           When the dialog box appears, select <b>Yes</b> to confirm resetting the
-          scene or <b>No</b> to cancel.\n\n<b>5.</b> Once complete, press <b>Play</b>
-          to exit Play Mode."
+          scene or <b>No</b> to cancel.\n\n<b>5.</b> Once complete, press Play to
+          exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

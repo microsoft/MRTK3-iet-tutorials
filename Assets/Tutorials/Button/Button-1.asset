@@ -130,7 +130,7 @@ MonoBehaviour:
           button prefabs within the <b>MRTK UX Components</b> package. The underlying
           interaction/state scripts are the same. However, the visual layers are
           different. \n\nFor example, canvas-based buttons use Canvas Renders and
-          images whereas Non-canvas-based buttons use MeshRenderers/SpriteRenders.
+          images whereas non-canvas-based buttons use MeshRenderers/SpriteRenders.
           \n\nBoth types of buttons use the <b>PressableButton</b> script which includes
           behaviors specific to buttons. Let's add a non-canvas-based button with
           text that'll be used to spawn a sea turtle. "
@@ -166,7 +166,7 @@ MonoBehaviour:
 
 
           <b>4.</b>Within
-          the <b>Transform</b> properties change the <b>Position</b> to <b>0, -0.11, 
+          the <b>Transform</b> properties, change the <b>Position</b> to <b>0, -0.11, 
           -10.1</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

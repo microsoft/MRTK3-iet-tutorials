@@ -118,10 +118,11 @@ MonoBehaviour:
       Text:
         m_Untranslated: "Adding the <b>BoundsControl</b> script as a component to
           a GameObject adds an automatically-sized bounding box around the object.
-          An <b>interactable</b> must be on the object to use the bounds visual intention
+          An <b>interactable</b> component, which makes an object responsive to input,
+          must be attached to the object in order to use the bounds visual intention
           and focus effects. If the <b>interactable</b> isn't automatically detected,
           you can specify the connection in the <b>Interactable Connection</b> properties
-          for the <b>BoundsControl</b> script component.\n \nWe recommend developers
+          for the <b>BoundsControl</b> script component.\n \nWe recommend that developers
           use <b>ObjectManipulator</b> alongside <b>BoundsControl</b> to offer users
           direct manipulation in addition to the affordance-based manipulation. <b>Object
           Manipulator</b> can serve as the <b>interactable</b> for hover/focus states

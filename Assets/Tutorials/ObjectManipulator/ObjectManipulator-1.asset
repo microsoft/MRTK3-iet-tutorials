@@ -152,8 +152,8 @@ MonoBehaviour:
         m_Untranslated: Add the ObjectManipulator Component
       Text:
         m_Untranslated: Adding the <b>ObjectManipulator</b> script as a component
-          to a GameObject makes the GameObject movable, scale, and rotatable. The
-          GameObject must contain a collider component that matches it's grabbable
+          to a GameObject makes the GameObject movable, scalable, and rotatable.
+          The GameObject must contain a collider component that matches its grabbable
           bounds.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
@@ -177,8 +177,8 @@ MonoBehaviour:
           GameObject.
 
 
-          <b>2.</b> In the <b>Inspector</b>, add the <b>ObjectManipulator</b>
-          script as a component.'
+          <b>2.</b> In the <b>Inspector</b>, click <b>Add
+          Component</b>, and then add the <b>ObjectManipulator</b> script.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

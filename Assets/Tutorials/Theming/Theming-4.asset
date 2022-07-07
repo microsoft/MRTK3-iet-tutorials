@@ -143,17 +143,16 @@ MonoBehaviour:
         m_Untranslated: Configure Data Source Theme Provider Script
       Text:
         m_Untranslated: "The <b>Data Source Theme Provider</b> script makes a ScriptableObject
-          containing all references to all theming assets function as a data source.
-          In relation to this tutorial, we\u2019ll focus on the <b>Theme Profile</b>
-          property which sets the theme for the UX component controls available with
-          MRTK.\n\nThe standard UX components controls provided in the <b>MRTK UX
-          Components</b> package are all configured to support theming. Each control,
-          typically on the topmost GameObject of the root prefab, has a script called
-          <b>UXBindingConfigurator</b>. This script pulls in the needed data binding
-          scripts to turn on theming.\n\nLet\u2019s assign a <b>Theme Profile</b>
-          for the <b>Data Source Theme Provider</b> script. We\u2019ll use the standard
-          core UX theme: <b>MRTK_UX_ThemeProfile</b> (standard blue theme seen on
-          MRTK UX prefab).\n"
+          that contains all references to all theming assets function as a data source.
+          In this tutorial, we\u2019ll focus on the <b>Theme Profile</b> property, 
+          which sets the theme for the UX component controls available with MRTK.\n\nThe
+          standard UX components controls provided in the <b>MRTK UX Components</b>
+          package are all configured to support theming. Each control, typically
+          on the topmost GameObject of the root prefab, has a script called <b>UXBindingConfigurator</b>.
+          This script pulls in the needed data binding scripts to turn on theming.\n\nLet\u2019s
+          assign a <b>Theme Profile</b> for the <b>Data Source Theme Provider</b>
+          script. We\u2019ll use the standard core UX theme: <b>MRTK_UX_ThemeProfile</b>
+          (this is the standard blue theme seen on the MRTK UX prefab).\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -38,7 +38,7 @@ MonoBehaviour:
         m_Untranslated: Summary
       Text:
         m_Untranslated: In this tutorial, you learned how to create a flexible button
-          bar using volumetric UI with a canvas. You can further modify the button
+          bar using volumetric UI with a Canvas. You can further modify the button
           bar by adding additional buttons or even adding the button bar to a menu
           with additional controls.
       m_Tutorial: {fileID: 0}

@@ -38,9 +38,10 @@ MonoBehaviour:
         m_Untranslated: Summary
       Text:
         m_Untranslated: In this tutorial, you learned how to move and rotate an object
-          using  the <b>ObjectManipulator</b> script. You can further modify the
-          properties to control how objects can be manipulated. Manipulation events
-          can also be added for actions to occurs when a user manipulates the GameObject.
+          after adding  the <b>ObjectManipulator</b> script. You can further modify
+          the properties to control how objects can be manipulated. Manipulation
+          events can also be added for actions to occur when a user manipulates the
+          GameObject.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

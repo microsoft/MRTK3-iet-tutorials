@@ -81,9 +81,8 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add Button Text
       Text:
-        m_Untranslated: Next, we'll add text to each button to reflect which object
-          the <b>On Clicked</b> event spawns. Let's add text to each button within
-          the button bar.
+        m_Untranslated: Let's add text to each button in the button bar to indicate
+          which object the attached <b>On Clicked</b> event spawns.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -116,13 +115,13 @@ MonoBehaviour:
           box.
 
 
-          <b>4.</b> Repeat this step for the renaming buttons.
+          <b>4.</b> Repeat this step for the remaining buttons.
 
 
           <b>Note</b>:
           The <b>Label</b> GameObject for the <b>Dolphin</b> button is disabled by
           default given the default settings for the <b>Action Button</b> prefab.
-          To enable the <b>Label</b> GameObject, check the box next to it''s name
+          To enable the <b>Label</b> GameObject, select the box next to its name
           in the <b>Inspector</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

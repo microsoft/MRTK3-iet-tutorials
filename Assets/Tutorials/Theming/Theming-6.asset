@@ -128,22 +128,23 @@ MonoBehaviour:
 
 
           <b>6.</b> In the new event, drag the <b>ThemeProvider</b>
-          GameObject into field for the GameObject receiving the event.
+          GameObject into the field for the GameObject receiving the event.
 
 
           <b>7.</b>
-          In the new event, select the <b>function</b> drop-down and select <b>ThemeSelector
-          > SetTheme(int)</b>.
+          In the new event, select the <b>function</b> drop-down and then select
+          <b>ThemeSelector > SetTheme(int)</b>.
 
 
-          <b>8.</b> In the new event, enter <b>0</b>
-          into the empty field created for the integer.
+          <b>8.</b> In the new
+          event, enter <b>0</b> into the empty field created for the integer.
 
 
-          <b>9.</b> Repeat
-          the same steps for the remaining buttons in the <b>ThemesBar</b> GameObject.
-          Each integer should reflect the order of the themes as they appear in the
-          <b>Theme Selector</b> script (which is on the <b>Theme Provider</b> GameObject).'
+          <b>9.</b>
+          Repeat the same steps for the remaining buttons in the <b>ThemesBar</b>
+          GameObject. Each integer should reflect the order of the themes as they
+          appear in the <b>Theme Selector</b> script (which is on the <b>Theme Provider</b>
+          GameObject).'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

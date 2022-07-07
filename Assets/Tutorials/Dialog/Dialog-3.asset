@@ -79,14 +79,14 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add On Clicked Event
+        m_Untranslated: Add the "On Clicked" Event
       Text:
         m_Untranslated: "<b>On Clicked</b> events configure the action that occurs
-          once a button is clicked. The event requires a GameObject receiving the
-          event as well as a function to execute. You could trigger a variety of
-          actions such as making a GameObject active, playing a sound, changing a
-          scene, spawning objects, plus more! Let\u2019s add an <b>On Clicked</b>
-          event for the <b>Reset</b> button that\u2019ll execute the <i>ResetSceneDialog</i>
+          once a button is clicked. The event requires a GameObject that will receive
+          the event as well as a function that will execute. You could trigger a
+          variety of actions such as making a GameObject active, playing a sound,
+          changing a scene, spawning objects, plus more! Let\u2019s add an <b>On
+          Clicked</b> event for the <b>Reset</b> button that will execute the <i>ResetSceneDialog</i>
           within the <i>ResetScene</i> script."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
           Clicked</b> property, select the <b>+</b> to create a new event.\n\n<b>5.</b>
           In the new event, drag the <b>Dialog</b> GameObject into the field for
           the GameObject receiving the event.\n\n<b>6.</b> In the new event, select
-          the <b>function</b> drop-down and select <b>ResetScene > ResetSceneDialog
+          the <b>function</b> drop-down and then select <b>ResetScene > ResetSceneDialog
           ()</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

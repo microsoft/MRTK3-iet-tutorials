@@ -39,11 +39,11 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>Dialog</b> controls are UI overlays that provide contextual
           app information and often request some action from the user. In this tutorial,
-          you'll configure a <b>Dialog</b> prefab that'll confirm resetting the aquarium
-          scene to clear spawned objects.\n \n<b>Learning Objectives:</b>\n\n\u2022
-          Understand the script logic for dialog functionality\n\u2022 Configure
-          an On Clicked event for a dialog prefab to instantiate\n\nLet\u2019s get
-          started!\n"
+          you'll configure a <b>Dialog</b> prefab that will confirm the resetting
+          of the aquarium scene in order to clear spawned objects.\n \n<b>Learning
+          Objectives:</b>\n\n\u2022 Understand the script logic for dialog functionality\n\u2022
+          Configure an \"On Clicked\" event that causes a dialog prefab to instantiate\n\nLet\u2019s
+          get started!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

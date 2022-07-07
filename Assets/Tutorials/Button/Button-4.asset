@@ -134,18 +134,19 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode.
+        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode.
 
 
           <b>2.</b>
           Using input simulation, click the <b>Sea Turtle</b> button to spawn a sea
           turtle. Repeated button presses will spawn another sea turtle in the same
-          spawn location. You can grab the sea turtle and move it around in the scene
-          as well.
+          spawn location. You may want to move the first seat turtle before you spawn
+          the second one so you can see them both in different locations. You can
+          grab the sea turtle and move it around in the scene as well.
 
 
-          <b>3.</b> Once complete, press <b>Play</b> to exit
-          Play Mode.'
+          <b>3.</b>
+          Once complete, press Play to exit Play Mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
