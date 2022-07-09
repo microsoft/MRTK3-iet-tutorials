@@ -176,8 +176,8 @@ MonoBehaviour:
           Theme Provider</b> as a component.\n\n<b>3.</b> In the <b>Inspector</b>,
           navigate to the <b>Data Source Theme Provider</b> component.\n\n<b>4.</b>
           For the <b>Data Source Type</b> property, enter <b>theme</b>.\n\n<b>5.</b>
-          Within the <b>Data Source Theme Provider</b> properties, select the circle
-          icon for <b>Theme Profile</b>. \n\n<b>6.</b> Search for <b>MRTK_UX_ThemeProfile</b>
+          Select the circle button in the <b>Theme Profile</b>. \n\n<b>6.</b> In
+          the <b>Select ScriptableObject</b> window, search for <b>MRTK_CoreUX_ThemeProfile</b>
           and assign the profile."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

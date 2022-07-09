@@ -93,31 +93,32 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Camera
+        m_Untranslated: Change the view in the scene
       Text:
-        m_Untranslated: '<u>Movement</u>
+        m_Untranslated: '<b>To move the camera forward/left/back/right</b>:
+
+          Press
+          the W/A/S/D keys.
 
 
-          <b>Move Horizontally</b>: Keyboard
-          A/D  <i>or</i> Left/Right arrows
+          <b>To move the camera vertically</b>:
+
+          Press
+          the Q and E keys.
 
 
-          <b>Move Vertically</b>: Keyboard
-          Q/E <i>or</i> Page Up/Page Down
+          <b>To rotate the camera</b>:
+
+          Press
+          the right mouse button and then drag left/right or up/down.
 
 
-          <u>Rotation</u>
+          <b>To
+          tilt the camera left or right</b>:
 
+          Press the right mouse button
+          and then rotate the mouse scroll wheel forward and back.
 
-          <b>Pitch</b>:
-          Mouse Right Button + Forward/Back
-
-
-          <b>Yaw</b>: Mouse Right Button
-          + Left/Right
-
-
-          <b>Roll</b>: Mouse Right Button + Wheel Up/Down
 
 '
       m_Tutorial: {fileID: 0}

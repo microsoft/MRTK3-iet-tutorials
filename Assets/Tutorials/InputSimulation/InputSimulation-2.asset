@@ -93,17 +93,39 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Eye Gaze
+        m_Untranslated: Use the simulated hands
       Text:
-        m_Untranslated: '<u>Look</u>
+        m_Untranslated: '<b>To enable the simulated hands</b>:
+
+          Press T
+          (for left hand) or Y (for right hand). To remove the hand, press the same
+          key again.
 
 
-          <b>Look Horizontally</b>: Keyboard
-          Tab + Mouse Left/Right
+          <b>To move a hand left/right/up/down</b>:
+
+          Press
+          and hold the left shift key (for left hand) or space bar (for right hand)
+          and then drag left/right/up/down in the scene.
 
 
-          <b>Look Vertically</b>: Keyboard Tab
-          + Mouse Up/Down'
+          <b>To move a
+          hand forward into the scene or back out towards you</b>:
+
+          Press
+          and hold the left shift key (for left hand) or space bar (for right hand)
+          and then rotate the mouse scroll wheel forward or back.
+
+
+          <b>To
+          rotate a hand</b>:
+
+          Press and hold the left ALT key (for left
+          hand) or left CTRL key (for right hand) and then drag left/right/up/down
+          in the scene or rotate the mouse scroll wheel forward or back.
+
+
+'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

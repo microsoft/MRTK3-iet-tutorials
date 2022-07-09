@@ -93,91 +93,28 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Hands/Controllers
+        m_Untranslated: Grab and move an object
       Text:
-        m_Untranslated: 'The simulated hands appear as patterns of cubes that suggest
-          the shapes of the hands, as shown in the image above.
-
-
-          <u>Left
-          Hand or Controller</u>
-
-
-
-          <b>Toggle Hand</b>: Keyboard T
-
-
-          <b>Move
-          Horizontally</b>: Keyboard Left Shift + Mouse Left/Right
-
-
-          <b>Move
-          Vertically</b>: Keyboard Left Shift + Mouse Up/Down
-
-
-          <b>Move
-          in Depth</b>: Keyboard Left Shift + Mouse Wheel Up/Down
-
-
-          <b>Rotation
-          - Pitch</b>: Keyboard Left Alt + Mouse Forward/Back
-
-
-          <b>Rotation
-          - Yaw</b>: Keyboard Left Ctrl + Mouse Left/Right
-
-
-          <b>Rotation
-          - Roll</b>: Keyboard Left Alt + Mouse Wheel Up/Down
-
-
-          <b>Grip
-          (button)</b>: Keyboard Left Alt + G
-
-
-          <b>Trigger (button)</b>:
-          Keyboard Left Alt + Left Mouse Button
-
-
-
-
-          <u>Right Hand or Controller</u>
-
-
-          <b>Toggle
-          Hand</b>: Keyboard Y
-
-
-          <b>Move Horizontally</b>: Keyboard Space
-          + Mouse Left/Right
-
-
-          <b>Move Vertically</b>: Keyboard Space +
-          Mouse Up/Down
-
-
-          <b>Move in Depth</b>: Keyboard Space Shift +
-          Mouse Wheel Up/Down
-
-
-          <b>Rotation - Pitch</b>: Keyboard Right
-          Ctrl + Mouse Forward/Back
-
-
-          <b>Rotation - Yaw</b>: Keyboard Left
-          Ctrl + Mouse Left/Right
-
-
-          <b>Rotation - Roll</b>: Keyboard Left
-          Ctrl + Mouse Wheel Up/Down
-
-
-          <b>Grip (button)</b>: Keyboard Left
-          Ctrl + G
-
-
-          <b>Trigger (button)</b>: Keyboard Left Ctrl + Left
-          Mouse Button'
+        m_Untranslated: "After you enable a hand, notice that it has a ray (or what
+          we call a \u201Cpointer\u201D) extending out from one of its fingers, and
+          that there\u2019s a small circle at the end of the pointer.\n\n<b>1.</b>
+          Move a hand around in the scene until the circle at the end of its pointer
+          is on top of the object you want to move.\n<b>2.</b> Press and hold the
+          left mouse button\u2014this \u201Cgrabs\u201D the object--and then drag
+          left/right/up/down. If you want to move the object towards you or away
+          from you, while holding down the left mouse button, rotate the mouse scroll
+          wheel forward or back.\n\nYou can also grab an object with the hand itself,
+          instead of the pointer, by moving the hand close to the object and then
+          pressing the left mouse button. However, we find that in these tutorials,
+          grabbing and moving objects with the pointer is easier.\n\n<b>Tips:</b>
+          \n\n<b> \u201CStuck\u201D or \u201Clost\u201D hands</b>\nIf you find that
+          a hand gets \u201Cstuck\u201D or lost out of view, press T (for left hand)
+          or Y (for right hand) to remove the hand, and then press that same key
+          again to re-enable it in its original position.\n\n<b>Grabbing an object</b>\nAn
+          alternate (and slightly more efficient) way to grab and move an object
+          is to press and hold the left SHIFT key (for left hand) or space bar (for
+          right hand), then move the hand\u2019s pointer on the top of the object,
+          and then drag.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
