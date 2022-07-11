@@ -71,7 +71,7 @@ MonoBehaviour:
           symbol.
 
 
-          <b>4.</b> Enter <b>MRTK_COREUX_DATABINDING_THEMING_ENABLED</b>
+          <b>4.</b> Enter <b>MRTK_UX_DATABINDING_THEMING_ENABLED</b>
           for the symbol.
 
 
