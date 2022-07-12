@@ -203,13 +203,13 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>Rock</b>
           GameObject. \n\n<b>2.</b> In the <b>Inspector</b>, add the <b>BoundsControl</b>
-          script as a component.\n\n<b>2.</b>Within the <b>Bounds</b> properties,
-          select the circle for <b>Bounds Visuals Prefab</b>.\n\n<b>3.</b> Search
-          for <b>BoundingBoxWithHandles</b> and assign the prefab. <b>Note</b>: In
+          script as a component.\n\n<b>3.</b> Within the <b>Bounds</b> properties,
+          select the circle icon for <b>Bounds Visuals Prefab</b>.\n\n<b>4.</b> In
           the <b>Select GameObject</b> window, ensure that you're in the <b>Assets</b>
-          tab and untoggle the hidden packages by clicking the slashed eye icon on
-          the right.\n\n<b>2.</b>Within the <b>Manipulation</b> properties, check
-          the box next to <b>Handles Active</b>.\n\n"
+          tab and then untoggle the hidden packages by clicking the slashed eye icon
+          on the right.\n\n<b>5.</b> Search for the <b>BoundingBoxWithHandles</b>
+          prefab and then assign it.\n\n<b>6.</b> In the <b>Manipulation</b> section,
+          select <b>Handles Active</b>.\n\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

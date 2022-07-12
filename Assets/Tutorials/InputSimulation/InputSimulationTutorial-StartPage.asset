@@ -105,7 +105,26 @@ MonoBehaviour:
           Before you begin, enter Play mode to
           start the scene. Once the scene starts, you''re ready to try out the input
           combinations as described in the following overview pages. Feel free to
-          interact with the animals and coral within the scene.'
+          interact with the animals and coral within the scene.
+
+
+          The input
+          simulation instructions on the next few screens are also <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref.md">available
+          on the MRTK3 documentation website</a>, in case you need a reminder while
+          you''re in the other modules. The instructions are also contained in a
+          text file in the Project > Assets > Tutorials folder--the file name is
+          "Input Simulation Quick Reference.txt." This can be useful if you don''t
+          have an Internet connection.  You can open it in your preferred text editor
+          and view it side-by-side- with Unity on a second monitor (right-click the
+          file and then select "Open") or view it in the Inspector (just click the
+          file).
+
+
+          <b>NOTE</b>: Some of the input simulations require that
+          you have an input device with a scroll wheel.
+
+
+'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

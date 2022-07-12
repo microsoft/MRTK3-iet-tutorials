@@ -40,8 +40,8 @@ MonoBehaviour:
         m_Untranslated: In this tutorial, you learned how to add a bounding box to
           a GameObject using the <b>BoundsControl</b> script. You can further modify
           the properties to customize the look and behaviors of the bounds. Manipulation
-          events can also be added for actions to occur when a user manipulates the
-          GameObject.
+          events can also be added that cause actions to occur when a user manipulates
+          the GameObject.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

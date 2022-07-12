@@ -150,11 +150,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: "Currently, all manipulation types and interactions are configured
-          for the <b>Coral</b> GameObject. This includes the ability to move, rotate,
-          and manipulate the GameObject with more than one hand. Using input simulation,
-          try manipulating the <b>Coral</b> in Play Mode. \n\n<b>Note: Scaling is
-          not supported with input simulation.</b>"
+        m_Untranslated: "Currently, all manipulation types and interactions for the
+          <b>Coral</b> GameObject are configured . This includes the ability to move,
+          rotate, and manipulate the GameObject with more than one hand. Using input
+          simulation, try manipulating the <b>Coral</b> in Play Mode. \n\n<b>Note:
+          Scaling is not supported with input simulation.</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -174,8 +174,24 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode and use
-          input simulation to move and rotate the coral. \n\n<b>2.</b> After you
-          finish, press <b>Play</b> to exit Play Mode."
+          input simulation to move and rotate the coral. \n\n  <b>Rotation tips</b>
+          (left hand):\n\n  a. Press T to enable the hand.\n\n  b. Press the left
+          Shift key, and then move the hand until its far pointer is over the coral.\n\n 
+          c. Press the left Alt key and then press the left mouse button and drag
+          the cursor. This rotates the hand and the Coral.\n\n  d. While continuing
+          to hold down the left Alt key and left mouse button, rotate the scroll
+          wheel. This rotates the Coral on a different axis.\n\n  <b>Rotation tips</b>
+          (right hand):\n\n  a. Press Y to enable the hand.\n\n  b. Press the space
+          bar, and then move the hand until its far pointer is over the coral.\n\n 
+          c. Press the left Ctrl key and then press the left mouse button and drag
+          the cursor. This rotates the Coral.\n\n  d. While continuing to hold down
+          the left Ctrl key and left mouse button, rotate the scroll wheel. This
+          rotates the Coral on a different axis.\n\nIf you need more input simulation
+          reminders, the instructions are <a href=\"https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref.md\">available
+          on the MRTK3 documentation website</a>and are also contained in a text
+          file in the Project > Assets > Tutorials folder--the file name is \"Input
+          Simulation Quick Reference.txt.\" \n\n<b>2.</b> After you finish, press
+          <b>Play</b> to exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

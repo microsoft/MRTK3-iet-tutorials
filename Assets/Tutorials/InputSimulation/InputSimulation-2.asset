@@ -20,7 +20,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 5142dff58d6e5524383b2ef5738aeed2, type: 3}
+      m_Image: {fileID: 2800000, guid: c43dd9837d53c384c86cc2b0eaf69249, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -95,34 +95,39 @@ MonoBehaviour:
       Title:
         m_Untranslated: Use the simulated hands
       Text:
-        m_Untranslated: '<b>To enable the simulated hands</b>:
-
-          Press T
-          (for left hand) or Y (for right hand). To remove the hand, press the same
-          key again.
+        m_Untranslated: 'A simulated hand appears as a pattern of cubes shaped to
+          indicate a hand, as displayed in the image above.
 
 
-          <b>To move a hand left/right/up/down</b>:
+          <b>To enable
+          the simulated hands</b>:
 
-          Press
-          and hold the left shift key (for left hand) or space bar (for right hand)
-          and then drag left/right/up/down in the scene.
-
-
-          <b>To move a
-          hand forward into the scene or back out towards you</b>:
-
-          Press
-          and hold the left shift key (for left hand) or space bar (for right hand)
-          and then rotate the mouse scroll wheel forward or back.
+          Press T (for left hand) or Y (for right
+          hand). To remove the hand, press the same key again.
 
 
           <b>To
-          rotate a hand</b>:
+          move a hand left/right/up/down</b>:
 
-          Press and hold the left ALT key (for left
-          hand) or left CTRL key (for right hand) and then drag left/right/up/down
-          in the scene or rotate the mouse scroll wheel forward or back.
+          Press and hold the left
+          shift key (for left hand) or space bar (for right hand) and then drag left/right/up/down
+          in the scene.
+
+
+          <b>To move a hand forward into the scene or back
+          out towards you</b>:
+
+          Press and hold the left shift key (for
+          left hand) or space bar (for right hand) and then rotate the mouse scroll
+          wheel forward or back.
+
+
+          <b>To rotate a hand</b>:
+
+          Press
+          and hold the left ALT key (for left hand) or left CTRL key (for right hand)
+          and then drag left/right/up/down in the scene or rotate the mouse scroll
+          wheel forward or back.
 
 
 '
