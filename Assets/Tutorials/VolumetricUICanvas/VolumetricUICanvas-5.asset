@@ -147,7 +147,7 @@ MonoBehaviour:
 
 
           If
-          you need input simulation reminders, the instructions are <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref.md">available
+          you need input simulation reminders, the instructions are <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref">available
           on the MRTK3 documentation website</a>and are also contained in a text
           file in the Project > Assets > Tutorials folder--the file name is "Input
           Simulation Quick Reference.txt."

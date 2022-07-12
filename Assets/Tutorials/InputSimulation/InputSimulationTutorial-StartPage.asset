@@ -109,7 +109,7 @@ MonoBehaviour:
 
 
           The input
-          simulation instructions on the next few screens are also <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref.md">available
+          simulation instructions on the next few screens are also <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref">available
           on the MRTK3 documentation website</a>, in case you need a reminder while
           you''re in the other modules. The instructions are also contained in a
           text file in the Project > Assets > Tutorials folder--the file name is
