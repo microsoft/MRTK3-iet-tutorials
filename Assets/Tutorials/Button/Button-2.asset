@@ -112,16 +112,18 @@ MonoBehaviour:
 
 
           <b>3.</b>
-          In the <b>Inspector</b>, navigate to the <b>TextMeshPro-Text</b> component.
+          In the <b>Inspector</b>, display the properties for the <b>TextMeshPro-Text</b>
+          component. You may have to drag the <b>Layout Properties</b> down to see
+          them.
 
 
-          <b>4.</b>
-          Within the <b>Text Input</b> property, enter <b>Sea Turtle</b> into the
-          text box.
+          <b>4.</b> Under <b>Main Settings</b>, in the <b>Text
+          Input</b> property, enter <b>Sea Turtle</b> into the text box.
 
 
-          <b>5.</b> Change the <b>Font Size</b> property to
-          <b>0.1</b> to increase the font size. '
+          <b>5.</b>
+          Change the <b>Font Size</b> property to <b>0.1</b> to increase the font
+          size. '
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

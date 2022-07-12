@@ -119,18 +119,18 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Project</b> panel, navigate to <b>Packages
           > MRTK UX Components > ButtonGroup </b>, and then drag the <b>CanvasButtonBar</b>
-          prefab to place it as a child of the <b>Buttons</b> GameObject.\n\n\n<b>2.</b>
-          In the <b>Hierarchy</b>, select the <b>CanvasButtonBar</b> and then rename
-          it  <b>ObjectsButtonBar</b>.\n\n\n<b>3.</b> In the Inspector, within the
-          <b>Rect Transform</b> component, change the <b>Position</b> to <b>0,  0,
-          0</b>.\n\n\n<b>4.</b> In the <b>Hierarchy</b>, expand the <b>ObjectsButtonBar</b>
+          prefab to the <b>Hierarchy</b> and place it as a child to the <b>Buttons</b>
+          GameObject.\n\n<b>2.</b> In the <b>Hierarchy</b>, select the <b>CanvasButtonBar</b>
+          and then rename it  <b>ObjectsButtonBar</b>.\n\n<b>3.</b> In the Inspector,
+          within the <b>Rect Transform</b> component, change the <b>Position</b>
+          to <b>0,  0, 0</b>.\n\n<b>4.</b> In the <b>Hierarchy</b>, expand the <b>ObjectsButtonBar</b>
           GameObject to view all button children. Rename each button in the following
-          order:\n\n\n\u2022 Coral\n\u2022 Rock\n\u2022 Seahorse\n\u2022 Turtle\n\n\n<b>5.</b>
-          There are a total of 5 Aquarium Objects that need to be added to the bar.
-          You can add another button prefab by navigating to <b>Packages > MRTK UX
-          Components > Buttons > Canvas</b> and drag the <b>Action Button</b> prefab
-          as a child of the <b>ObjectsButtonBar</b> GameObject.\n\n<b>6.</b> In the
-          <b>Hierarchy</b>, select the <b>Action Button</b> and rename <b>Dolphin</b>.\n"
+          order:\n\n\u2022 Coral\n\u2022 Rock\n\u2022 Seahorse\n\u2022 Turtle\n\n<b>5.</b>
+          We want five aquarium objects on the button bar, so let\u2019s add another
+          prefab: Navigate to <b>Packages > MRTK UX Components > Buttons > Canvas</b>,
+          then drag the <b>Action Button</b> prefab to the <b>Hierarchy</b>, and
+          then place it as a child to the <b>ObjectsButtonBar</b> GameObject.\n\n<b>6.</b>
+          In the <b>Hierarchy</b>, select the <b>Action Button</b> and rename <b>Dolphin</b>.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

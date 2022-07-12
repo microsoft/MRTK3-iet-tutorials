@@ -153,12 +153,12 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: '<b>1.</b> In the <b>Project</b> panel, navigate to <b>Packages>
-          MRTK UX Components > Buttons > 80x32 </b>and drag the <b>PressableButton_80x32mm-SingleLineText</b>
-          prefab to the scene.
+          MRTK UX Components > Buttons > 80x32 </b>and drag the <b>PressableButton_80x32mm_SingleLineText</b>
+          prefab into the Scene view.
 
 
-          <b>2.</b> In the <b>Hierarchy</b>, select
-          the <b>PressableButton_80x32mm-SingleLineText</b> GameObject.
+          <b>2.</b> In the <b>Hierarchy</b>,
+          select the <b>PressableButton_80x32mm_SingleLineText</b> GameObject.
 
 
           <b>3.</b>

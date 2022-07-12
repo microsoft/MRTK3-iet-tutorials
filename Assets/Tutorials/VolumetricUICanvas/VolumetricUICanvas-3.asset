@@ -81,7 +81,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add Button On Clicked Events
       Text:
-        m_Untranslated: "<b>On Clicked</b> events configure the action that occurs
+        m_Untranslated: "An <b>On Clicked</b> event configures the action that occurs
           once a button is clicked. The event requires a GameObject that will receive
           the event as well as a function that will execute. You could trigger a
           variety of actions such as making a GameObject active, playing a sound,
@@ -112,13 +112,14 @@ MonoBehaviour:
           GameObject, select the <b>Coral</b> GameObject.\n\n<b>2.</b> In the <b>Inspector</b>,
           navigate to the <b>Pressable Button</b> component.\n\n<b>3.</b> Within
           the <b>On Clicked</b> property, select the <b>+</b> to create a new event.\n\n<b>4.</b>
-          In the new event, drag the <b>Spawner</b> GameObject into the field for
-          the GameObject receiving the event.\n\n<b>5.</b> In the new event, select
-          the <b>function</b> drop-down and then select <b>SeaObjectSpawner > SpawnCoral</b>.\n\n<b>6.</b>
-          Repeat this step for the remaining buttons. The function for each button
-          is provided below:\n\n\u2022 Rock: <b>SpawnRock()</b>\n\u2022 Seahorse:
-          <b>SpawnSeahorse()</b>\n\u2022 Turtle: <b>SpawnSeaTurtle()</b>\n\u2022
-          Dolphin: <b>SpawnDolphin()</b>\n"
+          Drag the <b>Spawner</b> GameObject from the <b>Hierarchy</b> and then,
+          in the <b>Inspector</b>, drop it into the <b>On Clicked</b> event\u2019s
+          <b>None (Object)</b> field.\n\n<b>5.</b> In the <b>On Clicked</b> event,
+          select the <b>function</b> drop-down and then select <b>SeaObjectSpawner
+          > SpawnCoral</b>.\n\n<b>6.</b> Repeat steps 2 through 5 above for each
+          of the remaining buttons. The function for each button is provided below:\n\n\u2022
+          Rock: <b>SpawnRock()</b>\n\u2022 Seahorse: <b>SpawnSeahorse()</b>\n\u2022
+          Turtle: <b>SpawnSeaTurtle()</b>\n\u2022 Dolphin: <b>SpawnDolphin()</b>\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

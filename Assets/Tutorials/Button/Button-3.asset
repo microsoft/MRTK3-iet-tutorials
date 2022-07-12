@@ -120,13 +120,14 @@ MonoBehaviour:
 
 
           <b>4.</b>
-          In the new event, drag the <b>Spawner</b> from the <b>Hierarchy</b> and
-          drop it on the field for the GameObject receiving the event.
+          Drag the <b>Spawner</b> object from the <b>Hierarchy</b> and drop it in
+          the field that displays <b>None (Object)</b> in the <b>On Clicked</b> event
+          you just created.
 
 
-          <b>5.</b>
-          In the new event, select the <b>function</b> drop-down (it currently displays
-          "No Function") and then select <b>SeaObjectSpawner > SpawnSeaTurtle</b>'
+          <b>5.</b> In the <b>On Clicked</b> event,
+          select the <b>function</b> drop-down (it currently displays "No Function")
+          and then select <b>SeaObjectSpawner > SpawnSeaTurtle</b>'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

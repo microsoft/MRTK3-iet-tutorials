@@ -141,7 +141,7 @@ MonoBehaviour:
         m_Untranslated: "The <b>Theme Selector</b> script enables you to switch between
           themes in your scene. Within this script, you can assign an array of themes
           to choose from and set the <b>Current Theme</b> (or default theme) for
-          the UX components. Let\u2019s add all 4 sample profiles to the <b>Theme
+          the UX components. Let\u2019s add all four sample profiles to the <b>Theme
           Selector</b> script and assign a default theme.\n\n<i>Note</i>: The <b>Theme
           Profile</b> property within the <b>Data Source Theme Provider</b> overrides
           the value for the <b>Current Theme</b> property."
@@ -166,14 +166,16 @@ MonoBehaviour:
         m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>Theme Provider</b>
           GameObject.\n\n<b>2.</b> In the <b>Inspector</b>, add the <b>Theme Selector</b>
           script as a component.\n\n<b>3.</b> In the <b>Inspector</b>, navigate to
-          the <b>Theme Selector</b> component.\n\n<b>4.</b> Within the <b>Theme Profiles</b>
-          property, enter <b>4</b>.\n\n<b>5.</b> For each of the elements within
-          <b>Theme Profiles</b>, drag and drop the themes from within <b>Assets >
-          Themes</b>.\n\n<b>6.</b> Within the <b>Theme Selector</b> component, assign
-          the <b>Theme Provider</b> GameObject for the <b>Theme Provider</b> property.\n\n<b>7.</b>
-          Within the <b>Theme Selector</b> component, enter <b>0</b> for the <b>Current
-          Theme</b> property. This sets the first element in the <b>Themes Profile</b>
-          property as the default theme that\u2019ll be visible when the scene starts."
+          the <b>Theme Selector</b> component.\n\n<b>4.</b> In the <b>Theme Profles</b>
+          field, enter 4.\n\n<b>5.</b> <b>Theme Profiles</b> is now a drop-down.
+          Click it to open it.\n\n<b>6.</b> For each of the elements within <b>Theme
+          Profiles</b>, drag and drop the themes from within <b>Assets > Themes</b>.
+          (You may need to re-select <b>Theme Provider</b> in the <b>Hierarchy</b>.)\n\n<b>7.</b>
+          Within the <b>Theme Selector</b> component, assign the <b>Theme Provider</b>
+          GameObject for the <b>Theme Provider</b> property.\n\n<b>8.</b> Within
+          the <b>Theme Selector</b> component, enter \"0\" for the <b>Current Theme</b>
+          property. This sets the first element in the <b>Themes Profile</b> property
+          as the default theme that\u2019ll be visible when the scene starts."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

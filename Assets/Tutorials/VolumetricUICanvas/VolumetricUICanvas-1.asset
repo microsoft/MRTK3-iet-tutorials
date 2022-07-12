@@ -126,19 +126,42 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, create a new empty GameObject
-          and rename it <b>Buttons</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select
-          the <b>Buttons</b> GameObject.\n\n<b>3.</b> In the <b>Inspector</b>, add
-          a <b>Canvas</b> as a component.\n\n<b>4.</b> In the <b>Inspector</b>, navigate
-          to the <b>Canvas</b> component.\n\n<b>5.</b> Within the <b>Canvas</b> component,
-          for the <b>Event Camera</b> property, assign the <b>Main Camera</b> .\n\n<b>Note</b>:
-          In the <b>Select GameObject</b> window, ensure that you're in the <b>Scene</b>
-          tab to find the <b>Main Camera</b> GameObject. \n\n<b>6.</b> Within the
-          <b>Canvas</b> component, for the <b>Additional Shader Channels</b>, select
-          <b>Everything</b>.\n\n<b>7.</b> Within the <b>Rect Transform</b> component,
-          change the <b>Position</b> to <b>0, -0.34, -8.93</b>.\n\n<b>8.</b> Within
-          the <b>Rect Transform</b> component, change the <b>Scale</b> to <b>.005,
-          .005, .005</b>."
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, create a new empty GameObject
+          and rename it <b>Buttons</b>.
+
+
+          <b>2.</b> In the <b>Hierarchy</b>,
+          select the <b>Buttons</b> GameObject.
+
+
+          <b>3.</b> In the <b>Inspector</b>,
+          add a <b>Canvas</b> as a component.
+
+
+          <b>4.</b> In the <b>Inspector</b>,
+          navigate to the <b>Canvas</b> component.
+
+
+          <b>5.</b> In the <b>Canvas</b>
+          component, click the circle icon for the <b>Event Camera</b> field.
+
+
+          <b>6.</b>
+          In the <b>Select Camera</b> window, click <b>Scene</b>, and then select
+          <b>Main Camera</b>.
+
+
+          <b>7.</b> Within the <b>Canvas</b> component,
+          for the <b>Additional Shader Channels</b>, select <b>Everything</b>.
+
+
+          <b>8.</b>
+          Within the <b>Rect Transform</b> component, change the <b>Position</b>
+          to <b>0, -0.34, -8.93</b>.
+
+
+          <b>9.</b> Within the <b>Rect Transform</b>
+          component, change the <b>Scale</b> to <b>.005, .005, .005</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

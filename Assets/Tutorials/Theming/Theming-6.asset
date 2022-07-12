@@ -106,45 +106,20 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select and expand the
-          <b>ThemeProvider</b> GameObject and select the <b>ThemesBar</b> GameObject.
-
-
-          <b>2.</b>
-          Expand the <b>ThemesBar</b> GameObject followed by <b>Buttons</b>.
-
-
-          <b>3.</b>
-          In the <b>Hierarchy</b>, select the <b>DefaultTheme</b> button.
-
-
-          <b>4.</b>
-          In the <b>Inspector</b>, navigate to the <b>Pressable Button</b> component.
-
-
-          <b>5.</b>
-          Within the <b>On Clicked</b> property, select the <b>+</b> to create a
-          new event.
-
-
-          <b>6.</b> In the new event, drag the <b>ThemeProvider</b>
-          GameObject into the field for the GameObject receiving the event.
-
-
-          <b>7.</b>
-          In the new event, select the <b>function</b> drop-down and then select
-          <b>ThemeSelector > SetTheme(int)</b>.
-
-
-          <b>8.</b> In the new
-          event, enter <b>0</b> into the empty field created for the integer.
-
-
-          <b>9.</b>
-          Repeat the same steps for the remaining buttons in the <b>ThemesBar</b>
-          GameObject. Each integer should reflect the order of the themes as they
-          appear in the <b>Theme Selector</b> script (which is on the <b>Theme Provider</b>
-          GameObject).'
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select and expand the
+          <b>ThemeProvider</b> GameObject and then select the <b>ThemesBar</b> GameObject.\n\n<b>2.</b>
+          Expand the <b>ThemesBar</b> GameObject, and then expand <b>Buttons</b>.\n\n<b>3.</b>
+          Select the <b>DefaultTheme</b> button.\n\n<b>4.</b> In the <b>Inspector</b>,
+          navigate to the <b>Pressable Button</b> component.\n\n<b>5.</b> Within
+          the <b>On Clicked</b> property, select the <b>+</b> to create a new event.\n\n<b>6.</b>In
+          the <b>Hierarchy</b>, drag the <b>ThemeProvider</b> object and then drop
+          it in the <b>Inspector > Pressable Button > On Clicked > \u201CNone (Object)\u201D</b>
+          field.\n\n<b>7.</b> In the <b>On Clicked</b> event, select the function
+          drop-down (it currently shows \u201CNo Function\u201D) and then select 
+          <b>ThemeSelector > SetTheme(int)</b>.\n\n<b>8.</b> In the new event, enter
+          <b>0</b> into the empty field created for the integer.\n\n<b>9.</b> Repeat
+          steps 3 through 9 above for the remaining  buttons in the <b>ThemesBar</b>
+          GameObject. Each integer should be increased by one."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

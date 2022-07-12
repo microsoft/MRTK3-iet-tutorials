@@ -134,19 +134,23 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode.
-
-
-          <b>2.</b>
-          Using input simulation, click the <b>Sea Turtle</b> button to spawn a sea
-          turtle. Repeated button presses will spawn another sea turtle in the same
-          spawn location. You may want to move the first seat turtle before you spawn
-          the second one so you can see them both in different locations. You can
-          grab the sea turtle and move it around in the scene as well.
-
-
-          <b>3.</b>
-          Once complete, press Play to exit Play Mode.'
+        m_Untranslated: "<b>1.</b> Select Play to enter Play Mode.\n\n<b>2.</b> Using
+          input simulation, click the <b>Sea Turtle</b> button to spawn a sea turtle.
+          Note that in order to click a button, you must move the simulated hand
+          *in front* of the button\u2014in other words, the hand must be far enough
+          towards you that none of the cubes in the hand are hidden behind the buttons.
+          Once this has been done, move the hand so that its index finger cursor
+          is over the button, and then move the hand towards the button so that the
+          finger \u201Cpushes\u201D the button.\t\n\nRepeated button presses will
+          spawn more sea turtles in the same spawn location. You may want to move
+          any sea turtle you spawn before you spawn the next one so you can see them
+          both in different locations. You can grab the sea turtle and move it around
+          in the scene.\n\nIf you need more input simulation reminders, the instructions
+          are <a href=\"https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref.md\">available
+          on the MRTK3 documentation website</a>and are also contained in a text
+          file in the Project > Assets > Tutorials folder--the file name is \"Input
+          Simulation Quick Reference.txt.\"\n\n<b>3.</b> Once complete, press Play
+          to exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
