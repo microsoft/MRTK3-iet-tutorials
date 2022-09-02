@@ -1,76 +1,65 @@
 {
   "dependencies": {
     "com.microsoft.mixedreality.openxr": {
-      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.4.0.tgz",
+      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.4.4.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
         "com.unity.xr.arfoundation": "4.1.7",
         "com.unity.xr.management": "4.2.0",
-        "com.unity.xr.openxr": "1.3.1"
+        "com.unity.xr.openxr": "1.4.2"
       }
     },
     "com.microsoft.mrtk.core": {
-      "version": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.unity.xr.interaction.toolkit": "2.0.0",
-        "com.unity.xr.management": "4.2.1"
+        "com.unity.xr.interaction.toolkit": "2.0.2",
+        "com.unity.xr.management": "4.2.1",
+        "com.unity.xr.core-utils": "2.0.0"
       }
     },
-    "com.microsoft.mrtk.data": {
-      "version": "file:MixedReality/com.microsoft.mrtk.data-1.0.0-pre.6.tgz",
+    "com.microsoft.mrtk.diagnostics": {
+      "version": "file:MixedReality/com.microsoft.mrtk.diagnostics-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.microsoft.mrtk.core": "1.0.0-pre.6",
-        "com.unity.nuget.newtonsoft-json": "2.0.2",
-        "com.unity.textmeshpro": "3.0.6"
-      }
-    },
-    "com.microsoft.mrtk.environment": {
-      "version": "file:MixedReality/com.microsoft.mrtk.environment-3.0.0-pre.6.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.microsoft.mrtk.core": "3.0.0-pre.6",
+        "com.microsoft.mrtk.core": "3.0.0-pre.10",
         "com.unity.xr.management": "4.2.1"
       }
     },
     "com.microsoft.mrtk.graphicstools.unity": {
-      "version": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.3.15.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
     },
     "com.microsoft.mrtk.input": {
-      "version": "file:MixedReality/com.microsoft.mrtk.input-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.input-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.microsoft.mrtk.core": "3.0.0-pre.6",
+        "com.microsoft.mrtk.core": "3.0.0-pre.10",
         "com.microsoft.mrtk.graphicstools.unity": "0.3.15",
         "com.unity.inputsystem": "1.3.0",
-        "com.unity.xr.interaction.toolkit": "2.0.0",
-        "com.unity.xr.management": "4.2.1",
-        "com.unity.xr.openxr": "1.3.1",
-        "com.unity.xr.arfoundation": "4.1.9"
+        "com.unity.xr.interaction.toolkit": "2.0.2",
+        "com.unity.xr.core-utils": "2.0.0"
       }
     },
     "com.microsoft.mrtk.spatialmanipulation": {
-      "version": "file:MixedReality/com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.microsoft.mrtk.core": "3.0.0-pre.6",
-        "com.microsoft.mrtk.uxcore": "3.0.0-pre.6",
+        "com.microsoft.mrtk.core": "3.0.0-pre.10",
+        "com.microsoft.mrtk.uxcore": "3.0.0-pre.10",
         "com.unity.inputsystem": "1.3.0",
-        "com.unity.xr.interaction.toolkit": "2.0.0"
+        "com.unity.xr.interaction.toolkit": "2.0.2"
       }
     },
     "com.microsoft.mrtk.standardassets": {
-      "version": "file:MixedReality/com.microsoft.mrtk.standardassets-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.standardassets-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -78,26 +67,32 @@
       }
     },
     "com.microsoft.mrtk.uxcomponents": {
-      "version": "file:MixedReality/com.microsoft.mrtk.uxcomponents-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.uxcomponents-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.microsoft.mrtk.uxcore": "3.0.0-pre.6",
-        "com.microsoft.mrtk.spatialmanipulation": "3.0.0-pre.6",
-        "com.microsoft.mrtk.standardassets": "3.0.0-pre.6"
+        "com.microsoft.mrtk.uxcore": "3.0.0-pre.10",
+        "com.microsoft.mrtk.spatialmanipulation": "3.0.0-pre.10",
+        "com.microsoft.mrtk.standardassets": "3.0.0-pre.10"
       }
     },
     "com.microsoft.mrtk.uxcore": {
-      "version": "file:MixedReality/com.microsoft.mrtk.uxcore-3.0.0-pre.6.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.uxcore-3.0.0-pre.10.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.microsoft.mrtk.core": "3.0.0-pre.6",
+        "com.microsoft.mrtk.core": "3.0.0-pre.10",
         "com.microsoft.mrtk.graphicstools.unity": "0.3.15",
         "com.unity.inputsystem": "1.3.0",
         "com.unity.textmeshpro": "3.0.6",
-        "com.unity.xr.interaction.toolkit": "2.0.0"
+        "com.unity.xr.interaction.toolkit": "2.0.2"
       }
+    },
+    "com.microsoft.spatialaudio.spatializer.unity": {
+      "version": "file:MixedReality/com.microsoft.spatialaudio.spatializer.unity-2.0.37.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.15.17",
@@ -171,8 +166,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.learn.iet-framework": {
-      "version": "2.2.1",
-      "depth": 0,
+      "version": "2.2.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
@@ -181,17 +176,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.learn.iet-framework.authoring": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.learn.iet-framework": "2.2.1"
+        "com.unity.learn.iet-framework": "2.2.2"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -216,7 +211,7 @@
     },
     "com.unity.settings-manager": {
       "version": "1.0.3",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -227,22 +222,6 @@
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot": {
-      "version": "2.0.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.3"
       },
       "url": "https://packages.unity.com"
     },
@@ -288,16 +267,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.toolchain.win-x86_64-linux-x86_64": {
-      "version": "2.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.3",
-        "com.unity.sysroot.linux-x86_64": "2.0.2"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
@@ -340,7 +309,7 @@
     },
     "com.unity.xr.core-utils": {
       "version": "2.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.xr": "1.0.0"
@@ -348,7 +317,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "2.0.0",
+      "version": "2.0.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {

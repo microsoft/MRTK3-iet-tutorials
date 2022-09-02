@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: PreviewScenes-3
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Holographic Remoting (HoloLens 2)
+      Text:
+        m_Untranslated: 'Holographic Remoting enables you to run the app locally
+          in the Unity editor on your PC in Play Mode and stream the experience to
+          your HoloLens without the need to compile and deploy. Holographic Remoting
+          requires a fast PC and Wi-Fi connection.
+
+
+          Follow our <a href="https://docs.microsoft.com/windows/mixed-reality/develop/unity/preview-and-debug-your-app?tabs=openxr#set-up-holographic-remoting">Set
+          up Holographic Remoting</a> instructions to get started. '
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instructions</u>
+      Text:
+        m_Untranslated: "Complete the steps below after both your Unity project and
+          HoloLens 2 device are configured for rendering the project.\n\n<b>1.</b>
+          Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Using your hands, press
+          the <b>Hide</b> button to toggle the visibility of the <b>Treasure Chest</b>.
+          The <b>Treasure Chest</b> will no longer be visible. You can press the
+          <b>Hide</b> button once more to turn on the object\u2019s visibility.\n\n<b>3.</b>
+          Using your hand, grab and move the <b>Treasure Chest</b> by performing
+          a pinch gesture with your fingers. The <b>Treasure Chest</b> can be grabbed
+          at either a far or near distance. If you grab the <b>Treasure Chest</b>
+          from a far distance, a ray appears with a recticle (circular icon) that
+          attaches to the object. If you grab the <b>Treasure Chest</b> at a near
+          distance, you\u2019ll be able to do so directly with your hands.\n\n<b>4.</b>Bounding
+          box handles become active if you select (a quick pinch/grab) the object.
+          The bounding box handles provide fine-tune manipulation such as rotation
+          and scaling. To rotate or scale, grab a handle and drag with your finger.\n\nFeel
+          free to grab and scale the other objects in the aquarium tank. \n\n<b>Note</b>:
+          The <b>Treasure Chest</b> and <b>Boat</b> objects cannot be scaled.\n\n<b>5.</b>
+          Once complete, press <b>Play</b> to exit Play Mode.\n"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

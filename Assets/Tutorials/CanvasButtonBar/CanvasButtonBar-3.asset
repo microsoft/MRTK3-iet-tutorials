@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: CanvasButtonBar-3
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Configure the Coral Button UI
+      Text:
+        m_Untranslated: "We now have a button bar equipped with <b>Action Button</b>
+          prefabs that are ready to be configured to spawn aquarium objects. The
+          <b>Action Button</b> prefab has three child GameObjects which make up the
+          configuration of the button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022
+          Frontplate\n\nWithin both the <b>Backplate</b> and <b>Frontplate</b> are
+          additional child GameObjects for configuration. Although there\u2019s various
+          properties to configure, we\u2019ll focus on just a few for this tutorial.
+          \n\nCurrently, the <b>Action Button</b> within the <b>CanvasButtonBar_SharedBackPlate</b>
+          has a blue backplate and a person icon. We\u2019ll need to complete the
+          following:\n\n\u2022 Remove the icon on the button\n\u2022 Display a label
+          for the respective object\n\nLet's configure the first button for a Coral!"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instruction</u>
+      Text:
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select <b>Aquarium Objects
+          Bar > CanvasButtonBar_SharedBackPlate</b> and expand the <b>CanvasButtonBar_SharedBackPlate</b>
+          GameObject to view its children.\n\n<b>2.</b> In the <b>Hierarchy</b>,
+          select the first <b>Action Button</b> child GameObject and rename the GameObject
+          to <b>Coral</b> so that we can differentiate this button from the other
+          <b>Action Button</b> children. We\u2019ll change the display name in the
+          next step.\n\n<b>3.</b> In the <b>Hierarchy</b>, expand the <b>Coral</b>
+          GameObject and navigate to <b>Frontplate > AnimatedContent > Icon</b> and
+          disable the <b>UIButtonFontIcon</b>.\n\n<b>3.</b> In the <b>Hierarchy</b>,
+          expand the <b>Coral</b> GameObject and navigate to <b>Frontplate > AnimatedContent
+          > Icon > Label</b>.\n\n<b>4.</b> In the <b>Inspector</b>, navigate to the
+          <b>TextMeshPro \u2013 Text</b> component.\n\n<b>5.</b> In the <b>Text Input</b>
+          property, enter <b>Coral</b>. The <b>Coral</b> button should now display
+          with the label <b>Coral</b> in the button bar. \n\n<b>6.</b> Reposition
+          the label by adjusting the transform <b>Position</b>.\n"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

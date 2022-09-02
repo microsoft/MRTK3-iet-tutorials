@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: ObjectManipulatorTutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Object Manipulator
-  m_TutorialTitle: 
+    m_Untranslated: 
   m_ProgressTrackingEnabled: 0
   m_LessonId: 
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: e912cf7e86aeb024daf0de095189f65a, type: 3}
+  m_SceneManagementBehavior: 0
+  m_Scenes:
+  - {fileID: 102900000, guid: 172e42cf1b10433448823526d95e436a, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -38,12 +39,17 @@ MonoBehaviour:
   m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: ff372cc3c067368428018381de54093c, type: 2}
-    - {fileID: 11400000, guid: f385ea30a4c06f74ab0bbbc21a4cf139, type: 2}
-    - {fileID: 11400000, guid: ac37bcaf499f35842a808cd1c4bf1e7c, type: 2}
-    - {fileID: 11400000, guid: a69e95e3f6e85494e8d8df1a7da4df88, type: 2}
-    - {fileID: 11400000, guid: d89ea5d23424fc041b6f887756f7cee1, type: 2}
-    - {fileID: 11400000, guid: b40020482fe8d6a4fa757b9ac29bedcb, type: 2}
+    - {fileID: 11400000, guid: 970d5d34a2ef8ce4db5e52f7a17dde20, type: 2}
+    - {fileID: 11400000, guid: 15a6d529d47e8164faed3354fe1a7312, type: 2}
+    - {fileID: 11400000, guid: 50553225bb290f64497cd3cafe3ed2cd, type: 2}
+    - {fileID: 11400000, guid: f09c88024d6feca41b95cd0ee37a5eeb, type: 2}
+    - {fileID: 11400000, guid: dc74ca1f3d82e2c4da0676118156764b, type: 2}
+    - {fileID: 11400000, guid: 407bd6632c935154ca30c40307b245bf, type: 2}
+    - {fileID: 11400000, guid: 327f11eb82f8c264c94583ab670434ee, type: 2}
+    - {fileID: 11400000, guid: ffe8e958889ad2c48a2e65240e5a5461, type: 2}
+    - {fileID: 11400000, guid: 9ae78f74fa13d64489a4671cb63c5398, type: 2}
+    - {fileID: 11400000, guid: ad91ce5341c6c5d4aa895146943713d6, type: 2}
+    - {fileID: 11400000, guid: 3d731d416f78dbd4983076224ccb9abd, type: 2}
   Modified:
     m_PersistentCalls:
       m_Calls: []
@@ -62,3 +68,5 @@ MonoBehaviour:
   Quit:
     m_PersistentCalls:
       m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 

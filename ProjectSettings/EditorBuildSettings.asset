@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Aquarium.unity
-    guid: 0bba56ac87608c74f811537a649a45e3
+    guid: bb0a46230b70094489af0ba5b522cf41
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4e89be1b347fb7645aaf877008e86c26, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f9acfe841b49cd244b78e8bfec21f88f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dc198666d5fda6349aeecaf8a3b057eb, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ba4b88bf9dfed0d419e3dc06fae5783c, type: 2}

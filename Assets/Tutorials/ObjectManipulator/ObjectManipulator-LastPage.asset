@@ -20,7 +20,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 371fb2cdb93fc5241939777e591381e7, type: 3}
+      m_Image: {fileID: 2800000, guid: 95acef3b2866a104d8d4424a2e18a1e3, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -37,11 +37,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: Summary
       Text:
-        m_Untranslated: In this tutorial, you learned how to move and rotate an object
-          after adding  the <b>ObjectManipulator</b> script. You can further modify
-          the properties to control how objects can be manipulated. Manipulation
-          events can also be added for actions to occur when a user manipulates the
-          GameObject.
+        m_Untranslated: "In this tutorial, you learned how to move, scale, and rotate
+          an object using the <b>ObjectManipulator</b> script. We introduced some
+          of the script properties which can be further configured to suit your interaction
+          needs. \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/object-manipulator\">Object
+          Manipulator</a> documentation for additional guidance on how to configure
+          the script."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -58,30 +59,14 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: 'Select <b>Tutorial: Bounds Control</b> to continue, or <b>Done</b>
-          to return to the tutorial overview.'
+        m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
+          You will be prompted to save the scene. Saving the scene will save the
+          current scene and the configurations you\u2019ve made during the tutorial.
+          If you\u2019d like to try the tutorial again, <b>do not</b> save the scene
+          when prompted."
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-    - m_Type: 2
-      Title:
-        m_Untranslated: 
-      Text:
-        m_Untranslated: 'Tutorial: Bounds Control'
-      m_Tutorial: {fileID: 11400000, guid: dc6cb3baa4e1ce14dbecc3e0f23445a5, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0

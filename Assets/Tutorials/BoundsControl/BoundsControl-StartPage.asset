@@ -20,7 +20,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 9f6ad59932965f04da85754230c25295, type: 3}
+      m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -40,10 +40,10 @@ MonoBehaviour:
         m_Untranslated: "The <b>BoundsControl</b> script provides an automatically-sized
           bounding box, along with manipulation affordances for rotation and scale.
           In this tutorial, you'll explore the properties of <b>BoundsControl</b>
-          as you add the script to objects that can be manipulated in the aquarium.\n\n\n<b>Learning
-          Objectives</b>:\n\n\u2022 Add a BoundsVisualPrefab\n\u2022 Make handles
-          active when object is manipulated\n\u2022 Limit handle visibility based
-          on manipulation\n\nLet's get started!"
+          as you add the script to objects that can be manipulated in the aquarium.\n\n<b>Learning
+          Objectives</b>:\n\n\u2022 Add the BoundsControl component to a GameObject\n\u2022
+          Assign a Bounds Visuals Prefab\n\u2022 Limit enabled handles\n\nLet's get
+          started!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -75,7 +75,7 @@ MonoBehaviour:
       m_Prefab: {fileID: 0}
     m_Enabled: 0
   NextButton:
-    m_Untranslated: Start
+    m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 0}

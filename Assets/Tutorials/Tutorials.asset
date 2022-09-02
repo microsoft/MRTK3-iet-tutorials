@@ -17,7 +17,7 @@ MonoBehaviour:
       m_Calls: []
   ParentContainer: {fileID: 0}
   OrderInView: 0
-  BackgroundImage: {fileID: 2800000, guid: 00cfffc0c5ce7bc4e92ad0381dcdef3b, type: 3}
+  BackgroundImage: {fileID: 2800000, guid: 6adb26e6be54fc54488849dbb799477b, type: 3}
   Title:
     m_Untranslated: 
   Subtitle:
@@ -28,14 +28,35 @@ MonoBehaviour:
   Sections:
   - OrderInView: 0
     Heading:
-      m_Untranslated: How to Use MRTK3 Input Simulation
+      m_Untranslated: Getting Started
     Text:
-      m_Untranslated: Learn how to simulate input directly in the Unity editor.
+      m_Untranslated: Familiarize yourself with how to navigate the tutorial series
+        and learn how to complete the tasks.
     Metadata: 
     Url: 
-    Image: {fileID: 2800000, guid: 5142dff58d6e5524383b2ef5738aeed2, type: 3}
-    Tutorial: {fileID: 11400000, guid: 517a0930d2f3781439ff36820f024741, type: 2}
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 90b73984c4e9b5d44a434f0ecd117102, type: 2}
   - OrderInView: 1
+    Heading:
+      m_Untranslated: Preview Scenes
+    Text:
+      m_Untranslated: Learn about the various solutions for previewing scenes without
+        compiling and deploying projects to a XR device.
+    Metadata: 
+    Url: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 0275f8c1f66c54a4d81e87e5c28d94e5, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: How to use MRTK Input Simulation
+    Text:
+      m_Untranslated: Learn how to simulate input directly into the Unity editor
+        with MRTK In-Editor Input Simulation.
+    Metadata: 
+    Url: 
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: 881d515c123b43f4295c8f2ff69cb619, type: 2}
+  - OrderInView: 3
     Heading:
       m_Untranslated: Object Manipulator
     Text:
@@ -43,53 +64,33 @@ MonoBehaviour:
         variety of input modalities.
     Metadata: 
     Url: 
-    Image: {fileID: 2800000, guid: 371fb2cdb93fc5241939777e591381e7, type: 3}
-    Tutorial: {fileID: 11400000, guid: 4fc5a5b798e395a4eb009a0d8530f7fd, type: 2}
-  - OrderInView: 2
+    Image: {fileID: 2800000, guid: 95acef3b2866a104d8d4424a2e18a1e3, type: 3}
+    Tutorial: {fileID: 11400000, guid: 1185f151b05beb94d95719cfada04a73, type: 2}
+  - OrderInView: 4
     Heading:
       m_Untranslated: Bounds Control
     Text:
       m_Untranslated: Intent feedback and precision manipulation affordances.
     Metadata: 
     Url: 
-    Image: {fileID: 2800000, guid: 9f6ad59932965f04da85754230c25295, type: 3}
-    Tutorial: {fileID: 11400000, guid: dc6cb3baa4e1ce14dbecc3e0f23445a5, type: 2}
-  - OrderInView: 3
+    Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5e31f048b8e6c704e99ce128e412f871, type: 2}
+  - OrderInView: 5
     Heading:
-      m_Untranslated: Button
+      m_Untranslated: Canvas Button
     Text:
       m_Untranslated: A volumetric button optimized for a wide range of input modalities.
     Metadata: 
     Url: 
-    Image: {fileID: 2800000, guid: 87c0f98301cd06c4d86809dcf446d606, type: 3}
-    Tutorial: {fileID: 11400000, guid: 8ee39276954e3624ab7caf99ba0835c7, type: 2}
-  - OrderInView: 4
-    Heading:
-      m_Untranslated: Volumetric UI with Canvas
-    Text:
-      m_Untranslated: Enables you to seamlessly create beautiful UI holograms with
-        the ability to automatically lay out UI controls and quickly iterate your
-        designs, until your UI is just right.
-    Metadata: 
-    Url: 
-    Image: {fileID: 2800000, guid: 6530ef8dd4595784abd4ec7a2cd95390, type: 3}
-    Tutorial: {fileID: 11400000, guid: a1fc1a450fcd21f4bb9b863d3a200297, type: 2}
+    Image: {fileID: 2800000, guid: 924a84932d9375047805dcb805321459, type: 3}
+    Tutorial: {fileID: 11400000, guid: 4ea65db2fa8d26049b74e000be026b6d, type: 2}
   - OrderInView: 5
     Heading:
-      m_Untranslated: Dialog
+      m_Untranslated: Canvas Button Bar
     Text:
-      m_Untranslated: Prompt for user action.
+      m_Untranslated: A volumetric button bar optimized for a wide range of input
+        modalities.
     Metadata: 
     Url: 
-    Image: {fileID: 2800000, guid: 19db408ed0e606e478082323c660ca91, type: 3}
-    Tutorial: {fileID: 11400000, guid: c1d472c36e2200a43b29ef92e550ec9b, type: 2}
-  - OrderInView: 6
-    Heading:
-      m_Untranslated: Theming
-    Text:
-      m_Untranslated: A set of various assets and styles needed to achieve a specific
-        visual aesthetic.
-    Metadata: 
-    Url: 
-    Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    Tutorial: {fileID: 11400000, guid: 7775ca6ac3294984b8753504751e3ba3, type: 2}
+    Image: {fileID: 0}
+    Tutorial: {fileID: 11400000, guid: f6d1b156f85d6184186fac0f436c8c66, type: 2}

@@ -14,148 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -2048
     y: 43.2
     width: 2048
-    height: 1060.8
+    height: 1108.8
   m_ShowMode: 4
-  m_Title: Game
-  m_RootView: {fileID: 7}
+  m_Title: Project
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TutorialWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1722.4
-    y: 0
-    width: 325.59998
-    height: 1010.80005
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1309.6
-    y: 0
-    width: 412.80005
-    height: 692.8
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneHierarchyWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 273.6
-    height: 692.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 12}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1722.4
-    height: 692.8
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 18
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 692.8
-    width: 1722.4
-    height: 318.00006
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,22 +37,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 9}
-  - {fileID: 10}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 2048
-    height: 1060.8
+    height: 1108.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &8
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,32 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  - {fileID: 2}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 2048
-    height: 1010.80005
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
-  vertical: 0
-  controlID: 77
---- !u!114 &10
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,12 +90,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1040.8
+    y: 1088.8
     width: 2048
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &11
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,19 +108,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 5}
   - {fileID: 6}
+  - {fileID: 13}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2048
+    height: 1058.8
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 31789
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1722.4
-    height: 1010.80005
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+    width: 1197.6
+    height: 1058.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
---- !u!114 &12
+  controlID: 31859
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1197.6
+    height: 660.8
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 31775
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,22 +181,127 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 288
+    height: 660.8
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 288
+    y: 0
+    width: 909.6
+    height: 660.8
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 660.8
+    width: 1197.6
+    height: 398.00006
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 31860
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 603.2
+    height: 398.00006
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 273.6
+    x: 603.2
     y: 0
-    width: 1036
-    height: 692.8
-  m_MinSize: {x: 102, y: 121}
+    width: 594.39996
+    height: 398.00006
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 16}
-  m_Selected: 1
+  - {fileID: 15}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -311,1012 +311,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
-  m_Name: 
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tutorials
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 1722.4
-    y: 73.6
-    width: 324.59998
-    height: 989.80005
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_AllParagraphs:
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Theming
-    Text:
-      m_Untranslated: "The theming framework is designed to make it easy to create
-        visual elements that can be updated dynamically at runtime. Themes are a
-        data source that provides assets and styles needed to achieve a specific
-        look. It's possible to theme any hierarchy of GameObjects, whether they're
-        static or dynamically data bound to other data sources. In this tutorial,
-        you'll configure buttons to change the themes of the UX components within
-        the aquarium.\n \n<b>Learning Objectives</b>:\n\n\u2022 Create a theme profile\n\u2022
-        Create a stylesheet\n\u2022 Configure the <b>Data Source Theme Provider</b>
-        script\n\u2022 Configure the <b>Theme Selector</b> script\n\nLet\u2019s get
-        started!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Switch Build Platform
-    Text:
-      m_Untranslated: Before you proceed, you must switch the build platform to Universal
-        Windows Platform.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: '<b>1.</b> On the menu bar, navigate to <b>File > Build Settings</b>.
-
-
-        <b>2.</b>
-        Within <b>Build Settings</b>, select <b>Universal Windows Platform</b>.
-
-
-        <b>3.</b>
-        On the bottom right side of the window, select <b>Switch Build Platform</b>.
-
-
-        <b>4.
-        After the platform is switched, </b> close the <b>Project Settings</b> window.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add Symbol in Player Settings
-    Text:
-      m_Untranslated: To enable theming for MRTK UX components, the <b>MRTK_COREUX_DATABINDING_THEMING_ENABLED</b>
-        symbol must be defined in <b>Player Settings</b>. This symbol ensures zero
-        performance impact when theming is not needed.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: '<b>1.</b> On the menu bar, navigate to <b>Edit > Project Settings
-        > Player > Windows tab > Other Settings</b>.
-
-
-        <b>2.</b> Within <b>Other
-        Settings</b>, navigate to <b>Script Compilation</b>.
-
-
-        <b>3.</b>
-        Within <b>Script Compilation</b>, select the <b>+</b> icon to add a new symbol.
-
-
-        <b>4.</b>
-        Enter <b>MRTK_UX_DATABINDING_THEMING_ENABLED</b> for the symbol.
-
-
-        <b>5.</b>
-        Close the <b>Project Settings</b> window.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Theme Profile
-    Text:
-      m_Untranslated: "A theme profile is used to assign materials to the various
-        UX prefabs available within the Mixed Reality Toolkit. The profile itself
-        is categorized according to UX building block category (example: button,
-        slider, dialog, etc.). You can create and add your own materials to the corresponding
-        properties to create a UI that\u2019s best suited to your aesthetic needs.
-        Although we provide a field for every MRTK UX prefab, you\u2019re only required
-        to assign materials to those included in your scene.\n\nYou can create a
-        new profile within the <b>Project</b> panel. To do so, click the <b>+</b>
-        icon and select <b>MRTK > UX > Theme Profile</b>.\n\nFor this tutorial, we\u2019ll
-        be using sample themes that are already included in this project. You can
-        view these themes in the <b>Project</b> panel by navigating to <b>Assets
-        > Themes</b>."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Style Sheet
-    Text:
-      m_Untranslated: "A stylesheet is used to assign the appropriate font styles
-        for text within your scene. Since MRTK leverages Text Mesh Pro, a Text Mesh
-        Pro stylesheet is required for font styles.\n\nYou can create a new stylesheet
-        within the <b>Project</b> panel. To do so, click the <b>+</b> icon and select
-        <b>TextMeshPro > Stylesheet</b>.\n\nFor this tutorial, you\u2019ll be using
-        a stylesheet that's already included in this project. You can view the stylesheet
-        in the <b>Project</b> panel by navigating to <b>Assets > Stylesheets</b>.\n\n<i>Note</i>:
-        It's not currently possible to use Stylesheets to style the TextMeshPro <b>Normal</b>
-        style. Any other style that's included in TextMeshPro\u2019s <b>Default Style
-        Sheet</b> can be used. The example we provide uses <b>Body</b> to work around
-        this limitation."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.AddComponent.AddComponentWindow, UnityEditor.CoreModule,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.ObjectSelector, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 4
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 415ef1d07dbe55e44ada8708cf29e38c
-              m_GameObjectGuid: 5777b0ea-081d-41bd-8ba8-793b501cf9d3
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Configure Data Source Theme Provider Script
-    Text:
-      m_Untranslated: "The <b>Data Source Theme Provider</b> script makes a ScriptableObject
-        that contains all references to all theming assets function as a data source.
-        In this tutorial, we\u2019ll focus on the <b>Theme Profile</b> property, 
-        which sets the theme for the UX component controls available with MRTK.\n\nThe
-        standard UX components controls provided in the <b>MRTK UX Components</b>
-        package are all configured to support theming. Each control, typically on
-        the topmost GameObject of the root prefab, has a script called <b>UXBindingConfigurator</b>.
-        This script pulls in the needed data binding scripts to turn on theming.\n\nLet\u2019s
-        assign a <b>Theme Profile</b> for the <b>Data Source Theme Provider</b> script.
-        We\u2019ll use the standard core UX theme: <b>MRTK_UX_ThemeProfile</b> (this
-        is the standard blue theme seen on the MRTK UX prefab).\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>Theme Provider</b>
-        GameObject.\n\n<b>2.</b> In the <b>Inspector</b>, add the <b>Data Source
-        Theme Provider</b> as a component.\n\n<b>3.</b> In the <b>Inspector</b>,
-        navigate to the <b>Data Source Theme Provider</b> component.\n\n<b>4.</b>
-        For the <b>Data Source Type</b> property, enter <b>theme</b>.\n\n<b>5.</b>
-        Select the <b>Theme Profile</b> circle icon. \n\n<b>6.</b> In the <b>Select
-        ScriptableObject</b> window, search for <b>MRTK_CoreUX_ThemeProfile</b> and
-        assign the profile."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 5893773466967781849, guid: 493749004eb45e24fb0827dbd14c9dcc, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 4
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 415ef1d07dbe55e44ada8708cf29e38c
-              m_GameObjectGuid: 5777b0ea-081d-41bd-8ba8-793b501cf9d3
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.AddComponent.AddComponentWindow, UnityEditor.CoreModule,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.ObjectSelector, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Configure Theme Selector Script
-    Text:
-      m_Untranslated: "The <b>Theme Selector</b> script enables you to switch between
-        themes in your scene. Within this script, you can assign an array of themes
-        to choose from and set the <b>Current Theme</b> (or default theme) for the
-        UX components. Let\u2019s add all four sample profiles to the <b>Theme Selector</b>
-        script and assign a default theme.\n\n<i>Note</i>: The <b>Theme Profile</b>
-        property within the <b>Data Source Theme Provider</b> overrides the value
-        for the <b>Current Theme</b> property."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select the <b>Theme Provider</b>
-        GameObject.\n\n<b>2.</b> In the <b>Inspector</b>, add the <b>Theme Selector</b>
-        script as a component.\n\n<b>3.</b> In the <b>Inspector</b>, navigate to
-        the <b>Theme Selector</b> component.\n\n<b>4.</b> In the <b>Theme Profles</b>
-        field, enter 4.\n\n<b>5.</b> <b>Theme Profiles</b> is now a drop-down. Click
-        it to open it.\n\n<b>6.</b> For each of the elements within <b>Theme Profiles</b>,
-        drag and drop the themes from within <b>Assets > Themes</b> in the following
-        order (You may need to re-select <b>Theme Provider</b> in the <b>Hierarchy</b>.\n):\n\n\u2022
-        MRTK_CoreUX_ThemeProfile\n\u2022 Black-Theme\n\u2022 Orange-Theme\n\u2022
-        Red-Theme\n\n<b>7.</b> Within the <b>Theme Selector</b> component, assign
-        the <b>Theme Provider</b> GameObject for the <b>Theme Provider</b> property.\n\n<b>8.</b>
-        Within the <b>Theme Selector</b> component, enter \"0\" for the <b>Current
-        Theme</b> property. This sets the first element in the <b>Themes Profile</b>
-        property as the default theme that\u2019ll be visible when the scene starts."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 1695173323615266607, guid: f544088a2b3786d448491c5def96e197, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Configure Theme Change Buttons
-    Text:
-      m_Untranslated: "<b>On Clicked</b> events configure the action that occurs
-        once a button is clicked. The event requires a GameObject receiving the event
-        as well as a function to execute. You could trigger a variety of actions
-        such as making a GameObject active, playing a sound, changing a scene, spawning
-        objects, plus more! Let\u2019s add an <b>On Clicked</b> event for each button
-        within the <b>ThemesBar</b> GameObject that reflects its respective theme."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select and expand the <b>ThemeProvider</b>
-        GameObject and then select the <b>ThemesBar</b> GameObject.\n\n<b>2.</b>
-        Expand the <b>ThemesBar</b> GameObject, and then expand <b>Buttons</b>.\n\n<b>3.</b>
-        Select the <b>DefaultTheme</b> button.\n\n<b>4.</b> In the <b>Inspector</b>,
-        navigate to the <b>Pressable Button</b> component.\n\n<b>5.</b> Within the
-        <b>On Clicked</b> property, select the <b>+</b> to create a new event.\n\n<b>6.</b>In
-        the <b>Hierarchy</b>, drag the <b>ThemeProvider</b> object and then drop
-        it in the <b>Inspector > Pressable Button > On Clicked > \u201CNone (Object)\u201D</b>
-        field.\n\n<b>7.</b> In the <b>On Clicked</b> event, select the function drop-down
-        (it currently shows \u201CNo Function\u201D) and then select  <b>ThemeSelector
-        > SetTheme(int)</b>.\n\n<b>8.</b> In the new event, enter <b>0</b> into the
-        empty field created for the integer.\n\n<b>9.</b> Repeat steps 3 through
-        9 above for the remaining  buttons in the <b>ThemesBar</b> GameObject. Each
-        integer should be increased by one."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 0
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 1
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Try it Out
-    Text:
-      m_Untranslated: Now that the four themes are configured with their respective
-        buttons, when you enter Play mode, you can switch between the themes by selecting
-        the buttons in the <b>ThemesBar</b>.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: "<b>1.</b> Select Play to enter Play Mode.\n\n<b>2.</b> Using
-        input simulation, click each button to change the theme of the UX controls.
-        Note that in order to click a button, you must move the simulated hand *in
-        front* of the button\u2014in other words, the hand must be far enough towards
-        you that none of the cubes in the hand are hidden behind the buttons. Once
-        this has been done, move the hand so that its index finger cursor is over
-        the button, and then move the hand towards the button so that the finger
-        \u201Cpushes\u201D the button.\n\nIf you need more input simulation reminders,
-        the instructions are <a href=\"https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref\">available
-        on the MRTK3 documentation website</a>and are also contained in a text file
-        in the Project > Assets > Tutorials folder--the file name is \"Input Simulation
-        Quick Reference.txt.\"\n\n<b>3.</b> After you finish, press <b>Play</b> to
-        exit Play Mode."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 5921830025535952429, guid: 9f62ce806ad95894a8ec5ae36ab3aec4, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 33e4e475f012755478b41ed391099119, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Summary
-    Text:
-      m_Untranslated: "In this tutorial, you learned how to create theme profiles
-        and a stylesheet that can be used to dynamically modify MRTK UX components.
-        Whether you want to give users the ability to change themes in-app or you\u2019re
-        in need of a quick way to set a theme across all MRTK UX components, theming
-        provides an approachable solution."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  m_ActiveContainer: {fileID: 11400000, guid: f704ff3a95d76394086988b5bd7bee45, type: 2}
-  m_TutorialProjects: []
-  m_VisibleContainers:
-  - {fileID: 11400000, guid: f704ff3a95d76394086988b5bd7bee45, type: 2}
-  m_ChildContainers: []
-  m_MaskingEnabled: 1
-  m_FarthestPageCompleted: -1
-  m_PlayModeChanging: 0
+    x: 1197.6
+    y: 0
+    width: 404
+    height: 1058.8
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1326,38 +338,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TutorialWindow
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 1309.6
-    y: 73.6
-    width: 410.80005
-    height: 671.8
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 157
-    m_ControlHash: 1412526313
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
+    x: 1601.6
+    y: 0
+    width: 446.40002
+    height: 1058.8
+  m_MinSize: {x: 301, y: 321}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1366,39 +363,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 766.4
-    width: 1575
-    height: 297.00006
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+  m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
@@ -1406,10 +375,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 273.6
-    y: 73.6
-    width: 1034
-    height: 671.8
+    x: -1444.8
+    y: 734.4
+    width: 592.39996
+    height: 377.00006
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1420,7 +389,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1034, y: 650.8}
+  m_TargetSize: {x: 740.49994, y: 445.00006}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1435,10 +404,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -413.6
-    m_HBaseRangeMax: 413.6
-    m_VBaseRangeMin: -260.32
-    m_VBaseRangeMax: 260.32
+    m_HBaseRangeMin: -296.19998
+    m_HBaseRangeMax: 296.19998
+    m_VBaseRangeMin: -178.00003
+    m_VBaseRangeMax: 178.00003
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1456,29 +425,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1034
-      height: 650.8
+      width: 592.39996
+      height: 356.00006
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 517, y: 325.4}
+    m_Translation: {x: 296.19998, y: 178.00003}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -517
-      y: -325.4
-      width: 1034
-      height: 650.8
+      x: -296.19998
+      y: -178.00003
+      width: 592.39996
+      height: 356.00006
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1292.5, y: 839.75}
+  m_LastWindowPixelSize: {x: 740.49994, y: 471.25006}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1498,10 +467,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -2048
     y: 73.6
-    width: 272.6
-    height: 671.8
+    width: 287
+    height: 639.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1509,173 +478,33 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d8710000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7a5cfaffae5efaffc65efaff326bfaffe86dfaff006efaffdcfcfaffe0fcfaff02fdfaff2e00fbff2c07fbff4407fbffb47cfcffc07ffcff4090fcff5890fcff1cd4fcff38d8fcff50d8fcff96e1fcff2ee8fcff46e8fcff7cc6fdff82c6fdff90c6fdffc8c6fdffba3cfeffc03cfeffce3cfeff063dfeff2a3dfeff303dfeff3e3dfeff763dfeff9a3dfeffa03dfeffae3dfeffe63dfeff0a3efeff103efeff1e3efeff563efeff623efeff4041feffd643feff7847feff9047feff8a4afeffe04dfefff84dfeff4ce8ffff50e8ffff72e8ffffc0ebffff6ceeffff3cf1ffff76f5ffff2efbffff508d00002e9b0000
+      m_ExpandedIDs: 1ea3f4fff4a4f4ff42c6f4ffb4d5f4ffd0f2f4ff3e0ef5ff0610f5ff282cf5fff837f5ff265bf5ff4669f5ff5e6ef5ff1670f5ff7076f5ff3278f5ff4a78f5ff047af5ff007ef5ff36aff5ff60b2f5ff78b2f5ffdcb4f5ff46b7f5ff5eb7f5ff96e6f5ff2cfcf5ff44fcf5ff3001f6ffb603f6ffce03f6ff7806f6ff1209f6ff2a09f6ff360df6ffa00ff6ffb80ff6ffe813f6ff9a1ff6ff3621f6ff4e21f6ff0a26f6ff8627f6ff9e27f6ff6e32f6ffc633f6ffde33f6ff4a68f6ff9669f6ffae69f6ff428cf6ff9694f6ffae94f6ffe690f7ff1a95f7ff9497f7ffac97f7ff52d1f7ff54d1f7fff4e3f7ff0ce4f7ffae4ef8ffb44ef8ffc24ef8fffa4ef8ff124ff8ff6a63f8ffe47cf8ff2c7ff8ff447ff8ffc696f8ff3e9af8ff569af8ff02a7f8ff9aa9f8fff4abf8ff4caef8ff64aef8ffaa69f9ffb069f9ffbe69f9fff669f9ff208ef9ff36a0f9ffcaa2f9ffe2a2f9ffd2b1f9ff1ab4f9ff32b4f9ff7abef9ffc6c1f9ffdec1f9ff7ec3f9ff56c6f9ff6ec6f9ff3ac8f9ff7ad1f9ff16d3f9ff2ed3f9ff3c3efaff6041faff4044faff5844faff3a72faffb673faffce73faffe476faffe478fafffc78faff5c82faffe483fafffc83faffe899faff349bfaff4c9bfaffd69dfaff32a0faff4aa0faff82a2fafff6a3faff0ea4faff367cfbff9e7dfbffb67dfbffee81fbff4683fbff5e83fbff4e8cfbff7868fcffec6dfcffb06ffcff4472fcfffc73fcff7e80fcffd0dafcff7e4ffdffd85dfdffb85ffdff4264fdff188ffdff949efdff66a1fdffb6b7fdff50cbfdffb6cefdff68d3fdff70dffdffc4e5fdffb4edfdff4cf1fdfffef4fdffe4fbfdffe604feffe40dfeffec1cfeffce24feffd63dfeffae42feffec52feff6c78feffacf2feff76f5feffccf8feff54fafeff26fdfeffcc06ffffae0effffe015ffff3218ffffd41affff861effffda1effff761fffffd8f5ffff2cf6ffffcef6ffff2efbffff4c97000064970000249800003c9800008a9f00008e9f00009a9f0000c09f000012a500002aa50000e0a60000fca600003aaa00003eaa00004eaa00006caa000088aa0000fcad000010ae00004aae000058b000006ab0000078b000008eb0000002b2000018b2000054b2000080b4000084b4000094b40000a6b40000d4b4000022b6000038b6000074b60000deb80000f6b9000040bb00000cbf000028bf0000bac1000058c6000072c60000acd10000cad10000e6d100005ad700005eda00007ada0000b0dc0000b4dc0000c8dc0000e0dc0000f8dc0000f8f1000010f200007c7101008c710100aa7101006c7a01009a7a0100a682010074840100a884010072920100a692010008960100f4a40100f8a401000aa5010020a5010036a501003caa010056aa0100ecdb0100dafc010034080200f80b02003c0d0200a210020026130200b61502008a1802003a1f02002c26020030260200422602006e2602009a2a0200a22d0200962f0200ce2f0200ca3002000a3102003831020050320200663302006a3302007e330200963302000c380200603a02006a3a02007e3a0200963a0200ac3a0200743c0200783c02008c3c0200ae3c0200ca3c0200c8430200ce430200e4430200fc4302002e44020034470200384702004c4702006e470200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Tube Coral - Front
+        m_OriginalName: Tube Coral - Front
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 145372
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 12}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 93254a04273e61748ab0acf4cc922095
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 766.4
-    width: 1721.4
-    height: 297.00006
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 0
-    m_Folders:
-    - Assets/Scenes
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 16
-  m_LastFolders:
-  - Assets/Scenes
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\apspeigh\Downloads\MRTK3-April\MRTK3-April\MRTK3-Vinnie
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 62.178894}
-    m_SelectedIDs: 74720000
-    m_LastClickedID: 29300
-    m_ExpandedIDs: 00000000ea710000ec7100007e720000a27200003e7d000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 112}
-    m_SelectedIDs: a0730000
-    m_LastClickedID: 29600
-    m_ExpandedIDs: 00000000ea710000ec710000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000046710000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: Button
-      m_OriginalName: Button
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 31632
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 0
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 6}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 16
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 412
---- !u!114 &19
+  m_WindowGUID: 7d368d910853db446a3ebd56490a5822
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1695,10 +524,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 273.6
+    x: -1760
     y: 73.6
-    width: 1034
-    height: 671.8
+    width: 907.6
+    height: 639.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1752,7 +581,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -1890,7 +719,7 @@ MonoBehaviour:
       id: Scene View/Particles
       index: 10
       layout: 4
-  m_WindowGUID: fe7aee55c9eeee945802205d4cff8172
+  m_WindowGUID: 4d6ec1281d50c1d42a28fd43bd7e8a14
   m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -1900,9 +729,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.04070718, y: -0.057756968, z: 1.1996615}
+    m_Target: {x: 0.051680844, y: 0.078340985, z: 0.32215613}
     speed: 2
-    m_Value: {x: -0.04070718, y: -0.057756968, z: 1.1996615}
+    m_Value: {x: 0.051680844, y: 0.078340985, z: 0.32215613}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1919,7 +748,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 0
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -1928,7 +757,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -1949,13 +778,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.07921918, y: -0.070219174, z: 0.0055941897, w: 0.9943668}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.07921906, y: -0.07021906, z: 0.005594181, w: 0.9943653}
   m_Size:
-    m_Target: 0.8583809
+    m_Target: 0.089252844
     speed: 2
-    m_Value: 0.8583809
+    m_Value: 0.089252844
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1973,10 +802,1055 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 404
+    y: 73.6
+    width: 1227.6
+    height: 590.2
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.98065245
+      e01: 0
+      e02: 0
+      e03: 11.943054
+      e10: 0
+      e11: 0.98065245
+      e12: 0
+      e13: -28.552704
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -2048
+    y: 734.4
+    width: 602.2
+    height: 377.00006
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 0
+    m_Folders:
+    - Assets/Tutorials
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Tutorials
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\apspeigh\Desktop\Unity\MRTK3-IET\iet-improvement\IET-environment
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 52700000
+    m_LastClickedID: 28754
+    m_ExpandedIDs: 000000003c7000003e700000407000004270000046700000487000004a7000004c7000004e7000005070000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: CanvasButton
+      m_OriginalName: CanvasButton
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 28844
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000003c7000003e7000004070000046700000487000004a7000004c7000004e70000050700000a070000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300008e71000000000000baa80000466c000002c50000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: PreviewScenes
+      m_OriginalName: PreviewScenes
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 39532
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 296.2
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 704.8
+    width: 534.2
+    height: 358.60004
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -850.4
+    y: 73.6
+    width: 402
+    height: 1037.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 262
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 162
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 300}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tutorials
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -446.40002
+    y: 73.6
+    width: 445.40002
+    height: 1037.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_AllParagraphs:
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Bounds Control
+    Text:
+      m_Untranslated: "The <b>BoundsControl</b> script provides an automatically-sized
+        bounding box, along with manipulation affordances for rotation and scale.
+        In this tutorial, you'll explore the properties of <b>BoundsControl</b> as
+        you add the script to objects that can be manipulated in the aquarium.\n\n<b>Learning
+        Objectives</b>:\n\n\u2022 Add the BoundsControl component to a GameObject\n\u2022
+        Assign a Bounds Visuals Prefab\n\u2022 Limit enabled handles\n\nLet's get
+        started!\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Introduction
+    Text:
+      m_Untranslated: "Woah - our aquarium is a mess! We\u2019ll need to clean up
+        and arrange the objects in the tank so that our sea animal has a nicely arranged
+        living environment!\n\nWe demonstrate in the <b>Object Manipulator</b> tutorial
+        that you can use the <b>ObjectManipulator</b> script to move, scale, and
+        rotate an object. Used by itself, <b>Object Manipulator</b> does not provide
+        a visual cue to indicate whether an object can be manipulated or to indicate
+        that an object has been selected. Since we have a lot of objects in the aquarium
+        to arrange, it\u2019ll be helpful to have a visual cue display as we select
+        objects to manipulate to ensure that we\u2019re selecting our intended object.\n\n<b>Bounds
+        Control</b> provides us with the visual cue we\u2019ll need! For this tutorial,
+        we\u2019ll pair the two scripts together to provide an enhanced manipulation
+        experience for arranging the objects in the aquarium.\n\n<b>Note</b>: Throughout
+        this tutorial, you\u2019ll be prompted to enter Play Mode to try out a scene.
+        In the <i>Preview Scenes</i> module, we share several options for trying
+        scenes. Refer to the input controls for your preferred method when trying
+        the scenes for this tutorial.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "Familiarize yourself with the objects in the <b>Hierarchy</b>.
+        We\u2019ll refer to some of the parent and child objects throughout the tutorial."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Manipulating Objects with ObjectManipulator
+    Text:
+      m_Untranslated: "Currently, all the objects in the aquarium are configured
+        with the <b>Object Manipulator</b> component. <b>ObjectManipulator</b> enables
+        you to move, scale, and rotate an object. We\u2019ve restricted the scaling
+        manipulation for the objects, however, you\u2019re able to move and rotate
+        the objects.\n\nIf you\u2019re unfamiliar with <b>ObjectManipulator</b>,
+        we encourage you to review the Object Manipulator tutorial after you complete
+        this module. However, what\u2019s important to know for now is that without
+        this script, we would not be able to move or rotate the objects with our
+        preferred input.\n\nLet\u2019s try arranging some of the objects in the scene
+        now!\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Use your preferred input method to move and/or rotate the objects in the
+        aquarium. \n\n<b>3.</b> Once complete, press <b>Play</b> to exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Add the BoundsControl Component
+    Text:
+      m_Untranslated: 'Adding the <b>BoundsControl</b> script as a component to a
+        GameObject adds an automatically-sized bounding box around the object. An
+        <b>interactable</b> must be on the object to use the bounds visual intention
+        and focus effects. If the <b>interactable</b> isn''t automatically detected,
+        you can specify the connection in the <b>Interactable Connection</b> properties
+        for the <b>BoundsControl</b> script component.
+
+
+        We recommend developers
+        use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>. <b>Object Manipulator</b>
+        can serve as the <b>interactable</b> for hover/focus states that the bounds
+        visuals respond to.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b> expand <b>Aquarium</b> and
+        select the <b>Coral</b>.
+
+
+        <b>2.</b> In the <b>Inspector</b>, add
+        the <b>BoundsControl</b> script as a component.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Add a Bounds Visuals Prefab
+    Text:
+      m_Untranslated: "A <b>Bounds Visuals Prefab</b> provides visuals for the bounds
+        that surround the bounding box. We provide a few pre-built bounds visuals
+        for you to use. However, you could create and use your own prefab as well!
+        We encourage you to make prefab variants of the visuals we provide and customize
+        them to fit your needs. We also recommend using a handle occlusion style
+        in which only the relevant handles along the edges of the bounds are visible.
+        This provides less visual distraction for the user.\n\nWe\u2019ll start by
+        assigning the <b>BoundingBoxWithHandles</b> prefab. The <b>BoundingBoxWithHandles</b>
+        prefab includes both a bounding box and handles which align the edges of
+        the object. The side handles are used for rotating, and the corner handles
+        are for scaling. The handles are activated by selecting (pinch or click)
+        the object. Likewise, the handles can be deactivated by selecting the object
+        once more. A select is performed with a brief click or pinch of the object.\n\nLet\u2019s
+        now add a visual for the bounds!\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
+        GameObject.
+
+
+        <b>2.</b> In the <b>Inspector</b>, navigate to the
+        <b>BoundsControl</b> component.
+
+
+        <b>3.</b>Within the <b>Bounds</b>
+        properties, select the circle icon for <b>Bounds Visuals Prefab</b>.
+
+
+        <b>4.</b>
+        Search for <b>BoundingBoxWithHandles</b> and assign the prefab.
+
+
+        <b>Note</b>:
+        In the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
+        tab and untoggle the hidden packages by clicking the slashed eye icon on
+        the right.
+
+'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Try it Out
+    Text:
+      m_Untranslated: Now that <b>BoundsControl</b> has been added as a component
+        for the <b>Coral</b> and the <b>BoundingBoxWithHandles</b> prefab has been
+        assigned for the <b>Bounds Visual Prefab</b>, a bounding box with handles
+        will display surrounding the Coral when the object is touched. Enter Play
+        Mode to view the bounding box surrounding the <b>Coral</b>.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Notice that a bounding box with handles surrounds the <b>Coral</b>. Use your
+        preferred input method to move the <b>Coral</b>.\n\n<b>3.</b>. Let\u2019s
+        activate the handles on the bounding box. Select the <b>Coral</b> to activate
+        the handles. As a reminder, selecting can be performed with a brief click
+        or pinch of the object.\n\n<b>4.</b> Now that the handles are activated,
+        grab one of the rotate handles (along the side edges of the <b>Coral</b>)
+        to rotate the <b>Coral</b>. Regardless of which rotate handle you select,
+        you\u2019re able to rotate the <b>Coral</b> in it\u2019s place.\n\n<b>6.</b>
+        Next, select one of the scale handles (corner handle) to scale the <b>Coral</b>.
+        You can scale the object to be as large or small as you prefer.\n\n<b>7.</b>
+        Once complete, press <b>Play</b> to exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Enabled Handles
+    Text:
+      m_Untranslated: "You may recall that at the beginning of the tutorial, we mentioned
+        that the scaling manipulation was disabled for the objects in the scene.
+        However, you may have noticed that you were still able to scale the <b>Coral</b>
+        by using the scale handles from the <b>Bounds Control</b>.\n\nWhat has happened
+        is that the <b>Bounds Control</b> properties have overridden the <b>Object
+        Manipulation</b> properties. Although scaling is disabled on the <b>ObjectManipulator</b>
+        component, the handles included on the <b>Bounds Visuals Prefab</b> still
+        enables scaling assuming the scaling handles are active.\n\nYou can select
+        which handles to make active by modifying the <b>Enabled Handles</b> property.\n\nLet\u2019s
+        limit <b>Bounds Control</b> to only display the <b>Rotate</b> handles.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
+        GameObject.
+
+
+        <b>2.</b> In the <b>Inspector</b>, navigate to the
+        <b>BoundsControl</b> component.
+
+
+        <b>3.</b> Within the <b>Manipulation</b>
+        properties, select the <b>Enabled Handles</b> drop-down and select <b>None</b>
+        followed by <b>Rotation</b>.
+
+'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Try it Out
+    Text:
+      m_Untranslated: Now that <b>Rotation</b> is the only enabled handled for the
+        <b>Coral</b>, the scale handles will no longer be visible on the bounding
+        box. Enter Play Mode to view both the visual and functional difference that
+        has been made.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Activate the handles by selecting (quick select or pinch) the <b>Coral</b>.\n\n<b>3.</b>
+        Notice that a bounding box with handles still surrounds the <b>Coral</b>,
+        however, all scale handles are now gone and only the rotate handles remain.\n\n<b>4.</b>
+        Next, select one of the rotate handles and rotate the <b>Coral</b>.\n\n<b>5.</b>
+        Now try to scale the cube without the handles. Since the scale handles are
+        no longer active, you\u2019re unable to scale the cube given the scale restriction
+        set on the ObjectManipulator component.\n\n<b>6.</b> Once complete, press
+        <b>Play</b> to exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Practice
+    Text:
+      m_Untranslated: "It\u2019s now time to practice what you\u2019ve learned in
+        this tutorial! The aquarium needs to be cleaned up and rearranged in preparation
+        for adding our sea animal back into its home. Using what you\u2019ve learned,
+        add <b>Bounds Control</b> to each object in the scene so that you\u2019re
+        provided with a visual affordance for manipulating the aquarium objects and
+        place the objects where you prefer. Although you could freely manipulate
+        objects without Bounds Control, including a visual affordance not only provides
+        a visual cue for what\u2019s been selected but the handles also provide fine-tuned
+        rotation.\n\nWe recommend that you restrict the <b>Bounds Control</b> handles
+        to only <b>Rotation</b>. You\u2019ll have a chance to scale the objects to
+        create a more customized look and feel in the <i>Canvas Button Bar</i> tutorial.\n\nWe
+        encourage you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
+        Control</a> documentation for more guidance on how to configure the <b>BoundsControl</b>
+        script.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "Consider the following scenarios as you practice using Bounds
+        Control:\n\n\u2022 Add a bounding box without handles to an object (hint:
+        we provide a <b>BoundingBox</b> prefab which doesn\u2019t include handles)\n\u2022
+        Create a thicker padding for the bounds\n\u2022 Change the <b>Rotate Anchor</b>
+        to rotate at the object\u2019s origin\n\nOnce you\u2019re done, be sure to
+        exit Play Mode."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Summary
+    Text:
+      m_Untranslated: "In this tutorial, you learned how to add a bounding box to
+        a GameObject using the <b>BoundsControl</b> script. You can further modify
+        the properties to customize the look and behavior of the bounds. Manipulation
+        events can be added as well. \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
+        Control</a> documentation for additional guidance on how to configure the
+        script."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
+        You will be prompted to save the scene. Saving the scene will save the current
+        scene and the configurations you\u2019ve made during the tutorial. If you\u2019d
+        like to try the tutorial again, <b>do not</b> save the scene when prompted."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  m_ActiveContainer: {fileID: 11400000, guid: 62ff1329b9a98024d899842e911183b5, type: 2}
+  m_TutorialProjects: []
+  m_VisibleContainers:
+  - {fileID: 11400000, guid: 62ff1329b9a98024d899842e911183b5, type: 2}
+  m_ChildContainers: []
+  m_MaskingEnabled: 1
+  m_FarthestPageCompleted: -1
+  m_PlayModeChanging: 0
