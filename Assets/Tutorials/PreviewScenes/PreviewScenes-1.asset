@@ -64,17 +64,18 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Using your mouse, press the <b>Hide</b>button to toggle the visibility
-          of the <b>Treasure Chest</b>. The <b>Treasure Chest</b> will no longer
+          of the <b>Treasure Chest</b> (the button is located to the right of the
+          chest and has a blue border). The <b>Treasure Chest</b> will no longer
           be visible. You can press the <b>Hide</b> button once more to turn on the
           object\u2019s visibility.\n\n<b>3.</b> Using your mouse, select the <b>Treasure
           Chest</b> in the scene to grab and move. The chest should attach to the
-          cursor and move with the cursor until it is released.\n\n<b>4.</b>Bounding
-          box handles become active if you select (a brief click) the object. The
-          bounding box handles provide fine-tune manipulation such as rotation and
-          scaling. To rotate or scale, grab a handle and drag with your mouse. Scaling
-          with a mouse-based interaction is only possible if a bounding box handle
-          is available. \n\nFeel free to grab and scale the other objects in the
-          aquarium tank. \n\n<b>Note</b>: The <b>Treasure Chest</b> and <b>Boat</b>
+          cursor and move with the cursor until it's released.\n\n<b>4.</b>Bounding
+          box handles become active if you select the object with a brief click.
+          The bounding box handles provide fine-tune manipulation such as rotation
+          and scaling. To rotate or scale, grab a handle and drag with your mouse.
+          Scaling with a mouse-based interaction is only possible if a bounding box
+          handle is available. \n\nFeel free to grab and scale the other objects
+          in the aquarium tank. \n\n<b>Note</b>: The <b>Treasure Chest</b> and <b>Boat</b>
           objects cannot be scaled.\n\n<b>5.</b>Once complete, press <b>Play</b>
           to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}

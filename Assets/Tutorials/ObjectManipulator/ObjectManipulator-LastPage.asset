@@ -62,10 +62,9 @@ MonoBehaviour:
         m_Untranslated: <u>Instructions</u>
       Text:
         m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
-          You will be prompted to save the scene. Saving the scene will save the
-          current scene and the configurations you\u2019ve made during the tutorial.
-          If you\u2019d like to try the tutorial again, <b>do not</b> save the scene
-          when prompted."
+          You'll be prompted to save the scene. Saving the scene will save the current
+          scene and the configurations you\u2019ve made during the tutorial. If you\u2019d
+          like to try the tutorial again, <b>do not</b> save the scene when prompted."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

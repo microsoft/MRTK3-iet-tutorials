@@ -68,9 +68,9 @@ MonoBehaviour:
           or pinch of the object.\n\n<b>4.</b> Now that the handles are activated,
           grab one of the rotate handles (along the side edges of the <b>Coral</b>)
           to rotate the <b>Coral</b>. Regardless of which rotate handle you select,
-          you\u2019re able to rotate the <b>Coral</b> in it\u2019s place.\n\n<b>6.</b>
+          you\u2019re able to rotate the <b>Coral</b> in its place.\n\n<b>5.</b>
           Next, select one of the scale handles (corner handle) to scale the <b>Coral</b>.
-          You can scale the object to be as large or small as you prefer.\n\n<b>7.</b>
+          You can scale the object to be as large or small as you prefer.\n\n<b>6.</b>
           Once complete, press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

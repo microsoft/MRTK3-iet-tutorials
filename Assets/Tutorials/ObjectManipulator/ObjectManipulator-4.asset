@@ -38,11 +38,10 @@ MonoBehaviour:
         m_Untranslated: Object Manipulator Properties
       Text:
         m_Untranslated: "You can modify the properties for the <b>Object Manipulator</b>
-          directly in the Unity editor. There\u2019s a variety of properties to configure
-          which control how manipulations occur as well as the option to add events
-          for the start and end of a manipulation.\n\nLet\u2019s dive deeper into
-          the following properties:\n\n\u2022 Allowed Manipulations\n\u2022 Allowed
-          Interaction Types\n"
+          directly in the Unity editor. By configuring certain properties, you can
+          control how manipulations occur and add events for the start and end of
+          a manipulation.\n\nLet\u2019s dive deeper into the following properties:\n\n\u2022
+          Allowed Manipulations\n\u2022 Allowed Interaction Types\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

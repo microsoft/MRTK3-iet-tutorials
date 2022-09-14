@@ -42,7 +42,7 @@ MonoBehaviour:
           <b>Action Button</b> prefab has three child GameObjects which make up the
           configuration of the button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022
           Frontplate\n\nWithin both the <b>Backplate</b> and <b>Frontplate</b> are
-          additional child GameObjects for configuration. Although there\u2019s various
+          additional child GameObjects for configuration. Although there are various
           properties to configure, we\u2019ll focus on just a few for this tutorial.
           \n\nCurrently, the <b>Action Button</b> within the <b>CanvasButtonBar_SharedBackPlate</b>
           has a blue backplate and a person icon. We\u2019ll need to complete the
@@ -73,8 +73,8 @@ MonoBehaviour:
           to <b>Coral</b> so that we can differentiate this button from the other
           <b>Action Button</b> children. We\u2019ll change the display name in the
           next step.\n\n<b>3.</b> In the <b>Hierarchy</b>, expand the <b>Coral</b>
-          GameObject and navigate to <b>Frontplate > AnimatedContent > Icon</b> and
-          disable the <b>UIButtonFontIcon</b>.\n\n<b>3.</b> In the <b>Hierarchy</b>,
+          GameObject, then navigate to <b>Frontplate > AnimatedContent > Icon</b>,
+          and then disable the <b>UIButtonFontIcon</b>.\n\n<b>3.</b> In the <b>Hierarchy</b>,
           expand the <b>Coral</b> GameObject and navigate to <b>Frontplate > AnimatedContent
           > Icon > Label</b>.\n\n<b>4.</b> In the <b>Inspector</b>, navigate to the
           <b>TextMeshPro \u2013 Text</b> component.\n\n<b>5.</b> In the <b>Text Input</b>

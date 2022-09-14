@@ -39,14 +39,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: 'Adding the <b>BoundsControl</b> script as a component to
           a GameObject adds an automatically-sized bounding box around the object.
-          An <b>interactable</b> must be on the object to use the bounds visual intention
-          and focus effects. If the <b>interactable</b> isn''t automatically detected,
-          you can specify the connection in the <b>Interactable Connection</b> properties
-          for the <b>BoundsControl</b> script component.
+          An <b>interactable</b> must be on the object in order to use the bounds
+          visual intention and focus effects. If the <b>interactable</b> isn''t automatically
+          detected, you can specify the connection in the <b>Interactable Connection</b>
+          properties for the <b>BoundsControl</b> script component.
 
 
-          We recommend
-          developers use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>.
+          We
+          recommend that developers use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>.
           <b>Object Manipulator</b> can serve as the <b>interactable</b> for hover/focus
           states that the bounds visuals respond to.'
       m_Tutorial: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b> expand <b>Aquarium</b>
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, expand <b>Aquarium</b>
           and select the <b>Coral</b>.
 
 

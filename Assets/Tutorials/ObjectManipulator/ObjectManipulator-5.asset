@@ -37,30 +37,30 @@ MonoBehaviour:
       Title:
         m_Untranslated: Allowed Manipulations
       Text:
-        m_Untranslated: "If you recall, <b>Object Manipulator</b> enables 3 types
+        m_Untranslated: "As a reminder, <b>Object Manipulator</b> enables three types
           of manipulations: move, rotate, and scale. You can limit the type of manipulation
           with the <b>Allowed Manipulations</b> property. Each manipulation type
-          refers to a change in the object\u2019s <b>Transform</b> property. By default,
-          the <b>Object Manipulator</b> enables all 3 types of manipulation.\n\n<b>Move</b>
+          refers to a change in the object\u2019s <b>Transform</b> component. By
+          default, the <b>Object Manipulator</b> enables all three types of manipulation.\n\n<b>Move</b>
           enables you to change the position of an object. Whether you pick up an
           object by hand, with a controller, or another configured input modality
           (such as eye-gaze), the position of the object can be changed.\n\n<b>Rotate</b>
-          enables you to change the rotation of an object. There\u2019s both a <b>Rotation
-          Anchor Near</b> and <b>Rotation Anchor Far</b> property which further define
-          whether the object rotates at the <b>Grab Point</b> (where the object is
-          grabbed) or <b>Object Center</b> (center of the object).\n\n<b>Scale</b>
+          enables you to change the rotation of an object. There are <b>Rotation
+          Anchor Near</b> and <b>Rotation Anchor Far</b> properties which further
+          define whether the object rotates at the <b>Grab Point</b> (where the object
+          is grabbed) or <b>Object Center</b> (center of the object).\n\n<b>Scale</b>
           enables you to scale an object. You can infinitely scale an object to either
-          be larger or smaller than its original size. \n\nHowever, what happens
-          if you want to constrain how an object can be manipulated? Suppose you
-          want to limit how large or small an object can be scaled. Or maybe you
-          want to ensure that an object always faces the user despite its rotation.
-          You can do so by leveraging the <b>Constraint Manager</b>. The <b>Constraint
-          Manager</b> allows you to apply a set of constraint components to a transform.
-          For example, you could limit the scaling of an object with the <b>MinMaxScaleConstraint</b>
-          which enables you to set both a <b>Minimum</b> and <b>Maximum</b> scale
-          value.\n\nLet\u2019s apply what you\u2019ve learned about the <b>Allowed
-          Manipulations</b> property and modify the manipulation for the <b>Treasure
-          Chest</b> to limit manipulation to only <b>Move</b>."
+          be larger or smaller than its original size. \n\nWhat happens if you want
+          to constrain how an object can be manipulated? Suppose you want to limit
+          how large or small an object can be scaled. Or maybe you want to ensure
+          that an object always faces the user despite its rotation. You can do so
+          by leveraging the <b>Constraint Manager</b>, which allows you to apply
+          a set of constraint components to a transform. For example, you could limit
+          the scaling of an object with the <b>MinMaxScaleConstraint</b> which enables
+          you to set both a <b>Minimum</b> and <b>Maximum</b> scale value.\n\nLet\u2019s
+          apply what you\u2019ve learned about the <b>Allowed Manipulations</b> property
+          and modify the manipulation for the <b>Treasure Chest</b> to limit manipulation
+          to only <b>Move</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -79,7 +79,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b> select the <b>Treasure
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Treasure
           Chest</b>.
 
 

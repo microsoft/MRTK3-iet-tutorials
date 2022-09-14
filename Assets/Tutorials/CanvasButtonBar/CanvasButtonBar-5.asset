@@ -61,9 +61,9 @@ MonoBehaviour:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Press the <b>Coral</b> button on the <b>Aquarium Objects Bar</b> to spawn
           a <b>Coral</b> into the aquarium tank.\n\n<b>3.</b> Grab the <b>Coral</b>
-          and move the object to a new position in the tank. As a reminder, you can
-          move, rotate, and scale the spawned objects. There\u2019s a constraint
-          on how large or small the objects will scale. Also, if you select the object
+          and move it to a new position in the tank. As a reminder, you can move,
+          rotate, and scale the spawned objects. There\u2019s a constraint on how
+          large or small you can scale the objects. Also, if you select the object
           (quick pinch/click), the bounding box handles will appear.\n\n<b>Note</b>:
           For mouse-based and MRTK Input Simulation interaction, you can only scale
           and rotate the objects using the bounding box handles.\n\n<b>4.</b> Press

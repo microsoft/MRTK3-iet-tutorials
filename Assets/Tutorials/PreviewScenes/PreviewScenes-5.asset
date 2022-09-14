@@ -39,9 +39,9 @@ MonoBehaviour:
       Text:
         m_Untranslated: "With Oculus Link, you can connect your Meta Quest to a PC
           and view the scene directly in the headset while in Play Mode. Controller
-          interactions should be full parity over Oculus Link. Please note that some
-          hand interactions are still being developed for Quest, and your results
-          may vary. \n\nFor further instructions, visit <a href=\"https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link\">Oculus
+          interactions should be full parity over Oculus Link. Note that some hand
+          interactions are still being developed for Quest, and your results may
+          vary. \n\nFor further instructions, visit <a href=\"https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link\">Oculus
           Link</a>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
@@ -65,12 +65,13 @@ MonoBehaviour:
           Meta Quest/Meta Quest 2 device are configured for rendering the project.\n\n<b>1.</b>
           Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Using your hands or
           controller, select the <b> Hide</b> button to toggle the visibility of
-          the <b>Treasure Chest</b>. The <b>Treasure Chest</b> will no longer be
-          visible. You can select the <b>Hide</b> button once more to turn on the
-          object\u2019s visibility.\n\n<b>3.</b> Using your hand or controller, grab
-          and move the <b>Treasure Chest</b>. If using hands, grab the <b>Treasure
-          Chest</b> by performing a pinch gesture with your fingers. If using a controller,
-          you can select the object with the Grip button. \n\nThe <b>Treasure Chest</b>
+          the <b>Treasure Chest</b>  (the button is located to the right of the chest
+          and has a blue border). The <b>Treasure Chest</b> will no longer be visible.
+          You can select the <b>Hide</b> button once more to turn on the object\u2019s
+          visibility.\n\n<b>3.</b> Using your hand or controller, grab and move the
+          <b>Treasure Chest</b>. If using hands, grab the <b>Treasure Chest</b> by
+          performing a pinch gesture with your fingers. If using a controller, you
+          can select the object with the Grip button. \n\nThe <b>Treasure Chest</b>
           can be grabbed at either a far or near distance. If you grab the <b>Treasure
           Chest</b> from a far distance, a ray appears with a recticle (circular
           icon) that attaches to the object. If you grab the <b>Treasure Chest</b>

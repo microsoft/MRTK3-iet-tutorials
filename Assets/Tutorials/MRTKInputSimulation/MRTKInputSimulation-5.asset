@@ -80,7 +80,7 @@ MonoBehaviour:
           grabbing an object from a near distance, we can either move the camera
           closer to the object <i>or</i> change the depth of the hand. Let's change
           camera's distance to the Treasure Chest.</b> \n\n<b>1.</b> Press the <b>W</b>
-          key to move closrer to the <b>Treasure Chest</b>.\n\n<b>2.</b> Press and
+          key to move closer to the <b>Treasure Chest</b>.\n\n<b>2.</b> Press and
           hold the <b>Left Ctrl</b> key and move the mouse to position the recticle
           to make contact with the <b>Treasure Chest</b>. When the hand has made
           contact with the <b>Treasure Chest</b> at a near distance, the recticle

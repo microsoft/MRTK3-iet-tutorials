@@ -74,10 +74,10 @@ MonoBehaviour:
           In the middle of the aquarium is a <b>Treasure Chest</b>. Try to grab and
           move the <b>Treasure Chest</b> to a new spot in the aquarium.\n\n<b>3.</b>
           Since the <b>Treasure Chest</b> is not configured for manipulation, the
-          object remains static in its place and cannot be moved. In fact, none of
-          the objects (including the aquarium tank itself) can be moved! We\u2019ll
-          add manipulation in the next step of the tutorial. Before you proceed,
-          press <b>Play</b> to exit Play Mode and continue.\n"
+          object remains stuck in place. In fact, none of the objects (including
+          the aquarium tank itself) can be moved! We\u2019ll add manipulation in
+          the next step of the tutorial. Before you proceed, press <b>Play</b> to
+          exit Play Mode and continue.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

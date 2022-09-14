@@ -38,7 +38,7 @@ MonoBehaviour:
         m_Untranslated: OpenXR
       Text:
         m_Untranslated: "Many popular PC VR platforms now support OpenXR, including
-          Windows Mixed Reality, SteamVR, and Oculus Rift on PC. Visit the respective
+          Windows Mixed Reality, SteamVR, and Oculus Rift on PC. Visit the following
           links for each platform for setup instructions.\n\n\u2022 <a href=\"https://docs.microsoft.com/windows/mixed-reality/develop/native/openxr-getting-started\">Windows
           Mixed Reality</a> \n\u2022 <a href=\"https://www.steamvr.com/\">SteamVR</a>
           \n\u2022 <a href=\"https://developer.oculus.com/documentation/native/pc/dg-openxr/\">Ocuclus
@@ -64,16 +64,17 @@ MonoBehaviour:
         m_Untranslated: "Complete the steps below after both your Unity project and
           XR device are configured for rendering the project.\n\n<b>1.</b> Press
           <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Using your controller, select
-          the <b>Hide</b> button to toggle the visibility of the <b>Treasure Chest</b>.
+          the <b>Hide</b> button to toggle the visibility of the <b>Treasure Chest</b> 
+          (the button is located to the right of the chest and has a blue border).
           The <b>Treasure Chest</b> will no longer be visible. You can select the
           <b>Hide</b>button once more to turn on the object\u2019s visibility.\n\n<b>3.</b>
           Using your controller, grab and move the <b>Treasure Chest</b> by selecting
-          the object. The <b>Treasure Chest</b> can be selected at either a far or
-          near distance. If you select the <b>Treasure Chest</b> from a far distance,
-          a ray appears with a recticle (circular icon) that attaches to the object.
-          If you select the <b>Treasure Chest</b> at a near distance, the ray will
-          not appear. The ray does not appear for near interactions.\n\n<b>4.</b>Bounding
-          box handles become active if you select the object. The bounding box handles
+          it. The <b>Treasure Chest</b> can be selected at either a far or near distance.
+          If you select the <b>Treasure Chest</b> from a far distance, a ray appears
+          with a recticle (circular icon) that attaches to the object. If you select
+          the <b>Treasure Chest</b> at a near distance, the ray will not appear.
+          The ray doesn't appear for near interactions.\n\n<b>4.</b>Bounding box
+          handles become active if you select the object. The bounding box handles
           provide fine-tune manipulation such as rotation and scaling. To rotate
           or scale, grab a handle and drag with your controller.\n\nFeel free to
           grab and scale the other objects in the aquarium tank. \n\n<b>Note</b>:

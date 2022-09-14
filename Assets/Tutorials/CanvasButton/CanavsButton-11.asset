@@ -38,7 +38,7 @@ MonoBehaviour:
         m_Untranslated: Practice
       Text:
         m_Untranslated: "It\u2019s now time to practice what you\u2019ve learned
-          in this tutorial! You can configure the canvas button to display different
+          in this tutorial! You can configure the Canvas button to display different
           UI or even assign different toggle events. Feel free to change the toggle
           events that occur when the button is toggled.\n\nAfter you reconfigure
           the button, give the scene a try.\n\nWe encourage you to refer to the <a
@@ -63,9 +63,9 @@ MonoBehaviour:
         m_Untranslated: <u>Instructions</u>
       Text:
         m_Untranslated: "Consider the following scenarios as you practice configuring
-          a canvas button:\n\n\u2022 Change the UI of the button to only display
+          a Canvas button:\n\n\u2022 Change the UI of the button to only display
           the sea animal\u2019s name\n\u2022 Configure an <b>On Clicked</b> event
-          that randomly selections a sea animal to display\n\u2022 Configure a toggle
+          that randomly selects a sea animal to display\n\u2022 Configure a toggle
           event that starts and stops the sea animal\u2019s animation\n\u2022 Use
           a <b>Font Icon</b> instead of a <b>Sprite Icon</b>\n\nOnce you\u2019re
           done, be sure to exit Play Mode.\n"

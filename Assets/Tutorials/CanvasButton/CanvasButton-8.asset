@@ -67,15 +67,27 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: "<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
-          > Action Button</b> and expand the <b>Action Button</b> to view its children
-          GameObjects.\n\n<b>2.</b> In the <b>Project</b> panel, search for the <b>ToggleSwitch</b>
-          prefab and place the prefab as a child of the Backplate GameObject within
-          the Hierarchy. \nBe sure to set the <b>Search</b> to <b>All</b> to search
-          the entire project.\n\n<b>3.</b> In the <b>Hierarchy</b> select the <b>ToggleSwitch</b>.\n\n<b>4.</b>
+        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
+          > Action Button</b> and expand the <b>Action Button</b> to view its child
+          GameObjects.
+
+
+          <b>2.</b> In the <b>Project</b> panel, search
+          for the <b>ToggleSwitch</b> prefab and place the prefab as a child of the
+          Backplate GameObject within the Hierarchy. Be sure to set the <b>Search</b>
+          to <b>All</b> to search the entire project.
+
+
+          <b>3.</b> In the
+          <b>Hierarchy</b>, select the <b>ToggleSwitch</b>.
+
+
+          <b>4.</b>
           Using the <b>Move Tool</b>, use the green Y to move the ToggleSwitch below
           the sea animal icon. The <b>Move Tool</b> is accessible in the <b>Scene</b>
-          window within the <b>Tools</b> bar.\n"
+          window within the <b>Tools</b> bar.
+
+'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

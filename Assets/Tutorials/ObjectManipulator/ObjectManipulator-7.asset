@@ -37,30 +37,30 @@ MonoBehaviour:
       Title:
         m_Untranslated: Allowed Interaction Types
       Text:
-        m_Untranslated: "The method in which you could interact with an object is
-          relatively flexible. By default, the <b>Allowed Interaction Types</b> property
-          enables all types of configured interactions. However, you can limit the
-          type of interaction to either a <b>Near</b>, <b>Ray</b>, <b>Gaze</b>, or
-          <b>Generic</b> interaction.\n\n<b>Near</b> interactions are interactions
-          which occur within a close distance to an object \u2013 such as direct
-          manipulation with hands. \n\n<b>Ray</b> interactions are typically used
-          for far distances. When a ray interaction occurs, a ray extends from a
-          hand or controller thus allowing you to interact with the object in which
-          the ray's recticule (circular icon) touches.\n\n<b>Gaze</b> interactions
-          rely on the position of either your head or eyes. This interaction is often
-          coupled with a commit action such as a voice command or gesture (ex: look
-          at an object and say \u2018Select\u2019).\n\n<b>Generic</b> interactions
-          refer to any type of interaction not previously specified or coded to accommodate.\n\nBe
+        m_Untranslated: "The methods for interacting with an object are relatively
+          flexible. By default, the <b>Allowed Interaction Types</b> property enables
+          all types of configured interactions. However, you can limit the type of
+          interaction to either a <b>Near</b>, <b>Ray</b>, <b>Gaze</b>, or <b>Generic</b>
+          interaction.\n\n<b>Near</b> interactions are interactions which occur within
+          a close distance to an object, such as direct manipulation with hands.
+          \n\n<b>Ray</b> interactions are typically used for far distances. When
+          a ray interaction occurs, a ray extends from a hand or controller. This
+          allows you to  interact with any object the ray's recticule (circular icon)
+          touches.\n\n<b>Gaze</b> interactions rely on the position of either your
+          head or eyes. This interaction is often coupled with a commit action such
+          as a voice command or gesture--for example, you can look at an object and
+          say \u2018Select\u2019.\n\n<b>Generic</b> interactions refer to any type
+          of interaction not previously specified or coded to accommodate.\n\nBe
           mindful that not all XR devices support each interaction type. For example,
-          eye-tracking is a requirement for eye gaze and thus if your device does
-          not support eye-tracking, you wouldn\u2019t be able to leverage eye gaze
-          for interactions. Therefore, consider the limitations of the device before
-          you choose to limit interaction types.\n\nLet\u2019s apply what you\u2019ve
-          learned about <b>Allowed Interaction Types</b> and limit the interaction
-          to only allow a <b>Near</b> interaction with the <b>Treasure Chest</b>.
-          Such a configuration would be appropriate for an app or experience whereas
-          you only want the user to interact with objects that are within hands-reach
-          rather than from across the room."
+          eye-tracking is a requirement for eye gaze, so if your device doesn't 
+          support eye-tracking, you wouldn\u2019t be able to leverage eye gaze for
+          interactions. Consider the limitations of the device before you choose
+          to limit interaction types.\n\nLet\u2019s apply what you\u2019ve learned
+          about <b>Allowed Interaction Types</b> and limit the interaction to only
+          allow a <b>Near</b> interaction with the <b>Treasure Chest</b>. This configuration
+          would be appropriate for an app or experience where you want the user to
+          interact only with objects that are within hands-reach, not across the
+          room."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -79,7 +79,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b> select the <b>Treasure
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Treasure
           Chest</b>.
 
 

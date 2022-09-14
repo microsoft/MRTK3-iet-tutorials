@@ -22,7 +22,7 @@ MonoBehaviour:
     m_Untranslated: Welcome to MRTK3
   m_Description:
     m_Untranslated: "MRTK3 is a Microsoft-driven project that provides a set of components
-      and features, used to accelerate cross-platform MR app development in Unity.
+      and features used to accelerate cross-platform MR app development in Unity.
       Here are some of its functions:\n\n\u2022 Provides the cross-platform input
       system and building blocks for spatial interactions and UI.\n\u2022 Enables
       rapid prototyping via in-editor simulation that allows you to see changes immediately.\n\u2022

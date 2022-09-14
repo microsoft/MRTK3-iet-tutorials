@@ -70,33 +70,34 @@ MonoBehaviour:
           Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Press the <b>Y</b> key
           to toggle the right hand. Notice that a hand ray protrudes from the hand.\n\n<b>3.</b>
           Hold the <b>Space</b> key and move the mouse so that the right hand's hand
-          ray comes in contact with the <b>Hide</b> button. When the hand has made
-          contact with the <b>Hide</b> button, the recticle can be seen on top of
-          the button.\n\n<b>4.</b> Press the <b>Left Mouse Button</b> to press the
-          button. Notice that the toggle switch moves from left to right and the
-          <b>Treasure Chest</b> is no longer visible.\n\n<b>5.</b> Press the <b>Hide</b>
-          button once more to toggle the visibility of the <b>Treasure Chest</b>.
-          The <b>Treasure Chest</b> should now be visible.\n\n<b>6.</b> Try the same
-          interaction with the left hand. As a reminder, you can execute latched
-          tracking for the left hand by pressing the <b>T</b> key and using the <b>Left
-          Shift</b> key and mouse to move the hand around the scene.\n\n<b>To execute
-          a near button press, we can either move the camera closer to the button
-          <i>or</i> change the depth of the hand. Let's change the depth of the hand.</b>
-          \n\n<b>1.</b>Press the <b>Y</b> key to toggle the right hand.\n\n<b>2.</b>
-          Hold the <b>Space</b> key and move the mouse so that the right hand's hand
-          ray comes in contact with the <b>Hide</b> button. When the hand has made
-          contact with the <b>Hide</b> button, the recticle can be seen on top of
-          the button.\n\n<b>3.</b> Using the mouse scroll wheel, scroll forward until
-          the pointer on the finger presses the button. This particular button has
-          a visual cue configured which shows the front plate being pressed when
-          the finger executes a button press. If pressed successfully, the <b>Treasure
-          Chest</b> should no longer be visible.\n\n<b>4.</b> Press the <b>Hide</b>
-          button once more to toggle the visibility of the <b>Treasure Chest</b>.
-          The <b>Treasure Chest</b> should now be visible.\n\n<b>5.</b> Try the same
-          interaction with the left hand. As a reminder, you can execute latched
-          tracking for the left hand by pressing the <b>T</b> key and using the <b>Left
-          Shift</b> key and mouse to move the hand around the scene.\n\n<b>6.</b>
-          Once complete, press <b>Play</b> to exit Play Mode."
+          ray comes in contact with the <b>Hide</b> button, which is located to the
+          right of the Treasure Chest. When the hand has made contact with the <b>Hide</b>
+          button, the recticle can be seen on top of the button.\n\n<b>4.</b> Press
+          your left mouse button to press the <b>Hide</b> button. Notice that the
+          toggle switch moves from left to right and the <b>Treasure Chest</b> is
+          no longer visible.\n\n<b>5.</b> Press the <b>Hide</b> button once more
+          to toggle the visibility of the <b>Treasure Chest</b>. The <b>Treasure
+          Chest</b> should now be visible.\n\n<b>6.</b> Try the same interaction
+          with the left hand. As a reminder, you can execute latched tracking for
+          the left hand by pressing the <b>T</b> key and using the <b>Left Shift</b>
+          key and mouse to move the hand around the scene.\n\n<b>To execute a near
+          button press, we can either move the camera closer to the button <i>or</i>
+          change the depth of the hand. Let's change the depth of the hand.</b> \n\n<b>1.</b>Press
+          the <b>Y</b> key to toggle the right hand.\n\n<b>2.</b> Hold the <b>Space</b>
+          key and move the mouse so that the right hand's hand ray comes in contact
+          with the <b>Hide</b> button. When the hand has made contact with the <b>Hide</b>
+          button, the recticle can be seen on top of the button.\n\n<b>3.</b> Using
+          the mouse scroll wheel, scroll forward until the pointer on the finger
+          presses the button. This particular button has a visual cue configured
+          which shows the front plate being pressed when the finger executes a button
+          press. If pressed successfully, the <b>Treasure Chest</b> should no longer
+          be visible.\n\n<b>4.</b> Press the <b>Hide</b> button once more to toggle
+          the visibility of the <b>Treasure Chest</b>. The <b>Treasure Chest</b>
+          should now be visible.\n\n<b>5.</b> Try the same interaction with the left
+          hand. As a reminder, you can execute latched tracking for the left hand
+          by pressing the <b>T</b> key and using the left Shift key and mouse to
+          move the hand around the scene.\n\n<b>6.</b> Once complete, press <b>Play</b>
+          to exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

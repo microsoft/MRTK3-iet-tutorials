@@ -68,9 +68,9 @@ MonoBehaviour:
         m_Untranslated: "Consider the following scenarios as you practice using <b>Object
           Manipulator</b>:\n\n\u2022 Limit an object to only be moved and rotated\n\u2022
           Configure an object\u2019s rotation anchor to be at the object\u2019s center\n\u2022
-          Limit the scaling values for an object\n\u2022 Configure an object that
-          can only be rotated from a far distance\n\nOnce you\u2019re done, be sure
-          to exit Play Mode.\n"
+          Limit the scaling values for an object\n\u2022 Configure an object so that
+          it can only be rotated from a far distance\n\nOnce you\u2019re done, be
+          sure to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

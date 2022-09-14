@@ -38,12 +38,11 @@ MonoBehaviour:
         m_Untranslated: Try it Out
       Text:
         m_Untranslated: "Now that <b>Near</b> is the only interaction type for the
-          <b>Treasure Chest</b>, you can only interact with the object when you\u2019re
-          within close proximity of the object. Enter Play Mode and give the interaction
-          a try.\n\n<b>Note</b>: This task requires that you are using either MRTK
-          Input Simulation or trying scenes on a XR device. Mouse-based interactions
-          will not enable you to thoroughly test the updates for this task given
-          that you must differentiate yourself at both a near vs. far distance."
+          <b>Treasure Chest</b>, you can only interact with the chest when you\u2019re
+          close to it. Enter Play Mode and give the interaction a try.\n\n<b>Note</b>:
+          This task requires that you're either using MRTK Input Simulation or trying
+          scenes on an XR device. Mouse-based interactions won't work because they
+          won't let you test at both a near and far distance."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -64,9 +63,9 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Move close to the <b>Treasure Chest</b> and use your preferred input method
-          to move the object.\n\n<b>3.</b> Next, move away from the <b>Treasure Chest</b>
-          and try once again to interact with the object at a far distance. You\u2019ll
-          notice that you are unable to use the ray to select and move the object.\n\n<b>4.</b>
+          to move the object.\n\n<b>3.</b> Move some distance away from the <b>Treasure
+          Chest</b> and try once again to interact with it. You\u2019ll notice that
+          you are unable to use the ray to select and move the chest.\n\n<b>4.</b>
           Once complete, press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
