@@ -42,10 +42,10 @@ MonoBehaviour:
           prefabs to decorate the tank:\n\n\u2022 Rocks (small, medium, and large)\n\u2022
           Coral\n\u2022 Tube Coral\n\u2022 Green Sea Grass\n\u2022 Light Purple Sea
           Grass\n\u2022 Dark Purple Sea Grass\n\u2022 Boat\n\u2022 Treasure Chest\n\nThe
-          aquarium objects prefabs are already configured with both the <b>ObjectManipulator</b>
+          aquarium object prefabs are already configured with both the <b>ObjectManipulator</b>
           and <b>BoundsControl</b> scripts to help you arrange the objects in the
           environment. However, you\u2019ll need to spawn the objects into the aquarium
-          tank.\n\nWe can use a canvas button bar to arrange the selection of objects
+          tank.\n\nWe can use a Canvas button bar to arrange the selection of objects
           to spawn. For this tutorial, we\u2019ll create a button bar that\u2019ll
           provide a menu of objects to choose from for adding aquarium objects into
           the tank.\n\n<b>Note:</b> Throughout this tutorial, you\u2019ll be prompted

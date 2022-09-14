@@ -41,9 +41,9 @@ MonoBehaviour:
           in a uniform layout. In this tutorial, you'll explore configurations for
           canvas buttons within a button bar by configuring the button to spawn an
           aquarium object.\n\n<b>Learning Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b>
-          for a canvas-based button\n\u2022 Select an <b>Icon</b> for a canvas button
-          prefab\n\u2022 Provide a <b>Label</b> for a canvas button\n\u2022 Add an
-          <b>On Clicked</b> event to a canvas button\n\nLet's get started!"
+          for a Canvas-based button\n\u2022 Select an <b>Icon</b> for a Canvas button
+          prefab\n\u2022 Provide a <b>Label</b> for a Canvas button\n\u2022 Add an
+          <b>On Clicked</b> event to a Canvas button\n\nLet's get started!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

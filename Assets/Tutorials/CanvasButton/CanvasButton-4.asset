@@ -42,9 +42,9 @@ MonoBehaviour:
           prefab has three child GameObjects which make up the configuration of the
           button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022 Frontplate\n\nWithin
           both the <b>Backplate</b> and <b>Frontplate</b> are additional child GameObjects
-          for configuration. Although there\u2019s various properties to configure,
+          for configuration. Although there are various properties to configure,
           we\u2019ll focus on just a few for this tutorial. \n\nCurrently, the <b>Action
-          Button</b> we\u2019ve added to the canvas displays a button with a light-blue
+          Button</b> we\u2019ve added to the Canvas displays a button with a light-blue
           tinted backplate and a person icon. We\u2019ll need to complete the following:\n\n\u2022
           Change the <b>Selection Mode</b> to <b>Toggle</b>\n\u2022 Darken the button
           for visibility\n\u2022 Change the icon to the respective animal icon\n\u2022

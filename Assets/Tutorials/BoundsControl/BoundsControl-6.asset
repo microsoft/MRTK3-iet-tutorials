@@ -44,7 +44,7 @@ MonoBehaviour:
           has happened is that the <b>Bounds Control</b> properties have overridden
           the <b>Object Manipulation</b> properties. Although scaling is disabled
           on the <b>ObjectManipulator</b> component, the handles included on the
-          <b>Bounds Visuals Prefab</b> still enables scaling assuming the scaling
+          <b>Bounds Visuals Prefab</b> still enable scaling assuming the scaling
           handles are active.\n\nYou can select which handles to make active by modifying
           the <b>Enabled Handles</b> property.\n\nLet\u2019s limit <b>Bounds Control</b>
           to only display the <b>Rotate</b> handles.\n"

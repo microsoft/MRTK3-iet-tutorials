@@ -38,12 +38,12 @@ MonoBehaviour:
         m_Untranslated: How to Toggle Hands
       Text:
         m_Untranslated: "MRTK Input Simulation provides a pair of hands which can
-          be tracked and initiate movement, rotation, and interact with objects in
-          the scene. You can either toggle one or both hands. \n\nHand tracking can
-          be latched (persistent) or momentary. Latched tracking toggles the left/right
-          hand at it's respective side of the scene. Momentary tracking toggles the
-          left/right hand at the current location of the mouse.\n\nLet's toggle hands
-          into the scene."
+          be tracked and initiate movement, rotation, and interactaction with objects
+          in the scene. You can toggle a single hand or both hands. \n\nHand tracking
+          can be latched (made persistent) or momentary. Latched tracking toggles
+          the left/right hand at its respective side of the scene. Momentary tracking
+          toggles the left/right hand at the current location of the mouse.\n\nLet's
+          toggle hands into the scene."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -77,23 +77,23 @@ MonoBehaviour:
           Press the <b>Y</b> key to toggle the right hand so that it''s latched.
 
 
-          <b>6.</b>
+          <b>5.</b>
           With the right hand latched, hold the <b>Space</b> key and drag the mouse
           to move the hand around the scene. Once done, press the <b>Y</b> once more
           to detoggle the right hand.
 
 
-          <b>7.</b> Press the <b>T</b> key
+          <b>6.</b> Press the <b>T</b> key
           to toggle the left hand so that it''s latched.
 
 
-          <b>8.</b> With
+          <b>7.</b> With
           the left hand latched, hold the <b>Left Shift</b> key and drag the mouse
           to move the hand around the scene. Once done, press the <b>T</b> once more
           to detoggle the left  hand.
 
 
-          <b>9.</b> Once complete, press
+          <b>8.</b> Once complete, press
           <b>Play</b> to exit Play Mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

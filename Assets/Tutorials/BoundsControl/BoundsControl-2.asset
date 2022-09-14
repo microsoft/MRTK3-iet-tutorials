@@ -40,11 +40,11 @@ MonoBehaviour:
         m_Untranslated: "Currently, all the objects in the aquarium are configured
           with the <b>Object Manipulator</b> component. <b>ObjectManipulator</b>
           enables you to move, scale, and rotate an object. We\u2019ve restricted
-          the scaling manipulation for the objects, however, you\u2019re able to
+          the scaling manipulation for the objects; however, you\u2019re able to
           move and rotate the objects.\n\nIf you\u2019re unfamiliar with <b>ObjectManipulator</b>,
           we encourage you to review the Object Manipulator tutorial after you complete
           this module. However, what\u2019s important to know for now is that without
-          this script, we would not be able to move or rotate the objects with our
+          this script, we wouldn't be able to move or rotate the objects with our
           preferred input.\n\nLet\u2019s try arranging some of the objects in the
           scene now!\n"
       m_Tutorial: {fileID: 0}

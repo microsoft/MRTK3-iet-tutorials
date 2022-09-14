@@ -37,9 +37,10 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: Now that <b>Move</b> is the only manipulation for the <b>Treasure
-          Chest</b>, you can only move the object to a new location in the aquarium.
-          Enter Play Mode and give the manipulations a try.
+        m_Untranslated: Now that you've specified <b>Move</b> as the only allowed
+          manipulation for the <b>Treasure Chest</b>, you can only move the object--you
+          can't scale or rotate it. Enter Play Mode and give the manipulations a
+          try.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -60,9 +61,9 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Use your preferred input method to move the <b>Treasure Chest</b>. Next,
-          try to rotate and scale the <b>Treasure Chest</b>. You\u2019ll notice both
-          types of manipulation are restricted.\n\n<b>3.</b> Once complete, press
-          <b>Play</b> to exit Play Mode.\n"
+          try to rotate and scale the <b>Treasure Chest</b>. You\u2019ll notice that
+          both types of manipulation are restricted.\n\n<b>3.</b> Once complete,
+          press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

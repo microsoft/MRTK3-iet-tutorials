@@ -37,11 +37,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: Camera Controls
       Text:
-        m_Untranslated: "The camera represents the position of the user's head (or
-          HMD). You can move the position of the camera with the following keys:\n\n<u>Movement</u>\n\n\u2022
-          <b>Move Horizontally</b>: Keyboard A/D  <i>or</i> Left/Right arrows\n\u2022
-          <b>Move Vertically</b>: Keyboard Q/E <i>or</i> Page Up/Page Down\n\nThe
-          camera can also be rotated with the following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022
+        m_Untranslated: "The camera represents the position of the user's head or
+          HMD (head-mounted display). You can move the position of the camera with
+          the following keys:\n\n<u>Movement</u>\n\n\u2022 <b>Move Horizontally</b>:
+          Keyboard A/D  <i>or</i> Left/Right arrows\n\u2022 <b>Move Vertically</b>:
+          Keyboard Q/E <i>or</i> Page Up/Page Down\n\nThe camera can also be rotated
+          with the following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022
           <b>Pitch</b>: Mouse Right Button + Forward/Back\n\u2022 <b>Yaw</b>: Mouse
           Right Button + Left/Right\n\u2022 <b>Roll</b>: Mouse Right Button + Wheel
           Up/Down\n\nLet's move the camera around to view the objects in the aquarium

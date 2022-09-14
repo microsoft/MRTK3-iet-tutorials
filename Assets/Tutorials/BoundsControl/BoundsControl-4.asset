@@ -45,7 +45,7 @@ MonoBehaviour:
           occlusion style in which only the relevant handles along the edges of the
           bounds are visible. This provides less visual distraction for the user.\n\nWe\u2019ll
           start by assigning the <b>BoundingBoxWithHandles</b> prefab. The <b>BoundingBoxWithHandles</b>
-          prefab includes both a bounding box and handles which align the edges of
+          prefab includes both a bounding box and handles that align the edges of
           the object. The side handles are used for rotating, and the corner handles
           are for scaling. The handles are activated by selecting (pinch or click)
           the object. Likewise, the handles can be deactivated by selecting the object

@@ -37,10 +37,10 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: Now that <b>Rotation</b> is the only enabled handled for
-          the <b>Coral</b>, the scale handles will no longer be visible on the bounding
+        m_Untranslated: Now that <b>Rotation</b> is the only enabled handle for the
+          <b>Coral</b>, the scale handles will no longer be visible on the bounding
           box. Enter Play Mode to view both the visual and functional difference
-          that has been made.
+          that have been made.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -61,11 +61,11 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Activate the handles by selecting (quick select or pinch) the <b>Coral</b>.\n\n<b>3.</b>
-          Notice that a bounding box with handles still surrounds the <b>Coral</b>,
+          Notice that a bounding box with handles still surrounds the <b>Coral</b>;
           however, all scale handles are now gone and only the rotate handles remain.\n\n<b>4.</b>
           Next, select one of the rotate handles and rotate the <b>Coral</b>.\n\n<b>5.</b>
           Now try to scale the cube without the handles. Since the scale handles
-          are no longer active, you\u2019re unable to scale the cube given the scale
+          are no longer active, you\u2019re unable to scale the cube due to the scale
           restriction set on the ObjectManipulator component.\n\n<b>6.</b> Once complete,
           press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}

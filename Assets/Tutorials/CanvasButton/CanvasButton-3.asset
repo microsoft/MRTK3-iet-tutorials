@@ -41,25 +41,25 @@ MonoBehaviour:
           aquarium, we\u2019ll need a way to toggle the visibility of the sea animal.
           Although you\u2019re welcome to let the sea animal continuously swim while
           you\u2019re designing and arranging the objects in its habitat, it\u2019s
-          great to have the flexibility to disable the sea animal if needed. We will
-          create a canvas-based toggleable button to achieve this functionality.\n\nCanvas-based
+          great to have the flexibility to disable the sea animal if needed. We'll
+          create a Canvas-based toggleable button to achieve this functionality.\n\nCanvas-based
           buttons are flexible and configurable and can be resized to any dimension
           or proportion. The <b>PressableButton</b> script is added as a component
-          of the button which includes behaviors specific to the buttons. For this
-          tutorial, we\u2019ll use the <b>ActionButton</b> prefab as our base for
-          creating a button with a toggle switch. The <b>ActionButton</b> prefab
-          is a simple button that includes an icon, text, and a label. These individual
-          components can be enabled or disabled, and the layout system will adapt
-          accordingly. As for the toggle switch, we provide a <b>ToggleSwitch</b>
-          prefab that can be leveraged for adding a toggle switch to the button.\n\nMRTK3
-          uses what is referred to as <b>volumetric UI</b>. <b>Volumetric UI</b>
-          supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
+          of a  button and includes behaviors specific to the buttons. For this tutorial,
+          we\u2019ll use the <b>ActionButton</b> prefab as our base for creating
+          a button with a toggle switch. The <b>ActionButton</b> prefab is a simple
+          button that includes an icon, text, and a label. These individual components
+          can be enabled or disabled, and the layout system will adapt accordingly.
+          As for the toggle switch, we provide a <b>ToggleSwitch</b> prefab that
+          can be leveraged for adding a toggle switch to the button.\n\nMRTK3 uses
+          what is referred to as <b>Volumetric UI</b>. <b>Volumetric UI</b> supports
+          all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
           context. Controls can be automatically laid out with proper margin, padding,
           responsive flex, and all features a designer would expect to find. When
-          you setup the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
-          it\u2019s <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
+          you set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
+          its <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
           is set globally to <b>0.001</b> on all axes.\n\nCanvas prefabs (such as
-          the <b>Action Button</b>) must be placed inside a canvas. Let\u2019s create
+          the <b>Action Button</b>) must be placed inside a Canvas. Let\u2019s create
           a new <b>Canvas</b> GameObject and add the <b>Action Button</b> prefab
           as a child GameObject.\n"
       m_Tutorial: {fileID: 0}
@@ -82,7 +82,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
           and select <b>UI > Canvas</b>. Rename the <b>Canvas</b> GameObject to <b>Sea
-          Animal Toggle</b>.\n\n<b>2.</b> In the <b>Hierarchy</b> select the <b>Sea
+          Animal Toggle</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select the <b>Sea
           Animal Toggle</b> GameObject and navigate to the <b>Canvas</b> component.\n\n<b>3.</b>
           Select the <b>Render Mode</b> drop-down and select <b>World Space</b>.
           \n\n<b>4.</b> Within the <b>Canvas</b> properties, select the circle icon

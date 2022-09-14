@@ -38,9 +38,9 @@ MonoBehaviour:
         m_Untranslated: Project Setup
       Text:
         m_Untranslated: "In this project, we\u2019ve included the relevant MRTK3
-          packages required to complete the tasks within the tutorials. Furthermore,
-          we\u2019ve also configured this Unity project so that you\u2019re able
-          to get started without the need to manually configure the project for OpenXR.\n\nWithin
+          packages required to complete the tasks within the tutorials. We\u2019ve
+          also configured this Unity project so that you\u2019re able to get started
+          without the need to manually configure the project for OpenXR.\n\nWithin
           our MRTK3 documentation, we provide detailed instructions on how to set
           up a Unity project and consume MRTK3 packages. To learn more, review <a
           href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/setup\">Initial

@@ -42,18 +42,17 @@ MonoBehaviour:
           arranged living environment!\n\nWe demonstrate in the <b>Object Manipulator</b>
           tutorial that you can use the <b>ObjectManipulator</b> script to move,
           scale, and rotate an object. Used by itself, <b>Object Manipulator</b>
-          does not provide a visual cue to indicate whether an object can be manipulated
-          or to indicate that an object has been selected. Since we have a lot of
-          objects in the aquarium to arrange, it\u2019ll be helpful to have a visual
-          cue display as we select objects to manipulate to ensure that we\u2019re
-          selecting our intended object.\n\n<b>Bounds Control</b> provides us with
-          the visual cue we\u2019ll need! For this tutorial, we\u2019ll pair the
-          two scripts together to provide an enhanced manipulation experience for
-          arranging the objects in the aquarium.\n\n<b>Note</b>: Throughout this
-          tutorial, you\u2019ll be prompted to enter Play Mode to try out a scene.
-          In the <i>Preview Scenes</i> module, we share several options for trying
-          scenes. Refer to the input controls for your preferred method when trying
-          the scenes for this tutorial.\n"
+          doesn't provide visual cues to indicate if an object can be manipulated
+          or has been selected. Since we have a lot of objects in the aquarium to
+          arrange, it\u2019ll be helpful to have a visual cue display as we select
+          objects to manipulate to ensure that we\u2019re selecting our intended
+          object.\n\n<b>Bounds Control</b> provides us with the visual cue we\u2019ll
+          need! For this tutorial, we\u2019ll pair the two scripts together to provide
+          an enhanced manipulation experience for arranging the objects in the aquarium.\n\n<b>Note</b>:
+          Throughout this tutorial, you\u2019ll be prompted to enter Play Mode to
+          try out a scene. In the <i>Preview Scenes</i> module, we share several
+          options for trying scenes. Refer to the input controls for your preferred
+          method when trying the scenes for this tutorial.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

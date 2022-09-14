@@ -38,9 +38,9 @@ MonoBehaviour:
         m_Untranslated: Summary
       Text:
         m_Untranslated: "As a reminder, be sure to select one of the preview solutions
-          we support and configure your Unity project for previewing scenes prior
-          to starting the tutorials. You\u2019re welcome to refer back to this module
-          to validate your project configuration and confirm input interaction."
+          we support and, prior to starting the tutorials,  configure your Unity
+          project for previewing scenes. You\u2019re welcome to refer back to this
+          module to validate your project configuration and confirm input interaction."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

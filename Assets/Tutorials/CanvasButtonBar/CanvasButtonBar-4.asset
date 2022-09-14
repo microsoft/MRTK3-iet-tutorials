@@ -43,7 +43,7 @@ MonoBehaviour:
           a variety of objects available for creating the sea animal\u2019s home.
           All aquarium object prefabs are configured for move, scale, and rotate
           manipulations. In addition, we\u2019ve configured the objects to display
-          a bounding box with handles around the objects. This visual-affordance
+          a bounding box with handles around the objects. This visual affordance
           has been added to better help you identify which object is being manipulated
           in the environment.\n\nWe've also included a <b>Spawner</b> GameObject
           which has a <b>Spawner</b> script attached that\u2019ll spawn an aquarium
@@ -68,7 +68,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b> navigate to <b>Aquarium
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, navigate to <b>Aquarium
           Objects Bar > Coral</b>.
 
 
@@ -76,17 +76,17 @@ MonoBehaviour:
           navigate to the <b>Pressable Button</b> component.
 
 
-          <b>1.</b>
+          <b>3.</b>
           Within the <b>On Clicked</b> property, select the <b>+</b> to create a
           new event.
 
 
-          <b>1.</b> In the new event, drag the <b>Spawner</b>
+          <b>4.</b> In the new event, drag the <b>Spawner</b>
           GameObject in the <b>Hierarchy</b> into the field for the GameObject receiving
           the event.
 
 
-          <b>1.</b> In the new event, select the <b>function</b>
+          <b>5.</b> In the new event, select the <b>function</b>
           drop-down and select <b>Spawner > SpawnCoral ()</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

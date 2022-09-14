@@ -73,7 +73,7 @@ MonoBehaviour:
           Some tutorial instructions require that you perform a specified set of
           steps before you can proceed. For such tutorials, the left border will
           be blue and the <b>Next</b> button at the bottom right of the tutorial
-          will be greyed out until all steps within the task are complete. \n\nOnce
+          will be grayed out until all steps within the task are complete. \n\nOnce
           all steps within the <b>Instructions</b> section are complete, the border
           turns green and the <b>Next</b> button can be pressed to proceed.\n\nProvided
           below is an example. Complete the task to proceed to the next screen."

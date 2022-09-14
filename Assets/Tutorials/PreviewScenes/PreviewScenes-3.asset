@@ -71,16 +71,17 @@ MonoBehaviour:
           <b>Hide</b> button once more to turn on the object\u2019s visibility.\n\n<b>3.</b>
           Using your hand, grab and move the <b>Treasure Chest</b> by performing
           a pinch gesture with your fingers. The <b>Treasure Chest</b> can be grabbed
-          at either a far or near distance. If you grab the <b>Treasure Chest</b>
-          from a far distance, a ray appears with a recticle (circular icon) that
-          attaches to the object. If you grab the <b>Treasure Chest</b> at a near
-          distance, you\u2019ll be able to do so directly with your hands.\n\n<b>4.</b>Bounding
+          at either a far or near distance. To grab from a far distance, use the
+          ray that extends from a hand and attach the reticle  (circular icon) that
+          appears at the end of the ray to an object. To grab the <b>Treasure Chest</b>
+          at a near distance, do so directly with your hands.\n\n<b>4.</b>Bounding
           box handles become active if you select (a quick pinch/grab) the object.
-          The bounding box handles provide fine-tune manipulation such as rotation
-          and scaling. To rotate or scale, grab a handle and drag with your finger.\n\nFeel
-          free to grab and scale the other objects in the aquarium tank. \n\n<b>Note</b>:
-          The <b>Treasure Chest</b> and <b>Boat</b> objects cannot be scaled.\n\n<b>5.</b>
-          Once complete, press <b>Play</b> to exit Play Mode.\n"
+          The bounding box handles provide fine-tuned manipulations such as rotation
+          and scaling. To rotate or scale, grab a handle and then drag with your
+          fingers.\n\nFeel free to grab and scale the various objects in the aquarium
+          tank. \n\n<b>Note</b>: The <b>Treasure Chest</b> and <b>Boat</b> objects
+          cannot be scaled.\n\n<b>5.</b> When you're finished, press <b>Play</b>
+          to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

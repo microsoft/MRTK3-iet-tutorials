@@ -72,8 +72,8 @@ MonoBehaviour:
           with the <b>Treasure Chest</b>. When the hand has made contact with the
           <b>Treasure Chest</b>, the recticle can be seen on top of the object.\n\n<b>3.</b>
           Press the <b>Left Mouse Button</b> to grab the <b>Treasure Chest</b>. Once
-          grabbed, you should be able to lift the object from the sand and move to
-          another position in the aquarium tank.\n\n<b>4.</b> To release the <b>Treasure
+          grabbed, you should be able to lift the chest from the sand and move it
+          to another position in the aquarium tank.\n\n<b>4.</b> To release the <b>Treasure
           Chest</b>, let go of the <b>Left Mouse Button</b>.\n\n<b>5.</b> Try the
           same interaction with the left hand. As a reminder, you can execute latched
           tracking for the left hand by pressing the <b>T</b> key and using the <b>Left
@@ -93,9 +93,9 @@ MonoBehaviour:
           is in contact with the <b>Treasure Chest</b> and the hand ray is no longer
           visible (the recticle will still be visible).\n\n<b>4.</b> Press the <b>Left
           Mouse Button</b> to grab the <b>Treasure Chest</b>. Once grabbed, you should
-          be able to lift the object from the sand and move to another position in
-          the aquarium tank.\n\n<b>5.</b> To release the <b>Treasure Chest</b>, let
-          go of the <b>Left Mouse Button</b>.\n\n<b>6.</b> Try the same interaction
+          be able to lift the chest from the sand and move it to another position
+          in the aquarium tank.\n\n<b>5.</b> To release the <b>Treasure Chest</b>,
+          let go of the <b>Left Mouse Button</b>.\n\n<b>6.</b> Try the same interaction
           with the left hand. As a reminder, you can execute latched tracking for
           the left hand by pressing the <b>T</b> key and using the <b>Left Shift</b>
           key and mouse to move the hand around the scene.\n\n<b>7.</b> Feel free

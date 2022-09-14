@@ -37,7 +37,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: "We\u2019ve made it pretty far with configuring a canvas
+        m_Untranslated: "We\u2019ve made it pretty far with configuring a Canvas
           button to toggle whether the sea animal in the aquarium is visible! Let\u2019s
           give the button a try to toggle the visibility of the sea animal."
       m_Tutorial: {fileID: 0}
@@ -72,7 +72,7 @@ MonoBehaviour:
 
 
           <b>4.</b>
-          After the button is pressed, the <b>Toggle Switch</b> dot moves from rigth
+          After the button is pressed, the <b>Toggle Switch</b> dot moves from rigtht
           to left and the sea animal is once again visible in the aquarium.
 
 

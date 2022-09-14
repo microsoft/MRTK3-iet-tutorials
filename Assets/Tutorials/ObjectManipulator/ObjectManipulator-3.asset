@@ -39,7 +39,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: "Now that <b>Object Manipulator</b> has been added as a component
           for the <b>Treasure Chest</b>, you\u2019ll be able to move, rotate, and
-          scale the object. Enter Play Mode to grab and manipulate the <b>Treasure
+          scale the chest. Enter Play Mode to grab and manipulate the <b>Treasure
           Chest</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

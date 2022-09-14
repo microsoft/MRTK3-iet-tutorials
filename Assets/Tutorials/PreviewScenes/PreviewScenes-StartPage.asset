@@ -40,8 +40,8 @@ MonoBehaviour:
         m_Untranslated: "Compiling and deploying your app can take a significant
           amount of time. Therefore, we recommend configuring your Unity project
           for one of the instant iteration/preview solutions we support. As a result,
-          you\u2019ll be able to preview the project in Play Mode and either interact
-          directly in the Unity editor or your XR device without the need to build
+          you\u2019ll be able to preview the project in Play Mode and interact either
+          directly in the Unity editor or in your XR device without the need to build
           and deploy the app.\n\nIn this module, we provide you with links to resources
           to help you configure your Unity project for instant iteration/preview.
           For each solution, you\u2019ll have a chance to validate your configuration

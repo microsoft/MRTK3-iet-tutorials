@@ -70,8 +70,8 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions<u>
       Text:
-        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b> navigate to <b>Aquarium
-          > Novelty Accessories</b> and select the <b>Treasure Chest</b> GameObject.
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, navigate to <b>Aquarium
+          > Novelty Accessories</b> and then select the <b>Treasure Chest</b> GameObject.
           \n\n<b>2.</b>In the <b>Inspector</b>, add the <b>ObjectManipulator</b>
           script as a component.\n"
       m_Tutorial: {fileID: 0}
