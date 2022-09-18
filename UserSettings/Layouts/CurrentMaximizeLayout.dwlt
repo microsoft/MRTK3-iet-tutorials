@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 16}
-  - {fileID: 18}
+  - {fileID: 15}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 28394
+  controlID: 61761
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,10 +46,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1512
-    y: 735.2
-    width: 660.4
-    height: 376.20007
+    x: -1407.2
+    y: 860
+    width: 364.40002
+    height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 825.5, y: 444.0001}
+  m_TargetSize: {x: 455.50003, y: 288.00003}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -75,10 +75,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -330.2
-    m_HBaseRangeMax: 330.2
-    m_VBaseRangeMin: -177.60004
-    m_VBaseRangeMax: 177.60004
+    m_HBaseRangeMin: -182.20001
+    m_HBaseRangeMax: 182.20001
+    m_VBaseRangeMin: -115.20001
+    m_VBaseRangeMax: 115.20001
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -96,23 +96,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 660.4
-      height: 355.20007
+      width: 364.40002
+      height: 230.40002
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 330.2, y: 177.60004}
+    m_Translation: {x: 182.20001, y: 115.20001}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -330.2
-      y: -177.60004
-      width: 660.4
-      height: 355.20007
+      x: -182.20001
+      y: -115.20001
+      width: 364.40002
+      height: 230.40002
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 825.5, y: 470.2501}
+  m_LastWindowPixelSize: {x: 455.50003, y: 314.25003}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -132,17 +132,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1198.4
+    width: 1007.2
     height: 1058.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28395
+  controlID: 61762
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +162,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1198.4
-    height: 661.6
+    width: 1007.2
+    height: 786.4
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28396
+  controlID: 61763
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 288.8
-    height: 661.6
+    width: 318.4
+    height: 786.4
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -216,8 +216,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2048
     y: 73.6
-    width: 287.8
-    height: 640.6
+    width: 317.4
+    height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -227,7 +227,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7868fcffec6dfcffb06ffcff4472fcfffc73fcff7e80fcffd0dafcff7e4ffdffd85dfdffb85ffdff4264fdff188ffdff949efdff66a1fdffb6b7fdff50cbfdffb6cefdff68d3fdff70dffdffc4e5fdffb4edfdff4cf1fdfffef4fdffe4fbfdffe604feffe40dfeffec1cfeffce24feffd63dfeffae42feffec52feff6c78feffacf2feff76f5feffccf8feff54fafeff26fdfeffcc06ffffae0effffe015ffff3218ffffd41affff861effffda1effff761fffffd8f5ffff2cf6ffffcef6ffff2efbffff4c97000064970000249800003c9800008a9f00008e9f00009a9f0000c09f000012a500002aa50000e0a60000fca600003aaa00003eaa00004eaa00006caa000088aa0000fcad000010ae00004aae000058b000006ab0000078b000008eb0000002b2000018b2000054b2000080b4000084b4000094b40000a6b40000d4b4000022b6000038b6000074b60000deb80000f6b9000040bb00000cbf000028bf0000bac1000058c6000072c60000acd10000cad10000e6d100005ad700005eda00007ada0000b0dc0000b4dc0000c8dc0000e0dc0000f8dc0000
+      m_ExpandedIDs: 5476f7ff5a76f7ff6876f7ffa076f7ffce76f7ffd476f7ffe276f7ff1a77f7ff4877f7ff4e77f7ff5c77f7ff9477f7ffc277f7ffc877f7ffd677f7ff0e78f7ff2678f7ff5a7ef7ffce7ff7ffe2f2f7ff12f3f7ff18f3f7ff26f3f7ff48f3f7ff5ef3f7ff4cf6f7ffca02f8ff300af8ff360cf8ff4e0cf8ffd00ef8ff2031f8ff7a35f8ff9235f8ff1638f8ff2e3cf8ff463cf8ff123ff8ff8242f8ff9a42f8ff0a45f8fffc66f8ff6868f8ff8068f8ffe46af8ff786df8ff906df8ff7a8ef8ff7691f8ff8e91f8ff0e94f8ff9696f8ffae96f8ff7a98f8ffb699f8ffce99f8ff989bf8ffd49cf8ffec9cf8ff4e9ff8ffeaa0f8ff02a1f8ffe4a3f8ffd8a6f8fff0a6f8ff9cecf8fff8eef8ff96faf8ffaefaf8fff000f9ff6c03f9fffe0ff9ff1610f9ff081af9ff981bf9ffb01bf9ff8e29f9ff522bf9ff6a2bf9ff7034f9ff0c36f9ff2436f9ff863cf9ff40a8f9ff70a8f9ff76a8f9ff84a8f9ffa6a8f9ffbca8f9fff218fafff818faff0619faff3e19faff6c19faff7219faff8019faffb819faffe619faffec19fafffa19faff321afaff601afaff661afaff741afaffac1afaffc41afaff1821faffe022faff9a24faffb224faff4e26faffa0f6faffd0f6faffd6f6faffe4f6faff06f7faff1cf7faffcaf9faff6a0afbffd418fbff5c87fbff6687fbff381bfcff4a1dfcff621dfcff9a65fcffa26efcffd871fcffbc73fcffd473fcff427bfcffb47dfcfffc7ffcff6e84fcff5663fdff5863fdff1a67fdff8a69fdffc279feffc879feffd679fefff879feff0e7afeff46d5feff4cd5feff5ad5feff8cd5feff8ed5feff44e2feff5ce2fefffce5feffbae8feff3808ffffd80affff0816ffff8a18ffff501affff108301000c9501003e9501008aa001009af20100ccf201003af6010076f60100aaf6010092fa010058090200b60b0200023a0200363a020022420200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -243,7 +243,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 12}
+        m_ClientGUIView: {fileID: 15}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -266,19 +266,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 288.8
+    x: 318.4
     y: 0
-    width: 909.60004
-    height: 661.6
+    width: 688.80005
+    height: 786.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
-  - {fileID: 10}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,10 +298,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1759.2
+    x: -1729.6
     y: 73.6
-    width: 907.60004
-    height: 640.6
+    width: 686.80005
+    height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -356,7 +355,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -504,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.16889632, y: -0.1721767, z: 0.85360515}
+    m_Target: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
     speed: 2
-    m_Value: {x: 0.16889632, y: -0.1721767, z: 0.85360515}
+    m_Value: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -553,13 +552,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20736933, y: -0.044873994, z: 0.009546136, w: -0.9772306}
+    m_Target: {x: 0.080850095, y: 0.038862415, z: -0.0031547865, w: 0.9959647}
     speed: 2
-    m_Value: {x: -0.20736036, y: -0.044872053, z: 0.009545722, w: -0.97718835}
+    m_Value: {x: 0.08084999, y: 0.038862363, z: -0.0031547823, w: 0.9959634}
   m_Size:
-    m_Target: 0.3664016
+    m_Target: 0.1924196
     speed: 2
-    m_Value: 0.3664016
+    m_Value: 0.1924196
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -621,87 +620,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 404
-    y: 73.6
-    width: 1227.6
-    height: 590.2
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.98065245
-      e01: 0
-      e02: 0
-      e03: 11.943054
-      e10: 0
-      e11: 0.98065245
-      e12: 0
-      e13: -28.552704
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 0
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 15}
+  - {fileID: 11}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 661.6
-    width: 1198.4
-    height: 397.20007
+    y: 786.4
+    width: 1007.2
+    height: 272.40002
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28346
---- !u!114 &12
+  controlID: 61740
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,17 +653,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 536
-    height: 397.20007
+    width: 640.8
+    height: 272.40002
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 12}
   m_Panes:
+  - {fileID: 12}
   - {fileID: 13}
-  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &13
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -749,15 +684,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -2048
-    y: 735.2
-    width: 535
-    height: 376.20007
+    y: 860
+    width: 639.8
+    height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: shared
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -769,22 +704,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Models/Environment Prefabs
     m_Globs: []
-    m_OriginalText: shared
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Models/Environment Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\apspeigh\Desktop\Unity\MRTK3-IET\iet-improvement\IET-environment
+  m_LastProjectPath: C:\Users\apspeigh\Documents\GitHub\MRTK3-iet-tutorials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4700000
-    m_LastClickedID: 28836
-    m_ExpandedIDs: 000000003c7000003e7000004070000046700000487000004a7000004c7000004e7000005070000052700000a070000000ca9a3b
+    m_SelectedIDs: 30630100
+    m_LastClickedID: 90928
+    m_ExpandedIDs: 0000000080fa000082fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -800,7 +735,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -812,7 +747,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c7000003e7000004070000046700000487000004a7000004c7000004e70000050700000a070000000ca9a3b
+    m_ExpandedIDs: 0000000080fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,9 +772,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6068fcff
-    m_LastClickedInstanceID: -235424
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 0e78f7ff
+    m_LastClickedInstanceID: -559090
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008e71000000000000baa80000466c000002c50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -856,7 +791,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -867,8 +802,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 296.2
---- !u!114 &14
+  m_DirectoriesAreaWidth: 229
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -889,14 +824,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -2048
-    y: 645.60004
-    width: 698.2
-    height: 465.80005
+    y: 709.60004
+    width: 595.8
+    height: 401.80005
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -911,10 +846,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 536
+    x: 640.8
     y: 0
-    width: 662.4
-    height: 397.20007
+    width: 366.40002
+    height: 272.40002
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -922,7 +857,7 @@ MonoBehaviour:
   - {fileID: 2}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -937,18 +872,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1198.4
+    x: 1007.2
     y: 0
-    width: 404
+    width: 483.2
     height: 1058.8
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -968,9 +903,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -849.6
+    x: -1040.8
     y: 73.6
-    width: 402
+    width: 481.2
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -982,14 +917,14 @@ MonoBehaviour:
     m_CachedPref: 262
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -235424
+  m_LastInspectedObjectInstanceID: -559090
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1004,18 +939,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1602.4
+    x: 1490.4
     y: 0
-    width: 445.59998
+    width: 557.6
     height: 1058.8
   m_MinSize: {x: 301, y: 321}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1035,9 +970,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -445.59998
+    x: -557.6
     y: 73.6
-    width: 444.59998
+    width: 556.6
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1065,17 +1000,12 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Welcome
+      m_Untranslated: MRTK Input Simulation
     Text:
-      m_Untranslated: "In this interactive tutorial series, you\u2019ll learn how
-        to use various MRTK3 features with instruction provided directly in the Unity
-        editor. Although you\u2019re not required to complete the tutorials in-order,
-        we encourage you to try each tutorial so that you gain a better understanding
-        of how to use various toolkit features. \n\nTo learn more about MRTK3, visit
-        <a href=\"https://aka.ms/mrtk3\">aka.ms/mrtk</a>.\n\n<b>Note</b>: MRTK3 is
-        currently in Public Preview. As we continue to shape the future of MRTK,
-        please be aware that the content within this tutorial series may change.\n\nPress
-        <b>Next</b> to continue.\n"
+      m_Untranslated: With MRTK's input simulation, you can test various types of
+        interactions in the Unity editor using keyboard and mouse combinations to
+        control simulated inputs. In this module, you'll learn how to use the controls
+        while exploring the aquarium tank.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1111,19 +1041,17 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: How to Navigate the Tutorials
+      m_Untranslated: Camera Controls
     Text:
-      m_Untranslated: "Each tutorial provides both a conceptual overview and tasks
-        for you to complete. Tasks are presented below the overview in an <b>Instructions</b>
-        section.\n\nThe <b>Instructions</b> box has either a blue or green left border.
-        The color of the border indicates whether all tasks are completed. Some tutorial
-        tasks require that you perform a specified set of steps before you can proceed.
-        For such tutorials, the left border will be blue and the <b>Next</b> button
-        at the bottom right of the tutorial will be greyed out until all steps within
-        the task are complete. \n\nOnce all steps within the <b>Instructions</b>
-        section are complete, the border turns green and the <b>Next</b> button can
-        be pressed to proceed.\n\nProvided below is an example. Complete the task
-        to proceed to the next screen."
+      m_Untranslated: "The camera represents the position of the user's head or HMD
+        (head-mounted display). You can move the position of the camera with the
+        following keys:\n\n<u>Movement</u>\n\n\u2022 <b>Move Horizontally</b>: Keyboard
+        A/D  <i>or</i> Left/Right arrows\n\u2022 <b>Move Vertically</b>: Keyboard
+        Q/E <i>or</i> Page Up/Page Down\n\nThe camera can also be rotated with the
+        following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022 <b>Pitch</b>:
+        Mouse Right Button + Forward/Back\n\u2022 <b>Yaw</b>: Mouse Right Button
+        + Left/Right\n\u2022 <b>Roll</b>: Mouse Right Button + Wheel Up/Down\n\nLet's
+        move the camera around to view the objects in the aquarium tank."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1142,54 +1070,40 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: In the <b>Hierarchy</b>, select the <b>Aquarium</b> GameObject.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: 
-        Criterion: {fileID: 0}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Restarting the Tutorial
-    Text:
-      m_Untranslated: "Once you\u2019ve completed a tutorial, you will be prompted
-        to save the scene. Saving the scene will save the current scene and the configurations
-        you\u2019ve made during the tutorial. If you\u2019d like to try the tutorial
-        again, <b>do not</b> save the scene when prompted.\n\nIf you accidentally
-        save the scene or later decide to redo a tutorial after the scene has been
-        saved, you\u2019ll need to add a new version of the original project to the
-        Unity Hub.\n"
+      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
+
+
+        <b>2.</b>
+        Press the <b>W</b> key to move the camera closer to the aquarium tank.
+
+
+        <b>3.</b>
+        Press the <b>A</b> key to  move to the left side of the aquarium tank.
+
+
+        <b>4.</b>
+        Press the <b>D</b> key to move to the right side of the aquarium tank.
+
+
+        <b>5.</b>
+        Press the <b>S</b> key to move the camera away from the aquarium tank.
+
+
+        <b>6.</b>
+        Press the <b>Q</b> key to move the camera down.
+
+
+        <b>7.</b> Press
+        the <b>E</b> key to move the camera up.
+
+
+        <b>8.</b> Hold the right
+        mouse mouse and drag the mouse to the left and then to the right to rotate
+        the camera.
+
+
+        <b>9.</b> Once complete, press <b>Play</b> to exit
+        Play Mode.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1225,17 +1139,66 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Project Setup
+      m_Untranslated: How to Toggle Hands
     Text:
-      m_Untranslated: "In this project, we\u2019ve included the relevant MRTK3 packages
-        required to complete the tasks within the tutorials. Furthermore, we\u2019ve
-        also configured this Unity project so that you\u2019re able to get started
-        without the need to manually configure the project for OpenXR.\n\nWithin
-        our MRTK3 documentation, we provide detailed instructions on how to set up
-        a Unity project and consume MRTK3 packages. To learn more, review <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/setup\">Initial
-        Setup for MRTK3</a>.\n\nAdditional project setup may be required for configuring
-        the project to support previewing scenes on an XR device. We provide instruction
-        and resources for setup within the <i>Preview Scenes</i> module."
+      m_Untranslated: "MRTK Input Simulation provides a pair of hands which can be
+        tracked and initiate movement, rotation, and interactaction with objects
+        in the scene. You can toggle a single hand or both hands. \n\nHand tracking
+        can be latched (made persistent) or momentary. Latched tracking toggles the
+        left/right hand at its respective side of the scene. Momentary tracking toggles
+        the left/right hand at the current location of the mouse.\n\nLet's toggle
+        hands into the scene."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instruction</u>
+    Text:
+      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
+
+
+        <b>2.</b>
+        Press the <b>Space</b> key to momentarily toggle the right hand.
+
+
+        <b>3.</b>
+        Press the <b>Left Shift</b> key to momentarily toggle the left hand.
+
+
+        <b>4.</b>
+        Press the <b>Y</b> key to toggle the right hand so that it''s latched.
+
+
+        <b>5.</b>
+        With the right hand latched, hold the <b>Space</b> key and drag the mouse
+        to move the hand around the scene. Once done, press the <b>Y</b> once more
+        to detoggle the right hand.
+
+
+        <b>6.</b> Press the <b>T</b> key to
+        toggle the left hand so that it''s latched.
+
+
+        <b>7.</b> With the
+        left hand latched, hold the <b>Left Shift</b> key and drag the mouse to move
+        the hand around the scene. Once done, press the <b>T</b> once more to detoggle
+        the left  hand.
+
+
+        <b>8.</b> Once complete, press <b>Play</b> to exit
+        Play Mode.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1271,12 +1234,327 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Support
+      m_Untranslated: How to Press a Button
     Text:
-      m_Untranslated: "Please submit all questions and feedback as an Issue within
-        the <a href=\"https://github.com/microsoft/MRTK3-iet-tutorials\">MRTK3 IET
-        Tutorials</a> GitHub repository. \n\nAs a reminder, this tutorial series
-        will continue to undergo iterations while MRTK3 is in Public Preview."
+      m_Untranslated: "Buttons can be pressed by hand at either a far or near distance.
+        \n\nWhen executing a far interaction button press, a hand ray is visible
+        with a reticle (circular icon) that attaches to the button. Once the reticle
+        makes contact with the button, a mouse click executes a button press.\n\nWhen
+        executing a near interaction button press, the reticle on the tip of the
+        pointer finger must be in direct contact with the button. There is a nonvisible
+        press layer configured with the button that the finger must collide with
+        and push to be considered a press. You can use the mouse scroll wheel to
+        change the depth of the hand.\n\nLet's try pressing the <b>Hide</b> button
+        to toggle the visibility of the <b>Treasure Chest</b>.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>To execute a far interaction button press, we can toggle
+        the hand and interact with the button from our starting position.</b>\n\n<b>1.</b>
+        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Press the <b>Y</b> key
+        to toggle the right hand. Notice that a hand ray protrudes from the hand.\n\n<b>3.</b>
+        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
+        ray comes in contact with the <b>Hide</b> button, which is located to the
+        right of the Treasure Chest. When the hand has made contact with the <b>Hide</b>
+        button, the reticle can be seen on top of the button.\n\n<b>4.</b> Press
+        your left mouse button to press the <b>Hide</b> button. Notice that the toggle
+        switch moves from left to right and the <b>Treasure Chest</b> is no longer
+        visible.\n\n<b>5.</b> Press the <b>Hide</b> button once more to toggle the
+        visibility of the <b>Treasure Chest</b>. The <b>Treasure Chest</b> should
+        now be visible.\n\n<b>6.</b> Try the same interaction with the left hand.
+        As a reminder, you can execute latched tracking for the left hand by pressing
+        the <b>T</b> key and using the <b>Left Shift</b> key and mouse to move the
+        hand around the scene.\n\n<b>To execute a near interaction button press,
+        we can either move the camera closer to the button <i>or</i> change the depth
+        of the hand. Let's change the depth of the hand interact with the button.</b>
+        \n\n<b>1.</b>Press the <b>Y</b> key to toggle the right hand.\n\n<b>2.</b>
+        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
+        ray comes in contact with the <b>Hide</b> button. When the hand has made
+        contact with the <b>Hide</b> button, the reticle can be seen on top of the
+        button.\n\n\n<b>3.</b> Using the mouse scroll wheel, scroll forward and continue
+        to position the hand with the mouse so that the reticle displays on top of
+        the button. Continue to scroll the mouse wheel forward until the button is
+        moved back on the Z axis \u2013 this indicates a button press. If pressed
+        successfully, the <b>Treasure Chest</b> should no longer be visible.\n\n<b>4.</b>
+        Press the <b>Hide</b> button once more to toggle the visibility of the <b>Treasure
+        Chest</b>. The <b>Treasure Chest</b> should now be visible.\n\n<b>5.</b>
+        Try the same interaction with the left hand. As a reminder, you can execute
+        latched tracking for the left hand by pressing the <b>T</b> key and using
+        the left Shift key and mouse to move the hand around the scene.\n\n<b>6.</b>
+        Once complete, press <b>Play</b> to exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: How to Grab an Object
+    Text:
+      m_Untranslated: "Objects can be grabbed with hands at either a far or near
+        distance. \n\nWhen grabbing an object at a far distance, a hand ray is visible
+        with a reticle (circular icon) that attaches to the object. Once the reticle
+        makes contact with the object, hold the <b>Left Mouse Button</b> to grab
+        the object.\n\nWhen grabbing an object at a near distance, the reticle on
+        the tip of the pointer finger must be in direct contact with the object.
+        You can use the mouse scroll wheel to change the depth of the hand. Once
+        the pointer finger makes contact with the object, press the <b>Left Mouse
+        Button</b> to grab the object. \n\nLet's try grabbing the <b>Treasure Chest</b>.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>To execute a far grab interaction, we can toggle the hand
+        and interact with the object from our starting position.</b>\n\n<b>1.</b>
+        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Hold the <b>Space</b>
+        key and move the mouse so that the right hand's hand ray comes in contact
+        with the <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
+        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Press
+        the <b>Left Mouse Button</b> to grab the <b>Treasure Chest</b>. Once grabbed,
+        you should be able to lift the chest from the sand and move it to another
+        position in the aquarium tank.\n\n<b>4.</b> To release the <b>Treasure Chest</b>,
+        let go of the <b>Left Mouse Button</b>.\n\n<b>5.</b> Try the same interaction
+        with the left hand. As a reminder, you can execute latched tracking for the
+        left hand by pressing the <b>T</b> key and using the <b>Left Shift</b> key
+        and mouse to move the hand around the scene.\n\n<b>6.</b> Feel free to grab
+        and scale the other objects in the aquarium tank. A bounding box with handles
+        surrounds the objects as well to provide fine-tune manipulation such as rotation
+        and scaling. To rotate or scale, grab a handle and drag with your mouse.\n\n<b>Note</b>:
+        Only the <b>Treasure Chest</b> and <b>Boat</b> objects cannot be scaled.\n\n<b>To
+        execute a near grab interaction, we can either move the camera closer to
+        the object <i>or</i> change the depth of the hand. Let's change the depth
+        of the hand to interact with the object.</b> \n\n<b>1.</b>Press the <b>Y</b>
+        key to toggle the right hand.\n\n<b>2.</b> Hold the <b>Space</b> key and
+        move the mouse so that the right hand's hand ray comes in contact with the
+        <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
+        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Using
+        the mouse scroll wheel, scroll forward and continue to position the hand
+        with the mouse so that the reticle displays on top of the object. As the
+        hand gets closer to the <b>Treasure Chest</b>, the ray will shorten until
+        the ray is no longer visible \u2013 only the reticle will remain visible.
+        \n\n<b>4.</b> Press the <b>Left Mouse Button</b> to grab the <b>Treasure
+        Chest</b>. Once grabbed, you should be able to lift the chest from the sand
+        and move it to another position in the aquarium tank.\n\n<b>5.</b> To release
+        the <b>Treasure Chest</b>, let go of the <b>Left Mouse Button</b>.\n\n<b>6.</b>
+        Try the same interaction with the left hand. As a reminder, you can execute
+        latched tracking for the left hand by pressing the <b>T</b> key and using
+        the <b>Left Shift</b> key and mouse to move the hand around the scene.\n\n<b>7.</b>
+        Feel free to grab and scale the other objects in the aquarium tank. A bounding
+        box with handles surrounds the objects as well to provide fine-tune manipulation
+        such as rotation and scaling. To rotate or scale, grab a handle and drag
+        with your mouse.\n\n<b>Note</b>: Only the <b>Treasure Chest</b> and <b>Boat</b>
+        objects cannot be scaled.\n\n<b>7.</b> Once complete, press <b>Play</b> to
+        exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: How to Rotate the Hands
+    Text:
+      m_Untranslated: "The hands can grab objects and rotate at either a far or near
+        distance. There are three rotation actions that can be performed:\n\n\u2022
+        Pitch (side-to-side axis)\n\u2022 Yaw (vertical axis)\n\u2022 Roll (front-to-back
+        axis)\n\nThe key combinations to execute each rotation differs by hand. Provided
+        below is a list of the key combinations for each hand:\n\n<u>Right Hand</u>\n\n\u2022
+        <b>Pitch</b>: Keyboard Left Ctrl + Mouse Forward/Back\n\u2022 <b>Yaw</b>:
+        Keyboard Left Ctrl + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left
+        Ctrl + Mouse Wheel Up/Down\n\n\n<u>Left Hand</u>\n\n\u2022 <b>Pitch</b>:
+        Keyboard Left Alt + Mouse Forward/Back\n\u2022 <b>Yaw</b>: Keyboard Left
+        Alt + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left Alt + Mouse Wheel
+        Up/Down\n\n\nLet's try executing a <b>Roll</b> rotation with the hand while
+        grabbing the <b>Treasure Chest</b>."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: "<b>To execute a rotation while grabbing an object at a far
+        distance, we can toggle the hand and interact with the object from our starting
+        position.</b>\n\n<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
+        reticle to make contact with the <b>Treasure Chest</b>.\n\n<b>3.</b> Once
+        the reticle is in contact with the <b>Treasure Chest</b>, continue to press
+        the <b>Left Ctrl</b> key and click the left mouse button to grab the object.
+        While grabbing the <b>Treasure Chest</b>, scroll the <b>Mouse Wheel</b> up
+        and down to roll the <b>Treasure Chest</b>.\n\n<b>4.</b> Try the same interaction
+        with the left hand following the respective key combinations above.\n\n<b>To
+        execute a rotation while grabbing an object from a near distance, we can
+        either move the camera closer to the object <i>or</i> change the depth of
+        the hand. Let's change camera's distance to the Treasure Chest.</b> \n\n<b>1.</b>
+        Press the <b>W</b> key to move closer to the <b>Treasure Chest</b>.\n\n<b>2.</b>
+        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
+        reticle to make contact with the <b>Treasure Chest</b>. When the hand has
+        made contact with the <b>Treasure Chest</b> at a near distance, the reticle
+        can be seen on top of the object and no hand ray is visible. Adjust your
+        proximity to the object if necessary.\n\n<b>3.</b> Click the left mouse button
+        to grab the object. While grabbing the <b>Treasure Chest</b>, continue to
+        press the <b>Left Ctrl</b> key and scroll the <b>Mouse Wheel</b> up and down
+        to roll the <b>Treasure Chest</b>. \n\n<b>5.</b> Try the same interaction
+        with the left hand following the respective key combinations above.\n\n<b>6.</b>
+        Once complete, press <b>Play</b> to exit Play Mode.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: MRTK Input Simulation
+    Text:
+      m_Untranslated: 'You''re welcome to revisit this tutorial at any time to familiarize
+        yourself with the MRTK Input Simulation controls.
+
+
+        View our <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation">Input
+        Simulation</a> documentation for a complete list of controls.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: 'Select <b>Done</b> to return to the tutorial overview. '
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}

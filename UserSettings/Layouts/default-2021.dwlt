@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1108.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 31789
+  controlID: 62027
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1197.6
+    width: 1007.2
     height: 1058.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 31859
+  controlID: 62154
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,12 +165,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1197.6
-    height: 660.8
+    width: 1007.2
+    height: 786.4
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 31775
+  controlID: 62155
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,8 +188,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 288
-    height: 660.8
+    width: 318.4
+    height: 786.4
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -212,19 +212,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 288
+    x: 318.4
     y: 0
-    width: 909.6
-    height: 660.8
+    width: 688.80005
+    height: 786.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,13 +242,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 660.8
-    width: 1197.6
-    height: 398.00006
+    y: 786.4
+    width: 1007.2
+    height: 272.40002
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 31860
+  controlID: 62132
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,14 +266,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 603.2
-    height: 398.00006
+    width: 640.8
+    height: 272.40002
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 19}
   m_Panes:
+  - {fileID: 19}
   - {fileID: 20}
-  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -292,10 +291,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 603.2
+    x: 640.8
     y: 0
-    width: 594.39996
-    height: 398.00006
+    width: 366.40002
+    height: 272.40002
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -318,15 +317,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1197.6
+    x: 1007.2
     y: 0
-    width: 404
+    width: 483.2
     height: 1058.8
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
@@ -344,15 +343,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1601.6
+    x: 1490.4
     y: 0
-    width: 446.40002
+    width: 557.6
     height: 1058.8
   m_MinSize: {x: 301, y: 321}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &15
@@ -375,10 +374,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1444.8
-    y: 734.4
-    width: 592.39996
-    height: 377.00006
+    x: -1407.2
+    y: 860
+    width: 364.40002
+    height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -389,11 +388,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 740.49994, y: 445.00006}
+  m_TargetSize: {x: 455.50003, y: 288.00003}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
+  m_EnterPlayModeBehavior: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -404,10 +403,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -296.19998
-    m_HBaseRangeMax: 296.19998
-    m_VBaseRangeMin: -178.00003
-    m_VBaseRangeMax: 178.00003
+    m_HBaseRangeMin: -182.20001
+    m_HBaseRangeMax: 182.20001
+    m_VBaseRangeMin: -115.20001
+    m_VBaseRangeMax: 115.20001
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -425,23 +424,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 592.39996
-      height: 356.00006
+      width: 364.40002
+      height: 230.40002
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 296.19998, y: 178.00003}
+    m_Translation: {x: 182.20001, y: 115.20001}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -296.19998
-      y: -178.00003
-      width: 592.39996
-      height: 356.00006
+      x: -182.20001
+      y: -115.20001
+      width: 364.40002
+      height: 230.40002
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 740.49994, y: 471.25006}
+  m_LastWindowPixelSize: {x: 455.50003, y: 314.25003}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -469,8 +468,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2048
     y: 73.6
-    width: 287
-    height: 639.8
+    width: 317.4
+    height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -478,25 +477,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d8710000
+      m_SelectedIDs: 2ea40000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1ea3f4fff4a4f4ff42c6f4ffb4d5f4ffd0f2f4ff3e0ef5ff0610f5ff282cf5fff837f5ff265bf5ff4669f5ff5e6ef5ff1670f5ff7076f5ff3278f5ff4a78f5ff047af5ff007ef5ff36aff5ff60b2f5ff78b2f5ffdcb4f5ff46b7f5ff5eb7f5ff96e6f5ff2cfcf5ff44fcf5ff3001f6ffb603f6ffce03f6ff7806f6ff1209f6ff2a09f6ff360df6ffa00ff6ffb80ff6ffe813f6ff9a1ff6ff3621f6ff4e21f6ff0a26f6ff8627f6ff9e27f6ff6e32f6ffc633f6ffde33f6ff4a68f6ff9669f6ffae69f6ff428cf6ff9694f6ffae94f6ffe690f7ff1a95f7ff9497f7ffac97f7ff52d1f7ff54d1f7fff4e3f7ff0ce4f7ffae4ef8ffb44ef8ffc24ef8fffa4ef8ff124ff8ff6a63f8ffe47cf8ff2c7ff8ff447ff8ffc696f8ff3e9af8ff569af8ff02a7f8ff9aa9f8fff4abf8ff4caef8ff64aef8ffaa69f9ffb069f9ffbe69f9fff669f9ff208ef9ff36a0f9ffcaa2f9ffe2a2f9ffd2b1f9ff1ab4f9ff32b4f9ff7abef9ffc6c1f9ffdec1f9ff7ec3f9ff56c6f9ff6ec6f9ff3ac8f9ff7ad1f9ff16d3f9ff2ed3f9ff3c3efaff6041faff4044faff5844faff3a72faffb673faffce73faffe476faffe478fafffc78faff5c82faffe483fafffc83faffe899faff349bfaff4c9bfaffd69dfaff32a0faff4aa0faff82a2fafff6a3faff0ea4faff367cfbff9e7dfbffb67dfbffee81fbff4683fbff5e83fbff4e8cfbff7868fcffec6dfcffb06ffcff4472fcfffc73fcff7e80fcffd0dafcff7e4ffdffd85dfdffb85ffdff4264fdff188ffdff949efdff66a1fdffb6b7fdff50cbfdffb6cefdff68d3fdff70dffdffc4e5fdffb4edfdff4cf1fdfffef4fdffe4fbfdffe604feffe40dfeffec1cfeffce24feffd63dfeffae42feffec52feff6c78feffacf2feff76f5feffccf8feff54fafeff26fdfeffcc06ffffae0effffe015ffff3218ffffd41affff861effffda1effff761fffffd8f5ffff2cf6ffffcef6ffff2efbffff4c97000064970000249800003c9800008a9f00008e9f00009a9f0000c09f000012a500002aa50000e0a60000fca600003aaa00003eaa00004eaa00006caa000088aa0000fcad000010ae00004aae000058b000006ab0000078b000008eb0000002b2000018b2000054b2000080b4000084b4000094b40000a6b40000d4b4000022b6000038b6000074b60000deb80000f6b9000040bb00000cbf000028bf0000bac1000058c6000072c60000acd10000cad10000e6d100005ad700005eda00007ada0000b0dc0000b4dc0000c8dc0000e0dc0000f8dc0000f8f1000010f200007c7101008c710100aa7101006c7a01009a7a0100a682010074840100a884010072920100a692010008960100f4a40100f8a401000aa5010020a5010036a501003caa010056aa0100ecdb0100dafc010034080200f80b02003c0d0200a210020026130200b61502008a1802003a1f02002c26020030260200422602006e2602009a2a0200a22d0200962f0200ce2f0200ca3002000a3102003831020050320200663302006a3302007e330200963302000c380200603a02006a3a02007e3a0200963a0200ac3a0200743c0200783c02008c3c0200ae3c0200ca3c0200c8430200ce430200e4430200fc4302002e44020034470200384702004c4702006e470200
+      m_ExpandedIDs: 4cc6f6ff5476f7ff5a76f7ff6876f7ffa076f7ffce76f7ffd476f7ffe276f7ff1a77f7ff4877f7ff4e77f7ff5c77f7ff9477f7ffc277f7ffc877f7ffd677f7ff0e78f7ff2678f7ff5a7ef7ffce7ff7ffe2f2f7ff12f3f7ff18f3f7ff26f3f7ff48f3f7ff5ef3f7ff4cf6f7ffca02f8ff300af8ff360cf8ff4e0cf8ffd00ef8ff2031f8ff7a35f8ff9235f8ff1638f8ff2e3cf8ff463cf8ff123ff8ff8242f8ff9a42f8ff0a45f8fffc66f8ff6868f8ff8068f8ffe46af8ff786df8ff906df8ff7a8ef8ff7691f8ff8e91f8ff0e94f8ff9696f8ffae96f8ff7a98f8ffb699f8ffce99f8ff989bf8ffd49cf8ffec9cf8ff4e9ff8ffeaa0f8ff02a1f8ffe4a3f8ffd8a6f8fff0a6f8ff9cecf8fff8eef8ff96faf8ffaefaf8fff000f9ff6c03f9fffe0ff9ff1610f9ff081af9ff981bf9ffb01bf9ff8e29f9ff522bf9ff6a2bf9ff7034f9ff0c36f9ff2436f9ff863cf9ff40a8f9ff70a8f9ff76a8f9ff84a8f9ffa6a8f9ffbca8f9fff218fafff818faff0619faff3e19faff6c19faff7219faff8019faffb819faffe619faffec19fafffa19faff321afaff601afaff661afaff741afaffac1afaffc41afaff1821faffe022faff9a24faffb224faff4e26faffa0f6faffd0f6faffd6f6faffe4f6faff06f7faff1cf7faffcaf9faff6a0afbffd418fbff5c87fbff6687fbff381bfcff4a1dfcff621dfcff9a65fcffa26efcffd871fcffbc73fcffd473fcff427bfcffb47dfcfffc7ffcff6e84fcff5663fdff5863fdff1a67fdff8a69fdffc279feffc879feffd679fefff879feff0e7afeff46d5feff4cd5feff5ad5feff8cd5feff8ed5feff44e2feff5ce2fefffce5feffbae8feff3808ffffd80affff0816ffff8a18ffff501affff108301000c9501003e9501008aa001009af20100ccf201003af6010076f60100aaf6010092fa010058090200b60b0200023a0200363a020022420200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Tube Coral - Front
-        m_OriginalName: Tube Coral - Front
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 145372
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 13}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -524,10 +523,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1760
+    x: -1729.6
     y: 73.6
-    width: 907.6
-    height: 639.8
+    width: 686.80005
+    height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -581,7 +580,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -729,9 +728,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.051680844, y: 0.078340985, z: 0.32215613}
+    m_Target: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
     speed: 2
-    m_Value: {x: 0.051680844, y: 0.078340985, z: 0.32215613}
+    m_Value: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -778,13 +777,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07921918, y: -0.070219174, z: 0.0055941897, w: 0.9943668}
+    m_Target: {x: 0.080850095, y: 0.038862415, z: -0.0031547865, w: 0.9959647}
     speed: 2
-    m_Value: {x: 0.07921906, y: -0.07021906, z: 0.005594181, w: 0.9943653}
+    m_Value: {x: -0.080850095, y: -0.03886242, z: 0.0031547868, w: -0.99596477}
   m_Size:
-    m_Target: 0.089252844
+    m_Target: 0.1924196
     speed: 2
-    m_Value: 0.089252844
+    m_Value: 0.1924196
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -845,70 +844,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 404
-    y: 73.6
-    width: 1227.6
-    height: 590.2
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.98065245
-      e01: 0
-      e02: 0
-      e03: 11.943054
-      e10: 0
-      e11: 0.98065245
-      e12: 0
-      e13: -28.552704
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -1787710031967198475, guid: 27be3624c16d8644b9612ea0c19e5987, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 0
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -922,9 +857,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -2048
-    y: 734.4
-    width: 602.2
-    height: 377.00006
+    y: 860
+    width: 639.8
+    height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -940,38 +875,38 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/Tutorials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Tutorials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\apspeigh\Desktop\Unity\MRTK3-IET\iet-improvement\IET-environment
+  m_LastProjectPath: C:\Users\apspeigh\Documents\GitHub\MRTK3-iet-tutorials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52700000
-    m_LastClickedID: 28754
-    m_ExpandedIDs: 000000003c7000003e700000407000004270000046700000487000004a7000004c7000004e7000005070000000ca9a3b
+    m_SelectedIDs: 86fa0000
+    m_LastClickedID: 64134
+    m_ExpandedIDs: 0000000080fa000082fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CanvasButton
-      m_OriginalName: CanvasButton
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 28844
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -985,7 +920,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c7000003e7000004070000046700000487000004a7000004c7000004e70000050700000a070000000ca9a3b
+    m_ExpandedIDs: 0000000080fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1016,18 +951,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300008e71000000000000baa80000466c000002c50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PreviewScenes
-      m_OriginalName: PreviewScenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 39532
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -1040,8 +975,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 296.2
---- !u!114 &21
+  m_DirectoriesAreaWidth: 229
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1061,15 +996,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 704.8
-    width: 534.2
-    height: 358.60004
+    x: -2048
+    y: 709.60004
+    width: 595.8
+    height: 401.80005
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1089,9 +1024,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -850.4
+    x: -1040.8
     y: 73.6
-    width: 402
+    width: 481.2
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1104,13 +1039,13 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 162
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &23
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1130,9 +1065,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -446.40002
+    x: -557.6
     y: 73.6
-    width: 445.40002
+    width: 556.6
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1145,7 +1080,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1160,15 +1095,12 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Bounds Control
+      m_Untranslated: MRTK Input Simulation
     Text:
-      m_Untranslated: "The <b>BoundsControl</b> script provides an automatically-sized
-        bounding box, along with manipulation affordances for rotation and scale.
-        In this tutorial, you'll explore the properties of <b>BoundsControl</b> as
-        you add the script to objects that can be manipulated in the aquarium.\n\n<b>Learning
-        Objectives</b>:\n\n\u2022 Add the BoundsControl component to a GameObject\n\u2022
-        Assign a Bounds Visuals Prefab\n\u2022 Limit enabled handles\n\nLet's get
-        started!\n"
+      m_Untranslated: With MRTK's input simulation, you can test various types of
+        interactions in the Unity editor using keyboard and mouse combinations to
+        control simulated inputs. In this module, you'll learn how to use the controls
+        while exploring the aquarium tank.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1189,7 +1121,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1204,24 +1136,17 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Introduction
+      m_Untranslated: Camera Controls
     Text:
-      m_Untranslated: "Woah - our aquarium is a mess! We\u2019ll need to clean up
-        and arrange the objects in the tank so that our sea animal has a nicely arranged
-        living environment!\n\nWe demonstrate in the <b>Object Manipulator</b> tutorial
-        that you can use the <b>ObjectManipulator</b> script to move, scale, and
-        rotate an object. Used by itself, <b>Object Manipulator</b> does not provide
-        a visual cue to indicate whether an object can be manipulated or to indicate
-        that an object has been selected. Since we have a lot of objects in the aquarium
-        to arrange, it\u2019ll be helpful to have a visual cue display as we select
-        objects to manipulate to ensure that we\u2019re selecting our intended object.\n\n<b>Bounds
-        Control</b> provides us with the visual cue we\u2019ll need! For this tutorial,
-        we\u2019ll pair the two scripts together to provide an enhanced manipulation
-        experience for arranging the objects in the aquarium.\n\n<b>Note</b>: Throughout
-        this tutorial, you\u2019ll be prompted to enter Play Mode to try out a scene.
-        In the <i>Preview Scenes</i> module, we share several options for trying
-        scenes. Refer to the input controls for your preferred method when trying
-        the scenes for this tutorial.\n"
+      m_Untranslated: "The camera represents the position of the user's head or HMD
+        (head-mounted display). You can move the position of the camera with the
+        following keys:\n\n<u>Movement</u>\n\n\u2022 <b>Move Horizontally</b>: Keyboard
+        A/D  <i>or</i> Left/Right arrows\n\u2022 <b>Move Vertically</b>: Keyboard
+        Q/E <i>or</i> Page Up/Page Down\n\nThe camera can also be rotated with the
+        following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022 <b>Pitch</b>:
+        Mouse Right Button + Forward/Back\n\u2022 <b>Yaw</b>: Mouse Right Button
+        + Left/Right\n\u2022 <b>Roll</b>: Mouse Right Button + Wheel Up/Down\n\nLet's
+        move the camera around to view the objects in the aquarium tank."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1240,240 +1165,40 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "Familiarize yourself with the objects in the <b>Hierarchy</b>.
-        We\u2019ll refer to some of the parent and child objects throughout the tutorial."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Manipulating Objects with ObjectManipulator
-    Text:
-      m_Untranslated: "Currently, all the objects in the aquarium are configured
-        with the <b>Object Manipulator</b> component. <b>ObjectManipulator</b> enables
-        you to move, scale, and rotate an object. We\u2019ve restricted the scaling
-        manipulation for the objects, however, you\u2019re able to move and rotate
-        the objects.\n\nIf you\u2019re unfamiliar with <b>ObjectManipulator</b>,
-        we encourage you to review the Object Manipulator tutorial after you complete
-        this module. However, what\u2019s important to know for now is that without
-        this script, we would not be able to move or rotate the objects with our
-        preferred input.\n\nLet\u2019s try arranging some of the objects in the scene
-        now!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Use your preferred input method to move and/or rotate the objects in the
-        aquarium. \n\n<b>3.</b> Once complete, press <b>Play</b> to exit Play Mode.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add the BoundsControl Component
-    Text:
-      m_Untranslated: 'Adding the <b>BoundsControl</b> script as a component to a
-        GameObject adds an automatically-sized bounding box around the object. An
-        <b>interactable</b> must be on the object to use the bounds visual intention
-        and focus effects. If the <b>interactable</b> isn''t automatically detected,
-        you can specify the connection in the <b>Interactable Connection</b> properties
-        for the <b>BoundsControl</b> script component.
+      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
 
 
-        We recommend developers
-        use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>. <b>Object Manipulator</b>
-        can serve as the <b>interactable</b> for hover/focus states that the bounds
-        visuals respond to.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b> expand <b>Aquarium</b> and
-        select the <b>Coral</b>.
+        <b>2.</b>
+        Press the <b>W</b> key to move the camera closer to the aquarium tank.
 
 
-        <b>2.</b> In the <b>Inspector</b>, add
-        the <b>BoundsControl</b> script as a component.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add a Bounds Visuals Prefab
-    Text:
-      m_Untranslated: "A <b>Bounds Visuals Prefab</b> provides visuals for the bounds
-        that surround the bounding box. We provide a few pre-built bounds visuals
-        for you to use. However, you could create and use your own prefab as well!
-        We encourage you to make prefab variants of the visuals we provide and customize
-        them to fit your needs. We also recommend using a handle occlusion style
-        in which only the relevant handles along the edges of the bounds are visible.
-        This provides less visual distraction for the user.\n\nWe\u2019ll start by
-        assigning the <b>BoundingBoxWithHandles</b> prefab. The <b>BoundingBoxWithHandles</b>
-        prefab includes both a bounding box and handles which align the edges of
-        the object. The side handles are used for rotating, and the corner handles
-        are for scaling. The handles are activated by selecting (pinch or click)
-        the object. Likewise, the handles can be deactivated by selecting the object
-        once more. A select is performed with a brief click or pinch of the object.\n\nLet\u2019s
-        now add a visual for the bounds!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-        GameObject.
-
-
-        <b>2.</b> In the <b>Inspector</b>, navigate to the
-        <b>BoundsControl</b> component.
-
-
-        <b>3.</b>Within the <b>Bounds</b>
-        properties, select the circle icon for <b>Bounds Visuals Prefab</b>.
+        <b>3.</b>
+        Press the <b>A</b> key to  move to the left side of the aquarium tank.
 
 
         <b>4.</b>
-        Search for <b>BoundingBoxWithHandles</b> and assign the prefab.
+        Press the <b>D</b> key to move to the right side of the aquarium tank.
 
 
-        <b>Note</b>:
-        In the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
-        tab and untoggle the hidden packages by clicking the slashed eye icon on
-        the right.
+        <b>5.</b>
+        Press the <b>S</b> key to move the camera away from the aquarium tank.
 
-'
+
+        <b>6.</b>
+        Press the <b>Q</b> key to move the camera down.
+
+
+        <b>7.</b> Press
+        the <b>E</b> key to move the camera up.
+
+
+        <b>8.</b> Hold the right
+        mouse mouse and drag the mouse to the left and then to the right to rotate
+        the camera.
+
+
+        <b>9.</b> Once complete, press <b>Play</b> to exit
+        Play Mode.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1494,7 +1219,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1509,13 +1234,113 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Try it Out
+      m_Untranslated: How to Toggle Hands
     Text:
-      m_Untranslated: Now that <b>BoundsControl</b> has been added as a component
-        for the <b>Coral</b> and the <b>BoundingBoxWithHandles</b> prefab has been
-        assigned for the <b>Bounds Visual Prefab</b>, a bounding box with handles
-        will display surrounding the Coral when the object is touched. Enter Play
-        Mode to view the bounding box surrounding the <b>Coral</b>.
+      m_Untranslated: "MRTK Input Simulation provides a pair of hands which can be
+        tracked and initiate movement, rotation, and interactaction with objects
+        in the scene. You can toggle a single hand or both hands. \n\nHand tracking
+        can be latched (made persistent) or momentary. Latched tracking toggles the
+        left/right hand at its respective side of the scene. Momentary tracking toggles
+        the left/right hand at the current location of the mouse.\n\nLet's toggle
+        hands into the scene."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instruction</u>
+    Text:
+      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
+
+
+        <b>2.</b>
+        Press the <b>Space</b> key to momentarily toggle the right hand.
+
+
+        <b>3.</b>
+        Press the <b>Left Shift</b> key to momentarily toggle the left hand.
+
+
+        <b>4.</b>
+        Press the <b>Y</b> key to toggle the right hand so that it''s latched.
+
+
+        <b>5.</b>
+        With the right hand latched, hold the <b>Space</b> key and drag the mouse
+        to move the hand around the scene. Once done, press the <b>Y</b> once more
+        to detoggle the right hand.
+
+
+        <b>6.</b> Press the <b>T</b> key to
+        toggle the left hand so that it''s latched.
+
+
+        <b>7.</b> With the
+        left hand latched, hold the <b>Left Shift</b> key and drag the mouse to move
+        the hand around the scene. Once done, press the <b>T</b> once more to detoggle
+        the left  hand.
+
+
+        <b>8.</b> Once complete, press <b>Play</b> to exit
+        Play Mode.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: How to Press a Button
+    Text:
+      m_Untranslated: "Buttons can be pressed by hand at either a far or near distance.
+        \n\nWhen executing a far interaction button press, a hand ray is visible
+        with a reticle (circular icon) that attaches to the button. Once the reticle
+        makes contact with the button, a mouse click executes a button press.\n\nWhen
+        executing a near interaction button press, the reticle on the tip of the
+        pointer finger must be in direct contact with the button. There is a nonvisible
+        press layer configured with the button that the finger must collide with
+        and push to be considered a press. You can use the mouse scroll wheel to
+        change the depth of the hand.\n\nLet's try pressing the <b>Hide</b> button
+        to toggle the visibility of the <b>Treasure Chest</b>.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1534,17 +1359,38 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Notice that a bounding box with handles surrounds the <b>Coral</b>. Use your
-        preferred input method to move the <b>Coral</b>.\n\n<b>3.</b>. Let\u2019s
-        activate the handles on the bounding box. Select the <b>Coral</b> to activate
-        the handles. As a reminder, selecting can be performed with a brief click
-        or pinch of the object.\n\n<b>4.</b> Now that the handles are activated,
-        grab one of the rotate handles (along the side edges of the <b>Coral</b>)
-        to rotate the <b>Coral</b>. Regardless of which rotate handle you select,
-        you\u2019re able to rotate the <b>Coral</b> in it\u2019s place.\n\n<b>6.</b>
-        Next, select one of the scale handles (corner handle) to scale the <b>Coral</b>.
-        You can scale the object to be as large or small as you prefer.\n\n<b>7.</b>
+      m_Untranslated: "<b>To execute a far interaction button press, we can toggle
+        the hand and interact with the button from our starting position.</b>\n\n<b>1.</b>
+        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Press the <b>Y</b> key
+        to toggle the right hand. Notice that a hand ray protrudes from the hand.\n\n<b>3.</b>
+        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
+        ray comes in contact with the <b>Hide</b> button, which is located to the
+        right of the Treasure Chest. When the hand has made contact with the <b>Hide</b>
+        button, the reticle can be seen on top of the button.\n\n<b>4.</b> Press
+        your left mouse button to press the <b>Hide</b> button. Notice that the toggle
+        switch moves from left to right and the <b>Treasure Chest</b> is no longer
+        visible.\n\n<b>5.</b> Press the <b>Hide</b> button once more to toggle the
+        visibility of the <b>Treasure Chest</b>. The <b>Treasure Chest</b> should
+        now be visible.\n\n<b>6.</b> Try the same interaction with the left hand.
+        As a reminder, you can execute latched tracking for the left hand by pressing
+        the <b>T</b> key and using the <b>Left Shift</b> key and mouse to move the
+        hand around the scene.\n\n<b>To execute a near interaction button press,
+        we can either move the camera closer to the button <i>or</i> change the depth
+        of the hand. Let's change the depth of the hand interact with the button.</b>
+        \n\n<b>1.</b>Press the <b>Y</b> key to toggle the right hand.\n\n<b>2.</b>
+        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
+        ray comes in contact with the <b>Hide</b> button. When the hand has made
+        contact with the <b>Hide</b> button, the reticle can be seen on top of the
+        button.\n\n\n<b>3.</b> Using the mouse scroll wheel, scroll forward and continue
+        to position the hand with the mouse so that the reticle displays on top of
+        the button. Continue to scroll the mouse wheel forward until the button is
+        moved back on the Z axis \u2013 this indicates a button press. If pressed
+        successfully, the <b>Treasure Chest</b> should no longer be visible.\n\n<b>4.</b>
+        Press the <b>Hide</b> button once more to toggle the visibility of the <b>Treasure
+        Chest</b>. The <b>Treasure Chest</b> should now be visible.\n\n<b>5.</b>
+        Try the same interaction with the left hand. As a reminder, you can execute
+        latched tracking for the left hand by pressing the <b>T</b> key and using
+        the left Shift key and mouse to move the hand around the scene.\n\n<b>6.</b>
         Once complete, press <b>Play</b> to exit Play Mode.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
@@ -1566,7 +1412,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1581,18 +1427,17 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Enabled Handles
+      m_Untranslated: How to Grab an Object
     Text:
-      m_Untranslated: "You may recall that at the beginning of the tutorial, we mentioned
-        that the scaling manipulation was disabled for the objects in the scene.
-        However, you may have noticed that you were still able to scale the <b>Coral</b>
-        by using the scale handles from the <b>Bounds Control</b>.\n\nWhat has happened
-        is that the <b>Bounds Control</b> properties have overridden the <b>Object
-        Manipulation</b> properties. Although scaling is disabled on the <b>ObjectManipulator</b>
-        component, the handles included on the <b>Bounds Visuals Prefab</b> still
-        enables scaling assuming the scaling handles are active.\n\nYou can select
-        which handles to make active by modifying the <b>Enabled Handles</b> property.\n\nLet\u2019s
-        limit <b>Bounds Control</b> to only display the <b>Rotate</b> handles.\n"
+      m_Untranslated: "Objects can be grabbed with hands at either a far or near
+        distance. \n\nWhen grabbing an object at a far distance, a hand ray is visible
+        with a reticle (circular icon) that attaches to the object. Once the reticle
+        makes contact with the object, hold the <b>Left Mouse Button</b> to grab
+        the object.\n\nWhen grabbing an object at a near distance, the reticle on
+        the tip of the pointer finger must be in direct contact with the object.
+        You can use the mouse scroll wheel to change the depth of the hand. Once
+        the pointer finger makes contact with the object, press the <b>Left Mouse
+        Button</b> to grab the object. \n\nLet's try grabbing the <b>Treasure Chest</b>.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1611,19 +1456,47 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-        GameObject.
-
-
-        <b>2.</b> In the <b>Inspector</b>, navigate to the
-        <b>BoundsControl</b> component.
-
-
-        <b>3.</b> Within the <b>Manipulation</b>
-        properties, select the <b>Enabled Handles</b> drop-down and select <b>None</b>
-        followed by <b>Rotation</b>.
-
-'
+      m_Untranslated: "<b>To execute a far grab interaction, we can toggle the hand
+        and interact with the object from our starting position.</b>\n\n<b>1.</b>
+        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Hold the <b>Space</b>
+        key and move the mouse so that the right hand's hand ray comes in contact
+        with the <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
+        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Press
+        the <b>Left Mouse Button</b> to grab the <b>Treasure Chest</b>. Once grabbed,
+        you should be able to lift the chest from the sand and move it to another
+        position in the aquarium tank.\n\n<b>4.</b> To release the <b>Treasure Chest</b>,
+        let go of the <b>Left Mouse Button</b>.\n\n<b>5.</b> Try the same interaction
+        with the left hand. As a reminder, you can execute latched tracking for the
+        left hand by pressing the <b>T</b> key and using the <b>Left Shift</b> key
+        and mouse to move the hand around the scene.\n\n<b>6.</b> Feel free to grab
+        and scale the other objects in the aquarium tank. A bounding box with handles
+        surrounds the objects as well to provide fine-tune manipulation such as rotation
+        and scaling. To rotate or scale, grab a handle and drag with your mouse.\n\n<b>Note</b>:
+        Only the <b>Treasure Chest</b> and <b>Boat</b> objects cannot be scaled.\n\n<b>To
+        execute a near grab interaction, we can either move the camera closer to
+        the object <i>or</i> change the depth of the hand. Let's change the depth
+        of the hand to interact with the object.</b> \n\n<b>1.</b>Press the <b>Y</b>
+        key to toggle the right hand.\n\n<b>2.</b> Hold the <b>Space</b> key and
+        move the mouse so that the right hand's hand ray comes in contact with the
+        <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
+        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Using
+        the mouse scroll wheel, scroll forward and continue to position the hand
+        with the mouse so that the reticle displays on top of the object. As the
+        hand gets closer to the <b>Treasure Chest</b>, the ray will shorten until
+        the ray is no longer visible \u2013 only the reticle will remain visible.
+        \n\n<b>4.</b> Press the <b>Left Mouse Button</b> to grab the <b>Treasure
+        Chest</b>. Once grabbed, you should be able to lift the chest from the sand
+        and move it to another position in the aquarium tank.\n\n<b>5.</b> To release
+        the <b>Treasure Chest</b>, let go of the <b>Left Mouse Button</b>.\n\n<b>6.</b>
+        Try the same interaction with the left hand. As a reminder, you can execute
+        latched tracking for the left hand by pressing the <b>T</b> key and using
+        the <b>Left Shift</b> key and mouse to move the hand around the scene.\n\n<b>7.</b>
+        Feel free to grab and scale the other objects in the aquarium tank. A bounding
+        box with handles surrounds the objects as well to provide fine-tune manipulation
+        such as rotation and scaling. To rotate or scale, grab a handle and drag
+        with your mouse.\n\n<b>Note</b>: Only the <b>Treasure Chest</b> and <b>Boat</b>
+        objects cannot be scaled.\n\n<b>7.</b> Once complete, press <b>Play</b> to
+        exit Play Mode.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1644,7 +1517,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1659,12 +1532,20 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Try it Out
+      m_Untranslated: How to Rotate the Hands
     Text:
-      m_Untranslated: Now that <b>Rotation</b> is the only enabled handled for the
-        <b>Coral</b>, the scale handles will no longer be visible on the bounding
-        box. Enter Play Mode to view both the visual and functional difference that
-        has been made.
+      m_Untranslated: "The hands can grab objects and rotate at either a far or near
+        distance. There are three rotation actions that can be performed:\n\n\u2022
+        Pitch (side-to-side axis)\n\u2022 Yaw (vertical axis)\n\u2022 Roll (front-to-back
+        axis)\n\nThe key combinations to execute each rotation differs by hand. Provided
+        below is a list of the key combinations for each hand:\n\n<u>Right Hand</u>\n\n\u2022
+        <b>Pitch</b>: Keyboard Left Ctrl + Mouse Forward/Back\n\u2022 <b>Yaw</b>:
+        Keyboard Left Ctrl + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left
+        Ctrl + Mouse Wheel Up/Down\n\n\n<u>Left Hand</u>\n\n\u2022 <b>Pitch</b>:
+        Keyboard Left Alt + Mouse Forward/Back\n\u2022 <b>Yaw</b>: Keyboard Left
+        Alt + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left Alt + Mouse Wheel
+        Up/Down\n\n\nLet's try executing a <b>Roll</b> rotation with the hand while
+        grabbing the <b>Treasure Chest</b>."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1683,15 +1564,30 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Activate the handles by selecting (quick select or pinch) the <b>Coral</b>.\n\n<b>3.</b>
-        Notice that a bounding box with handles still surrounds the <b>Coral</b>,
-        however, all scale handles are now gone and only the rotate handles remain.\n\n<b>4.</b>
-        Next, select one of the rotate handles and rotate the <b>Coral</b>.\n\n<b>5.</b>
-        Now try to scale the cube without the handles. Since the scale handles are
-        no longer active, you\u2019re unable to scale the cube given the scale restriction
-        set on the ObjectManipulator component.\n\n<b>6.</b> Once complete, press
-        <b>Play</b> to exit Play Mode.\n"
+      m_Untranslated: "<b>To execute a rotation while grabbing an object at a far
+        distance, we can toggle the hand and interact with the object from our starting
+        position.</b>\n\n<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
+        reticle to make contact with the <b>Treasure Chest</b>.\n\n<b>3.</b> Once
+        the reticle is in contact with the <b>Treasure Chest</b>, continue to press
+        the <b>Left Ctrl</b> key and click the left mouse button to grab the object.
+        While grabbing the <b>Treasure Chest</b>, scroll the <b>Mouse Wheel</b> up
+        and down to roll the <b>Treasure Chest</b>.\n\n<b>4.</b> Try the same interaction
+        with the left hand following the respective key combinations above.\n\n<b>To
+        execute a rotation while grabbing an object from a near distance, we can
+        either move the camera closer to the object <i>or</i> change the depth of
+        the hand. Let's change camera's distance to the Treasure Chest.</b> \n\n<b>1.</b>
+        Press the <b>W</b> key to move closer to the <b>Treasure Chest</b>.\n\n<b>2.</b>
+        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
+        reticle to make contact with the <b>Treasure Chest</b>. When the hand has
+        made contact with the <b>Treasure Chest</b> at a near distance, the reticle
+        can be seen on top of the object and no hand ray is visible. Adjust your
+        proximity to the object if necessary.\n\n<b>3.</b> Click the left mouse button
+        to grab the object. While grabbing the <b>Treasure Chest</b>, continue to
+        press the <b>Left Ctrl</b> key and scroll the <b>Mouse Wheel</b> up and down
+        to roll the <b>Treasure Chest</b>. \n\n<b>5.</b> Try the same interaction
+        with the left hand following the respective key combinations above.\n\n<b>6.</b>
+        Once complete, press <b>Play</b> to exit Play Mode.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1712,7 +1608,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+    m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -1727,22 +1623,14 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Practice
+      m_Untranslated: MRTK Input Simulation
     Text:
-      m_Untranslated: "It\u2019s now time to practice what you\u2019ve learned in
-        this tutorial! The aquarium needs to be cleaned up and rearranged in preparation
-        for adding our sea animal back into its home. Using what you\u2019ve learned,
-        add <b>Bounds Control</b> to each object in the scene so that you\u2019re
-        provided with a visual affordance for manipulating the aquarium objects and
-        place the objects where you prefer. Although you could freely manipulate
-        objects without Bounds Control, including a visual affordance not only provides
-        a visual cue for what\u2019s been selected but the handles also provide fine-tuned
-        rotation.\n\nWe recommend that you restrict the <b>Bounds Control</b> handles
-        to only <b>Rotation</b>. You\u2019ll have a chance to scale the objects to
-        create a more customized look and feel in the <i>Canvas Button Bar</i> tutorial.\n\nWe
-        encourage you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
-        Control</a> documentation for more guidance on how to configure the <b>BoundsControl</b>
-        script.\n"
+      m_Untranslated: 'You''re welcome to revisit this tutorial at any time to familiarize
+        yourself with the MRTK Input Simulation controls.
+
+
+        View our <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation">Input
+        Simulation</a> documentation for a complete list of controls.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1761,77 +1649,7 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "Consider the following scenarios as you practice using Bounds
-        Control:\n\n\u2022 Add a bounding box without handles to an object (hint:
-        we provide a <b>BoundingBox</b> prefab which doesn\u2019t include handles)\n\u2022
-        Create a thicker padding for the bounds\n\u2022 Change the <b>Rotate Anchor</b>
-        to rotate at the object\u2019s origin\n\nOnce you\u2019re done, be sure to
-        exit Play Mode."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Summary
-    Text:
-      m_Untranslated: "In this tutorial, you learned how to add a bounding box to
-        a GameObject using the <b>BoundsControl</b> script. You can further modify
-        the properties to customize the look and behavior of the bounds. Manipulation
-        events can be added as well. \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
-        Control</a> documentation for additional guidance on how to configure the
-        script."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
-        You will be prompted to save the scene. Saving the scene will save the current
-        scene and the configurations you\u2019ve made during the tutorial. If you\u2019d
-        like to try the tutorial again, <b>do not</b> save the scene when prompted."
+      m_Untranslated: 'Select <b>Done</b> to return to the tutorial overview. '
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1853,4 +1671,4 @@ MonoBehaviour:
   m_ChildContainers: []
   m_MaskingEnabled: 1
   m_FarthestPageCompleted: -1
-  m_PlayModeChanging: 0
+  m_PlayModeChanging: 1

@@ -2573,6 +2573,7 @@ GameObject:
   - component: {fileID: 5781377660231767461}
   - component: {fileID: 3229213497900192497}
   - component: {fileID: 8325655593372480419}
+  - component: {fileID: 8325655593372480420}
   m_Layer: 0
   m_Name: Coral
   m_TagString: Untagged
@@ -7704,6 +7705,19 @@ MonoBehaviour:
   minimumScale: {x: 0.2, y: 0.2, z: 0.2}
   maximumScale: {x: 1.5, y: 1.5, z: 1.5}
   relativeToInitialState: 1
+--- !u!114 &8325655593372480420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644327309860281317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: d090a606-9a7d-420f-b4af-26d690692c7d
 --- !u!114 &8378833105150007149
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1067,6 +1067,8 @@ GameObject:
   - component: {fileID: 2128742212}
   - component: {fileID: 2128742213}
   - component: {fileID: 2128742214}
+  - component: {fileID: 2128742215}
+  - component: {fileID: 2128742217}
   m_Layer: 0
   m_Name: Treasure Chest
   m_TagString: Untagged
@@ -1148,6 +1150,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   movableAxes: 0
   onMoveDelta: 0.01
+--- !u!114 &2128742215
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128742211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Id: 5681f8a0-7c5b-46f1-abcb-24ccc14a84ed
+--- !u!114 &2128742217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128742211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cdab0cd5a0916419324bb54314773d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoConstraintSelection: 1
+  selectedConstraints: []
 --- !u!1 &8329119744939158
 GameObject:
   m_ObjectHideFlags: 0

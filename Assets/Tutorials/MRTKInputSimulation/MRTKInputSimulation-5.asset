@@ -42,11 +42,11 @@ MonoBehaviour:
           Pitch (side-to-side axis)\n\u2022 Yaw (vertical axis)\n\u2022 Roll (front-to-back
           axis)\n\nThe key combinations to execute each rotation differs by hand.
           Provided below is a list of the key combinations for each hand:\n\n<u>Right
-          Hand</u>\n\n\u2022 <b>Pitch</b>: Keyboard Right Ctrl + Mouse Forward/Back\n\u2022
+          Hand</u>\n\n\u2022 <b>Pitch</b>: Keyboard Left Ctrl + Mouse Forward/Back\n\u2022
           <b>Yaw</b>: Keyboard Left Ctrl + Mouse Left/Right\n\u2022 <b>Roll</b>:
           Keyboard Left Ctrl + Mouse Wheel Up/Down\n\n\n<u>Left Hand</u>\n\n\u2022
           <b>Pitch</b>: Keyboard Left Alt + Mouse Forward/Back\n\u2022 <b>Yaw</b>:
-          Keyboard Left Ctrl + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left
+          Keyboard Left Alt + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left
           Alt + Mouse Wheel Up/Down\n\n\nLet's try executing a <b>Roll</b> rotation
           with the hand while grabbing the <b>Treasure Chest</b>."
       m_Tutorial: {fileID: 0}
@@ -71,29 +71,27 @@ MonoBehaviour:
           distance, we can toggle the hand and interact with the object from our
           starting position.</b>\n\n<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Press and hold the <b>Left Ctrl</b> key and move the mouse to position
-          the recticle to make contact with the <b>Treasure Chest</b>.\n\n<b>3.</b>
-          Once the recticle is in contact with the <b>Treasure Chest</b>, continue
-          to press the <b>Left Ctrl</b> key and scroll the <b>Mouse Wheel</b> up
-          and down to roll the <b>Treasure Chest</b>. You should be able to rotate
-          the hand. \n\n<b>4.</b> Try the same interaction with the left hand following
-          the respective key combinations above.\n\n<b>To execute a rotation while
-          grabbing an object from a near distance, we can either move the camera
-          closer to the object <i>or</i> change the depth of the hand. Let's change
-          camera's distance to the Treasure Chest.</b> \n\n<b>1.</b> Press the <b>W</b>
-          key to move closer to the <b>Treasure Chest</b>.\n\n<b>2.</b> Press and
-          hold the <b>Left Ctrl</b> key and move the mouse to position the recticle
-          to make contact with the <b>Treasure Chest</b>. When the hand has made
-          contact with the <b>Treasure Chest</b> at a near distance, the recticle
-          can be seen on top of the object and no hand ray is visible. Adjust your
-          proximity to the object if necessary.\n\n<b>3.</b> Using the mouse scroll
-          wheel, scroll forward until the pointer on the finger is in contact with
-          the <b>Treasure Chest</b> and the hand ray is no longer visible (the recticle
-          will still be visible).\n\n<b>4.</b> Once the recticle is in contact with
-          the <b>Treasure Chest</b>, continue to press the <b>Left Ctrl</b> key and
-          scroll the <b>Mouse Wheel</b> up and down to roll the <b>Treasure Chest</b>.
-          You should be able to rotate the hand. \n\n<b>5.</b> Try the same interaction
-          with the left hand following the respective key combinations above.\n\n<b>6.</b>
-          Once complete, press <b>Play</b> to exit Play Mode."
+          the reticle to make contact with the <b>Treasure Chest</b>.\n\n<b>3.</b>
+          Once the reticle is in contact with the <b>Treasure Chest</b>, continue
+          to press the <b>Left Ctrl</b> key and click the left mouse button to grab
+          the object. While grabbing the <b>Treasure Chest</b>, scroll the <b>Mouse
+          Wheel</b> up and down to roll the <b>Treasure Chest</b>.\n\n<b>4.</b> Try
+          the same interaction with the left hand following the respective key combinations
+          above.\n\n<b>To execute a rotation while grabbing an object from a near
+          distance, we can either move the camera closer to the object <i>or</i>
+          change the depth of the hand. Let's change camera's distance to the Treasure
+          Chest.</b> \n\n<b>1.</b> Press the <b>W</b> key to move closer to the <b>Treasure
+          Chest</b>.\n\n<b>2.</b> Press and hold the <b>Left Ctrl</b> key and move
+          the mouse to position the reticle to make contact with the <b>Treasure
+          Chest</b>. When the hand has made contact with the <b>Treasure Chest</b>
+          at a near distance, the reticle can be seen on top of the object and no
+          hand ray is visible. Adjust your proximity to the object if necessary.\n\n<b>3.</b>
+          Click the left mouse button to grab the object. While grabbing the <b>Treasure
+          Chest</b>, continue to press the <b>Left Ctrl</b> key and scroll the <b>Mouse
+          Wheel</b> up and down to roll the <b>Treasure Chest</b>. \n\n<b>5.</b>
+          Try the same interaction with the left hand following the respective key
+          combinations above.\n\n<b>6.</b> Once complete, press <b>Play</b> to exit
+          Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

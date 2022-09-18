@@ -45,23 +45,23 @@ MonoBehaviour:
           create a Canvas-based toggleable button to achieve this functionality.\n\nCanvas-based
           buttons are flexible and configurable and can be resized to any dimension
           or proportion. The <b>PressableButton</b> script is added as a component
-          of a  button and includes behaviors specific to the buttons. For this tutorial,
+          of a button and includes behaviors specific to the buttons. For this tutorial,
           we\u2019ll use the <b>ActionButton</b> prefab as our base for creating
           a button with a toggle switch. The <b>ActionButton</b> prefab is a simple
           button that includes an icon, text, and a label. These individual components
           can be enabled or disabled, and the layout system will adapt accordingly.
-          As for the toggle switch, we provide a <b>ToggleSwitch</b> prefab that
-          can be leveraged for adding a toggle switch to the button.\n\nMRTK3 uses
-          what is referred to as <b>Volumetric UI</b>. <b>Volumetric UI</b> supports
-          all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
+          Canvas prefabs (such as the <b>Action Button</b>) must be placed inside
+          a Canvas. As for the toggle switch, we provide a <b>ToggleSwitch</b> prefab
+          that can be leveraged for adding a toggle switch to the button.\n\nMRTK3
+          uses what is referred to as <b>Volumetric UI</b>. <b>Volumetric UI</b>
+          supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
           context. Controls can be automatically laid out with proper margin, padding,
           responsive flex, and all features a designer would expect to find. When
           you set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
           its <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
-          is set globally to <b>0.001</b> on all axes.\n\nCanvas prefabs (such as
-          the <b>Action Button</b>) must be placed inside a Canvas. Let\u2019s create
-          a new <b>Canvas</b> GameObject and add the <b>Action Button</b> prefab
-          as a child GameObject.\n"
+          is set globally to <b>0.001</b> on all axes.\n\n\nLet\u2019s create a new
+          <b>Canvas</b> GameObject and add the <b>Action Button</b> prefab as a child
+          GameObject.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -81,31 +81,28 @@ MonoBehaviour:
         m_Untranslated: <u>Instructions</u>
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
-          and select <b>UI > Canvas</b>. Rename the <b>Canvas</b> GameObject to <b>Sea
-          Animal Toggle</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select the <b>Sea
-          Animal Toggle</b> GameObject and navigate to the <b>Canvas</b> component.\n\n<b>3.</b>
-          Select the <b>Render Mode</b> drop-down and select <b>World Space</b>.
-          \n\n<b>4.</b> Within the <b>Canvas</b> properties, select the circle icon
-          for <b>Event Camera</b>.\n\n<b>5.</b> In the <b>Select Camera</b> window,
-          switch to the <b>Scene</b> tab and select the <b>Main Camera</b>.\n\n<b>6.</b>
-          The <b>Rect Transform</b> component should now be active. Change the <b>Scale</b>
-          to <b>0.001</b> on all axes.\n\n<b>7.</b> In the <b>Rect Transfom</b> component,
-          change the <b>Position</b> to <b>0.13, 0, 0.8</b>.\n\n<b>8.</b> In the
-          <b>Rect Transform</b> component, change the <b>Width</b> and <b>Height</b>
-          values to <b>100</b>.\n\n<b>9.</b> In the <b>Rect Transfom</b> component,
-          change the <b>Position</b> to <b>0.13, 0, 0.8</b>. \n\n<b>Note</b>: Depending
-          on where you've placed the sea animal, you may need to further adjust the
-          position of the button so that the button displays to the right of the
-          sea animal.\n\n<b>10.</b> In the <b>Project</b> panel, search for the <b>Action
-          Button</b> prefab and drag the prefab to become a child of the <b>Sea Animal
-          Toggle</b> GameObject. You should now see the Action Button prefab display
-          in the middle of the tank.\n"
+          and select <b>UI > MRTK > Action Button</b>. Rename the <b>Canvas</b> GameObject
+          to <b>Sea Animal Toggle</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select
+          the <b>Sea Animal Toggle</b> GameObject and navigate to the <b>Canvas</b>
+          component.\n\n<b>3.</b> In the <b>Select Camera</b> window, switch to the
+          <b>Scene</b> tab and select the <b>Main Camera</b>.\n\n<b>4.</b> In the
+          <b>Rect Transfom</b> component, change the <b>Position</b> to <b>0.13,
+          0, 0.8</b>.\n\n<b>5.</b> In the <b>Hierarchy</b>, select <b>Sea Animal
+          Toggle > ActionButton</b>. For the <b>Action Button</b> <b>Rect Transfom</b>
+          component, change the <b>Scale</b> to <b>1.5, 1.5, 1.5</b>. \n\n<b>Note</b>:
+          Depending on where you've placed the sea animal, you may need to further
+          adjust the position of the button so that the button displays to the right
+          of the sea animal.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items: []
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 52045582768820820}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -168,3 +165,37 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &52045582768820820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231e8df50e16c74c979c4a2affab91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Callback:
+    _target: {fileID: 11400000, guid: 72305ad941f10a24287f151852f29201, type: 2}
+    _methodName: DoesSeaAnimalToggleExist
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0
+  m_AutoCompleteCallback:
+    _target: {fileID: 0}
+    _methodName: 
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0

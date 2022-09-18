@@ -42,8 +42,10 @@ MonoBehaviour:
           you\u2019ve made during the tutorial. If you\u2019d like to try the tutorial
           again, <b>do not</b> save the scene when prompted.\n\nIf you accidentally
           save the scene or later decide to redo a tutorial after the scene has been
-          saved, you\u2019ll need to add a new version of the original project to
-          the Unity Hub.\n"
+          saved, you can do a <b>git reset --hard</b> if using Git to get everything
+          back to a clean state. However, if you've downloaded the repository as
+          a .zip file, then you\u2019ll need to add a new version of the original
+          project to the Unity Hub.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
