@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4804944572966871928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RequiredPlayModeState: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,18 +54,11 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add Toggle Events
+        m_Untranslated: Try it Out
       Text:
-        m_Untranslated: "Now that our button UI has been configured, we can add toggle
-          events for when the button is toggled or detoggled. We\u2019ll make use
-          of the default GameObject functions provided by the <b>Active</b> property
-          for the sea animal to make the object either active or inactive.\n\nBy
-          default, we\u2019ll leave the sea animal to be active in the scene. However,
-          when the <b>Sea Animal Toggle</b> button is toggled, the sea animal will
-          deactivate, thus hiding the sea animal from view. When the <b>Sea Animal
-          Toggle</b> button is detoggled, the sea animal will become active and therefore
-          visible in the aquarium.\n\nLet\u2019s create events for the visibility
-          of the sea animal!\n"
+        m_Untranslated: "We\u2019ve made it pretty far with configuring a Canvas
+          button to toggle whether the sea animal in the aquarium is visible! Let\u2019s
+          give the button a try to toggle the visibility of the sea animal."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -65,46 +77,32 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b>, select <b>Sea Animal Toggle
-          > Action Button</b>.
+        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode.
 
 
-          <b>2.</b> In the <b>Inspector</b>, navigate
-          to the <b>Pressable Button</b> component.
+          <b>2.</b>
+          Use your preferred input method to press the <b>Sea Animal Toggle</b> button.
 
 
-          <b>3.</b> Within
-          the <b>On Toggled</b> property, select the <b>+</b> to create a new event.
+          <b>Note:</b>
+          For mouse-based interaction or MRTK Input Simulation, you can use the <b>WASD</b>
+          keys on the keyboard to move the camera. Pressing the <b>W</b> key moves
+          the camera closer.
 
 
-          <b>4.</b>
-          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
-          field for the GameObject receiving the event.
+          <b>3.</b> When you press the button, the
+          <b>Toggle Switch</b> dot moves from left to right and the sea animal is
+          hidden from view. Press the <b>Sea Animal Toggle</b> button once more to
+          detoggle the button.
 
 
-          <b>5.</b> In
-          the new event, select the <b>function</b> drop-down and select <b>GameObject
-          > SetActive (bool)</b>.
+          <b>4.</b> After the button is pressed,
+          the <b>Toggle Switch</b> dot moves from rigtht to left and the sea animal
+          is once again visible in the aquarium.
 
 
-          <b>6.</b> Within the <b>On Deoggled</b>
-          property, select the <b>+</b> to create a new event.
-
-
-          <b>7.</b>
-          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
-          field for the GameObject receiving the event.
-
-
-          <b>8.</b> In
-          the new event, select the <b>function</b> drop-down and select <b>GameObject
-          > SetActive (bool)</b>.
-
-
-          <b>9.</b> Below the function, check
-          the box to set the active flag to <b>active</b> for the sea animal. This
-          ensures that the sea animal will display when the <b>Sea Animal Toggle</b>
-          button is detoggled.
+          <b>5.</b> Once complete,
+          press <b>Play</b> to exit Play Mode.
 
 '
       m_Tutorial: {fileID: 0}
@@ -112,7 +110,11 @@ MonoBehaviour:
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items: []
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: -4804944572966871928}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

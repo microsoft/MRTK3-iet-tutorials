@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 61761
+  controlID: 10868
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,9 +46,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1407.2
+    x: -1216
     y: 860
-    width: 364.40002
+    width: 478.80005
     height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 455.50003, y: 288.00003}
+  m_TargetSize: {x: 598.50006, y: 288.00003}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -75,8 +75,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -182.20001
-    m_HBaseRangeMax: 182.20001
+    m_HBaseRangeMin: -239.40002
+    m_HBaseRangeMax: 239.40002
     m_VBaseRangeMin: -115.20001
     m_VBaseRangeMax: 115.20001
     m_HAllowExceedBaseRangeMin: 1
@@ -96,23 +96,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 364.40002
+      width: 478.80005
       height: 230.40002
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 182.20001, y: 115.20001}
+    m_Translation: {x: 239.40002, y: 115.20001}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -182.20001
+      x: -239.40002
       y: -115.20001
-      width: 364.40002
+      width: 478.80005
       height: 230.40002
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 455.50003, y: 314.25003}
+  m_LastWindowPixelSize: {x: 598.50006, y: 314.25003}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -137,12 +137,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1007.2
+    width: 1312.8
     height: 1058.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61762
+  controlID: 10869
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +162,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1007.2
+    width: 1312.8
     height: 786.4
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61763
+  controlID: 10870
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,14 +178,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 318.4
+    width: 324
     height: 786.4
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -216,7 +216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2048
     y: 73.6
-    width: 317.4
+    width: 323
     height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -227,7 +227,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5476f7ff5a76f7ff6876f7ffa076f7ffce76f7ffd476f7ffe276f7ff1a77f7ff4877f7ff4e77f7ff5c77f7ff9477f7ffc277f7ffc877f7ffd677f7ff0e78f7ff2678f7ff5a7ef7ffce7ff7ffe2f2f7ff12f3f7ff18f3f7ff26f3f7ff48f3f7ff5ef3f7ff4cf6f7ffca02f8ff300af8ff360cf8ff4e0cf8ffd00ef8ff2031f8ff7a35f8ff9235f8ff1638f8ff2e3cf8ff463cf8ff123ff8ff8242f8ff9a42f8ff0a45f8fffc66f8ff6868f8ff8068f8ffe46af8ff786df8ff906df8ff7a8ef8ff7691f8ff8e91f8ff0e94f8ff9696f8ffae96f8ff7a98f8ffb699f8ffce99f8ff989bf8ffd49cf8ffec9cf8ff4e9ff8ffeaa0f8ff02a1f8ffe4a3f8ffd8a6f8fff0a6f8ff9cecf8fff8eef8ff96faf8ffaefaf8fff000f9ff6c03f9fffe0ff9ff1610f9ff081af9ff981bf9ffb01bf9ff8e29f9ff522bf9ff6a2bf9ff7034f9ff0c36f9ff2436f9ff863cf9ff40a8f9ff70a8f9ff76a8f9ff84a8f9ffa6a8f9ffbca8f9fff218fafff818faff0619faff3e19faff6c19faff7219faff8019faffb819faffe619faffec19fafffa19faff321afaff601afaff661afaff741afaffac1afaffc41afaff1821faffe022faff9a24faffb224faff4e26faffa0f6faffd0f6faffd6f6faffe4f6faff06f7faff1cf7faffcaf9faff6a0afbffd418fbff5c87fbff6687fbff381bfcff4a1dfcff621dfcff9a65fcffa26efcffd871fcffbc73fcffd473fcff427bfcffb47dfcfffc7ffcff6e84fcff5663fdff5863fdff1a67fdff8a69fdffc279feffc879feffd679fefff879feff0e7afeff46d5feff4cd5feff5ad5feff8cd5feff8ed5feff44e2feff5ce2fefffce5feffbae8feff3808ffffd80affff0816ffff8a18ffff501affff108301000c9501003e9501008aa001009af20100ccf201003af6010076f60100aaf6010092fa010058090200b60b0200023a0200363a020022420200
+      m_ExpandedIDs: 106cfefffa07ffff2a08ffff3008ffff3e08ffff6008ffff7608ffffa613ffff7a97ffffaa97ffffb097ffffbe97ffffe097fffff697ffff68f2ffff6ef2ffff7cf2ffff9cf2ffffaef2ffffb8f2ffff10f5ffff2efbffffb87c00000c7d00001c7d0000567d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -243,7 +243,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 15}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -266,9 +266,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 318.4
+    x: 324
     y: 0
-    width: 688.80005
+    width: 988.80005
     height: 786.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -298,9 +298,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1729.6
+    x: -1724
     y: 73.6
-    width: 686.80005
+    width: 986.80005
     height: 765.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -311,8 +311,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.599976}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.599976}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
+    m_Target: {x: -0.0044524446, y: -0.0012176037, z: 1.0052862}
     speed: 2
-    m_Value: {x: -0.0036193295, y: -0.059001707, z: 0.6416133}
+    m_Value: {x: -0.0044524446, y: -0.0012176037, z: 1.0052862}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -556,9 +556,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.08084999, y: 0.038862363, z: -0.0031547823, w: 0.9959634}
   m_Size:
-    m_Target: 0.1924196
+    m_Target: 0.38361067
     speed: 2
-    m_Value: 0.1924196
+    m_Value: 0.38361067
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -630,12 +630,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 786.4
-    width: 1007.2
+    width: 1312.8
     height: 272.40002
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61740
+  controlID: 10879
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -653,10 +653,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 640.8
+    width: 832
     height: 272.40002
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -685,7 +685,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2048
     y: 860
-    width: 639.8
+    width: 831
     height: 251.40002
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -702,24 +702,24 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Environment Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Models/Environment Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\apspeigh\Documents\GitHub\MRTK3-iet-tutorials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30630100
-    m_LastClickedID: 90928
-    m_ExpandedIDs: 0000000080fa000082fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
+    scrollPos: {x: 0, y: 44.599976}
+    m_SelectedIDs: 5a750000
+    m_LastClickedID: 30042
+    m_ExpandedIDs: 00000000327500003475000036750000387500003a7500003c7500003e750000da9f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -747,7 +747,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000080fa00008efa0000001101002c11010056110100a4220100c2220100c63a010000ca9a3b
+    m_ExpandedIDs: 00000000327500003475000036750000387500003a7500003c7500003e750000da9f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -772,8 +772,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0e78f7ff
-    m_LastClickedInstanceID: -559090
+    m_SelectedInstanceIDs: 58740000
+    m_LastClickedInstanceID: 29784
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008e71000000000000baa80000466c000002c50000
     m_RenameOverlay:
@@ -846,9 +846,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 640.8
+    x: 832
     y: 0
-    width: 366.40002
+    width: 480.80005
     height: 272.40002
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -872,9 +872,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1007.2
+    x: 1312.8
     y: 0
-    width: 483.2
+    width: 402.3999
     height: 1058.8
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -903,9 +903,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1040.8
+    x: -735.19995
     y: 73.6
-    width: 481.2
+    width: 400.3999
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -917,7 +917,7 @@ MonoBehaviour:
     m_CachedPref: 262
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -559090
+  m_LastInspectedObjectInstanceID: 29784
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -939,9 +939,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1490.4
+    x: 1715.2
     y: 0
-    width: 557.6
+    width: 332.80005
     height: 1058.8
   m_MinSize: {x: 301, y: 321}
   m_MaxSize: {x: 4001, y: 4021}
@@ -970,9 +970,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -557.6
+    x: -332.79993
     y: 73.6
-    width: 556.6
+    width: 331.80005
     height: 1037.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1000,12 +1000,15 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: MRTK Input Simulation
+      m_Untranslated: Canvas Button Bar
     Text:
-      m_Untranslated: With MRTK's input simulation, you can test various types of
-        interactions in the Unity editor using keyboard and mouse combinations to
-        control simulated inputs. In this module, you'll learn how to use the controls
-        while exploring the aquarium tank.
+      m_Untranslated: "A button bar organizes a collection of buttons together in
+        a uniform layout. In this tutorial, you'll explore configurations for canvas
+        buttons within a button bar by configuring the button to spawn an aquarium
+        object.\n\n<b>Learning Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b>
+        for a Canvas-based button\n\u2022 Select an <b>Icon</b> for a Canvas button
+        prefab\n\u2022 Provide a <b>Label</b> for a Canvas button\n\u2022 Add an
+        <b>On Clicked</b> event to a Canvas button\n\nLet's get started!"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1041,17 +1044,80 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Camera Controls
+      m_Untranslated: Introduction
     Text:
-      m_Untranslated: "The camera represents the position of the user's head or HMD
-        (head-mounted display). You can move the position of the camera with the
-        following keys:\n\n<u>Movement</u>\n\n\u2022 <b>Move Horizontally</b>: Keyboard
-        A/D  <i>or</i> Left/Right arrows\n\u2022 <b>Move Vertically</b>: Keyboard
-        Q/E <i>or</i> Page Up/Page Down\n\nThe camera can also be rotated with the
-        following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022 <b>Pitch</b>:
-        Mouse Right Button + Forward/Back\n\u2022 <b>Yaw</b>: Mouse Right Button
-        + Left/Right\n\u2022 <b>Roll</b>: Mouse Right Button + Wheel Up/Down\n\nLet's
-        move the camera around to view the objects in the aquarium tank."
+      m_Untranslated: "Provided in the scene is an empty aquarium tank that\u2019s
+        awaiting objects to decorate the environment. We\u2019ve provided the following
+        prefabs to decorate the tank:\n\n\u2022 Rocks (small, medium, and large)\n\u2022
+        Coral\n\u2022 Tube Coral\n\u2022 Green Sea Grass\n\u2022 Light Purple Sea
+        Grass\n\u2022 Dark Purple Sea Grass\n\u2022 Boat\n\u2022 Treasure Chest\n\nThe
+        aquarium object prefabs are already configured with both the <b>ObjectManipulator</b>
+        and <b>BoundsControl</b> scripts to help you arrange the objects in the environment.
+        However, you\u2019ll need to spawn the objects into the aquarium tank.\n\nWe
+        can use a Canvas button bar to arrange the selection of objects to spawn.
+        For this tutorial, we\u2019ll create a button bar that\u2019ll provide a
+        menu of objects to choose from for adding aquarium objects into the tank.\n\n<b>Note:</b>
+        Throughout this tutorial, you\u2019ll be prompted to enter Play Mode to try
+        out a scene. In the <i>Getting Started</i> module, we share several options
+        for trying scenes. Refer to the input controls for your preferred method
+        when trying the scenes for this tutorial.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Add a Canvas Button Bar
+    Text:
+      m_Untranslated: "Canvas-based buttons are flexible and configurable and can
+        be resized to any dimension or proportion. The <b>PressableButton</b> script
+        is added as a component of a  button and includes behaviors specific to the
+        button. MRTK provides a <b>CanvasButtonBar_SharedBackPlate</b> prefab that\u2019s
+        equipped with both a <b>Backplate</b> and <b>Action Button</b> prefabs.\n\nThe
+        <b>BackPlate</b> provides a background for the button. The backplate for
+        this particular prefab is shared, which means that all buttons within the
+        bar share the same backplate. The <b>ActionButton</b> prefab is a simple
+        button that includes an icon, text, and a label. These individual components
+        can be enabled or disabled, and the layout system will adapt accordingly.
+        Canvas prefabs (such as the <b>CanvasButtonBar-SharedBackPlate</b>) must
+        be placed inside a Canvas. \n\nMRTK3 uses what is referred to as <b>Volumetric
+        UI</b>, which supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
+        context. Controls can be automatically laid out with proper margin, padding,
+        responsive flex, and all features a designer would expect to find. When you
+        set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that its
+        <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b> is set
+        globally to <b>0.001</b> on all axes.\n\nLet\u2019s create a new <b>Canvas</b>
+        GameObject and add the <b>CanvasButtonBar-SharedBackPlate</b> prefab as a
+        child GameObject.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1070,46 +1136,33 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
-
-
-        <b>2.</b>
-        Press the <b>W</b> key to move the camera closer to the aquarium tank.
-
-
-        <b>3.</b>
-        Press the <b>A</b> key to  move to the left side of the aquarium tank.
-
-
-        <b>4.</b>
-        Press the <b>D</b> key to move to the right side of the aquarium tank.
-
-
-        <b>5.</b>
-        Press the <b>S</b> key to move the camera away from the aquarium tank.
-
-
-        <b>6.</b>
-        Press the <b>Q</b> key to move the camera down.
-
-
-        <b>7.</b> Press
-        the <b>E</b> key to move the camera up.
-
-
-        <b>8.</b> Hold the right
-        mouse mouse and drag the mouse to the left and then to the right to rotate
-        the camera.
-
-
-        <b>9.</b> Once complete, press <b>Play</b> to exit
-        Play Mode.'
+      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
+        and select <b>UI > Canvas</b>. Rename the <b>Canvas</b> GameObject to <b>Aquarium
+        Objects Bar</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select the <b>Aquarium
+        Objects Bar</b> GameObject and navigate to the <b>Canvas</b> component.\n\n<b>3.</b>
+        Select the <b>Render Mode</b> drop-down and select <b>World Space</b>. \n\n<b>4.</b>
+        Within the <b>Canvas</b> properties, select the circle icon for <b>Event
+        Camera</b>.\n\n<b>5.</b> In the <b>Select Camera</b> window, switch to the
+        <b>Scene</b> tab and select the <b>Main Camera</b>.\n\n<b>6.</b> The <b>Rect
+        Transform</b> component should now be active. Change the <b>Scale</b> to
+        <b>0.001</b> on all axes.\n\n<b>7.</b> In the <b>Rect Transfom</b> component,
+        change the <b>Position</b> to <b>0, -0.10, 0.63</b>.\n\n<b>8.</b> In the
+        <b>Rect Transform</b> component, change the <b>Width</b> and <b>Height</b>
+        values to <b>100</b>.\n\n<b>9.</b> In the <b>Project</b> panel, search for
+        the <b>CanvasButtonBar_SharedBackplate</b> prefab and drag the prefab to
+        become a child of the <b>Aquarium Objects Bar</b> GameObject. \n\nYou should
+        now see the <b>CanvasButtonBar_SharedBackplate</b> prefab display in front
+        of the aquarium tank."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
-      m_Items: []
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -1479410629491266610, guid: 51a6176b997829840b1dcc159d39f797, type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews: []
@@ -1139,15 +1192,19 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: How to Toggle Hands
+      m_Untranslated: Configure the Coral Button UI
     Text:
-      m_Untranslated: "MRTK Input Simulation provides a pair of hands which can be
-        tracked and initiate movement, rotation, and interactaction with objects
-        in the scene. You can toggle a single hand or both hands. \n\nHand tracking
-        can be latched (made persistent) or momentary. Latched tracking toggles the
-        left/right hand at its respective side of the scene. Momentary tracking toggles
-        the left/right hand at the current location of the mouse.\n\nLet's toggle
-        hands into the scene."
+      m_Untranslated: "We now have a button bar equipped with <b>Action Button</b>
+        prefabs that are ready to be configured to spawn aquarium objects. The <b>Action
+        Button</b> prefab has three child GameObjects which make up the configuration
+        of the button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022 Frontplate\n\nWithin
+        both the <b>Backplate</b> and <b>Frontplate</b> are additional child GameObjects
+        for configuration. Although there are various properties to configure, we\u2019ll
+        focus on just a few for this tutorial. \n\nCurrently, the <b>Action Button</b>
+        within the <b>CanvasButtonBar_SharedBackPlate</b> has a blue backplate and
+        a person icon. We\u2019ll need to complete the following:\n\n\u2022 Remove
+        the icon on the button\n\u2022 Display a label for the respective object\n\nLet's
+        configure the first button for a Coral!"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1166,39 +1223,107 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instruction</u>
     Text:
-      m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
+      m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select <b>Aquarium Objects
+        Bar > CanvasButtonBar_SharedBackPlate</b> and expand the <b>CanvasButtonBar_SharedBackPlate</b>
+        GameObject to view its children.\n\n<b>2.</b> In the <b>Hierarchy</b>, select
+        the first <b>Action Button</b> child GameObject and rename the GameObject
+        to <b>Coral</b> so that we can differentiate this button from the other <b>Action
+        Button</b> children. We\u2019ll change the display name in the next step.\n\n<b>3.</b>
+        In the <b>Hierarchy</b>, expand the <b>Coral</b> GameObject, then navigate
+        to <b>Frontplate > AnimatedContent > Icon</b>, and then disable the <b>UIButtonFontIcon</b>.\n\n<b>3.</b>
+        In the <b>Hierarchy</b>, expand the <b>Coral</b> GameObject and navigate
+        to <b>Frontplate > AnimatedContent > Icon > Label</b>.\n\n<b>4.</b> In the
+        <b>Inspector</b>, navigate to the <b>TextMeshPro \u2013 Text</b> component.\n\n<b>5.</b>
+        In the <b>Text Input</b> property, enter <b>Coral</b>. The <b>Coral</b> button
+        should now display with the label <b>Coral</b> in the button bar. \n\n<b>6.</b>
+        Reposition the label by adjusting the transform <b>Position</b>.\n"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Add the On Clicked Event
+    Text:
+      m_Untranslated: "Now that the <b>Coral</b> button's UI has been configured,
+        we can add the <b>On Clicked</b> event to spawn a <b>Coral</b> into the aquarium
+        tank.\n\nWithin <b>Assets > Models > Environment Prefabs</b> are a variety
+        of objects available for creating the sea animal\u2019s home. All aquarium
+        object prefabs are configured for move, scale, and rotate manipulations.
+        In addition, we\u2019ve configured the objects to display a bounding box
+        with handles around the objects. This visual affordance has been added to
+        better help you identify which object is being manipulated in the environment.\n\nWe've
+        also included a <b>Spawner</b> GameObject which has a <b>Spawner</b> script
+        attached that\u2019ll spawn an aquarium object into the middle of the aquarium
+        tank. The script consists of a <b>Spawn</b> method for each spawnable aquarium
+        object.\n\nLet's configure the <b>On Clicked</b> event for the <b>Coral</b>!"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: <u>Instructions</u>
+    Text:
+      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, navigate to <b>Aquarium
+        Objects Bar > Coral</b>.
 
 
-        <b>2.</b>
-        Press the <b>Space</b> key to momentarily toggle the right hand.
+        <b>2.</b> In the <b>Inspector</b>, navigate
+        to the <b>Pressable Button</b> component.
 
 
-        <b>3.</b>
-        Press the <b>Left Shift</b> key to momentarily toggle the left hand.
+        <b>3.</b> Within the
+        <b>On Clicked</b> property, select the <b>+</b> to create a new event.
 
 
         <b>4.</b>
-        Press the <b>Y</b> key to toggle the right hand so that it''s latched.
+        In the new event, drag the <b>Spawner</b> GameObject in the <b>Hierarchy</b>
+        into the field for the GameObject receiving the event.
 
 
         <b>5.</b>
-        With the right hand latched, hold the <b>Space</b> key and drag the mouse
-        to move the hand around the scene. Once done, press the <b>Y</b> once more
-        to detoggle the right hand.
-
-
-        <b>6.</b> Press the <b>T</b> key to
-        toggle the left hand so that it''s latched.
-
-
-        <b>7.</b> With the
-        left hand latched, hold the <b>Left Shift</b> key and drag the mouse to move
-        the hand around the scene. Once done, press the <b>T</b> once more to detoggle
-        the left  hand.
-
-
-        <b>8.</b> Once complete, press <b>Play</b> to exit
-        Play Mode.'
+        In the new event, select the <b>function</b> drop-down and select <b>Spawner
+        > SpawnCoral ()</b>.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1234,18 +1359,11 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: How to Press a Button
+      m_Untranslated: Try it Out
     Text:
-      m_Untranslated: "Buttons can be pressed by hand at either a far or near distance.
-        \n\nWhen executing a far interaction button press, a hand ray is visible
-        with a reticle (circular icon) that attaches to the button. Once the reticle
-        makes contact with the button, a mouse click executes a button press.\n\nWhen
-        executing a near interaction button press, the reticle on the tip of the
-        pointer finger must be in direct contact with the button. There is a nonvisible
-        press layer configured with the button that the finger must collide with
-        and push to be considered a press. You can use the mouse scroll wheel to
-        change the depth of the hand.\n\nLet's try pressing the <b>Hide</b> button
-        to toggle the visibility of the <b>Treasure Chest</b>.\n"
+      m_Untranslated: "Now that the <b>Coral</b> button is configured, we can spawn
+        a <b>Coral</b> into the aquarium. Let\u2019s give the button a try to spawn
+        a <b>Coral</b>."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1264,45 +1382,28 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "<b>To execute a far interaction button press, we can toggle
-        the hand and interact with the button from our starting position.</b>\n\n<b>1.</b>
-        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Press the <b>Y</b> key
-        to toggle the right hand. Notice that a hand ray protrudes from the hand.\n\n<b>3.</b>
-        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
-        ray comes in contact with the <b>Hide</b> button, which is located to the
-        right of the Treasure Chest. When the hand has made contact with the <b>Hide</b>
-        button, the reticle can be seen on top of the button.\n\n<b>4.</b> Press
-        your left mouse button to press the <b>Hide</b> button. Notice that the toggle
-        switch moves from left to right and the <b>Treasure Chest</b> is no longer
-        visible.\n\n<b>5.</b> Press the <b>Hide</b> button once more to toggle the
-        visibility of the <b>Treasure Chest</b>. The <b>Treasure Chest</b> should
-        now be visible.\n\n<b>6.</b> Try the same interaction with the left hand.
-        As a reminder, you can execute latched tracking for the left hand by pressing
-        the <b>T</b> key and using the <b>Left Shift</b> key and mouse to move the
-        hand around the scene.\n\n<b>To execute a near interaction button press,
-        we can either move the camera closer to the button <i>or</i> change the depth
-        of the hand. Let's change the depth of the hand interact with the button.</b>
-        \n\n<b>1.</b>Press the <b>Y</b> key to toggle the right hand.\n\n<b>2.</b>
-        Hold the <b>Space</b> key and move the mouse so that the right hand's hand
-        ray comes in contact with the <b>Hide</b> button. When the hand has made
-        contact with the <b>Hide</b> button, the reticle can be seen on top of the
-        button.\n\n\n<b>3.</b> Using the mouse scroll wheel, scroll forward and continue
-        to position the hand with the mouse so that the reticle displays on top of
-        the button. Continue to scroll the mouse wheel forward until the button is
-        moved back on the Z axis \u2013 this indicates a button press. If pressed
-        successfully, the <b>Treasure Chest</b> should no longer be visible.\n\n<b>4.</b>
-        Press the <b>Hide</b> button once more to toggle the visibility of the <b>Treasure
-        Chest</b>. The <b>Treasure Chest</b> should now be visible.\n\n<b>5.</b>
-        Try the same interaction with the left hand. As a reminder, you can execute
-        latched tracking for the left hand by pressing the <b>T</b> key and using
-        the left Shift key and mouse to move the hand around the scene.\n\n<b>6.</b>
+      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+        Press the <b>Coral</b> button on the <b>Aquarium Objects Bar</b> to spawn
+        a <b>Coral</b> into the aquarium tank.\n\n<b>3.</b> Grab the <b>Coral</b>
+        and move it to a new position in the tank. As a reminder, you can move, rotate,
+        and scale the spawned objects. There\u2019s a constraint on how large or
+        small you can scale the objects. Also, if you select the object (quick pinch/click),
+        the bounding box handles will appear.\n\n<b>Note</b>: For mouse-based and
+        MRTK Input Simulation interaction, you can only scale and rotate the objects
+        using the bounding box handles.\n\n<b>4.</b> Press the <b>Coral</b> button
+        once more to spawn another <b>Coral</b> into the aquarium tank. Feel free
+        to move, rotate, and/or scale the newly spawned <b>Coral</b>.\n\n<b>5.</b>
         Once complete, press <b>Play</b> to exit Play Mode.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
-      m_Items: []
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 7772534283411935226, guid: 4ab68945fa7b44c439dd2a841b473991, type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews: []
@@ -1332,17 +1433,22 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: How to Grab an Object
+      m_Untranslated: Practice
     Text:
-      m_Untranslated: "Objects can be grabbed with hands at either a far or near
-        distance. \n\nWhen grabbing an object at a far distance, a hand ray is visible
-        with a reticle (circular icon) that attaches to the object. Once the reticle
-        makes contact with the object, hold the <b>Left Mouse Button</b> to grab
-        the object.\n\nWhen grabbing an object at a near distance, the reticle on
-        the tip of the pointer finger must be in direct contact with the object.
-        You can use the mouse scroll wheel to change the depth of the hand. Once
-        the pointer finger makes contact with the object, press the <b>Left Mouse
-        Button</b> to grab the object. \n\nLet's try grabbing the <b>Treasure Chest</b>.\n"
+      m_Untranslated: "It\u2019s time to practice what you\u2019ve learned in this
+        tutorial! You\u2019re now ready to finish configuring the <b>Aquarium Objects
+        Bar</b> to accommodate the additional aquarium objects. \n\nYou may notice
+        that you\u2019re limited on the number of buttons available in the <b>CanvasButtonBar_SharedBackPlate</b>
+        prefab. There's nothing to fear--you can add additional <b>Action Button</b>
+        prefabs as children of the <b>CanvasButtonBar_SharedBackPlate</b> prefab!
+        When you do so, the button bar dynamically resizes to accommodate the addition
+        of a new button. We don't recommend duplicating an  existing <b>Action Button</b>
+        that's attached to the prefab; instead, manually add a new <b>Action Button</b>
+        prefab from the <b>Project</b> panel. \n\nAfter you configure the button
+        bar, give the scene a try. Spawn as many aquarium objects as you prefer into
+        the scene and arrange them into your preferred format.\n\nWe encourage you
+        to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+        documentation for more guidance on how to configure buttons.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1361,53 +1467,24 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "<b>To execute a far grab interaction, we can toggle the hand
-        and interact with the object from our starting position.</b>\n\n<b>1.</b>
-        Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Hold the <b>Space</b>
-        key and move the mouse so that the right hand's hand ray comes in contact
-        with the <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
-        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Press
-        the <b>Left Mouse Button</b> to grab the <b>Treasure Chest</b>. Once grabbed,
-        you should be able to lift the chest from the sand and move it to another
-        position in the aquarium tank.\n\n<b>4.</b> To release the <b>Treasure Chest</b>,
-        let go of the <b>Left Mouse Button</b>.\n\n<b>5.</b> Try the same interaction
-        with the left hand. As a reminder, you can execute latched tracking for the
-        left hand by pressing the <b>T</b> key and using the <b>Left Shift</b> key
-        and mouse to move the hand around the scene.\n\n<b>6.</b> Feel free to grab
-        and scale the other objects in the aquarium tank. A bounding box with handles
-        surrounds the objects as well to provide fine-tune manipulation such as rotation
-        and scaling. To rotate or scale, grab a handle and drag with your mouse.\n\n<b>Note</b>:
-        Only the <b>Treasure Chest</b> and <b>Boat</b> objects cannot be scaled.\n\n<b>To
-        execute a near grab interaction, we can either move the camera closer to
-        the object <i>or</i> change the depth of the hand. Let's change the depth
-        of the hand to interact with the object.</b> \n\n<b>1.</b>Press the <b>Y</b>
-        key to toggle the right hand.\n\n<b>2.</b> Hold the <b>Space</b> key and
-        move the mouse so that the right hand's hand ray comes in contact with the
-        <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
-        Chest</b>, the reticle can be seen on top of the object.\n\n<b>3.</b> Using
-        the mouse scroll wheel, scroll forward and continue to position the hand
-        with the mouse so that the reticle displays on top of the object. As the
-        hand gets closer to the <b>Treasure Chest</b>, the ray will shorten until
-        the ray is no longer visible \u2013 only the reticle will remain visible.
-        \n\n<b>4.</b> Press the <b>Left Mouse Button</b> to grab the <b>Treasure
-        Chest</b>. Once grabbed, you should be able to lift the chest from the sand
-        and move it to another position in the aquarium tank.\n\n<b>5.</b> To release
-        the <b>Treasure Chest</b>, let go of the <b>Left Mouse Button</b>.\n\n<b>6.</b>
-        Try the same interaction with the left hand. As a reminder, you can execute
-        latched tracking for the left hand by pressing the <b>T</b> key and using
-        the <b>Left Shift</b> key and mouse to move the hand around the scene.\n\n<b>7.</b>
-        Feel free to grab and scale the other objects in the aquarium tank. A bounding
-        box with handles surrounds the objects as well to provide fine-tune manipulation
-        such as rotation and scaling. To rotate or scale, grab a handle and drag
-        with your mouse.\n\n<b>Note</b>: Only the <b>Treasure Chest</b> and <b>Boat</b>
-        objects cannot be scaled.\n\n<b>7.</b> Once complete, press <b>Play</b> to
-        exit Play Mode.\n"
+      m_Untranslated: "Consider the following scenarios as you practice configuring
+        Canvas buttons:\n\n\u2022 Configure the button bar to accommodate all aquarium
+        objects. You can add additional <b>Action Button</b> prefabs by navigating
+        to <b>UI > MRTK > Action Button</b>.\n\u2022 Change the UI of the button
+        to only display the label of the aquarium object\n\u2022 Configure a button
+        to remove (or destroy) aquarium objects that are no longer needed\n\u2022
+        Configure a button to reset (or reload) the scene after arranging aquarium
+        objects\n\nOnce you\u2019re done, be sure to exit Play Mode."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
-      m_Items: []
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -8353007108637683396, guid: 0bcff3d8ee09e274b9257b67b3bc1b1d, type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews: []
@@ -1437,20 +1514,15 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: How to Rotate the Hands
+      m_Untranslated: Summary
     Text:
-      m_Untranslated: "The hands can grab objects and rotate at either a far or near
-        distance. There are three rotation actions that can be performed:\n\n\u2022
-        Pitch (side-to-side axis)\n\u2022 Yaw (vertical axis)\n\u2022 Roll (front-to-back
-        axis)\n\nThe key combinations to execute each rotation differs by hand. Provided
-        below is a list of the key combinations for each hand:\n\n<u>Right Hand</u>\n\n\u2022
-        <b>Pitch</b>: Keyboard Left Ctrl + Mouse Forward/Back\n\u2022 <b>Yaw</b>:
-        Keyboard Left Ctrl + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left
-        Ctrl + Mouse Wheel Up/Down\n\n\n<u>Left Hand</u>\n\n\u2022 <b>Pitch</b>:
-        Keyboard Left Alt + Mouse Forward/Back\n\u2022 <b>Yaw</b>: Keyboard Left
-        Alt + Mouse Left/Right\n\u2022 <b>Roll</b>: Keyboard Left Alt + Mouse Wheel
-        Up/Down\n\n\nLet's try executing a <b>Roll</b> rotation with the hand while
-        grabbing the <b>Treasure Chest</b>."
+      m_Untranslated: "In this tutorial, you learned how to configure a Canvas-based
+        button bar. As you create your own apps and experiences, consider leveraging
+        MRTK Canvas button prefabs or create your own Canvas-based UI from scratch!
+        \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+        and <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcore/packages/uxcore/canvas-ui\">Volumetric
+        UI</a> documentation for additional guidance on configuring Canvas-based
+        buttons."
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1469,98 +1541,20 @@ MonoBehaviour:
     Title:
       m_Untranslated: <u>Instructions</u>
     Text:
-      m_Untranslated: "<b>To execute a rotation while grabbing an object at a far
-        distance, we can toggle the hand and interact with the object from our starting
-        position.</b>\n\n<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
-        reticle to make contact with the <b>Treasure Chest</b>.\n\n<b>3.</b> Once
-        the reticle is in contact with the <b>Treasure Chest</b>, continue to press
-        the <b>Left Ctrl</b> key and click the left mouse button to grab the object.
-        While grabbing the <b>Treasure Chest</b>, scroll the <b>Mouse Wheel</b> up
-        and down to roll the <b>Treasure Chest</b>.\n\n<b>4.</b> Try the same interaction
-        with the left hand following the respective key combinations above.\n\n<b>To
-        execute a rotation while grabbing an object from a near distance, we can
-        either move the camera closer to the object <i>or</i> change the depth of
-        the hand. Let's change camera's distance to the Treasure Chest.</b> \n\n<b>1.</b>
-        Press the <b>W</b> key to move closer to the <b>Treasure Chest</b>.\n\n<b>2.</b>
-        Press and hold the <b>Left Ctrl</b> key and move the mouse to position the
-        reticle to make contact with the <b>Treasure Chest</b>. When the hand has
-        made contact with the <b>Treasure Chest</b> at a near distance, the reticle
-        can be seen on top of the object and no hand ray is visible. Adjust your
-        proximity to the object if necessary.\n\n<b>3.</b> Click the left mouse button
-        to grab the object. While grabbing the <b>Treasure Chest</b>, continue to
-        press the <b>Left Ctrl</b> key and scroll the <b>Mouse Wheel</b> up and down
-        to roll the <b>Treasure Chest</b>. \n\n<b>5.</b> Try the same interaction
-        with the left hand following the respective key combinations above.\n\n<b>6.</b>
-        Once complete, press <b>Play</b> to exit Play Mode.\n"
+      m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
+        You will be prompted to save the scene. Saving the scene will save the current
+        scene and the configurations you\u2019ve made during the tutorial. If you\u2019d
+        like to try the tutorial again, <b>do not</b> save the scene when prompted.\n"
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: MRTK Input Simulation
-    Text:
-      m_Untranslated: 'You''re welcome to revisit this tutorial at any time to familiarize
-        yourself with the MRTK Input Simulation controls.
-
-
-        View our <a href="https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation">Input
-        Simulation</a> documentation for a complete list of controls.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: 'Select <b>Done</b> to return to the tutorial overview. '
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -8378231173198227802, guid: 8ae622a4f15f2cb4ebe172cc41ce7252, type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews: []

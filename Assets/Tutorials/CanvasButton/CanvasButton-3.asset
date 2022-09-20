@@ -80,19 +80,30 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
           and select <b>UI > MRTK > Action Button</b>. Rename the <b>Canvas</b> GameObject
-          to <b>Sea Animal Toggle</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select
-          the <b>Sea Animal Toggle</b> GameObject and navigate to the <b>Canvas</b>
-          component.\n\n<b>3.</b> In the <b>Select Camera</b> window, switch to the
-          <b>Scene</b> tab and select the <b>Main Camera</b>.\n\n<b>4.</b> In the
-          <b>Rect Transfom</b> component, change the <b>Position</b> to <b>0.13,
-          0, 0.8</b>.\n\n<b>5.</b> In the <b>Hierarchy</b>, select <b>Sea Animal
-          Toggle > ActionButton</b>. For the <b>Action Button</b> <b>Rect Transfom</b>
-          component, change the <b>Scale</b> to <b>1.5, 1.5, 1.5</b>. \n\n<b>Note</b>:
-          Depending on where you've placed the sea animal, you may need to further
-          adjust the position of the button so that the button displays to the right
-          of the sea animal.\n"
+          to <b>Sea Animal Toggle</b>.
+
+
+          <b>2.</b> In the <b>Hierarchy</b>,
+          select the <b>Sea Animal Toggle</b> GameObject and navigate to the <b>Canvas</b>
+          component.
+
+
+          <b>3.</b> In the <b>Select Camera</b> window, switch
+          to the <b>Scene</b> tab and select the <b>Main Camera</b>.
+
+
+          <b>4.</b>
+          In the <b>Rect Transfom</b> component, change the <b>Position</b> to <b>0.13,
+          0, 0.8</b>.
+
+
+          <b>Note</b>: Depending on where you''ve placed
+          the sea animal, you may need to further adjust the position of the button
+          so that the button displays to the right of the sea animal.
+
+'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -42,10 +42,9 @@ MonoBehaviour:
           creating a toggle switch button that toggles the visibility of a sea animal.\n\n<b>Learning
           Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b> for a canvas-based
           button\n\u2022 Select the appropriate <b>Selection Mode</b> for a button\n\u2022
-          Change a canvas button <b>Backplate</b> color\n\u2022 Select an <b>Icon</b>
-          for a canvas button prefab\n\u2022 Add a <b>Toggle Switch</b> prefab to
-          a canvas button\n\u2022 Add toggle events to a canvas button\n\nLet's get
-          started!"
+          Select an <b>Icon</b> for a canvas button prefab\n\u2022 Add a <b>Toggle
+          Switch</b> prefab to a canvas button\n\u2022 Add toggle events to a canvas
+          button\n\nLet's get started!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -35,20 +35,18 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add the Toggle Switch
+        m_Untranslated: Add Toggle Events
       Text:
-        m_Untranslated: "Our button is almost complete! We\u2019ll need to add a
-          toggle switch to the button to visualize when the toggle has been switched.
-          We provide a ToggleSwitch prefab that\u2019ll help achieve this visualization.
-          \n\nWhen the button is pressed, the ToggleSwitch prefab\u2019s circular
-          toggle will move from left to right or vice versa. We can press the button
-          to execute this change in position. However, what we want to avoid is having
-          the toggle switch move with the Frontplate of the button. The toggle switch
-          object itself should remain in place when the button is pressed. Therefore,
-          we\u2019ll need to attach the ToggleSwitch prefab to the Backplate. Features
-          that aren\u2019t intended to move with the Frontplate should be attached
-          to the Backplate object.\n\nLet\u2019s add the ToggleSwitch prefab to the
-          button and position to display below the button icon.\n"
+        m_Untranslated: "Now that our button UI has been configured, we can add toggle
+          events for when the button is toggled or detoggled. We\u2019ll make use
+          of the default GameObject functions provided by the <b>Active</b> property
+          for the sea animal to make the object either active or inactive.\n\nBy
+          default, we\u2019ll leave the sea animal to be active in the scene. However,
+          when the <b>Sea Animal Toggle</b> button is toggled, the sea animal will
+          deactivate, thus hiding the sea animal from view. When the <b>Sea Animal
+          Toggle</b> button is detoggled, the sea animal will become active and therefore
+          visible in the aquarium.\n\nLet\u2019s create events for the visibility
+          of the sea animal!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -67,25 +65,46 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
-          > Action Button</b> and expand the <b>Action Button</b> to view its child
-          GameObjects.
+        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b>, select <b>Sea Animal Toggle
+          > Action Button</b>.
 
 
-          <b>2.</b> In the <b>Project</b> panel, search
-          for the <b>ToggleSwitch</b> prefab and place the prefab as a child of the
-          Backplate GameObject within the Hierarchy. Be sure to set the <b>Search</b>
-          to <b>All</b> to search the entire project.
+          <b>2.</b> In the <b>Inspector</b>, navigate
+          to the <b>Pressable Button</b> component.
 
 
-          <b>3.</b> In the
-          <b>Hierarchy</b>, select the <b>ToggleSwitch</b>.
+          <b>3.</b> Within
+          the <b>On Toggled</b> property, select the <b>+</b> to create a new event.
 
 
           <b>4.</b>
-          Using the <b>Move Tool</b>, use the green Y to move the ToggleSwitch below
-          the sea animal icon. The <b>Move Tool</b> is accessible in the <b>Scene</b>
-          window within the <b>Tools</b> bar.
+          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
+          field for the GameObject receiving the event.
+
+
+          <b>5.</b> In
+          the new event, select the <b>function</b> drop-down and select <b>GameObject
+          > SetActive (bool)</b>.
+
+
+          <b>6.</b> Within the <b>On Deoggled</b>
+          property, select the <b>+</b> to create a new event.
+
+
+          <b>7.</b>
+          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
+          field for the GameObject receiving the event.
+
+
+          <b>8.</b> In
+          the new event, select the <b>function</b> drop-down and select <b>GameObject
+          > SetActive (bool)</b>.
+
+
+          <b>9.</b> Below the function, check
+          the box to set the active flag to <b>active</b> for the sea animal. This
+          ensures that the sea animal will display when the <b>Sea Animal Toggle</b>
+          button is detoggled.
 
 '
       m_Tutorial: {fileID: 0}

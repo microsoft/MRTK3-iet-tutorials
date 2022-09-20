@@ -1,24 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4804944572966871928
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_RequiredPlayModeState: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,11 +35,15 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Try it Out
+        m_Untranslated: Practice
       Text:
-        m_Untranslated: "We\u2019ve made it pretty far with configuring a Canvas
-          button to toggle whether the sea animal in the aquarium is visible! Let\u2019s
-          give the button a try to toggle the visibility of the sea animal."
+        m_Untranslated: "It\u2019s now time to practice what you\u2019ve learned
+          in this tutorial! You can configure the Canvas button to display different
+          UI or even assign different toggle events. Feel free to change the toggle
+          events that occur when the button is toggled.\n\nAfter you reconfigure
+          the button, give the scene a try.\n\nWe encourage you to refer to the <a
+          href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+          documentation for more guidance on how to configure buttons.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -77,28 +62,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode.
-
-
-          <b>2.</b>
-          Use your preferred input method to press the <b>Sea Animal Toggle</b> button.
-
-
-          <b>3.</b>
-          When you press the button, the <b>Toggle Switch</b> dot moves from left
-          to right and the sea animal is hidden from view. Press the <b>Sea Animal
-          Toggle</b> button once more to detoggle the button.
-
-
-          <b>4.</b>
-          After the button is pressed, the <b>Toggle Switch</b> dot moves from rigtht
-          to left and the sea animal is once again visible in the aquarium.
-
-
-          <b>5.</b>
-          Once complete, press <b>Play</b> to exit Play Mode.
-
-'
+        m_Untranslated: "Consider the following scenarios as you practice configuring
+          a Canvas button:\n\n\u2022 Change the UI of the button to only display
+          the sea animal\u2019s name\n\u2022 Configure an <b>On Clicked</b> event
+          that randomly selects a sea animal to display\n\u2022 Configure a toggle
+          event that starts and stops the sea animal\u2019s animation\n\u2022 Use
+          a <b>Font Icon</b> instead of a <b>Sprite Icon</b>\n\nOnce you\u2019re
+          done, be sure to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -108,7 +78,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -4804944572966871928}
+          Criterion: {fileID: 205329703599165698}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -171,3 +141,22 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &205329703599165698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RequiredPlayModeState: 1

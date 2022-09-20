@@ -35,17 +35,28 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Change the Backplate Color
+        m_Untranslated: Change the Button Icon
       Text:
-        m_Untranslated: "Let\u2019s now change the color of the <b>Backplate</b>.
-          As you may have guessed, the <b>Backplate</b> GameObject contains the properties
-          for changing the color of the <b>Backplate</b>.\n\nThe color of the <b>Backplate</b>
-          can be configured within the <b>Raw Image</b> component. By default, a
-          <b>CanvasBackplateQuad</b> material is assigned as the <b>Material</b>
-          for the backplate. This material provides a backplate with rounded corners.
-          We can add a tint of color to the material by assigning a color within
-          the <b>Color</b> property.\n\nLet\u2019s change the color of the <b>Blackplate</b>
-          to a darker blue.\n"
+        m_Untranslated: "Button Icons are used to provide a visual image on top of
+          the button. We provide a <b>Fluent Icon Set</b> which consists of more
+          than 100 icons. Alternatively, you could use your own 2D sprite as an icon
+          for the button. Each configuration is nested within the <b>Frontplate</b>
+          GameObject. Within the <b>AnimatedContent</b> GameObject is an <b>Icon</b>
+          GameObject that contains the following child GameObjects:\n\n\u2022 UIButtonSpriteIcon\n\u2022
+          UIButtonFontIcon\n\nThe <b>UIButtonSpriteIcon</b> is disabled by default.
+          If you intend to use your own 2D sprite icon, you\u2019ll need to first
+          enable the GameObject. Within the <b>Rect Transform</b> property, you can
+          modify the <b>Width</b> and <b>Height</b> of the icon to better fit inside
+          the dimensions of the button. The icon itself is assigned within the Image
+          component\u2019s <b>Source Image</b> property.\n\nThe <b>UIButtonFontIcon</b>
+          is enabled by default. A <b>Font Icon Selector</b> component displays the
+          assigned <b>Font Icon Set</b>. You can select one of the icons within the
+          <b>Choose the icon to show</b> property to display as the icon for the
+          button. You could even change the color of the icon by selecting a color
+          within the <b>Vertex Color</b> property of the <b>TextMeshPro-Text</b>
+          component.\n\nWe\u2019ve created sea animal icons which correspond to each
+          sea animal. Let\u2019s configure the <b>UIButtonSpriteIcon</b> GameObject
+          to display the icon and disable the <b>UIButtonFontIcon</b> GameObject.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -64,24 +75,23 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
-          > Action Button > Backplate</b>.
-
-
-          <b>2.</b> In the <b>Inspector</b>,
-          navigate to the <b>Raw Image</b> component.
-
-
-          <b>3.</b> Within
-          the <b>Raw Image</b> properties, select the color bar for the <b>Color</b>
-          property.
-
-
-          <b>4.</b> In the <b>Color</b> window, change the
-          <b>Hexadecimal</b> value to <b>055A8E</b>. Also, increase the <b>A</b>
-          value to <b>255</b>.
-
-'
+        m_Untranslated: "<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
+          > Action Button > Frontplate > AnimatedContent > Icon > UIButtonFontIcon</b>.\n\n<b>2.</b>
+          In the <b>Inspector</b>, uncheck the box in the top left corner next to
+          the GameObject\u2019s name to disable the object.\n\n<b>3.</b> In the <b>Hiearchy</b>
+          select <b>Sea Animal Toggle > Action Button > Frontplate > AnimatedContent
+          > Icon > UIButtonSpriteIcon</b>.\n\n<b>4.</b> In the <b>Inspector</b>,
+          check the box in the top left corner next to the GameObject\u2019s name
+          to enable the object.\n\n<b>5.</b> Within the <b>Image</b> properties,
+          select the circle icon for <b>Source Image</b>.\n\n<b>6.</b> In the <b>Select
+          Sprite</b> window, search for and select your sea animal\u2019s sprite
+          using either the term <b>Dolphin</b>, <b>Seahorse</b>, or <b>SeaTurtle</b>.\n\n<b>7.</b>
+          In the <b>Rect Transform</b> component, change the <b>Width</b> and <b>Height</b>
+          to <b>12</b>. You may need to later adjust the size once we add the Toggle
+          Switch to the button.\n\n<b>8.</b> In the <b>Rect Transform</b> component,
+          change the <b>Pos Y</b> to <b>5</b>. This will raise the icon to a higher
+          position to accommodate the Toggle Switch that\u2019ll be added on the
+          next page of the tutorial.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

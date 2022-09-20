@@ -67,7 +67,9 @@ MonoBehaviour:
           of the <b>Treasure Chest</b> (the button is located to the right of the
           chest and has a blue border). The <b>Treasure Chest</b> will no longer
           be visible. You can press the <b>Hide</b> button once more to turn on the
-          object\u2019s visibility.\n\n<b>3.</b> Using your mouse, select the <b>Treasure
+          object\u2019s visibility. \n\n<b>Note:</b> You can use the <b>WASD</b>
+          keys on the keyboard to move the camera. Pressing the <b>W</b> key moves
+          the camera closer.\n\n<b>3.</b> Using your mouse, select the <b>Treasure
           Chest</b> in the scene to grab and move. The chest should attach to the
           cursor and move with the cursor until it's released.\n\n<b>4.</b>Bounding
           box handles become active if you select the object with a brief click.
