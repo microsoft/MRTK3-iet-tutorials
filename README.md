@@ -1,15 +1,3 @@
----
-page_type: sample
-name: MRTK3 Aquarium Unity In-editor Tutorial
-description: The MRTK3 Aquarium sample provides a Unity in-editor tutorial that explores various MRTK3 features.
-languages:
-- csharp
-products:
-- windows-mixed-reality
-- hololens
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, development, MRTK3, tutorials, tutorial, Input Simulation, Bounds Control, Button, Volumetric UI, Canvas, Dialog, Theming
----
-
 # Mixed Reality Toolkit 3 in-editor tutorials
 
 ![MRTK3 in-editor tutorials banner that showcases the Bounds Control, Buttons, Hand Menu, and Object Manipulator features in four corners of the image, starting from top left to top right.](Assets/READMEImages/banner.png)
