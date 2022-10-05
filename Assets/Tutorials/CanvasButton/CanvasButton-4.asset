@@ -46,9 +46,9 @@ MonoBehaviour:
           we\u2019ll focus on just a few for this tutorial. \n\nCurrently, the <b>Action
           Button</b> we\u2019ve added to the Canvas displays a button with a light-blue
           tinted backplate and a person icon. We\u2019ll need to complete the following:\n\n\u2022
-          Change the <b>Selection Mode</b> to <b>Toggle</b>\n\u2022 Darken the button
-          for visibility\n\u2022 Change the icon to the respective animal icon\n\u2022
-          Add the <b>Toggle Switch</b> prefab to the button\n"
+          Change the <b>Selection Mode</b> to <b>Toggle</b>\n\u2022 Change the icon
+          to the respective animal icon\n\u2022 Add the <b>Toggle Switch</b> prefab
+          to the button\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
