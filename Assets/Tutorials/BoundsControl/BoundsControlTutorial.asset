@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: BoundsControlTutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: 
-  m_TutorialTitle: 
+    m_Untranslated: Bounds Control
   m_ProgressTrackingEnabled: 0
   m_LessonId: 
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: d14c59d4bde127b45a0fa3b5d9b69918, type: 3}
+  m_SceneManagementBehavior: 0
+  m_Scenes:
+  - {fileID: 102900000, guid: 7b503a7548fc57f40bd57e4b7b5cf268, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -38,13 +39,16 @@ MonoBehaviour:
   m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: 80d62aba97ac87f4587082b763da54bb, type: 2}
-    - {fileID: 11400000, guid: 8a6bd19b9ee3186449c219cc66766a40, type: 2}
-    - {fileID: 11400000, guid: 02459043dd278644cb6c98bdd968ff3f, type: 2}
-    - {fileID: 11400000, guid: 78ab1bfbe73d350478839b03809bf5dc, type: 2}
-    - {fileID: 11400000, guid: 7ad3bd11fa1d00d47b9d904ab4a01a51, type: 2}
-    - {fileID: 11400000, guid: 574bf40edece3fd4e985939cbe308e26, type: 2}
-    - {fileID: 11400000, guid: 02cf4d3450305754a884a232d90bbbcf, type: 2}
+    - {fileID: 11400000, guid: 30dfbfdeb96ed47499e11a1f7ebce2f7, type: 2}
+    - {fileID: 11400000, guid: d6bcf2747baca844da1c48d84be4fb5c, type: 2}
+    - {fileID: 11400000, guid: b66abae48ac1e8d4f88ad72c778575a0, type: 2}
+    - {fileID: 11400000, guid: 1c4daa0638311e24e930866d42b11cd1, type: 2}
+    - {fileID: 11400000, guid: ec4742bbdc948ae4d86503409c147393, type: 2}
+    - {fileID: 11400000, guid: 8289290872fafd04c9d4200c75171ca0, type: 2}
+    - {fileID: 11400000, guid: 0ef39a72df90a1f4c9eb504b25cc4fee, type: 2}
+    - {fileID: 11400000, guid: 09ce4418429dcf74aa478f8372322bfb, type: 2}
+    - {fileID: 11400000, guid: 17961ad2dc460fc49a6ae808ccde7a41, type: 2}
+    - {fileID: 11400000, guid: cfe4ed4b06d5f8c48a251a6ede5ac708, type: 2}
   Modified:
     m_PersistentCalls:
       m_Calls: []
@@ -63,3 +67,5 @@ MonoBehaviour:
   Quit:
     m_PersistentCalls:
       m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 

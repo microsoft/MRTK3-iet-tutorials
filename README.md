@@ -1,18 +1,6 @@
----
-page_type: sample
-name: MRTK3 Aquarium Unity In-editor Tutorial
-description: The MRTK3 Aquarium sample provides a Unity in-editor tutorial that explores various MRTK3 features.
-languages:
-- csharp
-products:
-- windows-mixed-reality
-- hololens
-keywords: Unity, HoloLens, HoloLens 2, Mixed Reality, development, MRTK3, tutorials, tutorial, Input Simulation, Bounds Control, Button, Volumetric UI, Canvas, Dialog, Theming
----
-
 # Mixed Reality Toolkit 3 in-editor tutorials
 
-![MRTK3 in-editor tutorials banner that showcases the Bounds Control, Buttons, Hand Menu, and Object Manipulator features in four corners of the image, starting from top left to top right.](Assets/Images/banner.png)
+![MRTK3 in-editor tutorials banner that showcases the Bounds Control, Buttons, Hand Menu, and Object Manipulator features in four corners of the image, starting from top left to top right.](Assets/READMEImages/banner.png)
 
 The MRTK3 in-editor tutorials guide you through each step of the way to build your first MRTK3 application in a beautiful aquarium. 
 
@@ -22,51 +10,45 @@ The MRTK3 in-editor tutorials guide you through each step of the way to build yo
 1. Clone this repository to your computer.
 1. Open the cloned project "MRTK3-iet-tutorials" with Unity 2021.3.4f1.
 1. You should see a **Tutorials** window on the right side of your screen that contains a list of seven tutorials. If not, on the menu bar, select **Tutorial** > **Show Tutorials**.
-* In the **Tutorials** window, select the tutorial you want to proceed with.
+1. In the **Tutorials** window, select the tutorial you want to proceed with.
 
 ## Tutorials
 
-### How to use MRTK3 Input Simulation
+### Preview the Project
 
-![Two Simulated Hands manipulating the Two Handed Manipulation Earth GameObject.](Assets/Images/input-simulation.jpg)
+![An aquarium scene that consists of sea coral, sea grass, and rocks surrounding the environment. A boat is placed into the sand in the back right corner. A treasure chest is placed in the middle of the aquarium. A hide toggle button is to the right of the treasure chest.](Assets/READMEImages/preview-project-full.jpg)
 
-Learn how to simulate input directly into the editor.
+Learn about the various solutions for previewing scenes without compiling and deploying projects to a XR device.
+
+### How to use MRTK Input Simulation
+
+![A pair of simulated hands displayed next to one another. A ray is placed in front of each hand.](Assets/READMEImages/hand-rays-full.png)
+
+Learn how to simulate input directly into the Unity editor with MRTK In-Editor Input Simulation.
 
 ### Object Manipulator
 
-![One hand manipulating the Two-Handed Manipulation Earth GameObject.](Assets/Images/object-manipulator.png)
+![An aquarium scene with coral, rocks, and sea grass. In the middle of the aquarium is a simulated hand that is grabbing a treasure chest.](Assets/READMEImages/object-manipulator-full.jpg)
 
 Move and manipulate objects with one or two hands with a wide variety of input modalities.
 
 ### Bounds Control
 
-![Two examples of a single hand interacting with a coffee cup's Bounds Controls.](Assets/Images/bounds-control.png)
+![An aquarium scene with coral, rocks, and sea grass spread around the tank. A coral is in the middle with a bounding box surrounding it's shape.](Assets/READMEImages/bounds-control-full.jpg)
 
 Intent feedback and precision manipulation affordances.
 
-### Button
+### Canvas Button
 
-![A single hand pressing an MRTK3 button.](Assets/Images/button.png)
+![An aquarium scene with coral, rocks, and sea grass around the tank. A Seahorse is in the middle of the tank. To the right of the sea horse is a toggle button that has a seahorse icon.](Assets/READMEImages/canvas-button-full.jpg)
 
 A volumetric button optimized for a wide range of input modalities.
 
-### Volumetric UI with Canvas
+### Canvas Button bar
 
-![A view of the Canvas UI example scene. There are several Canvas UI elements neatly aligned by hand and with MRTK3.](Assets/Images/volumetric-ui.png)
+![An aquarium scene with sand and a boat sticking straight up in the middle of the tank. At the front of the tank is a button bar that says coral, sea grass, rock, and boat.](Assets/READMEImages/button-bar-full.jpg)
 
-Enables you to seamlessly create beautiful UI holograms. You can automatically lay out UI controls and quickly iterate your designs until your UI is just right.
-
-### Dialog
-
-![A picture of the Dialog example UI.](Assets/Images/dialog.png)
-
-Create a prompt for various user actions.
-
-### Theming
-
-![A black theme and a blue theme are shown next to each other.](Assets/Images/theming.png)
-
-A set of various assets and styles needed to achieve a specific visual aesthetic.
+A volumetric button bar optimized for a wide range of input modalities.
 
 ## Contributing
 

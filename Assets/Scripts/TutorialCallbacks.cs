@@ -1,11 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using Unity.Tutorials.Core.Editor;
-using Microsoft.MixedReality.Toolkit.UX;
-using Microsoft.MixedReality.Toolkit.Utilities;
-using Microsoft.MixedReality.Toolkit.SpatialManipulation;
-using Microsoft.MixedReality.Toolkit.Data;
-using TMPro;
 
 /// <summary>
 /// Implement your Tutorial callbacks here.
@@ -47,9 +42,14 @@ public class TutorialCallbacks : ScriptableObject
     /// Example callbacks for ArbitraryCriterion's BoolCallback
     /// </summary>
     /// <returns></returns>
-    public bool DoesFooExist()
+    public bool DoesSeaAnimalToggleExist()
     {
-        return GameObject.Find("Foo") != null;
+        return GameObject.Find("Sea Animal Toggle") != null;
+    }
+
+    public bool DoesAquariumObjectsBarExist()
+    {
+        return GameObject.Find("Aquarium Objects Bar") != null;
     }
 
     /// <summary>
@@ -63,81 +63,4 @@ public class TutorialCallbacks : ScriptableObject
             foo = new GameObject("Foo");
         return foo != null;
     }
-
-    public bool MoveManipulationSelected()
-    {
-        var coralObject = GameObject.Find("Coral");
-
-        return coralObject.GetComponent<ObjectManipulator>().AllowedManipulations == Microsoft.MixedReality.Toolkit.TransformFlags.Move;
-    }
-
-    public bool BoundsPrefabAssigned()
-    {
-        var coralObject = GameObject.Find("Coral");
-
-        return coralObject.GetComponent<BoundsControl>().BoundsVisualsPrefab;
-    }
-
-    public bool AreHandlesActive()
-    {
-        var rockObject = GameObject.Find("Rock");
-
-        return rockObject.GetComponent<BoundsControl>().HandlesActive == true;
-    }
-
-    public bool SeaTurtleButtonCreated()
-    {
-        return GameObject.Find("SeaTurtleButton") != null;
-    }
-
-
-    public bool SeaTurtleButtonParameters()
-    {
-        var buttonObject = GameObject.Find("TextMeshPro");
-
-        return buttonObject.GetComponent<TextMeshPro>().text == "Sea Turtle" && buttonObject.GetComponent<TextMeshPro>().fontSize == 0.1f;
-    }
-
-    /*public bool ButtonBarParameters()
-    {
-        var buttonBarObject = GameObject.Find("ObjectsButtonBar");
-        Vector3 barPos = new Vector3(0, 0, 0);
-        return buttonBarObject.GetComponent<RectTransform>().position == barPos;
-    }*/
-
-    /*public bool ButtonBarChildrenExist()
-    {
-        return GameObject.Find("Coral") != null && GameObject.Find("Rock") != null && GameObject.Find("Seahorse") != null && GameObject.Find("Turtle") != null && GameObject.Find("Dolphin") != null;
-    }*/
-
-    /*public bool dataSourceType()
-    {
-        var themeProviderObject = GameObject.Find("Theme Provider");
-
-        return themeProviderObject.GetComponent<DataSourceThemeProvider>().DataSourceType == "theme";
-    }*/
-
-    /*public bool dialogPrefabExists()
-    {
-        var dialogObject = GameObject.Find("Dialog");
-        var resetSceneComponent = dialogObject.GetComponent<ResetScene>();
-    }*/
-
-    /*public bool dialogCreated()
-    {
-        return GameObject.Find("Dialog") != null;
-    }*/
-
-    /*public bool resetSceneExists()
-    {
-        var dialogObject = GameObject.Find("Dialog");
-        return dialogObject.GetComponent<ResetScene>() != null;
-    }*/
-
-    /*public bool dataSourceThemeProviderConfigured()
-    {
-        var dataSourceThemeProviderObject = GameObject.Find("ThemeProvider");
-
-        return GameObject.Find("ThemeProvider") != null && GetComponent("DataSourceThemeProvider") != null && dataSourceThemeProviderObject.GetComponent<DataSourceThemeProvider>().DataSourceType == "theme";
-    }*/
 }

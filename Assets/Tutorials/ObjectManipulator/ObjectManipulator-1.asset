@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1716639418098739483
+--- !u!114 &-1357553580147644025
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7776bd559ac56348a6a4b8c38ce7aa7, type: 3}
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -18,23 +18,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  m_TargetGameObject:
-    m_SceneObjectReference:
-      m_SceneGuid: e912cf7e86aeb024daf0de095189f65a
-      m_GameObjectGuid: 258c09c8-e6d7-4f26-8cf1-800d4cc7feec
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
-  m_RequiredComponents:
-    m_Items:
-    - SerializedType:
-        m_TypeName: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator,
-          Microsoft.MixedReality.Toolkit.SpatialManipulation, Version=3.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-      FutureReference: {fileID: 6464712786806901825}
+  m_RequiredPlayModeState: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,93 +39,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 371fb2cdb93fc5241939777e591381e7, type: 3}
+      m_Image: {fileID: 2800000, guid: 95acef3b2866a104d8d4424a2e18a1e3, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 4
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: e912cf7e86aeb024daf0de095189f65a
-                m_GameObjectGuid: 1b1d7666-6568-4d75-8d02-17cb10d9247a
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: 
-            m_VisualElementName: 
-            m_VisualElementTypeName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.AddComponent.AddComponentWindow, UnityEditor.CoreModule,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+        m_UnmaskedViews: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -149,12 +54,23 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add the ObjectManipulator Component
+        m_Untranslated: Introduction
       Text:
-        m_Untranslated: Adding the <b>ObjectManipulator</b> script as a component
-          to a GameObject makes the GameObject movable, scalable, and rotatable.
-          The GameObject must contain a collider component that matches its grabbable
-          bounds.
+        m_Untranslated: "Here we have an aquarium tanked filled with decorative objects
+          to provide a future sea animal with a familiar underwater environment.
+          We\u2019ve arranged the aquarium tank\u2019s objects in a manner we felt
+          would be great for a future sea animal. However, wouldn\u2019t it be nice
+          if you could arrange the objects to your own liking while the aquarium
+          is on display in Play Mode? \n\nYou can do so by configuring the objects
+          to support manipulation! Currently, the objects in the aquarium are all
+          static \u2013 they can\u2019t be moved, rotated, or scaled. If you were
+          to try to grab an object, your hand or controller wouldn\u2019t be able
+          to interact with the object.\n\nFor this tutorial, we\u2019ll add manipulation
+          to the objects in the aquarium so that you can arrange the environment
+          to your liking.\n\n<b>Note</b>: Throughout this tutorial, you\u2019ll be
+          prompted to enter Play Mode to try out a scene. In the <i>Preview Scenes</i>
+          module, we share several options for trying scenes. Refer to the input
+          controls for your preferred method when trying the scenes for this tutorial.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -171,14 +87,16 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-          GameObject.
-
-
-          <b>2.</b> In the <b>Inspector</b>, click <b>Add
-          Component</b>, and then add the <b>ObjectManipulator</b> script.'
+        m_Untranslated: "<b>1.</b> Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+          In the middle of the aquarium is a <b>Treasure Chest</b>. Try to grab and
+          move the <b>Treasure Chest</b> to a new spot in the aquarium.\n\n<b>3.</b>
+          Since the <b>Treasure Chest</b> is not configured for manipulation, the
+          object remains stuck in place. In fact, none of the objects (including
+          the aquarium tank itself) can be moved! We\u2019ll add manipulation in
+          the next step of the tutorial. Before you proceed, press <b>Play</b> to
+          exit Play Mode and continue.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -186,9 +104,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
+            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -1716639418098739483}
+          Criterion: {fileID: -1357553580147644025}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -251,18 +169,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &6464712786806901825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 1: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: -1716639418098739483}
-  m_ReferenceName: '1: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator'

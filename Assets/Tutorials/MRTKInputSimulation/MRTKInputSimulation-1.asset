@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: MRTKInputSimulation-1
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Camera Controls
+      Text:
+        m_Untranslated: "The camera represents the position of the user's head or
+          HMD (head-mounted display). You can move the position of the camera with
+          the following keys:\n\n<u>Movement</u>\n\n\u2022 <b>Move Horizontally</b>:
+          Keyboard A/D  <i>or</i> Left/Right arrows\n\u2022 <b>Move Vertically</b>:
+          Keyboard Q/E <i>or</i> Page Up/Page Down\n\nThe camera can also be rotated
+          with the following key and mouse combinations:\n\n<u>Rotation</u>\n\n\u2022
+          <b>Pitch</b>: Mouse Right Button + Forward/Back\n\u2022 <b>Yaw</b>: Mouse
+          Right Button + Left/Right\n\u2022 <b>Roll</b>: Mouse Right Button + Wheel
+          Up/Down\n\nLet's move the camera around to view the objects in the aquarium
+          tank."
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instructions</u>
+      Text:
+        m_Untranslated: '<b>1.</b> Press <b>Play</b> to enter Play Mode.
+
+
+          <b>2.</b>
+          Press the <b>W</b> key to move the camera closer to the aquarium tank.
+
+
+          <b>3.</b>
+          Press the <b>A</b> key to  move to the left side of the aquarium tank.
+
+
+          <b>4.</b>
+          Press the <b>D</b> key to move to the right side of the aquarium tank.
+
+
+          <b>5.</b>
+          Press the <b>S</b> key to move the camera away from the aquarium tank.
+
+
+          <b>6.</b>
+          Press the <b>Q</b> key to move the camera down.
+
+
+          <b>7.</b> Press
+          the <b>E</b> key to move the camera up.
+
+
+          <b>8.</b> Hold the
+          right mouse mouse and drag the mouse to the left and then to the right
+          to rotate the camera.
+
+
+          <b>9.</b> Once complete, press <b>Play</b>
+          to exit Play Mode.'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

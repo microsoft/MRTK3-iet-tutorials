@@ -20,93 +20,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 9f6ad59932965f04da85754230c25295, type: 3}
+      m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 4
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: d14c59d4bde127b45a0fa3b5d9b69918
-                m_GameObjectGuid: b0be9fa9-cdd6-45ee-949f-71f79cbd5658
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: 
-            m_VisualElementName: 
-            m_VisualElementTypeName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.ObjectSelector, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+        m_UnmaskedViews: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -114,13 +35,18 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add a Bounds Visuals Prefab
+        m_Untranslated: Manipulating Objects with ObjectManipulator
       Text:
-        m_Untranslated: A <b>Bounds Visuals Prefab</b> provides visuals for the bounds
-          that surround the bounding box. We provide a few pre-built bounds visuals
-          for you to use. However, you could create and use your own prefab as well!
-          We encourage you to make prefab variants of the visuals we provide and
-          customize them to fit your needs.
+        m_Untranslated: "Currently, all the objects in the aquarium are configured
+          with the <b>Object Manipulator</b> component. <b>ObjectManipulator</b>
+          enables you to move, scale, and rotate an object. We\u2019ve restricted
+          the scaling manipulation for the objects; however, you\u2019re able to
+          move and rotate the objects.\n\nIf you\u2019re unfamiliar with <b>ObjectManipulator</b>,
+          we encourage you to review the Object Manipulator tutorial after you complete
+          this module. However, what\u2019s important to know for now is that without
+          this script, we wouldn't be able to move or rotate the objects with our
+          preferred input.\n\nLet\u2019s try arranging some of the objects in the
+          scene now!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -137,34 +63,21 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-          GameObject.
-
-
-          <b>2.</b> In the <b>Inspector</b>, navigate to
-          the <b>BoundsControl</b> component.
-
-
-          <b>3.</b>Within the <b>Bounds</b>
-          properties, select the circle icon for <b>Bounds Visuals Prefab</b>.
-
-
-          <b>4.</b>In
-          the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
-          tab and then untoggle the hidden packages by clicking the slashed eye icon
-          on the right.
-
-
-          <b>5.</b> Search for the <b>BoundingBoxWithHandles</b>
-          prefab and then assign it.'
+        m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+          Use your preferred input method to move and/or rotate the objects in the
+          aquarium. \n\n<b>3.</b> Once complete, press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items: []
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 596373097339848221}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -227,3 +140,22 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &596373097339848221
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RequiredPlayModeState: 1

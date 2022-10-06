@@ -1,24 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5796079051543907159
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_RequiredPlayModeState: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,72 +20,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 9f6ad59932965f04da85754230c25295, type: 3}
+      m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPlayModePlayButton
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: 
-                m_GameObjectGuid: 
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: 
-            m_VisualElementName: 
-            m_VisualElementTypeName: 
+        m_UnmaskedViews: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -114,8 +37,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: Try it Out
       Text:
-        m_Untranslated: 'Now that handles are active for the <b>Rock</b> GameObject,
-          when the scene starts the handles will always be visible.  '
+        m_Untranslated: Now that <b>BoundsControl</b> has been added as a component
+          for the <b>Coral</b> and the <b>BoundingBoxWithHandles</b> prefab has been
+          assigned for the <b>Bounds Visual Prefab</b>, a bounding box with handles
+          will display surrounding the Coral when the object is touched. Enter Play
+          Mode to view the bounding box surrounding the <b>Coral</b>.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -132,28 +58,20 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> Select Play to enter Play Mode. Notice that the
-          handles are visible for the <b>Rock</b> but not the <b>Coral</b>. (The
-          handles are small, so you may have to look closely.)
-
-
-          <b>2.</b>
-          Using input simulation, move and rotate the <b>Rock</b> GameObject. You
-          can move and rotate the <b>Coral</b> GameObject as well although no handles
-          are visible.
-
-
-          If you need more input simulation reminders, the
-          instructions are <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref">available
-          on the MRTK3 documentation website</a>and are also contained in a text
-          file in the Project > Assets > Tutorials folder--the file name is "Input
-          Simulation Quick Reference.txt."
-
-
-          <b>3.</b> Once complete, press
-          Play to exit Play Mode.'
+        m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
+          Use your preferred input method to hover over the <b>Coral</b>. Notice
+          that a bounding box with handles surrounds the object. \n\n<b>3.</b>. Let\u2019s
+          activate the handles on the bounding box. Select the <b>Coral</b> to activate
+          the handles. As a reminder, selecting can be performed with a brief click
+          or pinch of the object.\n\n<b>4.</b> Now that the handles are activated,
+          grab one of the rotate handles (along the side edges of the <b>Coral</b>)
+          to rotate the <b>Coral</b>. Regardless of which rotate handle you select,
+          you\u2019re able to rotate the <b>Coral</b> in its place.\n\n<b>5.</b>
+          Next, select one of the scale handles (corner handle) to scale the <b>Coral</b>.
+          You can scale the object to be as large or small as you prefer.\n\n<b>6.</b>
+          Once complete, press <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -163,7 +81,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -5796079051543907159}
+          Criterion: {fileID: 3129294594364659262}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -226,3 +144,22 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &3129294594364659262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RequiredPlayModeState: 1

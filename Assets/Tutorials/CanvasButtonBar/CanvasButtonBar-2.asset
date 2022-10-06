@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1479410629491266610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231e8df50e16c74c979c4a2affab91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Callback:
+    _target: {fileID: 11400000, guid: 72305ad941f10a24287f151852f29201, type: 2}
+    _methodName: DoesAquariumObjectsBarExist
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0
+  m_AutoCompleteCallback:
+    _target: {fileID: 0}
+    _methodName: 
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: CanvasButtonBar-2
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Add a Canvas Button Bar
+      Text:
+        m_Untranslated: "Canvas-based buttons are flexible and configurable and can
+          be resized to any dimension or proportion. The <b>PressableButton</b> script
+          is added as a component of a  button and includes behaviors specific to
+          the button. MRTK provides a <b>CanvasButtonBar_SharedBackPlate</b> prefab
+          that\u2019s equipped with both a <b>Backplate</b> and <b>Action Button</b>
+          prefabs.\n\nThe <b>BackPlate</b> provides a background for the button.
+          The backplate for this particular prefab is shared, which means that all
+          buttons within the bar share the same backplate. The <b>ActionButton</b>
+          prefab is a simple button that includes an icon, text, and a label. These
+          individual components can be enabled or disabled, and the layout system
+          will adapt accordingly. Canvas prefabs (such as the <b>CanvasButtonBar-SharedBackPlate</b>)
+          must be placed inside a Canvas. \n\nMRTK3 uses what is referred to as <b>Volumetric
+          UI</b>, which supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
+          context. Controls can be automatically laid out with proper margin, padding,
+          responsive flex, and all features a designer would expect to find. When
+          you set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
+          its <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
+          is set globally to <b>0.001</b> on all axes.\n\nLet\u2019s create a new
+          <b>Canvas</b> GameObject and add the <b>CanvasButtonBar-SharedBackPlate</b>
+          prefab as a child GameObject.\n"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instructions</u>
+      Text:
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
+          and select <b>UI > Canvas</b>. Rename the <b>Canvas</b> GameObject to <b>Aquarium
+          Objects Bar</b>.\n\n<b>2.</b> In the <b>Hierarchy</b>, select the <b>Aquarium
+          Objects Bar</b> GameObject and navigate to the <b>Canvas</b> component.\n\n<b>3.</b>
+          Select the <b>Render Mode</b> drop-down and select <b>World Space</b>.
+          \n\n<b>4.</b> Within the <b>Canvas</b> properties, select the circle icon
+          for <b>Event Camera</b>.\n\n<b>5.</b> In the <b>Select Camera</b> window,
+          switch to the <b>Scene</b> tab and select the <b>Main Camera</b>.\n\n<b>6.</b>
+          The <b>Rect Transform</b> component should now be active. Change the <b>Scale</b>
+          to <b>0.001</b> on all axes.\n\n<b>7.</b> In the <b>Rect Transfom</b> component,
+          change the <b>Position</b> to <b>0, -0.10, 0.63</b>.\n\n<b>8.</b> In the
+          <b>Rect Transform</b> component, change the <b>Width</b> and <b>Height</b>
+          values to <b>100</b>.\n\n<b>9.</b> In the <b>Project</b> panel, search
+          for the <b>CanvasButtonBar_SharedBackplate</b> prefab and drag the prefab
+          to become a child of the <b>Aquarium Objects Bar</b> GameObject. \n\nYou
+          should now see the <b>CanvasButtonBar_SharedBackplate</b> prefab display
+          in front of the aquarium tank."
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: -1479410629491266610}
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

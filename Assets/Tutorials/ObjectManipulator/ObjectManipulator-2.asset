@@ -1,24 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4271648660489989354
+--- !u!114 &-4177481839080646857
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
-  m_Name: 
+  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
+  m_Name: 'Paragraph 3, Criterion 1, 1: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator'
   m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_RequiredPlayModeState: 1
+  m_ReferenceHolder: {fileID: 0}
+  m_Criterion: {fileID: 5348396590601576135}
+  m_ReferenceName: '1: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator'
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,108 +35,14 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 371fb2cdb93fc5241939777e591381e7, type: 3}
+      m_Image: {fileID: 2800000, guid: 95acef3b2866a104d8d4424a2e18a1e3, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.PlayModeView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPlayModePlayButton
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: 
-                m_GameObjectGuid: 
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: 
-            m_VisualElementName: 
-            m_VisualElementTypeName: 
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPlayModePlayButton
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: 
-                m_GameObjectGuid: 
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: 
-            m_VisualElementName: 
-            m_VisualElementTypeName: 
+        m_UnmaskedViews: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -148,13 +50,23 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Try it Out
+        m_Untranslated: Add the Object Manipulator Component
       Text:
-        m_Untranslated: "Currently, all manipulation types and interactions for the
-          <b>Coral</b> GameObject are configured . This includes the ability to move,
-          rotate, and manipulate the GameObject with more than one hand. Using input
-          simulation, try manipulating the <b>Coral</b> in Play Mode. \n\n<b>Note:
-          Scaling is not supported with input simulation.</b>"
+        m_Untranslated: "Adding the <b>ObjectManipulator</b> script as a component
+          to a GameObject makes the object movable, scalable, and rotatable. The
+          component itself contains a variety of properties that can be configured
+          to suit your interaction needs. Furthermore, <b>ObjectManipulator</b> requires
+          that the interactable object has a collider component that matches its
+          grabbable bounds.\n\nIf you\u2019re adding <b>ObjectManipulator</b> to
+          a Unity primitive, the GameObject likely already has a collider component
+          attached. Unity provides a variety of colliders to choose from such as
+          a box collider, capsule collider, and sphere collider, to name a few.\n\nWith
+          <b>ObjectManipulator</b>, you can manipulate objects at both near and far
+          distances. From a far distance, you can manipulate an object with a ray.
+          At a near distance, you can manipulate an object directly with hands.\n\nWe\u2019ll
+          focus on adding manipulation to the <b>Treasure Chest</b> for this tutorial.
+          Let\u2019s start by adding the <b>ObjectManipulator</b> component to the
+          <b>Treasure Chest</b> GameObject.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -171,27 +83,12 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: <u>Instructions<u>
       Text:
-        m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode and use
-          input simulation to move and rotate the coral. \n\n  <b>Rotation tips</b>
-          (left hand):\n\n  a. Press T to enable the hand.\n\n  b. Press the left
-          Shift key, and then move the hand until its far pointer is over the coral.\n\n 
-          c. Press the left Alt key and then press the left mouse button and drag
-          the cursor. This rotates the hand and the Coral.\n\n  d. While continuing
-          to hold down the left Alt key and left mouse button, rotate the scroll
-          wheel. This rotates the Coral on a different axis.\n\n  <b>Rotation tips</b>
-          (right hand):\n\n  a. Press Y to enable the hand.\n\n  b. Press the space
-          bar, and then move the hand until its far pointer is over the coral.\n\n 
-          c. Press the left Ctrl key and then press the left mouse button and drag
-          the cursor. This rotates the Coral.\n\n  d. While continuing to hold down
-          the left Ctrl key and left mouse button, rotate the scroll wheel. This
-          rotates the Coral on a different axis.\n\nIf you need more input simulation
-          reminders, the instructions are <a href=\"https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref\">available
-          on the MRTK3 documentation website</a>and are also contained in a text
-          file in the Project > Assets > Tutorials folder--the file name is \"Input
-          Simulation Quick Reference.txt.\" \n\n<b>2.</b> After you finish, press
-          <b>Play</b> to exit Play Mode."
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, navigate to <b>Aquarium
+          > Novelty Accessories</b> and then select the <b>Treasure Chest</b> GameObject.
+          \n\n<b>2.</b>In the <b>Inspector</b>, add the <b>ObjectManipulator</b>
+          script as a component.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -199,9 +96,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+            m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -4271648660489989354}
+          Criterion: {fileID: 5348396590601576135}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -264,3 +161,38 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &5348396590601576135
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7776bd559ac56348a6a4b8c38ce7aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_TargetGameObject:
+    m_SceneObjectReference:
+      m_SceneGuid: 172e42cf1b10433448823526d95e436a
+      m_GameObjectGuid: 5681f8a0-7c5b-46f1-abcb-24ccc14a84ed
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_FutureObjectReference: {fileID: 0}
+  m_RequiredComponents:
+    m_Items:
+    - SerializedType:
+        m_TypeName: Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator,
+          Microsoft.MixedReality.Toolkit.SpatialManipulation, Version=3.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      FutureReference: {fileID: -4177481839080646857}

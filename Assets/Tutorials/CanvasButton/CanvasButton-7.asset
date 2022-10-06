@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: CanvasButton-7
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 924a84932d9375047805dcb805321459, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Add the Toggle Switch
+      Text:
+        m_Untranslated: "Our button is almost complete! We\u2019ll need to add a
+          toggle switch to the button to visualize when the toggle has been switched.
+          We provide a ToggleSwitch prefab that\u2019ll help achieve this visualization.
+          \n\nWhen the button is pressed, the ToggleSwitch prefab\u2019s circular
+          toggle will move from left to right or vice versa. We can press the button
+          to execute this change in position. However, what we want to avoid is having
+          the toggle switch move with the Frontplate of the button. The toggle switch
+          object itself should remain in place when the button is pressed. Therefore,
+          we\u2019ll need to attach the ToggleSwitch prefab to the Backplate. Features
+          that aren\u2019t intended to move with the Frontplate should be attached
+          to the Backplate object.\n\nLet\u2019s add the ToggleSwitch prefab to the
+          button and position to display below the button icon.\n"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instructions</u>
+      Text:
+        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b> select <b>Sea Animal Toggle
+          > Action Button</b> and expand the <b>Action Button</b> to view its child
+          GameObjects.
+
+
+          <b>2.</b> In the <b>Project</b> panel, search
+          for the <b>ToggleSwitch</b> prefab and place the prefab as a child of the
+          Backplate GameObject within the Hierarchy. Be sure to set the <b>Search</b>
+          to <b>All</b> to search the entire project.
+
+
+          <b>3.</b> In the
+          <b>Hierarchy</b>, select the <b>ToggleSwitch</b>.
+
+
+          <b>4.</b>
+          Using the <b>Move Tool</b>, use the green Y to move the ToggleSwitch below
+          the sea animal icon. The <b>Move Tool</b> is accessible in the <b>Scene</b>
+          window within the <b>Tools</b> bar.
+
+'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

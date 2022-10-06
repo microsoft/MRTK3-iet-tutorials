@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: CanvasButton-3
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 924a84932d9375047805dcb805321459, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Add a Canvas Button
+      Text:
+        m_Untranslated: "Now that you\u2019ve selected a sea animal to live in the
+          aquarium, we\u2019ll need a way to toggle the visibility of the sea animal.
+          Although you\u2019re welcome to let the sea animal continuously swim while
+          you\u2019re designing and arranging the objects in its habitat, it\u2019s
+          great to have the flexibility to disable the sea animal if needed. We'll
+          create a Canvas-based toggleable button to achieve this functionality.\n\nCanvas-based
+          buttons are flexible and configurable and can be resized to any dimension
+          or proportion. The <b>PressableButton</b> script is added as a component
+          of a button and includes behaviors specific to the buttons. For this tutorial,
+          we\u2019ll use the <b>ActionButton</b> prefab as our base for creating
+          a button with a toggle switch. The <b>ActionButton</b> prefab is a simple
+          button that includes an icon, text, and a label. These individual components
+          can be enabled or disabled, and the layout system will adapt accordingly.
+          Canvas prefabs (such as the <b>Action Button</b>) must be placed inside
+          a Canvas. As for the toggle switch, we provide a <b>ToggleSwitch</b> prefab
+          that can be leveraged for adding a toggle switch to the button.\n\nMRTK3
+          uses what is referred to as <b>Volumetric UI</b>. <b>Volumetric UI</b>
+          supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
+          context. Controls can be automatically laid out with proper margin, padding,
+          responsive flex, and all features a designer would expect to find. When
+          you set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
+          its <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
+          is set globally to <b>0.001</b> on all axes.\n\n\nLet\u2019s create a new
+          <b>Canvas</b> GameObject and add the <b>Action Button</b> prefab as a child
+          GameObject.\n"
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: <u>Instructions</u>
+      Text:
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
+          and select <b>UI > MRTK > Action Button</b>. Rename the <b>Canvas</b> GameObject
+          to <b>Sea Animal Toggle</b>.
+
+
+          <b>2.</b> In the <b>Hierarchy</b>,
+          select the <b>Sea Animal Toggle</b> GameObject and navigate to the <b>Canvas</b>
+          component.
+
+
+          <b>3.</b> In the <b>Select Camera</b> window, switch
+          to the <b>Scene</b> tab and select the <b>Main Camera</b>.
+
+
+          <b>4.</b>
+          In the <b>Rect Transfom</b> component, change the <b>Position</b> to <b>0.13,
+          0, 0.65</b>.
+
+
+          <b>Note</b>: Depending on where you''ve placed
+          the sea animal, you may need to further adjust the position of the button
+          so that the button displays to the right of the sea animal.
+
+'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 52045582768820820}
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
+--- !u!114 &52045582768820820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231e8df50e16c74c979c4a2affab91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Callback:
+    _target: {fileID: 11400000, guid: 72305ad941f10a24287f151852f29201, type: 2}
+    _methodName: DoesSeaAnimalToggleExist
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0
+  m_AutoCompleteCallback:
+    _target: {fileID: 0}
+    _methodName: 
+    _args: []
+    _dynamic: 0
+    _typeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion+BoolCallback, Unity.Tutorials.Core.Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dirty: 0
