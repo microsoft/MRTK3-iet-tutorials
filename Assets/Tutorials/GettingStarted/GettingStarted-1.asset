@@ -66,17 +66,29 @@ MonoBehaviour:
       Title:
         m_Untranslated: How to Navigate the Tutorials
       Text:
-        m_Untranslated: "Each tutorial provides both a conceptual overview and tasks
+        m_Untranslated: 'Each tutorial provides both a conceptual overview and tasks
           for you to complete. Tasks are presented below the overview in an <b>Instructions</b>
-          section.\n\nThe <b>Instructions</b> box has either a blue or green left
-          border. The color of the border indicates whether all tasks are completed.
-          Some tutorial instructions require that you perform a specified set of
-          steps before you can proceed. For such tutorials, the left border will
-          be blue and the <b>Next</b> button at the bottom right of the tutorial
-          will be grayed out until all steps within the task are complete. \n\nOnce
+          section.
+
+
+          The <b>Instructions</b> box has either a blue or green
+          left border. The color green indicates the tasks in the <b>Instructions</b>
+          box have been completed. You will be able to proceed to the next step using
+          the <b>Next</b> button at the bottom right of the tutorial.
+
+
+          However
+          the <b>Instructions</b> box currently has a blue border and the <b>Next</b>
+          button is grayed out. This means you must complete all tasks before proceeding.
+
+
+          Once
           all steps within the <b>Instructions</b> section are complete, the border
-          turns green and the <b>Next</b> button can be pressed to proceed.\n\nProvided
-          below is an example. Complete the task to proceed to the next screen."
+          turns green and the <b>Next</b> button can be pressed to proceed.
+
+
+          Provided
+          below is an example. Complete the task to proceed to the next screen.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

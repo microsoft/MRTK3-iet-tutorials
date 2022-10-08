@@ -20,7 +20,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+      m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -180,8 +180,8 @@ MonoBehaviour:
       m_Calls: []
   m_TargetGameObject:
     m_SceneObjectReference:
-      m_SceneGuid: 7b503a7548fc57f40bd57e4b7b5cf268
-      m_GameObjectGuid: d090a606-9a7d-420f-b4af-26d690692c7d
+      m_SceneGuid: 172e42cf1b10433448823526d95e436a
+      m_GameObjectGuid: d678e38e-0c74-4fbd-8666-29403e401171
       m_SerializedComponentType:
         m_TypeName: 
       m_ComponentIndex: 0
