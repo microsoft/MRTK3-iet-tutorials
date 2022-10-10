@@ -37,12 +37,19 @@ MonoBehaviour:
       Title:
         m_Untranslated: Quest via Quest Link
       Text:
-        m_Untranslated: "With Oculus Link, you can connect your Meta Quest to a PC
-          and view the scene directly in the headset while in Play Mode. Controller
-          interactions should be full parity over Oculus Link. Note that some hand
-          interactions are still being developed for Quest, and your results may
-          vary. \n\nFor further instructions, visit <a href=\"https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link\">Oculus
-          Link</a>."
+        m_Untranslated: '<b>The following section only applies to Quest users. Please
+          skip this page by using the Next button if desired.</b>
+
+
+          With
+          Oculus Link, you can connect your Meta Quest to a PC and view the scene
+          directly in the headset while in Play Mode. You can perform hand and controller
+          interactions normally as you would in a deployed app running on device.
+
+
+          For
+          further instructions, visit <a href="https://store.facebook.com/help/quest/articles/headsets-and-accessories/oculus-link">Oculus
+          Link</a>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

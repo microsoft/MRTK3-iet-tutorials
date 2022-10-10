@@ -35,18 +35,17 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Project Setup
+        m_Untranslated: Restarting the Tutorial
       Text:
-        m_Untranslated: "In this project, we\u2019ve included the relevant MRTK3
-          packages required to complete the tasks within the tutorials. We\u2019ve
-          also configured this Unity project so that you\u2019re able to get started
-          without the need to manually configure the project for OpenXR.\n\nWithin
-          our MRTK3 documentation, we provide detailed instructions on how to set
-          up a Unity project and consume MRTK3 packages. To learn more, review <a
-          href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/setup\">Initial
-          Setup for MRTK3</a>.\n\nAdditional project setup may be required for configuring
-          the project to support previewing scenes on an XR device. We provide instruction
-          and resources for setup within the <i>Preview Scenes</i> module."
+        m_Untranslated: "Once you\u2019ve completed a tutorial, you'll be prompted
+          to save the scene. This will save the current scene and the configurations
+          you\u2019ve made during the tutorial. If you\u2019d like to try the tutorial
+          again, <b>do not</b> save the scene when prompted.\n\nIf you accidentally
+          save the scene or later decide to redo a tutorial after the scene has been
+          saved, you can do a <b>git reset --hard</b> if using Git to get everything
+          back to a clean state. However, if you've downloaded the repository as
+          a .zip file, then you\u2019ll need to add a new version of the original
+          project to the Unity Hub.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

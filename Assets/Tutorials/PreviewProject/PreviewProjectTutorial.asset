@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PreviewProjectTutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: 
+    m_Untranslated: Preview the project
   m_ProgressTrackingEnabled: 0
   m_LessonId: 
   m_Version: 0

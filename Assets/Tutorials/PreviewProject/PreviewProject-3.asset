@@ -37,10 +37,15 @@ MonoBehaviour:
       Title:
         m_Untranslated: HoloLens 2 via Holographic Remoting
       Text:
-        m_Untranslated: 'Holographic Remoting enables you to run the app locally
-          in the Unity editor on your PC in Play Mode and stream the experience to
-          your HoloLens without the need to compile and deploy. Holographic Remoting
-          requires a fast PC and Wi-Fi connection.
+        m_Untranslated: '<b>The following section only applies to HoloLens 2 users.
+          Please skip this page by using the Next button if desired.</b>
+
+
+          Holographic
+          Remoting enables you to run the app locally in the Unity editor on your
+          PC in Play Mode and stream the experience to your HoloLens without the
+          need to compile and deploy. Holographic Remoting requires a fast PC and
+          Wi-Fi connection.
 
 
           Follow our <a href="https://docs.microsoft.com/windows/mixed-reality/develop/unity/preview-and-debug-your-app?tabs=openxr#set-up-holographic-remoting">Set

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: CanvasButton-1
+  m_Name: GettingStarted-4
   m_EditorClassIdentifier: 
   m_Paragraphs:
     m_Items:
@@ -35,19 +35,18 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Introduction
+        m_Untranslated: Project Setup
       Text:
-        m_Untranslated: "Provided in the scene is an aquarium tank that\u2019s filled
-          with objects to decorate the environment. All that's missing is a sea animal!
-          We\u2019ve provided three animated sea animals to choose from that will
-          live in the aquarium:\n\n\u2022 Sea Turtle\n\u2022 Seahorse\n\u2022 Dolphin\n\nYou\u2019ll
-          select one animal and create a button to toggle the visibility of the sea
-          animal. This toggle will be useful should you ever need to hide the sea
-          animal from view while rearranging the objects in the aquarium tank.\n\n<b>Note:</b>
-          Throughout this tutorial, you\u2019ll be prompted to enter Play Mode to
-          try out a scene. In the <i>Preview Scenes</i> module, we share several
-          options for trying scenes. Refer to the input controls for your preferred
-          method when trying the scenes for this tutorial.\n"
+        m_Untranslated: "In this project, we\u2019ve included the relevant MRTK3
+          packages required to complete the tasks within the tutorials. We\u2019ve
+          also configured this Unity project so that you\u2019re able to get started
+          without the need to manually configure the project for OpenXR.\n\nWithin
+          our MRTK3 documentation, we provide detailed instructions on how to set
+          up a Unity project and consume MRTK3 packages. To learn more, review <a
+          href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/setup\">Initial
+          Setup for MRTK3</a>.\n\nAdditional project setup may be required for configuring
+          the project to support previewing scenes on an XR device. We provide instruction
+          and resources for setup within the <i>Preview Scenes</i> module."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

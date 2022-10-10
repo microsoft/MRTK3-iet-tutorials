@@ -20,7 +20,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 4e17a62937b3bf74eb4adce4fb60afc0, type: 3}
+      m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -82,10 +82,7 @@ MonoBehaviour:
 
 
           <b>4.</b>
-          Search for <b>BoundingBoxWithHandles</b> and assign the prefab.
-
-
-          <b>Note</b>:
+          Search for <b>BoundingBoxWithHandles</b> and assign the prefab. <b>IMPORTANT</b>:
           In the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
           tab and untoggle the hidden packages by clicking the slashed eye icon on
           the right.
