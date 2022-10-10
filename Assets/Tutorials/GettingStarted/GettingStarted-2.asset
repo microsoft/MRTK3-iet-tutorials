@@ -40,13 +40,13 @@ MonoBehaviour:
         m_Untranslated: 'Sometimes for a tutorial there is no validation for completing
           all the tasks. In this case, the left border of the <b>Instructions</b>
           box stays blue and yet the <b>Next</b> button at the bottom right of the
-          tutorial stays clickable. Please still make sure you follow the tasks laid
-          out in <b>Instructions</b> in this scenario.
+          tutorial stays clickable. Make sure you still follow the tasks laid out
+          in <b>Instructions</b> in this scenario.
 
 
-          Provided below
-          is an example. Note the left border of <b>Instructions</b> stays blue even
-          after completing the task and the <b>Next</b> button is always clickable.'
+          Provided below is
+          an example. Note that the left border of <b>Instructions</b> stays blue
+          even after completing the task and the <b>Next</b> button is always clickable.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

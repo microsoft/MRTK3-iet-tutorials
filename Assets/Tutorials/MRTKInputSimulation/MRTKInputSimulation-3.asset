@@ -70,10 +70,10 @@ MonoBehaviour:
           Press <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Press the <b>Y</b> key
           to toggle the right hand. Notice that a hand ray protrudes from the hand.
           If you don't see the hand ray, try scrolling the scroll wheel on your mouse
-          to make the hand closer to you (i.e. the camera).\n\n<b>3.</b> Hold the
-          <b>Space</b> key and move the mouse so that the right hand's hand ray comes
-          in contact with the <b>Hide</b> button, which is located to the right of
-          the Treasure Chest. When the hand has made contact with the <b>Hide</b>
+          to make the hand closer to you (in other words, closer to the camera).\n\n<b>3.</b>
+          Hold the <b>Space</b> key and move the mouse so that the right hand's hand
+          ray comes in contact with the <b>Hide</b> button, which is located to the
+          right of the Treasure Chest. When the hand has made contact with the <b>Hide</b>
           button, the reticle can be seen on top of the button.\n\n<b>4.</b> Press
           your left mouse button to press the <b>Hide</b> button. Notice that the
           toggle switch moves from left to right and the <b>Treasure Chest</b> is
