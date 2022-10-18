@@ -37,31 +37,29 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add a Canvas Button
       Text:
-        m_Untranslated: "Now that you\u2019ve selected a sea animal to live in the
-          aquarium, we\u2019ll need a way to toggle the visibility of the sea animal.
-          Although you\u2019re welcome to let the sea animal continuously swim while
-          you\u2019re designing and arranging the objects in its habitat, it\u2019s
-          great to have the flexibility to disable the sea animal if needed. We'll
-          create a Canvas-based toggleable button to achieve this functionality.\n\nCanvas-based
-          buttons are flexible and configurable and can be resized to any dimension
-          or proportion. The <b>PressableButton</b> script is added as a component
-          of a button and includes behaviors specific to the buttons. For this tutorial,
-          we\u2019ll use the <b>ActionButton</b> prefab as our base for creating
-          a button with a toggle switch. The <b>ActionButton</b> prefab is a simple
-          button that includes an icon, text, and a label. These individual components
-          can be enabled or disabled, and the layout system will adapt accordingly.
-          Canvas prefabs (such as the <b>Action Button</b>) must be placed inside
-          a Canvas. As for the toggle switch, we provide a <b>ToggleSwitch</b> prefab
-          that can be leveraged for adding a toggle switch to the button.\n\nMRTK3
-          uses what is referred to as <b>Volumetric UI</b>. <b>Volumetric UI</b>
-          supports all XR interactions and can be authored in a <b>Canvas-RectTransform</b>
-          context. Controls can be automatically laid out with proper margin, padding,
-          responsive flex, and all features a designer would expect to find. When
-          you set up the <b>Canvas</b> GameObject, you\u2019ll need to ensure that
-          its <b>Render Mode</b> is set to <b>World Space</b> and its <b>Scale</b>
-          is set globally to <b>0.001</b> on all axes.\n\n\nLet\u2019s create a new
-          <b>Canvas</b> GameObject and add the <b>Action Button</b> prefab as a child
-          GameObject.\n"
+        m_Untranslated: "Now that you\u2019ve selected a sea animal for the aquarium,
+          we\u2019ll need a way to toggle its visibility. Although you\u2019re welcome
+          to let the sea animal continuously swim while you\u2019re designing and
+          arranging the objects in its habitat, it\u2019s great to have the flexibility
+          to disable the sea animal if needed. To achieve this functionality, we'll
+          create a Canvas-based button that toggles.\n\nCanvas-based buttons are
+          flexible and configurable and can be resized to any dimension or proportion.
+          The <b>PressableButton</b> script is added as a component of a button and
+          includes behaviors specific to the buttons. For this tutorial, we\u2019ll
+          use the <b>ActionButton</b> prefab as our base for creating a button with
+          a toggle switch. This prefab is a simple button that includes an icon,
+          text, and a label. These individual components can be enabled or disabled,
+          and the layout system will adapt accordingly. Canvas prefabs (such as the
+          <b>Action Button</b>) must be placed inside a Canvas. For adding a toggle
+          switch to the button, we provide a <b>ToggleSwitch</b> prefab.\n\nMRTK3
+          uses <i>Volumetric UI</i>, which supports all XR interactions and can be
+          authored in a <b>Canvas-RectTransform</b> context. Controls can be automatically
+          laid out with proper margin, padding, responsive flex, and other features
+          a designer would expect to find. When you set up the <b>Canvas</b> GameObject,
+          you\u2019ll need to ensure that its <b>Render Mode</b> is set to <b>World
+          Space</b> and its <b>Scale</b> is set globally to <b>0.001</b> on all axes.\n\n\nLet\u2019s
+          create a new <b>Canvas</b> GameObject and add the <b>Action Button</b>
+          prefab as a child GameObject."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -80,30 +78,19 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, click the <b>+</b> button
-          and select <b>UI > MRTK > Action Button</b>. Rename the <b>Canvas</b> GameObject
-          to <b>Sea Animal Toggle</b>.
-
-
-          <b>2.</b> In the <b>Hierarchy</b>,
-          select the <b>Sea Animal Toggle</b> GameObject and navigate to the <b>Canvas</b>
-          component.
-
-
-          <b>3.</b> In the <b>Select Camera</b> window, switch
-          to the <b>Scene</b> tab and select the <b>Main Camera</b>.
-
-
-          <b>4.</b>
-          In the <b>Rect Transfom</b> component, change the <b>Position</b> to <b>0.13,
-          0, 0.65</b>.
-
-
-          <b>Note</b>: Depending on where you''ve placed
-          the sea animal, you may need to further adjust the position of the button
-          so that the button displays to the right of the sea animal.
-
-'
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, click the \u201C+\u201D
+          drop-down menu and then select <b>UI > MRTK > Action Button</b>. Note that
+          when you add this button, a <b>Canvas</b> game object is automatically
+          added as its parent.\n\n<b>2.</b> Change the name of the newly-added <b>Canvas</b>
+          object to <b>Sea Animal Toggle</b>.\n\n<b>3.</b> With <b>Sea Animal Toggle</b>
+          still selected, in the <b>Inspector</b>, navigate to the <b>Canvas</b>
+          component.\n\n<b>4.</b> Click the circle button in the <b>Event Camera</b>
+          drop-down.\n\n<b>5.</b> In the <b>Select Camera</b> window, switch to the
+          <b>Scene</b> tab, then select <b>Main Camera</b>, and then close the window.\n\n<b>6.</b>
+          In the <b>Rect Transform</b> component, change <b>Pos X</b> to 0.13, <b>Pos
+          Y</b> to 0, and <b>Pos Z</b> 0.65.\n\n<b>Note</b>: Depending on where you've
+          placed the sea animal, you may need to adjust the position of the button
+          so that that it displays to the right of the sea animal."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

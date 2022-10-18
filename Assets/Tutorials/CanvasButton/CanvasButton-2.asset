@@ -41,7 +41,7 @@ MonoBehaviour:
           As mentioned, we provide models for three animated sea animals:\n\n\u2022
           Sea Turtle\n\u2022 Seahorse\n\u2022 Dolphin\n\nYou can find each animal
           model within the <b>Assets > Models > Animals > Prefabs</b> folder. Feel
-          free to add the models to the scene and enter Play Mode to view the animal
+          free to add the models to the scene and enter Play Mode to view the animals
           in the aquarium. You\u2019ll be required to select one of the animals for
           the aquarium.\n"
       m_Tutorial: {fileID: 0}
@@ -64,19 +64,19 @@ MonoBehaviour:
       Text:
         m_Untranslated: "<b>1.</b> In the <b>Project</b> panel, navigate to <b>Assets
           > Models > Animals > Prefabs</b> to locate the sea animal models.\n\n<b>2.</b>
-          Drag each sea animal into the <b>Hierarchy</b> and reposition so that each
-          animal has space to move around.\n\n<b>3.</b> Select <b>Play</b> to enter
-          Play Mode. When the scene starts, each sea animal animates on a loop according
-          to their natural movement.\n\n<b>4.</b> After you\u2019ve observed the
-          animals, press <b>Play</b> to exit Play Mode.\n\n<b>5.</b> Decide on which
-          sea animal you\u2019d like to choose for your aquarium.\n\n<b>6.</b> In
-          the <b>Hierarchy</b>, delete the sea animals you no longer need.\n\n<b>7.</b>
-          Position the sea animal to the middle of the aquarium tank. Be sure to
-          leave enough space for the sea animal to perform its animation when in
-          Play Mode.\n\n<b>Note</b>: We recommend that you <b>do not</b> modify the
-          scale of the sea animals. The configured scale has been set to best accommodate
-          both the sea animal and aquarium objects together in the tank.\n\n<b>8.</b>
-          Be sure to exit Play Mode before you proceed.\n"
+          Drag each sea animal into the <b>Hierarchy</b> and then, in the <b>Scene</b>
+          window, reposition each one so that it has space to move around.\n\n<b>3.</b>
+          Select <b>Play</b> to enter Play Mode. Note that each sea animal animates
+          on a loop according to their natural movement.\n\n<b>4.</b> After you\u2019ve
+          observed the animals, press <b>Play</b> to exit Play Mode.\n\n<b>5.</b>
+          Decide on which sea animal you\u2019d like to choose for your aquarium.\n\n<b>6.</b>
+          In the <b>Hierarchy</b>, delete the sea animals you no longer need.\n\n<b>7.</b>
+          If needed, reposition the sea animal to the middle of the aquarium tank.
+          Be sure to leave enough space for the sea animal to perform its animation
+          when in Play Mode.\n\n<b>Note</b>: We recommend that you <b>do not</b>
+          modify the scale of the sea animals. The configured scale has been set
+          to best accommodate both the sea animal and aquarium objects together in
+          the tank.\n\n<b>8.</b> Be sure to exit Play Mode before you proceed."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

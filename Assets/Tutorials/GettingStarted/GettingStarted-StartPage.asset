@@ -40,7 +40,7 @@ MonoBehaviour:
         m_Untranslated: "In this interactive tutorial series, you\u2019ll learn how
           to use various MRTK3 features with instruction provided directly in the
           Unity editor. Although you\u2019re not required to complete the tutorials
-          in-order, we encourage you to try each tutorial so that you gain a better
+          in order, we encourage you to try each tutorial so that you gain a better
           understanding of how to use various toolkit features. \n\nTo learn more
           about MRTK3, visit <a href=\"https://aka.ms/mrtk3\">aka.ms/mrtk3</a>.\n\n<b>Note</b>:
           MRTK3 is currently in Public Preview. As we continue to shape the future

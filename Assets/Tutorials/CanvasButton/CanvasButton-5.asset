@@ -37,14 +37,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: Change the Selection Mode
       Text:
-        m_Untranslated: "The <b>Selection Mode</b> determines the events that can
+        m_Untranslated: "The <i>Selection Mode</i> determines the events that can
           be configured for the button. For example, the <b>Button</b> mode provides
-          <b>On Clicked</b> events whereas the <b>Toggle</b> mode provides <b>On
-          Clicked</b>, <b>On Toggled</b>, and <b>On Detoggled</b> events.\n\nWe\u2019ll
-          need a way to differentiate the button presses (or toggles). The <b>Toggle</b>
-          mode provides a way to do so by changing the state of the button to <b>Toggled</b>
-          vs. <b>Detoggled</b>. \n\nLet\u2019s change the <b>Selection Mode</b> to
-          <b>Toggle</b> for the <b>Action Button</b>.\n"
+          <b>On Clicked</b> events, and the <b>Toggle</b> mode provides <b>On Clicked</b>,
+          <b>On Toggled</b>, and <b>On Detoggled</b> events.\n\nWe\u2019ll need a
+          way to detect the two states of the button: <b>Toggled</b> or <b>Detoggled</b>.
+          The <b>Toggle</b> mode provides a way to do this . \n\nLet\u2019s change
+          the <b>Selection Mode</b> to <b>Toggle</b> for the <b>Action Button</b>."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -63,16 +62,16 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b>, select <b>Sea Animal Toggle
-          > Action Button</b>.
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Action
+          Button</b> GameObject (it''s a child of <b>Sea Animal Toggle</b>).
 
 
-          <b>2.</b> In the <b>Inspector</b>, navigate
-          to the <b>Pressable Button</b> component.
+          <b>2.</b>
+          In the <b>Inspector</b>, navigate to the <b>Pressable Button</b> component.
 
 
-          <b>3.</b> Select
-          the <b>Selection Mode</b> drop-down and select <b>Toggle</b>. '
+          <b>3.</b>
+          Click the <b>Selection Mode</b> drop-down and then select <b>Toggle</b>. '
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

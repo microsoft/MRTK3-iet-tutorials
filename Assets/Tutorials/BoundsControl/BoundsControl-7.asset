@@ -39,7 +39,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: Now that <b>Rotation</b> is the only enabled handle for the
           <b>Coral</b>, the scale handles will no longer be visible on the bounding
-          box. Enter Play Mode to view both the visual and functional difference
+          box. Enter Play Mode to view both the visual and functional differences
           that have been made.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
