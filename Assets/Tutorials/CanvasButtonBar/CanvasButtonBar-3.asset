@@ -37,17 +37,18 @@ MonoBehaviour:
       Title:
         m_Untranslated: Configure the Coral Button UI
       Text:
-        m_Untranslated: "We now have a button bar equipped with <b>Action Button</b>
-          prefabs that are ready to be configured to spawn aquarium objects. The
-          <b>Action Button</b> prefab has three child GameObjects which make up the
-          configuration of the button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022
-          Frontplate\n\nWithin both the <b>Backplate</b> and <b>Frontplate</b> are
-          additional child GameObjects for configuration. Although there are various
-          properties to configure, we\u2019ll focus on just a few for this tutorial.
-          \n\nCurrently, the <b>Action Button</b> within the <b>CanvasButtonBar_SharedBackPlate</b>
-          has a blue backplate and a person icon. We\u2019ll need to complete the
-          following:\n\n\u2022 Remove the icon on the button\n\u2022 Display a label
-          for the respective object\n\nLet's configure the first button for a Coral!"
+        m_Untranslated: "In the <b>Hierarchy</b>, display the child GameObjects for
+          <b>Aquarium Objects Bar</b> / <b>CanvasButtonBar_SharedBackplate</b> and
+          note that there are several <b>Action Button</b> prefabs. These prefabs
+          are ready to be configured to spawn aquarium objects. The <b>Action Button</b>
+          prefab has three child GameObjects which make up the configuration of the
+          button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022 Frontplate\n\n<b>Backplate</b>
+          and <b>Frontplate</b> have additional child GameObjects for configuration.
+          Although there are various properties to configure, we\u2019ll focus on
+          just a few for this tutorial. \n\nCurrently, <b>Action Button</b> has a
+          blue backplate and a person icon. We\u2019ll need to complete the following:\n\n\u2022
+          Remove the icon on the button\n\u2022 Display a label for the respective
+          object\n\nLet's configure the first button for a Coral!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -66,21 +67,21 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instruction</u>
       Text:
-        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, select <b>Aquarium Objects
-          Bar > CanvasButtonBar_SharedBackPlate</b> and expand the <b>CanvasButtonBar_SharedBackPlate</b>
-          GameObject to view its children.\n\n<b>2.</b> In the <b>Hierarchy</b>,
-          select the first <b>Action Button</b> child GameObject and rename the GameObject
-          to <b>Coral</b> so that we can differentiate this button from the other
-          <b>Action Button</b> children. We\u2019ll change the display name in the
-          next step.\n\n<b>3.</b> In the <b>Hierarchy</b>, expand the <b>Coral</b>
-          GameObject, then navigate to <b>Frontplate > AnimatedContent > Icon</b>,
-          and then disable the <b>UIButtonFontIcon</b>.\n\n<b>3.</b> In the <b>Hierarchy</b>,
-          expand the <b>Coral</b> GameObject and navigate to <b>Frontplate > AnimatedContent
-          > Icon > Label</b>.\n\n<b>4.</b> In the <b>Inspector</b>, navigate to the
-          <b>TextMeshPro \u2013 Text</b> component.\n\n<b>5.</b> In the <b>Text Input</b>
-          property, enter <b>Coral</b>. The <b>Coral</b> button should now display
-          with the label <b>Coral</b> in the button bar. \n\n<b>6.</b> Reposition
-          the label by adjusting the transform <b>Position</b>.\n"
+        m_Untranslated: "<b>1.</b> In the <b>Hierarchy</b>, expand <b>Aquarium Objects
+          Bar > CanvasButtonBar_SharedBackPlate</b> to view its children.\n\n<b>2.</b>
+          Rename <b>Action Button</b> to <b>Coral</b> so that we can differentiate
+          this button from the other <b>Action Button</b> GameObjects. We\u2019ll
+          change the display name in the next few steps.\n\n<b>3.</b> Navigate to
+          <b>Coral > Frontplate > AnimatedContent > Icon > UIButtonFontIcon</b>,
+          and then, in the <b>Inspector</b>, clear the check box to the left of <b>UIButtonFontIcon</b>
+          to hide this GameObject.\n\n<b>3.</b> In the <b>Hierarchy</b>, navigate
+          to <b>Coral > Frontplate > AnimatedContent > Icon > Label</b>.\n\n<b>4.</b>
+          In the <b>Inspector</b>, navigate to the <b>TextMeshPro \u2013 Text</b>
+          component.\n\n<b>5.</b> In the <b>Text Input</b> property, enter \"Coral.\"
+          The <b>Coral</b> button should now display in the <b>Scene</b> window with
+          the label <b>Coral</b> in the button bar. \n\n<b>6.</b> If needed, reposition
+          the label by adjusting the position values in the <b>Rect Transform</b>
+          component of <b>Label</b>.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
