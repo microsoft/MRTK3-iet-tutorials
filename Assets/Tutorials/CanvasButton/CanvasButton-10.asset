@@ -64,10 +64,10 @@ MonoBehaviour:
       Text:
         m_Untranslated: "Consider the following scenarios as you practice configuring
           a Canvas button:\n\n\u2022 Change the UI of the button to only display
-          the sea animal\u2019s name\n\u2022 Configure an <b>On Clicked</b> event
-          that randomly selects a sea animal to display\n\u2022 Configure a toggle
-          event that starts and stops the sea animal\u2019s animation\n\u2022 Use
-          a <b>Font Icon</b> instead of a <b>Sprite Icon</b>\n\nOnce you\u2019re
+          the sea animal\u2019s name.\n\u2022 Configure an <b>On Clicked</b> event
+          that randomly selects a sea animal to display.\n\u2022 Configure a toggle
+          event that starts and stops the sea animal\u2019s animation.\n\u2022 Use
+          a <b>Font Icon</b> instead of a <b>Sprite Icon</b>.\n\nOnce you\u2019re
           done, be sure to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
