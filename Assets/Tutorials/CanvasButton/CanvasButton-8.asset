@@ -77,10 +77,10 @@ MonoBehaviour:
           new event.
 
 
-          <b>4.</b> In the <b>Hierarchy</b>, click the sea
-          animal, and then drag it to the event you just created in the <b>Inspector</b>
-          and drop it in the field that currently displays <b>None (Object)</b>.
-          (This is the field for the GameObject that will receive the event.)
+          <b>4.</b> Drag the sea animal from the <b>Hierarchy</b>
+          and then drop it on the event you just created in the <b>Inspector</b>
+          in the field that currently displays <b>None (Object)</b>. (This is the
+          field for the GameObject that will receive the event.)
 
 
           <b>5.</b>
@@ -93,10 +93,10 @@ MonoBehaviour:
           event.
 
 
-          <b>7.</b> In the <b>Hierarchy</b>, click the sea animal,
-          and then drag it to the event you just created in the <b>Inspector</b>
-          and drop it in the field that currently displays <b>None (Object)</b>.
-          (This is the field for the GameObject that will receive the event.)
+          <b>7.</b> Drag the sea animal from the <b>Hierarchy</b>
+          and then drop it on the event you just created in the <b>Inspector</b>
+          in the field that currently displays <b>None (Object)</b>. (This is the
+          field for the GameObject that will receive the event.)
 
 
           <b>8.</b>

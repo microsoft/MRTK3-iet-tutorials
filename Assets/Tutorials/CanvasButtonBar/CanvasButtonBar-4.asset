@@ -81,15 +81,14 @@ MonoBehaviour:
           new event.
 
 
-          <b>4.</b> In the <b>Hierarchy</b>, click the <b>Spawner</b>
-          GameObject and then drag it to the <b>On Clicked</b> property and drop
-          it in the field for the GameObject receiving the event (it currently displays
-          <b>None (Object)</b>).
+          <b>4.</b> Drag <b>Spawner</b> from the <b>Hierarchy</b>
+          and then drop it on the <b>On Clicked</b> property in the field for the
+          GameObject receiving the event (it currently displays <b>None (Object)</b>).
 
 
-          <b>5.</b> In the new event, select the
-          <b>function</b> drop-down (it currently displays <b>No Function</b>) and
-          then select <b>Spawner > SpawnCoral ()</b>.'
+          <b>5.</b>
+          In the new event, select the <b>function</b> drop-down (it currently displays
+          <b>No Function</b>) and then select <b>Spawner > SpawnCoral ()</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
