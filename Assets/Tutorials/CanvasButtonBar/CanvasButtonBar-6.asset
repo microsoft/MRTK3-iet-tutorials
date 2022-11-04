@@ -58,17 +58,18 @@ MonoBehaviour:
       Text:
         m_Untranslated: "It\u2019s time to practice what you\u2019ve learned in this
           tutorial! You\u2019re now ready to finish configuring the <b>Aquarium Objects
-          Bar</b> to accommodate the additional aquarium objects. \n\nYou may notice
-          that you\u2019re limited on the number of buttons available in the <b>CanvasButtonBar_SharedBackPlate</b>
-          prefab. There's nothing to fear--you can add additional <b>Action Button</b>
-          prefabs as children of the <b>CanvasButtonBar_SharedBackPlate</b> prefab!
-          When you do so, the button bar dynamically resizes to accommodate the addition
-          of a new button. We don't recommend duplicating an  existing <b>Action
-          Button</b> that's attached to the prefab; instead, manually add a new <b>Action
-          Button</b> prefab from the <b>Project</b> panel. \n\nAfter you configure
-          the button bar, give the scene a try. Spawn as many aquarium objects as
-          you prefer into the scene and arrange them into your preferred format.\n\nWe
-          encourage you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+          Bar</b> GameObject to accommodate the additional aquarium objects. \n\nYou
+          may notice that you\u2019re limited on the number of buttons available
+          in the <b>CanvasButtonBar_SharedBackPlate</b> prefab. There's nothing to
+          fear--you can add additional <b>Action Button</b> prefabs as children of
+          the <b>CanvasButtonBar_SharedBackPlate</b> prefab! When you do so, the
+          button bar dynamically resizes to accommodate the addition of a new button.
+          We don't recommend duplicating an existing <b>Action Button</b> that's
+          attached to the prefab; instead, manually add a new <b>Action Button</b>
+          prefab from the <b>Project</b> panel. \n\nAfter you configure the button
+          bar, give the scene a try. Spawn as many aquarium objects as you prefer
+          into the scene and arrange them into your preferred format.\n\nWe encourage
+          you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
           documentation for more guidance on how to configure buttons.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
@@ -90,12 +91,13 @@ MonoBehaviour:
       Text:
         m_Untranslated: "Consider the following scenarios as you practice configuring
           Canvas buttons:\n\n\u2022 Configure the button bar to accommodate all aquarium
-          objects. You can add additional <b>Action Button</b> prefabs by navigating
-          to <b>UI > MRTK > Action Button</b>.\n\u2022 Change the UI of the button
-          to only display the label of the aquarium object\n\u2022 Configure a button
-          to remove (or destroy) aquarium objects that are no longer needed\n\u2022
-          Configure a button to reset (or reload) the scene after arranging aquarium
-          objects\n\nOnce you\u2019re done, be sure to exit Play Mode."
+          objects. You can add additional instances of the <b>Action Button</b> prefab\u2014it\u2019s
+          located in <b>Packages > MRTK UX Components > Button > Prefabs</b>. \n\u2022
+          Change the UI of the button to only display the label of the aquarium object.\n\u2022
+          Configure a button to remove (or destroy) aquarium objects that are no
+          longer needed.\n\u2022 Configure a button to reset (or reload) the scene
+          after arranging aquarium objects.\n\nOnce you\u2019re done, be sure to
+          exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

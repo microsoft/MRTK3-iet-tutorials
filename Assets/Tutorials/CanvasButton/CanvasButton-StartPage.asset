@@ -40,9 +40,9 @@ MonoBehaviour:
         m_Untranslated: "A button gives the user a way to trigger an immediate action.
           In this tutorial, you'll explore configurations for a Canvas button by
           creating a toggle switch button that toggles the visibility of a sea animal.\n\n<b>Learning
-          Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b> for a canvas-based
+          Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b> for a Canvas-based
           button\n\u2022 Select the appropriate <b>Selection Mode</b> for a button\n\u2022
-          Select an <b>Icon</b> for a canvas button prefab\n\u2022 Add a <b>Toggle
+          Select an <b>Icon</b> for a Canvas button prefab\n\u2022 Add a <b>Toggle
           Switch</b> prefab to a canvas button\n\u2022 Add toggle events to a canvas
           button\n\nLet's get started!"
       m_Tutorial: {fileID: 0}

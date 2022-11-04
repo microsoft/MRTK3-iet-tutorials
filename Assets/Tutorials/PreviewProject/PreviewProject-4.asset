@@ -67,9 +67,9 @@ MonoBehaviour:
           XR device are configured for rendering the project.\n\n<b>1.</b> Press
           <b>Play</b> to enter Play Mode.\n\n<b>2.</b> Using your controller, select
           the <b>Hide</b> button to toggle the visibility of the <b>Treasure Chest</b> 
-          (the button is located to the right of the chest and has a blue border).
-          The <b>Treasure Chest</b> will no longer be visible. You can select the
-          <b>Hide</b>button once more to turn on the object\u2019s visibility.\n\n<b>3.</b>
+          (the button is located to the right of the chest and has a blue and white
+          toggle). The <b>Treasure Chest</b> will no longer be visible. You can select
+          the <b>Hide</b>button once more to turn on the object\u2019s visibility.\n\n<b>3.</b>
           Using your controller, grab and move the <b>Treasure Chest</b> by selecting
           it. The <b>Treasure Chest</b> can be selected at either a far or near distance.
           If you select the <b>Treasure Chest</b> from a far distance, a ray appears

@@ -39,16 +39,16 @@ MonoBehaviour:
       Text:
         m_Untranslated: "Our button is almost complete! We\u2019ll need to add a
           toggle switch to the button to visualize when the toggle has been switched.
-          We provide a ToggleSwitch prefab that\u2019ll help achieve this visualization.
-          \n\nWhen the button is pressed, the ToggleSwitch prefab\u2019s circular
-          toggle will move from left to right or vice versa. We can press the button
-          to execute this change in position. However, what we want to avoid is having
-          the toggle switch move with the Frontplate of the button. The toggle switch
-          object itself should remain in place when the button is pressed. Therefore,
-          we\u2019ll need to attach the ToggleSwitch prefab to the Backplate. Features
-          that aren\u2019t intended to move with the Frontplate should be attached
-          to the Backplate object.\n\nLet\u2019s add the ToggleSwitch prefab to the
-          button and position to display below the button icon.\n"
+          We provide a ToggleSwitch prefab that\u2019ll help you to achieve this
+          visualization. \n\nWhen the button is pressed, the ToggleSwitch prefab\u2019s
+          circular toggle will move from left to right or right to left. We can press
+          the button to execute this change in position. However, what we want to
+          avoid is having the toggle switch move with the Frontplate of the button.
+          The toggle switch object itself should remain in place when the button
+          is pressed. Therefore, we\u2019ll need to attach the ToggleSwitch prefab
+          to the Backplate. Features that aren\u2019t intended to move with the Frontplate
+          should be attached to the Backplate object.\n\nLet\u2019s add the ToggleSwitch
+          prefab to the button and position to display below the button icon.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -73,19 +73,19 @@ MonoBehaviour:
 
 
           <b>2.</b> In the <b>Project</b> panel, search
-          for the <b>ToggleSwitch</b> prefab and place the prefab as a child of the
-          Backplate GameObject within the Hierarchy. Be sure to set the <b>Search</b>
-          to <b>All</b> to search the entire project.
+          for the <b>ToggleSwitch</b> prefab (be sure to set the <b>Search</b> to
+          <b>All</b> to search the entire project) and then place the prefab as a
+          child of the Backplate GameObject within the Hierarchy..
 
 
-          <b>3.</b> In the
-          <b>Hierarchy</b>, select the <b>ToggleSwitch</b>.
+          <b>3.</b>
+          In the <b>Hierarchy</b>, select the <b>ToggleSwitch</b>.
 
 
           <b>4.</b>
-          Using the <b>Move Tool</b>, use the green Y to move the ToggleSwitch below
-          the sea animal icon. The <b>Move Tool</b> is accessible in the <b>Scene</b>
-          window within the <b>Tools</b> bar.
+          Using the Move Tool, drag <b>ToggleSwitch</b> on its Y axis to move it
+          below the sea animal icon. (You can find the Move Tool in the <b>Scene</b>
+          window on the <b>Tools</b> bar.)
 
 '
       m_Tutorial: {fileID: 0}

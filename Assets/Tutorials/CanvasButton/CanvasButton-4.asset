@@ -39,16 +39,16 @@ MonoBehaviour:
       Text:
         m_Untranslated: "We now have a canvas button that\u2019s ready to be configured
           for toggling the visibility of the sea animal. The <b>Action Button</b>
-          prefab has three child GameObjects which make up the configuration of the
-          button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022 Frontplate\n\nWithin
-          both the <b>Backplate</b> and <b>Frontplate</b> are additional child GameObjects
-          for configuration. Although there are various properties to configure,
-          we\u2019ll focus on just a few for this tutorial. \n\nCurrently, the <b>Action
-          Button</b> we\u2019ve added to the Canvas displays a button with a light-blue
-          tinted backplate and a person icon. We\u2019ll need to complete the following:\n\n\u2022
+          prefab has three child GameObjects that make up the configuration of the
+          button:\n\n\u2022 Backplate\n\u2022 Backglow\n\u2022 Frontplate\n\nThe
+          <b>Backplate</b> and <b>Frontplate</b> GameObjects both contain child GameObjects
+          with various configuration options. For this tutorial, we\u2019ll focus
+          on just a few of the options. \n\nCurrently, the <b>Action Button</b> we\u2019ve
+          added to the Canvas displays a button with a light-blue tinted backplate
+          and a person icon. We\u2019ll need to complete the following:\n\n\u2022
           Change the <b>Selection Mode</b> to <b>Toggle</b>\n\u2022 Change the icon
-          to the respective animal icon\n\u2022 Add the <b>Toggle Switch</b> prefab
-          to the button\n"
+          to the appropriate animal icon\n\u2022 Add the <b>Toggle Switch</b> prefab
+          to the button"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -67,9 +67,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: "Browse through structure and child GameObjects of the Action
-          Button to familiarize yourself with the button\u2019s layout. \n\nWhen
-          you\u2019re ready, click <b>Next</b> to start the configurations!"
+        m_Untranslated: "Browse through the child GameObjects of the Action Button
+          to familiarize yourself with the button\u2019s layout. \n\nWhen you\u2019re
+          ready, click <b>Next</b> to start the configurations!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

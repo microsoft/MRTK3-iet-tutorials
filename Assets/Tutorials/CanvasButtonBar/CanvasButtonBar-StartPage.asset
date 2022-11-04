@@ -39,11 +39,11 @@ MonoBehaviour:
       Text:
         m_Untranslated: "A button bar organizes a collection of buttons together
           in a uniform layout. In this tutorial, you'll explore configurations for
-          canvas buttons within a button bar by configuring the button to spawn an
+          Canvas buttons within a button bar by configuring the button to spawn an
           aquarium object.\n\n<b>Learning Objectives</b>:\n\n\u2022 Configure a <b>Canvas</b>
-          for a Canvas-based button\n\u2022 Select an <b>Icon</b> for a Canvas button
-          prefab\n\u2022 Provide a <b>Label</b> for a Canvas button\n\u2022 Add an
-          <b>On Clicked</b> event to a Canvas button\n\nLet's get started!"
+          for a Canvas-based button.\n\u2022 Select an <b>Icon</b> for a Canvas button
+          prefab.\n\u2022 Provide a <b>Label</b> for a Canvas button.\n\u2022 Add
+          an <b>On Clicked</b> event to a Canvas button.\n\nLet's get started!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

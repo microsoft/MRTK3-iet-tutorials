@@ -79,13 +79,13 @@ MonoBehaviour:
           the same interaction with the left hand following the respective key combinations
           above.\n\n<b>To execute a rotation while grabbing an object from a near
           distance, we can either move the camera closer to the object <i>or</i>
-          change the depth of the hand. Let's change camera's distance to the Treasure
-          Chest.</b> \n\n<b>1.</b> Press the <b>W</b> key to move closer to the <b>Treasure
-          Chest</b>.\n\n<b>2.</b> Press and hold the <b>Left Ctrl</b> key and move
-          the mouse to position the reticle to make contact with the <b>Treasure
-          Chest</b>. When the hand has made contact with the <b>Treasure Chest</b>
-          at a near distance, the reticle can be seen on top of the object and no
-          hand ray is visible. Adjust your proximity to the object if necessary.\n\n<b>3.</b>
+          change the depth of the hand. Let's change the camera's distance to the
+          Treasure Chest.</b> \n\n<b>1.</b> Press the <b>W</b> key to move closer
+          to the <b>Treasure Chest</b>.\n\n<b>2.</b> Press and hold the <b>Left Ctrl</b>
+          key and move the mouse to position the reticle to make contact with the
+          <b>Treasure Chest</b>. When the hand has made contact with the <b>Treasure
+          Chest</b> at a near distance, the reticle can be seen on top of the object
+          and no hand ray is visible. Adjust your proximity to the object if necessary.\n\n<b>3.</b>
           Click the left mouse button to grab the object. While grabbing the <b>Treasure
           Chest</b>, continue to press the <b>Left Ctrl</b> key and scroll the <b>Mouse
           Wheel</b> up and down to roll the <b>Treasure Chest</b>. \n\n<b>5.</b>

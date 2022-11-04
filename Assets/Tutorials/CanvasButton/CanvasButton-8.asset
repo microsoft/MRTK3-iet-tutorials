@@ -43,10 +43,9 @@ MonoBehaviour:
           for the sea animal to make the object either active or inactive.\n\nBy
           default, we\u2019ll leave the sea animal to be active in the scene. However,
           when the <b>Sea Animal Toggle</b> button is toggled, the sea animal will
-          deactivate, thus hiding the sea animal from view. When the <b>Sea Animal
-          Toggle</b> button is detoggled, the sea animal will become active and therefore
-          visible in the aquarium.\n\nLet\u2019s create events for the visibility
-          of the sea animal!\n"
+          deactivate, hiding it from view. When the <b>Sea Animal Toggle</b> button
+          is detoggled, the sea animal will become active and visible in the aquarium.\n\nLet\u2019s
+          create events for the visibility of the sea animal!\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -65,46 +64,50 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> In the <b>Hiearchy</b>, select <b>Sea Animal Toggle
-          > Action Button</b>.
+        m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select <b>Sea Animal
+          Toggle > Action Button</b>.
 
 
-          <b>2.</b> In the <b>Inspector</b>, navigate
-          to the <b>Pressable Button</b> component.
+          <b>2.</b> In the <b>Inspector</b>,
+          navigate to the <b>Pressable Button</b> component.
 
 
-          <b>3.</b> Within
-          the <b>On Toggled</b> property, select the <b>+</b> to create a new event.
+          <b>3.</b>
+          Within the <b>On Toggled</b> property, select the <b>+</b> to create a
+          new event.
 
 
-          <b>4.</b>
-          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
-          field for the GameObject receiving the event.
+          <b>4.</b> Drag the sea animal from the <b>Hierarchy</b>
+          and then drop it on the event you just created in the <b>Inspector</b>
+          in the field that currently displays <b>None (Object)</b>. (This is the
+          field for the GameObject that will receive the event.)
 
 
-          <b>5.</b> In
-          the new event, select the <b>function</b> drop-down and select <b>GameObject
-          > SetActive (bool)</b>.
+          <b>5.</b>
+          In the event, select the <b>function</b> drop-down (it currently displays
+          <b>No Function</b>) and then select <b>GameObject > SetActive (bool)</b>.
 
 
-          <b>6.</b> Within the <b>On Deoggled</b>
-          property, select the <b>+</b> to create a new event.
+          <b>6.</b>
+          In the <b>On Detoggled</b> property, select the <b>+</b> to create a new
+          event.
 
 
-          <b>7.</b>
-          In the new event, drag the sea animal in the <b>Hierarchy</b> into the
-          field for the GameObject receiving the event.
+          <b>7.</b> Drag the sea animal from the <b>Hierarchy</b>
+          and then drop it on the event you just created in the <b>Inspector</b>
+          in the field that currently displays <b>None (Object)</b>. (This is the
+          field for the GameObject that will receive the event.)
 
 
-          <b>8.</b> In
-          the new event, select the <b>function</b> drop-down and select <b>GameObject
-          > SetActive (bool)</b>.
+          <b>8.</b>
+          In the event, select the <b>function</b> drop-down (it currently displays
+          <b>No Function</b>) and then select <b>GameObject > SetActive (bool)</b>.
 
 
-          <b>9.</b> Below the function, check
-          the box to set the active flag to <b>active</b> for the sea animal. This
-          ensures that the sea animal will display when the <b>Sea Animal Toggle</b>
-          button is detoggled.
+          <b>9.</b>
+          Select the check box below the function to set the active flag to <b>active</b>
+          for the sea animal. This ensures that the sea animal will display when
+          the <b>Sea Animal Toggle</b> button is detoggled.
 
 '
       m_Tutorial: {fileID: 0}

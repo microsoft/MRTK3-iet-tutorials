@@ -37,15 +37,15 @@ MonoBehaviour:
       Title:
         m_Untranslated: Introduction
       Text:
-        m_Untranslated: "Provided in the scene is an aquarium tank that\u2019s filled
-          with objects to decorate the environment. All that's missing is a sea animal!
-          We\u2019ve provided three animated sea animals to choose from that will
+        m_Untranslated: "The scene contains an aquarium tank that\u2019s filled with
+          objects decorating the environment. All that's missing is a sea animal!
+          We\u2019ve provided three animated sea animals to choose from that can
           live in the aquarium:\n\n\u2022 Sea Turtle\n\u2022 Seahorse\n\u2022 Dolphin\n\nYou\u2019ll
-          select one animal and create a button to toggle the visibility of the sea
-          animal. This toggle will be useful should you ever need to hide the sea
-          animal from view while rearranging the objects in the aquarium tank.\n\n<b>Note:</b>
+          select one animal and then create a button to toggle the visibility of
+          the sea animal. This toggle will be useful if you ever need to hide the
+          sea animal from view while rearranging the objects in the aquarium tank.\n\n<b>Note:</b>
           Throughout this tutorial, you\u2019ll be prompted to enter Play Mode to
-          try out a scene. In the <i>Preview Scenes</i> module, we share several
+          try out a scene. In the <i>Preview the Project</i> module, we share several
           options for trying scenes. Refer to the input controls for your preferred
           method when trying the scenes for this tutorial.\n"
       m_Tutorial: {fileID: 0}

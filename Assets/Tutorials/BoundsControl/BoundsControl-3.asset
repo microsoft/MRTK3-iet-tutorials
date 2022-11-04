@@ -37,18 +37,18 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add the BoundsControl Component
       Text:
-        m_Untranslated: 'Adding the <b>BoundsControl</b> script as a component to
-          a GameObject adds an automatically-sized bounding box around the object.
-          An <b>interactable</b> must be on the object in order to use the bounds
-          visual intention and focus effects. If the <b>interactable</b> isn''t automatically
-          detected, you can specify the connection in the <b>Interactable Connection</b>
-          properties for the <b>BoundsControl</b> script component.
-
-
-          We
-          recommend that developers use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>.
-          <b>Object Manipulator</b> can serve as the <b>interactable</b> for hover/focus
-          states that the bounds visuals respond to.'
+        m_Untranslated: "Adding the <b>BoundsControl</b> script as a component to
+          a GameObject adds an automatically-sized bounding box around the object.\nAn
+          <i>Interactable</i> component, which lets the user hover over, select,
+          or activate an object, must also be attached to the object in order to
+          use the bounds visual intention and focus effects. (When you add this component
+          to an object, you can then refer to the object as an \u201Cinteractable.\u201D)
+          If the <b>interactable</b> isn't automatically detected, you can specify
+          the connection in the <b>Interactable Connection</b> properties for the
+          <b>BoundsControl</b> script component.\n\nWe recommend that developers
+          use <b>ObjectManipulator</b> alongside <b>BoundsControl</b>. <b>Object
+          Manipulator</b> can serve as the <b>interactable</b> for hover/focus states
+          that the bounds visuals respond to."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

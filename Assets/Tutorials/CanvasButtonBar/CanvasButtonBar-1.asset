@@ -37,21 +37,22 @@ MonoBehaviour:
       Title:
         m_Untranslated: Introduction
       Text:
-        m_Untranslated: "Provided in the scene is an empty aquarium tank that\u2019s
-          awaiting objects to decorate the environment. We\u2019ve provided the following
-          prefabs to decorate the tank:\n\n\u2022 Rocks (small, medium, and large)\n\u2022
-          Coral\n\u2022 Tube Coral\n\u2022 Green Sea Grass\n\u2022 Light Purple Sea
-          Grass\n\u2022 Dark Purple Sea Grass\n\u2022 Boat\n\u2022 Treasure Chest\n\nThe
-          aquarium object prefabs are already configured with both the <b>ObjectManipulator</b>
-          and <b>BoundsControl</b> scripts to help you arrange the objects in the
-          environment. However, you\u2019ll need to spawn the objects into the aquarium
-          tank.\n\nWe can use a Canvas button bar to arrange the selection of objects
-          to spawn. For this tutorial, we\u2019ll create a button bar that\u2019ll
-          provide a menu of objects to choose from for adding aquarium objects into
-          the tank.\n\n<b>Note:</b> Throughout this tutorial, you\u2019ll be prompted
-          to enter Play Mode to try out a scene. In the <i>Getting Started</i> module,
-          we share several options for trying scenes. Refer to the input controls
-          for your preferred method when trying the scenes for this tutorial.\n"
+        m_Untranslated: "The scene contains an empty aquarium tank that\u2019s waiting
+          for objects that will decorate the environment. We\u2019ve provided the
+          following prefabs that can decorate the tank:\n\n\u2022 Rocks (small, medium,
+          and large)\n\u2022 Coral\n\u2022 Tube Coral\n\u2022 Green Sea Grass\n\u2022
+          Light Purple Sea Grass\n\u2022 Dark Purple Sea Grass\n\u2022 Boat\n\u2022
+          Treasure Chest\n\nThe aquarium object prefabs are already configured with
+          both the <b>ObjectManipulator</b> and <b>BoundsControl</b> scripts to help
+          you arrange the objects in the environment. However, you\u2019ll need to
+          spawn the objects into the aquarium tank.\n\nWe can use a Canvas button
+          bar to arrange the selection of objects to spawn. For this tutorial, we\u2019ll
+          create a button bar that\u2019ll provide a menu of objects to choose from
+          for adding aquarium objects into the tank.\n\n<b>Note:</b> Throughout this
+          tutorial, you\u2019ll be prompted to enter Play Mode to try out a scene.
+          In the <i>Getting Started</i> module, we share several options for trying
+          scenes. Refer to the input controls for your preferred method when trying
+          the scenes for this tutorial.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

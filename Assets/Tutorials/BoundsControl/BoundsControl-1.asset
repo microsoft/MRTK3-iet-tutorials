@@ -50,7 +50,7 @@ MonoBehaviour:
           need! For this tutorial, we\u2019ll pair the two scripts together to provide
           an enhanced manipulation experience for arranging the objects in the aquarium.\n\n<b>Note</b>:
           Throughout this tutorial, you\u2019ll be prompted to enter Play Mode to
-          try out a scene. In the <i>Preview Scenes</i> module, we share several
+          try out a scene. In the <i>Preview the Project</i> module, we share several
           options for trying scenes. Refer to the input controls for your preferred
           method when trying the scenes for this tutorial.\n"
       m_Tutorial: {fileID: 0}

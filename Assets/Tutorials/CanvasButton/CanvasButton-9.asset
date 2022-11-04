@@ -77,34 +77,16 @@ MonoBehaviour:
       Title:
         m_Untranslated: <u>Instructions</u>
       Text:
-        m_Untranslated: '<b>1.</b> Select <b>Play</b> to enter Play Mode.
-
-
-          <b>2.</b>
+        m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
           Use your preferred input method to press the <b>Sea Animal Toggle</b> button.
-
-
-          <b>Note:</b>
-          For mouse-based interaction or MRTK Input Simulation, you can use the <b>WASD</b>
-          keys on the keyboard to move the camera. Pressing the <b>W</b> key moves
-          the camera closer.
-
-
-          <b>3.</b> When you press the button, the
-          <b>Toggle Switch</b> dot moves from left to right and the sea animal is
-          hidden from view. Press the <b>Sea Animal Toggle</b> button once more to
-          detoggle the button.
-
-
-          <b>4.</b> After the button is pressed,
-          the <b>Toggle Switch</b> dot moves from rigtht to left and the sea animal
-          is once again visible in the aquarium.
-
-
-          <b>5.</b> Once complete,
-          press <b>Play</b> to exit Play Mode.
-
-'
+          The <b>Toggle Switch</b> dot moves from left to right and the sea animal
+          is hidden from view. \n\n<b>Note:</b> For mouse-based interaction or MRTK
+          Input Simulation, you can use the <b>WASD</b> keys on the keyboard to move
+          the camera. Pressing the <b>W</b> key moves the camera closer.\n\n<b>3.</b>
+          Press the <b>Sea Animal Toggle</b> button once more to detoggle the button.
+          The <b>Toggle Switch</b> dot moves from right to left and the sea animal
+          is once again visible in the aquarium.\n\n<b>4.</b> Once complete, press
+          <b>Play</b> to exit Play Mode.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

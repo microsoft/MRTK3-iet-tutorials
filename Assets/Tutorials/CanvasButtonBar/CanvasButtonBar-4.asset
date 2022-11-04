@@ -38,16 +38,16 @@ MonoBehaviour:
         m_Untranslated: Add the On Clicked Event
       Text:
         m_Untranslated: "Now that the <b>Coral</b> button's UI has been configured,
-          we can add the <b>On Clicked</b> event to spawn a <b>Coral</b> into the
-          aquarium tank.\n\nWithin <b>Assets > Models > Environment Prefabs</b> are
-          a variety of objects available for creating the sea animal\u2019s home.
-          All aquarium object prefabs are configured for move, scale, and rotate
-          manipulations. In addition, we\u2019ve configured the objects to display
-          a bounding box with handles around the objects. This visual affordance
-          has been added to better help you identify which object is being manipulated
-          in the environment.\n\nWe've also included a <b>Spawner</b> GameObject
-          which has a <b>Spawner</b> script attached that\u2019ll spawn an aquarium
-          object into the middle of the aquarium tank. The script consists of a <b>Spawn</b>
+          we can add the <b>On Clicked</b> event which will allow the user to spawn
+          a coral into the aquarium tank.\n\nIn the <b>Assets > Models > Environment
+          Prefabs</b> folder, there are a variety of objects available for creating
+          the sea animal\u2019s home. All aquarium object prefabs are configured
+          for move, scale, and rotate manipulations. In addition, we\u2019ve configured
+          each object to display a bounding box with handles. This visual affordance
+          has been added to help you identify which object is being manipulated in
+          the environment.\n\nWe've also included a <b>Spawner</b> GameObject which
+          has a <b>Spawner</b> script attached that\u2019ll spawn an aquarium object
+          into the middle of the aquarium tank. The script consists of a <b>Spawn</b>
           method for each spawnable aquarium object.\n\nLet's configure the <b>On
           Clicked</b> event for the <b>Coral</b>!"
       m_Tutorial: {fileID: 0}
@@ -69,11 +69,11 @@ MonoBehaviour:
         m_Untranslated: <u>Instructions</u>
       Text:
         m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, navigate to <b>Aquarium
-          Objects Bar > Coral</b>.
+          Objects Bar > CanvasButtonBar_SharedBackplate > Coral</b>.
 
 
-          <b>2.</b> In the <b>Inspector</b>,
-          navigate to the <b>Pressable Button</b> component.
+          <b>2.</b>
+          In the <b>Inspector</b>, navigate to the <b>Pressable Button</b> component.
 
 
           <b>3.</b>
@@ -81,13 +81,14 @@ MonoBehaviour:
           new event.
 
 
-          <b>4.</b> In the new event, drag the <b>Spawner</b>
-          GameObject in the <b>Hierarchy</b> into the field for the GameObject receiving
-          the event.
+          <b>4.</b> Drag <b>Spawner</b> from the <b>Hierarchy</b>
+          and then drop it on the <b>On Clicked</b> property in the field for the
+          GameObject receiving the event (it currently displays <b>None (Object)</b>).
 
 
-          <b>5.</b> In the new event, select the <b>function</b>
-          drop-down and select <b>Spawner > SpawnCoral ()</b>.'
+          <b>5.</b>
+          In the new event, select the <b>function</b> drop-down (it currently displays
+          <b>No Function</b>) and then select <b>Spawner > SpawnCoral ()</b>.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
