@@ -42,8 +42,7 @@ MonoBehaviour:
 
 
           Holographic
-          Remoting enables you to run the app locally in the Unity editor on your
-          PC in Play Mode and stream the experience to your HoloLens without the
+          Remoting enables you to run the app locally in the Unity editor, in Play Mode and stream the experience to your HoloLens without the
           need to compile and deploy. Holographic Remoting requires a fast PC and
           Wi-Fi connection.
 

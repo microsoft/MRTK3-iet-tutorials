@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEditor;
 using Unity.Tutorials.Core.Editor;
 
@@ -64,3 +65,4 @@ public class TutorialCallbacks : ScriptableObject
         return foo != null;
     }
 }
+#endif

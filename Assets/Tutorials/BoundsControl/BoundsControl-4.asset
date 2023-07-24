@@ -83,7 +83,7 @@ MonoBehaviour:
 
           <b>4.</b>
           Search for <b>BoundingBoxWithHandles</b> and assign the prefab. <b>IMPORTANT</b>:
-          In the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
+          In the <b>Select GameObject</b> window, ensure that you're in the <b>Assets</b>
           tab and untoggle the hidden packages by clicking the slashed eye icon on
           the right.
 

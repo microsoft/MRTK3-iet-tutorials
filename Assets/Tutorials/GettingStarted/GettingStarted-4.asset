@@ -43,7 +43,7 @@ MonoBehaviour:
           without the need to manually configure the project for OpenXR.\n\nWithin
           our MRTK3 documentation, we provide detailed instructions on how to set
           up a Unity project and consume MRTK3 packages. To learn more, review <a
-          href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-overview/setup\">Initial
+          href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-overview/getting-started/setting-up/setup-new-project\">Initial
           Setup for MRTK3</a>.\n\nAdditional project setup may be required for configuring
           the project to support previewing scenes on an XR device. We provide instruction
           and resources for setup within the <i>Preview Scenes</i> module."

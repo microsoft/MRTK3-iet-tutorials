@@ -49,7 +49,7 @@ MonoBehaviour:
           <b>Bounds Control</b> handles to only <b>Rotation</b>. You\u2019ll have
           a chance to scale the objects to create a more customized look and feel
           in the <i>Canvas Button Bar</i> tutorial.\n\nWe encourage you to refer
-          to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
+          to the <a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
           Control</a> documentation for more guidance on how to configure the <b>BoundsControl</b>
           script.\n"
       m_Tutorial: {fileID: 0}

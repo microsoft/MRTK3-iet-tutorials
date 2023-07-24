@@ -38,7 +38,7 @@ MonoBehaviour:
         m_Untranslated: How to Toggle Hands
       Text:
         m_Untranslated: "MRTK Input Simulation provides a pair of hands which can
-          be tracked and initiate movement, rotation, and interactaction with objects
+          be tracked and initiate movement, rotation, and interaction with objects
           in the scene. You can toggle a single hand or both hands. \n\nHand tracking
           can be latched (made persistent) or momentary. Latched tracking toggles
           the left/right hand at its respective side of the scene. Momentary tracking
