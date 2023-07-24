@@ -47,7 +47,7 @@ MonoBehaviour:
           Wi-Fi connection.
 
 
-          Follow our <a href="https://docs.microsoft.com/windows/mixed-reality/develop/unity/preview-and-debug-your-app?tabs=openxr#set-up-holographic-remoting">Set
+          Follow our <a href="https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/preview-and-debug-your-app?tabs=openxr#set-up-holographic-remoting">Set
           up Holographic Remoting</a> instructions to get started. '
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

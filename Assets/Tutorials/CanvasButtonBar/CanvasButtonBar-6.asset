@@ -69,7 +69,7 @@ MonoBehaviour:
           prefab from the <b>Project</b> panel. \n\nAfter you configure the button
           bar, give the scene a try. Spawn as many aquarium objects as you prefer
           into the scene and arrange them into your preferred format.\n\nWe encourage
-          you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+          you to refer to the <a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
           documentation for more guidance on how to configure buttons.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

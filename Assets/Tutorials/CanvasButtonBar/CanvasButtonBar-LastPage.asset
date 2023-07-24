@@ -59,8 +59,8 @@ MonoBehaviour:
         m_Untranslated: "In this tutorial, you learned how to configure a Canvas-based
           button bar. As you create your own apps and experiences, consider leveraging
           MRTK Canvas button prefabs or create your own Canvas-based UI from scratch!
-          \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
-          and <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcore/packages/uxcore/canvas-ui\">Volumetric
+          \n\nBe sure to review our <a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+          and <a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-uxcore/packages/uxcore/canvas-ui\">Volumetric
           UI</a> documentation for additional guidance on configuring Canvas-based
           buttons."
       m_Tutorial: {fileID: 0}

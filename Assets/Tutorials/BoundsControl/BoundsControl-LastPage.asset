@@ -41,7 +41,7 @@ MonoBehaviour:
           to a GameObject using the <b>BoundsControl</b> script. You can further
           modify the properties to customize the look and behavior of the bounds.
           Manipulation events can be added as well. \n\nBe sure to review our <a
-          href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
+          href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
           Control</a> documentation for additional guidance on how to configure the
           script."
       m_Tutorial: {fileID: 0}
