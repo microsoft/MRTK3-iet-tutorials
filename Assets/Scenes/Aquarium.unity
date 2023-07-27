@@ -519,8 +519,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -545,12 +554,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -660,18 +684,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -679,19 +704,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -859,6 +888,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MRTK XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 3712792914886690938, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_CameraFloorOffsetObject
+      value: 
+      objectReference: {fileID: 1422447487}
+    - target: {fileID: 3712792914886690938, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
 --- !u!114 &1422447486 stripped
@@ -872,6 +909,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1422447487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2351505566903569413, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+  m_PrefabInstance: {fileID: 1422447485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1434811977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,8 +1044,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1028,12 +1079,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1143,18 +1209,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -1162,19 +1229,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -1887,7 +1958,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148860431251}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.8}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2072,8 +2143,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2098,12 +2178,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2213,18 +2308,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -2232,19 +2328,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -2370,8 +2470,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2396,12 +2505,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2511,18 +2635,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -2530,19 +2655,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -2888,8 +3017,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2914,12 +3052,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -3029,18 +3182,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -3048,19 +3202,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -4047,8 +4205,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -4073,12 +4240,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -4188,18 +4370,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -4207,19 +4390,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 4937040577188412014}
   allowedManipulations: 3
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -4412,8 +4599,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -4438,12 +4634,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -4553,18 +4764,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -4572,19 +4784,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 2128742212}
   allowedManipulations: 3
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -4896,8 +5112,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -4922,12 +5147,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -5037,18 +5277,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -5056,19 +5297,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 7436523785146425479}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -5593,8 +5838,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -5619,12 +5873,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -5734,18 +6003,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -5753,19 +6023,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -6755,8 +7029,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -6781,12 +7064,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -6896,18 +7194,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -6915,19 +7214,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -7300,8 +7603,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -7326,12 +7638,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -7441,18 +7768,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -7460,19 +7788,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -7664,8 +7996,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -7690,12 +8031,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -7805,18 +8161,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -7824,19 +8181,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -8074,8 +8435,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8100,12 +8470,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8215,18 +8600,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -8234,19 +8620,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -8545,8 +8935,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8571,12 +8970,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8686,18 +9100,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -8705,19 +9120,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -8772,8 +9191,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8798,12 +9226,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -8913,18 +9356,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -8932,19 +9376,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 1542914183}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3
@@ -9121,8 +9569,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 1
+  m_DistanceCalculationMode: 1
   m_SelectMode: 1
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -9147,12 +9604,27 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -9262,18 +9734,19 @@ MonoBehaviour:
         m_Calls: []
   disabledInteractorTypes:
   - reference: Microsoft.MixedReality.Toolkit.IPokeInteractor, Microsoft.MixedReality.Toolkit.Core
-  toggleMode: 0
-  selectThreshold: 0.9
-  deselectThreshold: 0.1
-  triggerOnRelease: 1
-  useGazeDwell: 0
-  gazeDwellTime: 1
-  useFarDwell: 0
-  farDwellTime: 1
+  <ToggleMode>k__BackingField: 0
+  <SelectThreshold>k__BackingField: 0.9
+  <DeselectThreshold>k__BackingField: 0.1
+  <TriggerOnRelease>k__BackingField: 1
+  <UseGazeDwell>k__BackingField: 0
+  <GazeDwellTime>k__BackingField: 1
+  <UseFarDwell>k__BackingField: 0
+  <FarDwellTime>k__BackingField: 1
   allowSelectByVoice: 1
   speechRecognitionKeyword: select
-  voiceRequiresFocus: 1
-  isToggled:
+  <VoiceRequiresFocus>k__BackingField: 1
+  <SelectRequiresHover>k__BackingField: 0
+  <IsToggled>k__BackingField:
     active: 0
     onEntered:
       m_PersistentCalls:
@@ -9281,19 +9754,23 @@ MonoBehaviour:
     onExited:
       m_PersistentCalls:
         m_Calls: []
-  onClicked:
+  <OnClicked>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onEnabled:
+  <OnEnabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  onDisabled:
+  <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
   hostTransform: {fileID: 0}
   allowedManipulations: 7
   allowedInteractionTypes: -2147483641
-  useForcesForNearManipulation: 0
+  applyTorque: 1
+  springForceSoftness: 0.1
+  springTorqueSoftness: 0.1
+  springDamping: 1
+  springForceLimit: 100
   rotationAnchorNear: 1
   rotationAnchorFar: 1
   releaseBehavior: 3

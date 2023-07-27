@@ -80,8 +80,8 @@ MonoBehaviour:
           Scaling with a mouse-based interaction is only possible if a bounding box
           handle is available. \n\nFeel free to grab and scale the other objects
           in the aquarium tank. \n\n<b>Note</b>: The <b>Treasure Chest</b> and <b>Boat</b>
-          objects cannot be scaled.\n\n<b>5.</b>Once complete, press <b>Play</b>
-          to exit Play Mode.\n"
+          objects cannot be scaled.\n\n<b>5.</b>Press Next and then press <b>Play</b>
+          to exit Play Mode."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -172,5 +172,5 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
+  isTesting: 1
   m_RequiredPlayModeState: 0

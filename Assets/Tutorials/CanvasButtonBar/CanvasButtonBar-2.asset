@@ -18,6 +18,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 1
   m_Callback:
     _target: {fileID: 11400000, guid: 72305ad941f10a24287f151852f29201, type: 2}
     _methodName: DoesAquariumObjectsBarExist
@@ -46,6 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: CanvasButtonBar-2
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add a Canvas Button Bar
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -69,7 +72,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add a Canvas Button Bar
+        m_Untranslated: 
       Text:
         m_Untranslated: "Canvas-based buttons are flexible and configurable and can
           be resized to any dimension or proportion. The <b>PressableButton</b> script
@@ -120,7 +123,7 @@ MonoBehaviour:
           select <b>Main Camera</b>, and then close the <b>Select Camera</b> window.\n\n<b>6.</b>
           In the <b>Rect Transform</b> component, make the following changes:\n\n<b>Scale</b>
           = <b>0.001</b> on all axes.\n <b>Position (PosX/PosY/PosZ)</b> = <b>0,
-          -0.10, 0.63</b>.\n <b>Width</b> and <b>Height</b> = <b>100</b>.\n\n<b>7.</b>
+          1.5, 0.63</b>.\n <b>Width</b> and <b>Height</b> = <b>100</b>.\n\n<b>7.</b>
           In the <b>Project</b> panel, search for the <b>CanvasButtonBar_SharedBackplate</b>
           prefab and then drag the prefab to the <b>Hierarchy</b> and drop it on
           <b>Aquarium Objects Bar</b> to make it a child of that object.\n\nYou should
