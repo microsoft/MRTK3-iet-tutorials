@@ -181,7 +181,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
+  isTesting: 1
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 172e42cf1b10433448823526d95e436a

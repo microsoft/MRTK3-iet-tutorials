@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: CanvasButton-3
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add a Canvas Button
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +37,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add a Canvas Button
+        m_Untranslated: 
       Text:
         m_Untranslated: "Now that you\u2019ve selected a sea animal for the aquarium,
           we\u2019ll need a way to toggle its visibility. Although you\u2019re welcome
@@ -83,12 +85,12 @@ MonoBehaviour:
           when you add this button, a <b>Canvas</b> game object is automatically
           added as its parent.\n\n<b>2.</b> Change the name of the newly-added <b>Canvas</b>
           object to <b>Sea Animal Toggle</b>.\n\n<b>3.</b> With <b>Sea Animal Toggle</b>
-          still selected, in the <b>Inspector</b>, navigate to the <b>Canvas</b>
-          component.\n\n<b>4.</b> Click the circle button in the <b>Event Camera</b>
-          drop-down.\n\n<b>5.</b> In the <b>Select Camera</b> window, switch to the
-          <b>Scene</b> tab, then select <b>Main Camera</b>, and then close the window.\n\n<b>6.</b>
-          In the <b>Rect Transform</b> component, change <b>Pos X</b> to 0.13, <b>Pos
-          Y</b> to 0, and <b>Pos Z</b> 0.65.\n\n<b>Note</b>: Depending on where you've
+          still selected, in the <b>Inspector</b>, navigate to the <b>Canvas</b>\n\n<b>4.</b>
+          Click the circle button in the <b>Event Camera</b> drop-down.\n\n<b>5.</b>
+          In the <b>Select Camera</b> window, switch to the <b>Scene</b> tab, then
+          select <b>Main Camera</b>, and then close the window.\n\n<b>6.</b> In the
+          <b>Rect Transform</b> component, change <b>Pos X</b> to 0.13, <b>Pos Y</b>
+          to 1.6, and <b>Pos Z</b> 0.65.\n\n<b>Note</b>: Depending on where you've
           placed the sea animal, you may need to adjust the position of the button
           so that that it displays to the right of the sea animal."
       m_Tutorial: {fileID: 0}
@@ -181,6 +183,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 1
   m_Callback:
     _target: {fileID: 11400000, guid: 72305ad941f10a24287f151852f29201, type: 2}
     _methodName: DoesSeaAnimalToggleExist
