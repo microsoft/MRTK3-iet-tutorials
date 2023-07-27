@@ -45,7 +45,7 @@ MonoBehaviour:
           a close distance to an object, such as direct manipulation with hands.
           \n\n<b>Ray</b> interactions are typically used for far distances. When
           a ray interaction occurs, a ray extends from a hand or controller. This
-          allows you to  interact with any object the ray's recticule (circular icon)
+          allows you to  interact with any object the ray's reticule (circular icon)
           touches.\n\n<b>Gaze</b> interactions rely on the position of either your
           head or eyes. This interaction is often coupled with a commit action such
           as a voice command or gesture--for example, you can look at an object and

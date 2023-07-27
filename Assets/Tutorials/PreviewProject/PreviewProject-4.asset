@@ -41,7 +41,7 @@ MonoBehaviour:
           users. Please skip this page by using the Next button if desired.</b>\n\nMany
           popular PC VR platforms now support OpenXR, including Windows Mixed Reality,
           SteamVR, and Oculus Rift on PC. Visit the following links for each platform
-          for setup instructions.\n\n\u2022 <a href=\"https://docs.microsoft.com/windows/mixed-reality/develop/native/openxr-getting-started\">Windows
+          for setup instructions.\n\n\u2022 <a href=\"https://learn.microsoft.com/windows/mixed-reality/develop/native/openxr-getting-started\">Windows
           Mixed Reality</a> \n\u2022 <a href=\"https://www.steamvr.com/\">SteamVR</a>
           \n\u2022 <a href=\"https://developer.oculus.com/documentation/native/pc/dg-openxr/\">Oculus
           Rift on PC</a> \n"

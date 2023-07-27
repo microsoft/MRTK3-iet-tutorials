@@ -27,6 +27,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: ObjectManipulator-2
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add the Object Manipulator Component
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -50,7 +52,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add the Object Manipulator Component
+        m_Untranslated: 
       Text:
         m_Untranslated: "Adding the <b>ObjectManipulator</b> script as a component
           to a GameObject makes the object movable, scalable, and rotatable. The
@@ -179,6 +181,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 172e42cf1b10433448823526d95e436a

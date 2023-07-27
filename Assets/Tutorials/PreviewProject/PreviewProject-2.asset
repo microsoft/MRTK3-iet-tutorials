@@ -41,7 +41,7 @@ MonoBehaviour:
           any XR device attached. You can control the user\u2019s head, hands, and
           hand gestures with traditional WASD controls. To learn more, review the
           <i>How to Use MRTK Input Simulation</i> module.\n\nIn addition, we provide
-          an <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref\">Input
+          an <a href=\"https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-input/packages/input/input-simulation-quick-ref\">Input
           Simulation Quick Reference</a> which is a great resource for familiarizing
           yourself with the controls."
       m_Tutorial: {fileID: 0}

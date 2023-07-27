@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: BoundsControl-3
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add the BoundsControl Component
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +37,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Add the BoundsControl Component
+        m_Untranslated: 
       Text:
         m_Untranslated: "Adding the <b>BoundsControl</b> script as a component to
           a GameObject adds an automatically-sized bounding box around the object.\nAn
@@ -78,11 +80,7 @@ MonoBehaviour:
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 8961926525962187876}
+        m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -145,53 +143,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &4085848902033584395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 1: Microsoft.MixedReality.Toolkit.SpatialManipulation.BoundsControl'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: 8961926525962187876}
-  m_ReferenceName: '1: Microsoft.MixedReality.Toolkit.SpatialManipulation.BoundsControl'
---- !u!114 &8961926525962187876
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7776bd559ac56348a6a4b8c38ce7aa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TargetGameObject:
-    m_SceneObjectReference:
-      m_SceneGuid: 172e42cf1b10433448823526d95e436a
-      m_GameObjectGuid: d678e38e-0c74-4fbd-8666-29403e401171
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
-  m_RequiredComponents:
-    m_Items:
-    - SerializedType:
-        m_TypeName: Microsoft.MixedReality.Toolkit.SpatialManipulation.BoundsControl,
-          Microsoft.MixedReality.Toolkit.SpatialManipulation, Version=3.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-      FutureReference: {fileID: 4085848902033584395}

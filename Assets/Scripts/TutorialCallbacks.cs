@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEditor;
 using Unity.Tutorials.Core.Editor;
+using Microsoft.MixedReality.Toolkit;
+using Unity.XR.CoreUtils;
 
 /// <summary>
 /// Implement your Tutorial callbacks here.
@@ -44,12 +47,36 @@ public class TutorialCallbacks : ScriptableObject
     /// <returns></returns>
     public bool DoesSeaAnimalToggleExist()
     {
-        return GameObject.Find("Sea Animal Toggle") != null;
+        string gameObject = "Sea Animal Toggle";
+
+        GameObject[] allGameObjects = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (var go in allGameObjects)
+        {
+            if (go.name.Equals(gameObject, System.StringComparison.OrdinalIgnoreCase))
+            {
+                return go;
+            }
+        }
+
+        return false;
     }
 
     public bool DoesAquariumObjectsBarExist()
     {
-        return GameObject.Find("Aquarium Objects Bar") != null;
+        string gameObject= "Aquarium Objects Bar";
+
+        GameObject[] allGameObjects = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (var go in allGameObjects)
+        {
+            if (go.name.Equals(gameObject, System.StringComparison.OrdinalIgnoreCase))
+            {
+                return go;
+            }
+        }
+
+        return false;
     }
 
     /// <summary>
@@ -64,3 +91,4 @@ public class TutorialCallbacks : ScriptableObject
         return foo != null;
     }
 }
+#endif
