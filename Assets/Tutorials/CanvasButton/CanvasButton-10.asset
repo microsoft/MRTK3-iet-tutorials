@@ -42,7 +42,7 @@ MonoBehaviour:
           UI or even assign different toggle events. Feel free to change the toggle
           events that occur when the button is toggled.\n\nAfter you reconfigure
           the button, give the scene a try.\n\nWe encourage you to refer to the <a
-          href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
+          href=\"https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-uxcomponents/packages/uxcomponents/button\">Button</a>
           documentation for more guidance on how to configure buttons.\n"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

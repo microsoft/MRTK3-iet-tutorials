@@ -40,7 +40,7 @@ MonoBehaviour:
         m_Untranslated: "In this tutorial, you learned how to move, scale, and rotate
           an object using the <b>ObjectManipulator</b> script. We introduced some
           of the script properties which can be further configured to suit your interaction
-          needs. \n\nBe sure to review our <a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/object-manipulator\">Object
+          needs. \n\nBe sure to review our <a href=\"https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/object-manipulator\">Object
           Manipulator</a> documentation for additional guidance on how to configure
           the script."
       m_Tutorial: {fileID: 0}

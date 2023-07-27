@@ -44,7 +44,7 @@ MonoBehaviour:
           to your liking. \n\nYou\u2019re welcome to add additional objects located
           within <b>Assets > Models > Environment Prefabs</b> or import your own
           models. If you\u2019re adding your own models, be sure that your model
-          has a collider component!\n\nWe encourage you to refer to the<a href=\"https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/object-manipulator\">Object
+          has a collider component!\n\nWe encourage you to refer to the<a href=\"https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/object-manipulator\">Object
           Manipulator</a> documentation for more guidance on how to configure the
           <b>ObjectManipulator</b> script.\n"
       m_Tutorial: {fileID: 0}

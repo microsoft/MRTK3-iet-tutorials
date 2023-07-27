@@ -9,5 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Aquarium.unity
     guid: bb0a46230b70094489af0ba5b522cf41
   m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f3320bffc13f4d34eb09781b61cb7f5d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dc198666d5fda6349aeecaf8a3b057eb, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ba4b88bf9dfed0d419e3dc06fae5783c, type: 2}
